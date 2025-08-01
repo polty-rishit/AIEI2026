@@ -142,6 +142,7 @@ useEffect(() => {
                 {conferenceDropdown && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
                     <a href="/General" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">General Chair</a>
+                    <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Committee</a>
                     <a href="/venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
                     
@@ -214,6 +215,7 @@ useEffect(() => {
         {conferenceDropdown && (
           <div className="ml-4 mt-2 space-y-2">
             <a href="/General" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">General Chair</a>
+            <a href="/papers" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Call For Papers</a>
             <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Committee</a>
             <a href="/venue" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Venue</a>
             
