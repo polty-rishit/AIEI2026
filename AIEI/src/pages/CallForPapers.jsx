@@ -11,7 +11,7 @@ const CallForPapers = () => {
     <h1 className="text-5xl sm:text-8xl font-extrabold mb-6 text-center text-gray-900 tracking-tight">
       Call for Papers
     </h1>
-    <h2>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</h2>
+    <h2>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support .</h2>
     <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-12 rounded-full"></div>
 
     <div className="text-lg leading-relaxed space-y-6 text-gray-700">
