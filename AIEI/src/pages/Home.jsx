@@ -250,9 +250,12 @@ useEffect(() => {
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         </div>
 
+         
+
         {/* Hero Content */}
         <div className="relative z-10 flex items-center justify-center h-full mt-28">
           <div className="text-center text-white px-4">
+
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               IEEE International Conference on
             </h1>
@@ -497,6 +500,7 @@ useEffect(() => {
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovations</p>
+             <p>&copy; The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.  </p>
           </div>
         </div>
       </footer>
