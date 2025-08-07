@@ -134,7 +134,7 @@ const General = () => {
                   <div className="flex items-start">
                     <FaGlobe className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
                     <p className="text-gray-700">
-                      <a href="https://www.tedxusd.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.youtube.com/watch?v=J9dZV2EAuUU" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
                         TEDxUSD – Building sustainable AI Solutions!
                       </a>
                     </p>
