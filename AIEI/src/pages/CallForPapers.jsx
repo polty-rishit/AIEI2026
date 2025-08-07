@@ -9,22 +9,11 @@ const CallForPapers = () => {
       <section className="bg-gray-50 text-gray-800 py-20 px-6 sm:px-12 lg:px-32 shadow-inner">
   <div className="max-w-6xl mx-auto">
 
-    <p>Submission Website</p>
-     <br></br>
-    <p>Paper should be submitted using the Conference Management Tool <a href='https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F' className='text-blue-600'>Microsoft CMT</a>.
-    <br></br>
-     <br></br>
-
-The submission website will be open for submissions a week before the submission deadline of each round.
- <br></br>
-  <br></br>
-The  <a href='https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F' className='text-blue-600'>Microsoft CMT </a>
-   service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
-    <h1 className="text-5xl sm:text-8xl font-extrabold mb-6 mt-12 text-center text-gray-900 tracking-tight">
+    <h1 className="text-5xl sm:text-8xl font-extrabold -mb-2mt-12 text-center text-gray-900 tracking-tight">
       Call for Papers
     </h1>
     
-    {/* <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-12 rounded-full"></div> */}
+    <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-12 rounded-full"></div>
 
     <div className="text-lg leading-relaxed space-y-6 text-gray-700">
       <p className="text-3xl font-extrabold text-gray-800"> Paper Submission</p>

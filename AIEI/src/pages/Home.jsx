@@ -44,10 +44,10 @@ const App = () => {
   }, []);
 
   const keyDates = [
+    { title: 'Opening Paper Submission', date: 'September 01, 2025' },
     { title: 'Abstract Submission', date: 'December 15, 2025' },
     { title: 'Paper Submission Deadline', date: 'January 10, 2026' },
     { title: 'Acceptance Notification', date: 'February 5, 2026' },
-    { title: 'Camera-Ready Submission', date: 'February 20, 2026' },
     { title: 'Registration Deadline', date: 'March 1, 2026' },
     { title: 'Conference Dates', date: 'March 26-28, 2026' }
   ];
@@ -143,6 +143,7 @@ useEffect(() => {
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
                     <a href="/General" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">General Chair</a>
                     <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
+                    <a href="/guidelines" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Submission Guidelines</a>
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Committee</a>
                     <a href="/venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
                     
@@ -216,6 +217,7 @@ useEffect(() => {
           <div className="ml-4 mt-2 space-y-2">
             <a href="/General" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">General Chair</a>
             <a href="/papers" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Call For Papers</a>
+            <a href="/guidelines" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Submission Guidelines</a>
             <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Committee</a>
             <a href="/venue" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Venue</a>
             

@@ -5,6 +5,7 @@ import General from './pages/General'
 import Committee from './pages/Committee'
 import Venue from './pages/Venue'
 import CallForPapers from './pages/CallForPapers'
+import Guidelines from './pages/guidelines'
  
  const App = () => {
    return (
@@ -15,6 +16,7 @@ import CallForPapers from './pages/CallForPapers'
         <Route path='/committee' element={<Committee/>}/>
         <Route path='/venue' element={<Venue/>}/>
         <Route path='/papers' element={<CallForPapers/>}/>
+        <Route path='/guidelines' element={<Guidelines/>}/>
        </Routes>
      </div>
    )
