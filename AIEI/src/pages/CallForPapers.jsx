@@ -123,6 +123,7 @@ const CallForPapers = () => {
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovations</p>
+            <p>&copy;  The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
           </div>
         </div>
       </footer>
