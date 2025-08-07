@@ -15,16 +15,20 @@ const Guidelines = () => {
           <p className="mb-2">
             Paper should be submitted using the Conference Management Tool{' '}
              
+             <a
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 "
+            >
               Microsoft CMT
-           .
+            </a>.
           </p>
           <p className="mb-2">
             The submission website will be open for submissions a week before the submission deadline of each round.
           </p>
           <p className="mb-2">
-            The  
-              Microsoft CMT
-              service is provided for free by Microsoft and was used for managing the peer-reviewing process of this conference.This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
           </p>
         </section>
 
