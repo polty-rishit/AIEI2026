@@ -237,17 +237,17 @@ useEffect(() => {
         <div className="absolute inset-0">
           {carouselImages.map((image, index) => (
             <div
-              key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
-                index === currentSlide ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              <img
-                src={image}
-                alt={`AI Conference Background ${index + 1}`}
-                className="w-full h-full object-cover object-top"
-              />
-            </div>
+  key={index}
+  className={`absolute inset-0 transition-opacity duration-1000 ${
+    index === currentSlide ? 'opacity-100' : 'opacity-0'
+  }`}
+>
+  <img
+    src={image}
+    alt={`AI Conference Background ${index + 1}`}
+    className="w-full h-full object-cover object-top"
+  />
+</div>
           ))}
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         </div>
@@ -311,6 +311,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
+
 
       <div className="w-full bg-white py-2 mb-6 mt-6">
   {/* Conference Record Number */}
@@ -408,7 +409,7 @@ useEffect(() => {
             </div>
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
-                src="./ai_image.png"
+                src="./AI_AIEI.png"
                 alt="AI Conference"
                 className="w-full h-full object-cover object-top"
               />
