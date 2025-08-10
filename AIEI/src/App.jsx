@@ -18,7 +18,7 @@ import CMT from './pages/CMT'
         <Route path='/venue' element={<Venue/>}/>
         <Route path='/papers' element={<CallForPapers/>}/>
         <Route path='/guidelines' element={<Guidelines/>}/>
-        <Route path='/cmt' element={<CMT/>}/>
+        <Route path='/cmt-acknowledgment' element={<CMT/>}/>
        </Routes>
      </div>
    )
