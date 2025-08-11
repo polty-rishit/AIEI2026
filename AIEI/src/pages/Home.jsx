@@ -256,12 +256,12 @@ useEffect(() => {
   </div>
 
   {/* Hero Content */}
-  <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 -gap-4 md:gap-16">
+  <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 -gap-4 lg:gap-0 md:gap-16">
 
     {/* Left Side - Logo */}
     <div className="flex justify-center md:justify-start w-full md:w-1/2">
       <img
-        src="/logo_final.gif"
+        src="/logo_final_1.gif"
         alt="Conference Logo"
         className="w-40 sm:w-56 md:w-72 lg:w-96 h-auto md:ml-6 lg:ml-20 sm:-mb-5"
       />
