@@ -26,7 +26,7 @@ const Navbar = () => {
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
             <h1 className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
-              AIEI 2026
+              <a href='/'>AIEI 2026</a>
             </h1>
           </div>
 

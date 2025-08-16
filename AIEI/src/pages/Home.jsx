@@ -28,7 +28,7 @@ const App = () => {
     },
     {
       type: 'image',
-      src: 'https://readdy.ai/api/search-image?query=modern%20AI%20neural%20network%20visualization%20with%20glowing%20nodes%20and%20connections%20in%20a%20futuristic%20tech%20environment%20with%20dark%20blue%20gradient%20background%20and%20subtle%20lighting%20effects%20creating%20professional%20academic%20atmosphere&width=1440&height=800&seq=carousel1&orientation=landscape'
+      src: '/photo1.jpg'
     },
     {
        type: 'video',
@@ -37,7 +37,7 @@ const App = () => {
     {
 
       type: 'image',
-      src: 'https://readdy.ai/api/search-image?query=advanced%20robotics%20and%20artificial%20intelligence%20laboratory%20with%20collaborative%20robots%20and%20smart%20devices%20in%20a%20clean%20modern%20research%20facility%20with%20soft%20blue%20lighting%20and%20professional%20academic%20setting&width=1440&height=800&seq=carousel2&orientation=landscape'
+      src: '/photo2.jpg'
     },
     {
      type: 'video',
@@ -45,7 +45,7 @@ const App = () => {
     },
     {
       type: 'image',
-      src: 'https://readdy.ai/api/search-image?query=smart%20city%20infrastructure%20with%20AI-powered%20systems%20and%20IoT%20devices%20integrated%20into%20urban%20landscape%20with%20futuristic%20buildings%20and%20technology%20networks%20in%20professional%20blue%20tones&width=1440&height=800&seq=carousel3&orientation=landscape'
+      src: '/photo3.jpg'
     }
   ];
 
@@ -142,7 +142,11 @@ const App = () => {
             {/* Logo/Brand */}
             <div className="flex-shrink-0">
               <h1 className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-                AIEI 2026
+                <a 
+                   href="#" onClick={(e) => { e.preventDefault();
+                     window.scrollTo({ top: 0, behavior: "smooth" });
+                     }}>  AIEI 2026</a>
+
               </h1>
             </div>
 
