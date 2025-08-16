@@ -442,7 +442,7 @@ const App = () => {
             </div>
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
-                src="./AI_AIEI.png"
+                src="./ai.jpeg"
                 alt="AI Conference"
                 className="w-full h-full object-cover object-top"
               />
