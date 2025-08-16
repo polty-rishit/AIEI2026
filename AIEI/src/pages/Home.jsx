@@ -255,104 +255,100 @@ const App = () => {
       </nav>
 
       {/* Hero Section */}
+     <div
+  id="home"
+  className="relative min-h-screen overflow-hidden flex flex-col"
+>
+  {/* Carousel Background */}
+  <div className="absolute inset-0">
+    {carouselItems.map((item, index) => (
       <div
-        id="home"
-        className="relative min-h-screen overflow-hidden flex flex-col"
+        key={index}
+        className={`absolute inset-0 transition-opacity duration-1000 ${
+          index === currentSlide ? "opacity-100" : "opacity-0"
+        }`}
       >
-        {/* Carousel Background */}
-        <div className="absolute inset-0">
-          {carouselItems.map((item, index) => (
+        {item.type === "image" ? (
+          <img
+            src={item.src}
+            alt={`AI Conference Background ${index + 1}`}
+            className="w-full h-full object-cover object-top"
+          />
+        ) : (
+          <video
+            ref={(el) => (videoRefs.current[index] = el)}
+            src={item.src}
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover object-top"
+          />
+        )}
+      </div>
+    ))}
+    <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+  </div>
+
+  {/* Hero Content */}
+  <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 gap-10 md:gap-16">
+    {/* Left Side - Logo */}
+    <div className="flex justify-center md:justify-end w-full md:w-auto">
+      <img
+        src="/logo_final_1.gif"
+        alt="Conference Logo"
+        className="w-40 sm:w-56 md:w-72 lg:w-96 h-auto"
+      />
+    </div>
+
+    {/* Right Side - Text */}
+    <div className="text-white lg:mt-10 w-full md:w-auto text-center md:text-left max-w-xl">
+
+      <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-2 sm:mb-4">
+        IEEE International Conference on
+      </h1>
+      <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 leading-snug">
+        AI Engineering and Innovation
+      </h2>
+      <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">
+        AIEI 2026
+      </h3>
+
+      <p className="text-base sm:text-lg md:text-2xl font-bold mb-1 sm:mb-2">
+        26-28 MARCH 2026
+      </p>
+      <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
+        NIT Jamshedpur, India
+      </p>
+
+      {/* Countdown Timer */}
+      <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-4 sm:p-6 w-full max-w-lg border border-white/30 mx-auto md:mx-0">
+        <h3 className="text-sm sm:text-lg md:text-xl font-bold text-center mb-4 sm:mb-6">
+          Conference Starts In
+        </h3>
+
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+          {["Days", "Hours", "Minutes", "Seconds"].map((label) => (
             <div
-              key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
-                index === currentSlide ? "opacity-100" : "opacity-0"
-              }`}
+              key={label}
+              className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-4 sm:p-5 lg:p-6 shadow-md backdrop-blur-sm"
             >
-              {item.type === 'image' ? (
-                <img
-                  src={item.src}
-                  alt={`AI Conference Background ${index + 1}`}
-                  className="w-full h-full object-cover object-top"
-                />
-              ) : (
-                <video
-                  ref={el => videoRefs.current[index] = el}
-                  src={item.src}
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover object-top"
-                />
-              )}
-            </div>
-          ))}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
-        </div>
-
-        {/* Hero Content */}
-        <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 -gap-4 lg:gap-0 md:gap-16">
-          {/* Left Side - Logo */}
-          <div className="flex justify-center md:justify-start w-full md:w-1/2">
-            <img
-              src="/logo_final_1.gif"
-              alt="Conference Logo"
-              className="w-40 sm:w-56 md:w-72 lg:w-96 h-auto md:ml-6 lg:ml-20 sm:-mb-5"
-            />
-          </div>
-
-          {/* Right Side - Text */}
-          <div className="text-white mt-6 w-full md:w-1/2 text-center md:text-left">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-2 sm:mb-4">
-              IEEE International Conference on
-            </h1>
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 leading-snug">
-              AI Engineering and Innovation
-            </h2>
-            <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">
-              AIEI 2026
-            </h3>
-
-            <p className="text-base sm:text-lg md:text-2xl font-bold mb-1 sm:mb-2">
-              26-28 MARCH 2026
-            </p>
-            <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
-              NIT Jamshedpur, India
-            </p>
-
-            {/* Countdown Timer */}
-            <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-4 sm:p-6 w-full max-w-lg border border-white/30 mx-auto md:mx-0">
-              <h3 className="text-sm sm:text-lg md:text-xl font-bold text-center mb-4 sm:mb-6">
-                Conference Starts In
-              </h3>
-
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-                {["Days", "Hours", "Minutes", "Seconds"].map((label) => (
-                  <div
-                    key={label}
-                    className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-4 sm:p-5 lg:p-6 shadow-md backdrop-blur-sm"
-                  >
-                    <div
-                      className="text-2xl sm:text-3xl lg:text-4xl font-bold"
-                      id={label.toLowerCase()}
-                    >
-                      00
-                    </div>
-                    <div
-                      className={`uppercase tracking-wider ${
-                        ["Days", "Minutes","Hours", "Seconds"].includes(label)
-                          ? "text-xs sm:text-sm lg:text-xs"
-                          : "text-xs sm:text-sm lg:text-base"
-                      }`}
-                    >
-                      {label}
-                    </div>
-                  </div>
-                ))}
+              <div
+                className="text-2xl sm:text-3xl lg:text-4xl font-bold"
+                id={label.toLowerCase()}
+              >
+                00
+              </div>
+              <div className="uppercase tracking-wider text-xs sm:text-sm lg:text-base">
+                {label}
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="w-full bg-white py-2 mb-6 mt-6">
         {/* Conference Record Number */}
