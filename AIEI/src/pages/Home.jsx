@@ -322,29 +322,30 @@ const App = () => {
 
       {/* Countdown Timer */}
       <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-4 sm:p-6 w-full max-w-lg border border-white/30 mx-auto md:mx-0">
-        <h3 className="text-sm sm:text-lg md:text-xl font-bold text-center mb-4 sm:mb-6">
-          Conference Starts In
-        </h3>
+  <h3 className="text-sm sm:text-lg md:text-xl font-bold text-center mb-4 sm:mb-6">
+    Conference Starts In
+  </h3>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-          {["Days", "Hours", "Minutes", "Seconds"].map((label) => (
-            <div
-              key={label}
-              className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-4 sm:p-5 lg:p-6 shadow-md backdrop-blur-sm"
-            >
-              <div
-                className="text-2xl sm:text-3xl lg:text-4xl font-bold"
-                id={label.toLowerCase()}
-              >
-                00
-              </div>
-              <div className="uppercase tracking-wider text-xs sm:text-sm lg:text-base">
-                {label}
-              </div>
-            </div>
-          ))}
+  <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+    {["Days", "Hours", "Minutes", "Seconds"].map((label) => (
+      <div
+        key={label}
+        className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-4 sm:p-5 lg:p-6 shadow-md backdrop-blur-sm flex flex-col items-center"
+      >
+        <div
+          className="text-2xl sm:text-3xl lg:text-4xl font-bold"
+          id={label.toLowerCase()}
+        >
+          00
+        </div>
+        <div className="uppercase tracking-wider text-[10px] sm:text-xs lg:text-sm text-center">
+          {label}
         </div>
       </div>
+    ))}
+  </div>
+</div>
+
     </div>
   </div>
 </div>
