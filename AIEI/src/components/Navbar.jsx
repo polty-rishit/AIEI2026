@@ -5,6 +5,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [conferenceDropdown, setConferenceDropdown] = useState(false);
+  const [dropdownTimeout, setDropdownTimeout] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,6 +15,22 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Desktop dropdown handlers
+  const handleMouseEnter = () => {
+    if (dropdownTimeout) {
+      clearTimeout(dropdownTimeout);
+      setDropdownTimeout(null);
+    }
+    setConferenceDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setConferenceDropdown(false);
+    }, 300); // 300ms delay before closing
+    setDropdownTimeout(timeout);
+  };
 
   return (
     <nav
@@ -33,14 +50,23 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="/" className={`hover:text-blue-400 transition-colors cursor-pointer ${
-                isScrolled ? 'text-gray-900' : 'text-black'
-              }`}>HOME</a>
+              <a
+                href="/"
+                className={`hover:text-blue-400 transition-colors cursor-pointer ${
+                  isScrolled ? 'text-gray-900' : 'text-black'
+                }`}
+              >
+                HOME
+              </a>
 
-              {/* Conference Dropdown */}
-              <div className="relative">
+              {/* Conference Dropdown - Desktop (hover) */}
+              <div
+                className="relative"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <button
-                  onClick={() => setConferenceDropdown(!conferenceDropdown)}
+                  onClick={() => setConferenceDropdown(!conferenceDropdown)} // still works on click
                   className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
                     isScrolled ? 'text-gray-900' : 'text-black'
                   }`}
@@ -64,7 +90,6 @@ const Navbar = () => {
                     <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Committee</a>
                     <a href="/venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
-                    
                   </div>
                 )}
               </div>
@@ -94,14 +119,19 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-40 flex justify-end md:hidden">
-          {/* Semi-transparent background to indicate overlay (optional) */}
+          {/* Overlay */}
           <div
             className="fixed inset-0 bg-black/30 backdrop-blur-sm"
             onClick={() => setIsMenuOpen(false)} // Close on outside click
           ></div>
 
           <div className="relative z-50 w-1/2 h-full bg-white/30 backdrop-blur-md shadow-xl rounded-l-2xl border-l border-white/40 flex flex-col justify-start p-6 space-y-4">
-            <a href="/" className="text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition">HOME</a>
+            <a
+              href="/"
+              className="text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition"
+            >
+              HOME
+            </a>
 
             <div>
               <button
@@ -127,7 +157,6 @@ const Navbar = () => {
                   <a href="/cmt" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">CMT Acknowledegemnt</a>
                   <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Committee</a>
                   <a href="/venue" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Venue</a>
-                  
                 </div>
               )}
             </div>

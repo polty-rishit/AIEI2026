@@ -14,6 +14,8 @@ const getIconForTitle = (title) => {
   }
 };
 
+
+
 const App = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
