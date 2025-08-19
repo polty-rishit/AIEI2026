@@ -155,7 +155,7 @@ const App = () => {
             {/* Desktop Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#home" className={`hover:text-blue-400 transition-colors cursor-pointer ${
+                <a href="/" className={`hover:text-blue-400 transition-colors cursor-pointer ${
                   isScrolled ? 'text-gray-900' : 'text-white'
                 }`}>HOME</a>
 
@@ -186,9 +186,14 @@ const App = () => {
                       <a href="/cmt.html" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                       <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Committee</a>
                       <a href="/venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
+                      <a href="/about" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">About</a>
                     </div>
                   )}
                 </div>
+
+                
+
+                
               </div>
             </div>
 
@@ -248,6 +253,7 @@ const App = () => {
                     <a href="/cmt.html" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">CMT Acknowledegemnt</a>
                     <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Committee</a>
                     <a href="/venue" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Venue</a>
+                    <a href="/about" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">About</a>
                   </div>
                 )}
               </div>

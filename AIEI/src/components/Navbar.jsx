@@ -90,9 +90,12 @@ const Navbar = () => {
                     <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Committee</a>
                     <a href="/venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
+                    <a href="/about" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">About</a>
                   </div>
                 )}
               </div>
+
+              
             </div>
           </div>
 
@@ -157,6 +160,7 @@ const Navbar = () => {
                   <a href="/cmt" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">CMT Acknowledegemnt</a>
                   <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Committee</a>
                   <a href="/venue" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Venue</a>
+                  <a href="/about" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">About</a>
                 </div>
               )}
             </div>
