@@ -7,8 +7,9 @@ import Venue from './pages/Venue'
 import CallForPapers from './pages/CallForPapers'
 import Guidelines from './pages/guidelines'
 import CMT from './pages/CMT'
-import About from './pages/About'
 import { useEffect } from "react";
+import Overview from './pages/Overview'
+import Patrons from './pages/Patrons'
  
  const App = () => {
 
@@ -29,7 +30,8 @@ import { useEffect } from "react";
         <Route path='/papers' element={<CallForPapers/>}/>
         <Route path='/guidelines' element={<Guidelines/>}/>
         <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
-        <Route path='/about' element={<About/>}/>
+        <Route path='/overview' element={<Overview/>}/>
+         <Route path='/patrons' element={<Patrons/>}/>
        </Routes>
      </div>
    )

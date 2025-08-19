@@ -6,6 +6,28 @@ const Committee = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
+      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
+        {/* Background Image */}
+        <img 
+          src="/photo1.jpg" 
+          alt="Banner" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        {/* Glass overlay */}
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
+
+        {/* Titles */}
+        <div className="relative text-center text-white drop-shadow-lg">
+          <h1 className="text-2xl md:text-6xl font-bold mb-1">
+            Organizing Committee
+          </h1>
+          <h2 className="text-sm md:text-2xl font-medium">
+            IEEE International Conference on AI Engineering and Innovation
+          </h2>
+        </div>
+      </div>
+
       {/* Centered Message */}
       <main className="min-h-[80vh] flex items-center justify-center bg-white px-4 text-center">
   <div>

@@ -53,10 +53,14 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
-            <h1 className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
-              <a href='/'>AIEI 2026</a>
-            </h1>
-          </div>
+  <h1
+    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    className={`text-xl font-bold cursor-pointer ${isScrolled ? 'text-gray-900' : 'text-white'}`}
+  >
+    AIEI 2026
+  </h1>
+</div>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
@@ -64,7 +68,7 @@ const Navbar = () => {
               <a
                 href="/"
                 className={`hover:text-blue-400 transition-colors cursor-pointer ${
-                  isScrolled ? 'text-gray-900' : 'text-black'
+                  isScrolled ? 'text-gray-900' : 'text-white'
                 }`}
               >
                 HOME
@@ -78,7 +82,7 @@ const Navbar = () => {
                 <button
                   onClick={() => setAboutDropdown(!aboutDropdown)}
                   className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-                    isScrolled ? 'text-gray-900' : 'text-black'
+                    isScrolled ? 'text-gray-900' : 'text-white'
                   }`}
                 >
                   ABOUT
@@ -115,7 +119,7 @@ const Navbar = () => {
                 <button
                   onClick={() => setConferenceDropdown(!conferenceDropdown)}
                   className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-                    isScrolled ? 'text-gray-900' : 'text-black'
+                    isScrolled ? 'text-gray-900' : 'text-white'
                   }`}
                 >
                   CONFERENCE
@@ -149,7 +153,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className={`${isScrolled ? 'text-gray-900' : 'text-black'} cursor-pointer`}
+              className={`${isScrolled ? 'text-gray-900' : 'text-white'} cursor-pointer`}
             >
               <svg
                 className="h-6 w-6"
