@@ -8,7 +8,7 @@ const About = () => {
       <Navbar />
 
       {/* Hero Section with Image */}
-      <div className="relative w-full h-[300px] md:h-[400px] flex flex-col items-center justify-center mt-18">
+      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
   {/* Background Image */}
   <img 
     src="/photo1.jpg" 
@@ -21,14 +21,15 @@ const About = () => {
 
   {/* Titles */}
   <div className="relative text-center text-white drop-shadow-lg">
-    <h1 className="text-3xl md:text-5xl font-bold mb-2">
+    <h1 className="text-2xl md:text-6xl font-bold mb-1">
       AIEI 2026 Overview
     </h1>
-    <h2 className="text-lg md:text-2xl font-medium">
+    <h2 className="text-sm md:text-2xl font-medium">
       IEEE International Conference on AI Engineering and Innovation
     </h2>
   </div>
 </div>
+
 
 
 
