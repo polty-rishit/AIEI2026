@@ -34,7 +34,7 @@ const General = () => {
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="w-32 h-32 rounded-full bg-gray-200 overflow-hidden mb-4 md:mb-0 md:mr-6">
                     <img 
-                      src="./veer.png" 
+                      src="./meenaSir.png" 
                       alt="Dr. Veerpratap Meena"
                       className="w-full h-full object-cover"
                     />
