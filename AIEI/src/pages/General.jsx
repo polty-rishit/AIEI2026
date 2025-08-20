@@ -9,10 +9,32 @@ const General = () => {
       {/* Navigation */}
       <Navbar />
 
+      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
+        {/* Background Image */}
+        <img 
+          src="/photo1.jpg" 
+          alt="Banner" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        {/* Glass overlay */}
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
+
+        {/* Titles */}
+        <div className="relative text-center text-white drop-shadow-lg">
+          <h1 className="text-2xl md:text-6xl font-bold mb-1">
+            General Chair
+          </h1>
+          <h2 className="text-sm md:text-2xl font-medium">
+            Meet our distinguished General Chair and Founding Director who are leading the AIEI 2026 conference.
+          </h2>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="pt-15 pb-16">
         {/* Page Header */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">General Chair</h1>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
@@ -20,7 +42,7 @@ const General = () => {
               Meet our distinguished General Chair and Founding Director who are leading the AIEI 2026 conference.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Cards Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
