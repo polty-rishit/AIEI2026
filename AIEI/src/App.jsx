@@ -10,6 +10,7 @@ import CMT from './pages/CMT'
 import { useEffect } from "react";
 import Overview from './pages/Overview'
 import Patrons from './pages/Patrons'
+import Contact from './pages/Contact'
  
  const App = () => {
 
@@ -32,6 +33,7 @@ import Patrons from './pages/Patrons'
         <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
         <Route path='/overview' element={<Overview/>}/>
          <Route path='/patrons' element={<Patrons/>}/>
+         <Route path='/contact' element={<Contact/>}/>
        </Routes>
      </div>
    )
