@@ -2,15 +2,17 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import General from './pages/General'
-import Committee from './pages/Committee'
+import Committee from './pages/About/Committee'
 import Venue from './pages/Venue'
 import CallForPapers from './pages/CallForPapers'
 import Guidelines from './pages/guidelines'
 import CMT from './pages/CMT'
 import { useEffect } from "react";
-import Overview from './pages/Overview'
-import Patrons from './pages/Patrons'
-import Contact from './pages/Contact'
+import Overview from './pages/About/Overview'
+import Patrons from './pages/About/Patrons'
+import Contact from './pages/About/Contact'
+import IeeeAc from './pages/About/IeeeAc'
+import IeeeP from './pages/About/IeeeP'
  
  const App = () => {
 
@@ -34,6 +36,8 @@ import Contact from './pages/Contact'
         <Route path='/overview' element={<Overview/>}/>
          <Route path='/patrons' element={<Patrons/>}/>
          <Route path='/contact' element={<Contact/>}/>
+         <Route path='/ieeeac' element={<IeeeAc/>}/>
+         <Route path='/ieeep' element={<IeeeP/>}/>
        </Routes>
      </div>
    )
