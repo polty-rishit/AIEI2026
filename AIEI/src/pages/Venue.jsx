@@ -6,6 +6,29 @@ const Venue = () => {
     <div>
       <Navbar />
 
+
+      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
+        {/* Background Image */}
+        <img 
+          src="/photo1.jpg" 
+          alt="Banner" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        {/* Glass overlay */}
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
+
+        {/* Titles */}
+        <div className="relative text-center text-white drop-shadow-lg">
+          <h1 className="text-2xl md:text-6xl font-bold mb-1">
+           Venue
+          </h1>
+          <h2 className="text-sm md:text-2xl font-medium">
+            AIEI 2026 - NIT JAMSHEDPUR
+          </h2>
+        </div>
+      </div>
+
       <main className="min-h-screen bg-gray-100 flex items-center justify-center py-16 px-4">
         <div className="bg-white shadow-2xl rounded-2xl max-w-4xl w-full p-10 text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6">Venue: NIT Jamshedpur</h2>

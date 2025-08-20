@@ -6,8 +6,33 @@ const Guidelines = () => {
     <div>
       <Navbar />
 
+      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
+        {/* Background Image */}
+        <img 
+          src="/photo1.jpg" 
+          alt="Banner" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        {/* Glass overlay */}
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
+
+        {/* Titles */}
+        <div className="relative text-center text-white drop-shadow-lg">
+          <h1 className="text-2xl md:text-6xl font-bold mb-1">
+          AIEI 2026: Submission Guidelines
+          
+          </h1>
+          {/* <h2 className="text-sm md:text-2xl font-medium">
+            AIEI 2026 - NIT JAMSHEDPUR
+          </h2> */}
+          
+        </div>
+        
+      </div>
+
       <main className="max-w-6xl mx-auto px-4 py-10 text-gray-800 leading-relaxed">
-        <h1 className="text-6xl font-bold mt-20 mb-15 text-center">AIEI 2026: Submission Guidelines</h1>
+        {/* <h1 className="text-6xl font-bold mt-20 mb-15 text-center">AIEI 2026: Submission Guidelines</h1> */}
 
         {/* Submission Website */}
         <section className="mb-10">
