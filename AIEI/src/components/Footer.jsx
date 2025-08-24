@@ -5,7 +5,9 @@ const Footer = () => {
     <div>
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+            
+            {/* Conference Info */}
             <div>
               <h3 className="text-2xl font-bold mb-4">AIEI 2026</h3>
               <p className="text-gray-400 mb-4">
@@ -18,6 +20,7 @@ const Footer = () => {
               </div>
             </div>
             
+            {/* Quick Links */}
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
@@ -26,6 +29,7 @@ const Footer = () => {
               </ul>
             </div>
             
+            {/* Contact Info */}
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
@@ -34,18 +38,30 @@ const Footer = () => {
               </div>
             </div>
             
+            {/* Flag Counter */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Conference Record</h4>
-              <div className="flex items-center space-x-4">
-                <i className="fab fa-ieee text-blue-400 text-2xl"></i>
-                <span className="text-gray-400">IEEE Sponsored</span>
+              <h4 className="text-lg font-semibold mb-4">Visitors</h4>
+              <div className="flex justify-center md:justify-start">
+                <a href="https://info.flagcounter.com/FblR" target="_blank" rel="noopener noreferrer">
+                  <img 
+                    src="https://s01.flagcounter.com/count2/FblR/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+                    alt="Flag Counter"
+                    className="rounded-lg shadow-md max-w-full h-auto border border-gray-700"
+                  />
+                </a>
               </div>
             </div>
           </div>
           
-          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovations</p>
-            <p>&copy; The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+          {/* Bottom section */}
+          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 space-y-4 text-sm sm:text-base">
+            <p>
+              &copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovations
+            </p>
+            <p>
+              &copy; The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
+              This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            </p>
           </div>
         </div>
       </footer>
