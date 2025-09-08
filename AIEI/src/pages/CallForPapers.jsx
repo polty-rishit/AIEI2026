@@ -76,6 +76,9 @@ const CallForPapers = () => {
 
       <ul className="list-none space-y-4 text-gray-800 text-left sm:text-left">
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
+    <span className="font-semibold">AI Engineering and Innovation</span>
+  </li>
+  <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
     <span className="font-semibold">AI Engineering for Healthcare</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">

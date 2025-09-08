@@ -36,38 +36,46 @@ const Overview = () => {
 
       {/* Content Section */}
       <div className="flex-grow px-6 md:px-20 py-12 max-w-6xl mx-auto text-gray-800">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">IEEE Artificial Intelligence and Emerging Innovations Conference (AIEI 2026)</h2>
-        <p className="mb-6 leading-relaxed">
-          <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong> 
-          will be held at <strong>National Institute of Technology , Jamshedpur, Jamshedpur ,Jharkhand , India</strong> 
-          from <strong>March 26 – 28, 2026</strong>. AIEI 2026 will serve as a premier global platform 
-          for exchanging breakthrough ideas and research in Artificial Intelligence, Machine Learning, 
-          Robotics, and Emerging Technologies. The event will bring together researchers, engineers, 
-          industry experts, and innovators from across the world to share their knowledge and expertise.
-        </p>
+  <h2 className="text-2xl md:text-3xl font-bold mb-6">
+    IEEE International Conference on AI Engineering and Innovation (AIEI 2026) 
+    (Conference Record #69164)
+  </h2>
+  
+  <p className="mb-6 leading-relaxed">
+    The <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong> 
+    will be held on <strong>March 26–28, 2026</strong>, at the 
+    <strong> National Institute of Technology (NIT) Jamshedpur, India</strong>. 
+    The conference will serve as a premier international platform for researchers, 
+    academicians, practitioners, and industry professionals to present their original contributions, 
+    share innovative ideas, and discuss advancements in the field of AI engineering 
+    and its transformative applications.
+  </p>
 
-        <p className="mb-6 leading-relaxed">
-          The inaugural edition of AIEI was held in 2023 and witnessed participation from 600+ delegates, 
-          including academia, government, startups, and industry professionals. Growing rapidly in scale, 
-          AIEI 2026 is projected to host over 1500+ participants and 100+ industry sponsors, providing a 
-          diverse and vibrant environment for collaboration and knowledge-sharing.
-        </p>
+  <p className="mb-6 leading-relaxed">
+    AIEI 2026 is jointly organized by <strong>NIT Jamshedpur</strong> and the 
+    <strong> USD Artificial Intelligence Research Lab, University of South Dakota, USA</strong>, 
+    in collaboration with the <strong>IEEE Systems Council</strong> and affiliates of the 
+    <strong> Institute of Electrical and Electronics Engineers (IEEE)</strong>. 
+    Together, these organizations form the sponsoring and co-sponsoring bodies, ensuring 
+    strong academic, technical, and financial support for the event.
+  </p>
 
-        <p className="mb-6 leading-relaxed">
-          AIEI 2026 will include keynote speeches, plenary sessions, workshops, tutorials, student innovation 
-          challenges, startup pitch events, industry exhibitions, networking sessions, and specialized tracks 
-          on AI Ethics, Responsible AI, and Emerging Innovations. Additionally, it will feature Young 
-          Professional (YP) activities, Women in Tech (WiT) events, and government–industry–academia roundtables.
-        </p>
+  <p className="mb-6 leading-relaxed">
+    The conference will feature keynote addresses, technical paper presentations, tutorials, 
+    and panel discussions covering a wide range of AI domains, including healthcare, agriculture, 
+    business, education, defense, energy, and innovation in AI systems. 
+    Accepted and presented papers will be submitted for inclusion in the 
+    <strong> IEEE Xplore Digital Library</strong> (subject to IEEE approval) 
+    and indexed in major scientific databases, ensuring global visibility and impact.
+  </p>
 
-        <p className="leading-relaxed">
-          This five-day conference will host global participants from North America, Europe, Asia-Pacific, and 
-          the Middle East, along with representatives from premier Indian organizations such as ISRO, DRDO, 
-          IITs, NITs, and leading tech companies. As a distinguished international event, AIEI 2026 offers 
-          unique opportunities for researchers, startups, and corporates to showcase innovations, build 
-          partnerships, and shape the future of AI and emerging technologies.
-        </p>
-      </div>
+  <p className="leading-relaxed">
+    By hosting <strong>AIEI 2026</strong>, NIT Jamshedpur and its partners aim to foster 
+    international collaboration and promote the development of next-generation AI technologies 
+    that can drive innovation and address critical challenges across industries.
+  </p>
+</div>
+
 
       <Footer />
     </div>
