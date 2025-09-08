@@ -350,11 +350,11 @@ const App = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">About NIT Jamshedpur</h2>
               <p className="text-lg text-gray-600 mb-6">
-                National Institute of Technology Jamshedpur is a premier technical institution in India, renowned for its excellence in engineering education and research. Established as a Regional Engineering College in 1960, it was upgraded to NIT status in 2002.
+                Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of Education, Government of India, the National Institute of Technology Jamshedpur (NIT Jamshedpur) is a premier institution of higher learning and research. Established on 15th August 1960 as the Regional Institute of Technology (RIT) under India’s Second Five-Year Plan, it was among the first eight Regional Engineering Colleges created to nurture world-class technical talent. In 2002, RIT Jamshedpur was elevated to NIT status and in 2007, it was recognized as an Institute of National Importance by an Act of Parliament.
               </p>
-              <p className="text-lg text-gray-600 mb-6">
+              {/* <p className="text-lg text-gray-600 mb-6">
                 The institute has a strong tradition of fostering innovation and research in emerging technologies, making it an ideal venue for hosting international conferences on artificial intelligence and engineering innovations.
-              </p>
+              </p> */}
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">60+</div>
