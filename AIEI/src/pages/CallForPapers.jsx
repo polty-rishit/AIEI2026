@@ -103,11 +103,11 @@ const CallForPapers = () => {
 </section>
 
 <div className="bg-gray-50 flex justify-center -mt-10 mb-16 py-4">
-  <button className="relative flex items-center gap-3 px-6 py-3 bg-green-100 text-green-700 font-semibold rounded-full shadow-md hover:bg-green-200 transition duration-300">
+  <a href='https://cmt3.research.microsoft.com/AIEI2026' className="relative flex items-center gap-3 px-6 py-3 bg-green-100 text-green-700 font-semibold rounded-full shadow-md hover:bg-green-200 transition duration-300">
     {/* Animated Dot */}
     <span className="w-4 h-4 rounded-full bg-green-500 animate-ping-slow relative after:content-[''] after:absolute after:inset-0 after:rounded-full after:border after:border-green-500 after:animate-pulse"></span>
     Submit Paper
-  </button>
+  </a>
 </div>
 
 
