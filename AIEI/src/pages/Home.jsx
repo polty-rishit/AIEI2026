@@ -32,6 +32,10 @@ const App = () => {
     },
     {
       type: 'video',
+      src: '/campus.mp4'
+    },
+    {
+      type: 'video',
       src: '/jhar1.mp4'
     },
     {
@@ -51,6 +55,7 @@ const App = () => {
       type: 'video',
       src: '/jhar3.mp4'
     }
+    
   ];
 
   useEffect(() => {
@@ -139,7 +144,7 @@ const App = () => {
       <NavbarHome/>
 
       {/* Hero Section */}
-     <div
+    <div
   id="home"
   className="relative min-h-screen overflow-hidden flex flex-col"
 >
@@ -173,6 +178,43 @@ const App = () => {
     <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
   </div>
 
+  {/* Left Arrow */}
+  <button
+    onClick={() =>
+      setCurrentSlide((prev) =>
+        prev === 0 ? carouselItems.length - 1 : prev - 1
+      )
+    }
+    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full z-20"
+  >
+    &#10094; {/* Left chevron */}
+  </button>
+
+  {/* Right Arrow */}
+  <button
+    onClick={() =>
+      setCurrentSlide((prev) =>
+        prev === carouselItems.length - 1 ? 0 : prev + 1
+      )
+    }
+    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full z-20"
+  >
+    &#10095; {/* Right chevron */}
+  </button>
+
+  {/* Dot Indicators */}
+  <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+    {carouselItems.map((_, index) => (
+      <button
+        key={index}
+        onClick={() => setCurrentSlide(index)}
+        className={`w-3 h-3 rounded-full transition-colors ${
+          index === currentSlide ? "bg-white" : "bg-white/40"
+        }`}
+      ></button>
+    ))}
+  </div>
+
   {/* Hero Content */}
   <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 gap-10 md:gap-16">
     {/* Left Side - Logo */}
@@ -180,24 +222,31 @@ const App = () => {
       <img
         src="/logo_final_1.gif"
         alt="Conference Logo"
-        className="w-40 sm:w-56 md:w-72 lg:w-96 h-auto"
+        className="md:ml-33 w-40 sm:w-56 md:w-72 lg:w-96 h-auto"
       />
     </div>
 
     {/* Right Side - Text */}
     <div className="text-white lg:mt-10 w-full md:w-auto text-center md:text-left max-w-xl">
-
       <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-2 sm:mb-4">
-        IEEE International Conference on
+        IEEE 
+        International Conference on
       </h1>
-      <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 leading-snug">
-        AI Engineering and Innovation
-      </h2>
-      <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">
-        AIEI 2026
-      </h3>
+      <h2
+  className="text-4xl sm:text-2xl md:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 leading-snug"
+  style={{
+    WebkitTextStroke: "1px white",
+    WebkitTextFillColor: "transparent",
+  }}
+>
+  AI Engineering and Innovation
+</h2>
 
-      <p className="text-base sm:text-lg md:text-2xl font-bold mb-1 sm:mb-2">
+      {/* <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">
+        AIEI 2026
+      </h3> */}
+
+      <p className=" text-base sm:text-lg md:text-2xl font-bold mb-1 sm:mb-2">
         26-28 MARCH 2026
       </p>
       <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
@@ -205,24 +254,25 @@ const App = () => {
       </p>
 
       {/* Countdown Timer */}
-      <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-4 sm:p-6 w-full max-w-lg border border-white/30 mx-auto md:mx-0">
-  <h3 className="text-sm sm:text-lg md:text-xl font-bold text-center mb-4 sm:mb-6">
+      <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-3 sm:p-4 w-full max-w-md border border-white/30 mx-auto md:mx-0">
+  <h3 className="text-sm sm:text-base md:text-lg font-bold text-center mb-3 sm:mb-4">
     Conference Starts In
   </h3>
 
-  <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+  <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 text-center">
     {["Days", "Hours", "Minutes", "Seconds"].map((label) => (
       <div
         key={label}
-        className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-4 sm:p-5 lg:p-6 shadow-md backdrop-blur-sm flex flex-col items-center"
+        className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg 
+                   p-2 sm:p-3 md:p-4 shadow-md backdrop-blur-sm flex flex-col items-center"
       >
         <div
-          className="text-2xl sm:text-3xl lg:text-4xl font-bold"
+          className="text-lg sm:text-2xl md:text-3xl font-bold"
           id={label.toLowerCase()}
         >
           00
         </div>
-        <div className="uppercase tracking-wider text-[10px] sm:text-xs lg:text-sm text-center">
+        <div className="uppercase tracking-wider text-[8px] sm:text-xs md:text-sm text-center">
           {label}
         </div>
       </div>
@@ -230,9 +280,11 @@ const App = () => {
   </div>
 </div>
 
+
     </div>
   </div>
 </div>
+
 
 
       <div className="w-full bg-white py-2 mb-6 mt-6">
