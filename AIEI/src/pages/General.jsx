@@ -81,7 +81,7 @@ const General = () => {
                   <div className="flex items-start">
                     <FaEnvelope className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
                     <a href="mailto:vmeena1@ee.litr.ac.in" className="text-gray-700 hover:text-blue-600 break-all">
-                      vmeena1@ee.litr.ac.in
+                      aiengineeringconference@gmail.com
                     </a>
                   </div>
                 </div>

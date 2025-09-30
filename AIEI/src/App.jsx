@@ -14,6 +14,7 @@ import Contact from './pages/About/Contact'
 import IeeeAc from './pages/About/IeeeAc'
 import IeeeP from './pages/About/IeeeP'
 import TechProgramme from './pages/Programme/TechProgramme'
+import Speakers from './pages/Programme/Speakers'
  
  const App = () => {
 
@@ -40,6 +41,7 @@ import TechProgramme from './pages/Programme/TechProgramme'
          <Route path='/ieeeac' element={<IeeeAc/>}/>
          <Route path='/ieeep' element={<IeeeP/>}/>
          <Route path='/techprogramme' element={<TechProgramme/>}/>
+         <Route path='/speakers' element={<Speakers/>}/>
        </Routes>
      </div>
    )
