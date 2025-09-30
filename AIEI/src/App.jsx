@@ -13,6 +13,7 @@ import Patrons from './pages/About/Patrons'
 import Contact from './pages/About/Contact'
 import IeeeAc from './pages/About/IeeeAc'
 import IeeeP from './pages/About/IeeeP'
+import TechProgramme from './pages/Programme/TechProgramme'
  
  const App = () => {
 
@@ -38,6 +39,7 @@ import IeeeP from './pages/About/IeeeP'
          <Route path='/contact' element={<Contact/>}/>
          <Route path='/ieeeac' element={<IeeeAc/>}/>
          <Route path='/ieeep' element={<IeeeP/>}/>
+         <Route path='/techprogramme' element={<TechProgramme/>}/>
        </Routes>
      </div>
    )

@@ -13,6 +13,8 @@ const Footer = () => {
               <p className="text-gray-400 mb-4">
                 IEEE International Conference on AI Engineering and Innovations
               </p>
+              <br/>
+              <p className="text-gray-400 mb-4">Organised By : NIT JAMSHEDPUR , Parallel Road, Adityapur, Jamshedpur, Jharkhand 831014 </p>
               <div className="flex space-x-4">
                 <i className="fab fa-linkedin text-blue-400 text-xl cursor-pointer hover:text-blue-300"></i>
                 <i className="fab fa-twitter text-blue-400 text-xl cursor-pointer hover:text-blue-300"></i>
@@ -26,6 +28,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li><a href="#home" className="text-gray-400 hover:text-white cursor-pointer">Home</a></li>
                 <li><a href="/committee" className="text-gray-400 hover:text-white cursor-pointer">Committee</a></li>
+                <li><a href="/papers" className="text-gray-400 hover:text-white cursor-pointer">Submit Paper</a></li>
               </ul>
             </div>
             

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaCalendarAlt, FaFileAlt, FaBell, FaCheckCircle } from "react-icons/fa";
 import NavbarHome from '../components/NavbarHome';
 import Footer from '../components/Footer';
+import WelcomeMessage from '../components/WelcomeMessage';
 
 const getIconForTitle = (title) => {
   switch (title.toLowerCase()) {
@@ -377,8 +378,11 @@ const App = () => {
 </div>
 
 
+ <WelcomeMessage/>
+
+
       {/* Key Dates Section */}
-      <section id="keydates" className="py-20 bg-gray-50">
+      <section id="keydates" className="py-20 bg-white-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Key Dates</h2>
@@ -405,7 +409,7 @@ const App = () => {
       </section>
 
       {/* About Conference Section */}
-      <section id="about" className="py-20 bg-white">
+      {/* <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -440,7 +444,9 @@ const App = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+     
 
       {/* About NIT Jamshedpur Section */}
       <section id="nitjsr" className="py-20 bg-gray-50">
