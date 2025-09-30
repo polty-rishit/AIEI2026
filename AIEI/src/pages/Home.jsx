@@ -326,20 +326,20 @@ const App = () => {
       {/*logo*/}
       <div className="w-full bg-white py-8 mb-6 mt-6">
   {/* Co-Organizers */}
-  <p className="text-center text-blue-600 text-4xl md:text-5xl mb-10 font-bold">
+  <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
     Co-Organizers
   </p>
 
   {/* Logos with Descriptions */}
-  <div className="flex flex-col md:flex-row justify-center items-center gap-12 px-6 md:px-20 flex-wrap">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4 sm:px-10 md:px-20">
     {/* Logo 1 */}
     <div className="flex flex-col items-center text-center max-w-xs mx-auto">
       <img
         src="./ieeeKolkatta.png"
         alt="IEEE Kolkata Section Logo"
-        className="w-32 md:w-40 mb-4 mt-4"
+        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
       />
-      <p className="text-sm md:text-base text-gray-600">
+      <p className="text-xs sm:text-sm md:text-base text-gray-600">
         (One of the oldest and most active IEEE Sections in India)  
         <br />
         Organizes conferences, workshops & technical activities, fostering research and professional growth
@@ -351,9 +351,9 @@ const App = () => {
       <img
         src="./ieeeNit.png"
         alt="IEEE NIT JSR Student Branch Logo"
-        className="w-32 md:w-36 mb-4 mt-4"
+        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
       />
-      <p className="text-sm md:text-base text-gray-600">
+      <p className="text-xs sm:text-sm md:text-base text-gray-600">
         (Affiliated to IEEE Kolkata Section, fostering innovation & technical excellence among students)  
         <br />
         Organizes seminars, workshops & competitions.
@@ -365,9 +365,9 @@ const App = () => {
       <img
         src="./ieeeSystem.png"
         alt="IEEE Systems Council Logo"
-        className="w-36 md:w-44 mb-2 -mt-6"
+        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
       />
-      <p className="text-sm md:text-base text-gray-600">
+      <p className="text-xs sm:text-sm md:text-base text-gray-600">
         (A Technical Council of IEEE focusing on complex systems and interdisciplinary research)  
         <br />
         Promotes collaboration across IEEE Societies.
@@ -375,8 +375,6 @@ const App = () => {
     </div>
   </div>
 </div>
-
-
 
 
       {/* Key Dates Section */}

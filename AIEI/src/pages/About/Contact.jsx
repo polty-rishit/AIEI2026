@@ -46,7 +46,7 @@ const Contact = () => {
           <FaEnvelope className="mx-auto text-4xl text-green-500 mb-4" />
           <h3 className="text-lg font-semibold mb-2">Mail</h3>
           <p className="text-sm font-medium">
-            E: <span className="font-bold">veerpratpmeena@ieee.org</span>
+            E: <span className="font-bold">aiengineeringconference@gmail.com</span>
           </p>
           {/* <p className="text-sm font-medium mt-1">
             E: <span className="font-bold">mapcon.2025@gmail.com</span>

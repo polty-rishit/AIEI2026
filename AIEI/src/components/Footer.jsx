@@ -25,7 +25,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li><a href="#home" className="text-gray-400 hover:text-white cursor-pointer">Home</a></li>
-                <li><a href="#committee" className="text-gray-400 hover:text-white cursor-pointer">Committee</a></li>
+                <li><a href="/committee" className="text-gray-400 hover:text-white cursor-pointer">Committee</a></li>
               </ul>
             </div>
             
@@ -33,7 +33,7 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p><i className="fas fa-envelope mr-2"></i>veerpratpmeena@ieee.org</p>
+                <p><i className="fas fa-envelope mr-2"></i>aiengineeringconference@gmail.com</p>
                 <p><i className="fas fa-map-marker-alt mr-2"></i>NIT Jamshedpur, Jharkhand, India</p>
               </div>
             </div>

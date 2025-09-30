@@ -66,13 +66,18 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a
-                href="/"
-                className={`hover:text-blue-400 transition-colors cursor-pointer ${
-                  isScrolled ? 'text-gray-900' : 'text-white'
-                }`}
-              >
-                HOME
-              </a>
+                 href="#"
+                 onClick={(e) => {
+                 e.preventDefault();
+                 window.scrollTo({ top: 0, behavior: 'smooth' });
+                 }}
+                 className={`hover:text-blue-400 transition-colors cursor-pointer ${
+                 isScrolled ? 'text-gray-900' : 'text-white'
+                 }`}
+>
+                 HOME
+                 </a>
+
 
               <div
                 className="relative"
