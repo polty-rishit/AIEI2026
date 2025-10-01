@@ -6,7 +6,7 @@ const WelcomeMessage = () => {
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
-          Welcome Message from the Chairs
+          Welcome Message from the General Chair
         </h2>
 
         {/* Chair Profiles - side by side like image */}
@@ -20,10 +20,10 @@ const WelcomeMessage = () => {
             />
             <div>
               <h3 className="text-lg font-semibold text-gray-800">
-                Dr. V.P. Meena
+                Dr. V . P. Meena
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                General Co-Chair, AIEI 2026 <br />
+                General Chair, AIEI 2026 <br />
                 National Institute of Technology Jamshedpur, India
               </p>
             </div>
@@ -41,7 +41,7 @@ const WelcomeMessage = () => {
                 Dr. K.C. Santosh
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                General Co-Chair, AIEI 2026 <br />
+                General Chair, AIEI 2026 <br />
                 USD Artificial Intelligence Research Lab, USA
               </p>
             </div>
@@ -100,16 +100,16 @@ const WelcomeMessage = () => {
         {/* Footer Signatures */}
         <div className="grid md:grid-cols-2 gap-12 mt-10">
           <div>
-            <h4 className="font-semibold text-gray-800">Dr. V.P. Meena</h4>
+            <h4 className="font-semibold text-gray-800">Dr. V . P. Meena</h4>
             <p className="text-gray-600 text-sm">
-              General Co-Chair, AIEI 2026 <br />
+              General Chair, AIEI 2026 <br />
               National Institute of Technology Jamshedpur, India
             </p>
           </div>
           <div>
             <h4 className="font-semibold text-gray-800">Dr. K.C. Santosh</h4>
             <p className="text-gray-600 text-sm">
-              General Co-Chair, AIEI 2026 <br />
+              General Chair, AIEI 2026 <br />
               USD Artificial Intelligence Research Lab, USA
             </p>
           </div>
