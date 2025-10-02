@@ -288,41 +288,60 @@ const App = () => {
 
 
 
-      <div className="w-full bg-white py-2 mb-6 mt-6">
-        {/* Conference Record Number */}
-        <p className="text-center text-blue-600 text-4xl md:text-5xl lg:text-5xl mb-10 font-bold">
-          Organizers
-        </p>
+      <div className="w-full bg-white py-8 px-4 sm:px-10 lg:px-20">
+  {/* Section Title */}
+  <p className="text-center text-blue-600 text-4xl md:text-5xl font-bold mb-12">
+    Organizers
+  </p>
 
-        {/* Logos and College Info */}
-        <div className="flex flex-col md:flex-row justify-center items-center md:gap-x-50 gap-y-8 px-4">
-          {/* NIT Jamshedpur Section */}
-          <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
-            <img src="./nitjsr_logo.png" alt="NIT Jamshedpur Logo" className="w-16 md:w-20" />
-            <div>
-              <h2 className="font-bold uppercase text-sm md:text-base">
-                National Institute of Technology<sup>™</sup>
-              </h2>
-              <h1 className="font-extrabold text-lg md:text-xl">
-                NIT Jamshedpur
-              </h1>
-              <p className="text-xs md:text-sm text-gray-600">
-                (An Institution of National Importance under Ministry of Education, Govt. of India)
-                <br />
-                Accredited by NBA & NAAC, Affiliated to AICTE
-              </p>
-            </div>
-          </div>
+  {/* Organizer Cards */}
+  <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
+    
+    {/* NIT Jamshedpur */}
+   <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
+  <img
+    src="./nitjsr_logo.png"
+    alt="NIT Jamshedpur Logo"
+    className="w-28 md:w-32 lg:w-35 object-contain"
+  />
+  <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
+    <h2 className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
+      National Institute of Technology<sup>™</sup>
+    </h2>
+    <h1 className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
+      NIT Jamshedpur
+    </h1>
+    <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
+      (An Institution of National Importance under Ministry of Education, Govt. of India)  
+      <br />
+      Accredited by NBA & NAAC, Affiliated to AICTE
+    </p>
+  </div>
+</div>
 
-          {/* Shinawatra University Section */}
-          <div className="flex flex-col md:flex-row items-center gap-3">
-            <img src="./usd_lab.png" alt="USD AI Research Lab Logo" className="w-30 md:w-38" />
-            <h1 className="text-red-600 text-xl md:text-2xl font-bold text-center md:text-left">
-              USD AI Research Lab <br />
-            </h1>
-          </div>
-        </div>
-      </div>
+
+    {/* USD AI Research Lab */}
+    <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
+  <img
+    src="./usd_lab.png"
+    alt="USD AI Research Lab Logo"
+    className="w-32 md:w-40 lg:w-60 object-contain"
+  />
+  <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
+    <h1 className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
+      USD AI Research Lab
+    </h1>
+    <p className="text-xs md:text-sm text-gray-600 mt-2">
+      Fostering innovation in AI research and development
+    </p>
+  </div>
+</div>
+
+
+
+  </div>
+</div>
+
 
       {/*logo*/}
       <div className="w-full bg-white py-8 mb-6 mt-6">
@@ -332,49 +351,46 @@ const App = () => {
   </p>
 
   {/* Logos with Descriptions */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4 sm:px-10 md:px-20">
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center text-center max-w-xs mx-auto">
-      <img
-        src="./ieeeKolkatta.png"
-        alt="IEEE Kolkata Section Logo"
-        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
-      />
-      <p className="text-xs sm:text-sm md:text-base text-gray-600">
-        (One of the oldest and most active IEEE Sections in India)  
-        <br />
-        Organizes conferences, workshops & technical activities, fostering research and professional growth
-      </p>
-    </div>
-
-    {/* Logo 2 */}
-    <div className="flex flex-col items-center text-center max-w-xs mx-auto">
-      <img
-        src="./ieeeNit.png"
-        alt="IEEE NIT JSR Student Branch Logo"
-        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
-      />
-      <p className="text-xs sm:text-sm md:text-base text-gray-600">
-        (Affiliated to IEEE Kolkata Section, fostering innovation & technical excellence among students)  
-        <br />
-        Organizes seminars, workshops & competitions.
-      </p>
-    </div>
-
-    {/* Logo 3 */}
-    <div className="flex flex-col items-center text-center max-w-xs mx-auto">
-      <img
-        src="./ieeeSystem.png"
-        alt="IEEE Systems Council Logo"
-        className="h-24 sm:h-28 md:h-32 my-4 object-contain"
-      />
-      <p className="text-xs sm:text-sm md:text-base text-gray-600">
-        (A Technical Council of IEEE focusing on complex systems and interdisciplinary research)  
-        <br />
-        Promotes collaboration across IEEE Societies.
-      </p>
-    </div>
+  <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
+  {/* Logo 1 */}
+  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+    <img
+      src="./ieeeKolkatta.png"
+      alt="IEEE Kolkata Section Logo"
+      className="max-h-full max-w-full object-contain"
+    />
   </div>
+
+  {/* Logo 2 */}
+  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+    <img
+      src="./ieeeNit.png"
+      alt="IEEE NIT JSR Student Branch Logo"
+      className="max-h-full max-w-full object-contain"
+    />
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+    <img
+      src="./ieeeSystem.png"
+      alt="IEEE Systems Council Logo"
+      className="max-h-full max-w-full object-contain"
+    />
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+  <img
+    src="./ieee.png"
+    alt="New IEEE Logo"
+    className="h-full w-full object-contain p-4"
+  />
+</div>
+
+
+</div>
+
 </div>
 
 
