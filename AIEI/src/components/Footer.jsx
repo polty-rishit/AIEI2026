@@ -11,7 +11,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">AIEI 2026</h3>
               <p className="text-gray-400 mb-4">
-                IEEE International Conference on AI Engineering and Innovations
+                IEEE International Conference on AI Engineering and Innovation
               </p>
               <br/>
               <p className="text-gray-400 mb-4">Organised By : NIT JAMSHEDPUR , Parallel Road, Adityapur, Jamshedpur, Jharkhand 831014 </p>
@@ -59,7 +59,7 @@ const Footer = () => {
           {/* Bottom section */}
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 space-y-4 text-sm sm:text-base">
             <p>
-              &copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovations
+              &copy; 2026 AIEI Conference. All rights reserved. | IEEE International Conference on AI Engineering and Innovation
             </p>
             
           </div>
