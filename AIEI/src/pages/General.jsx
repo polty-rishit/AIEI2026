@@ -63,7 +63,7 @@ const General = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Dr. Veerpratap Meena</h3>
+                    <h3 className="text-2xl font-bold text-gray-900"> Dr. V. P. Meena</h3>
                     <p className="text-blue-600 font-medium">IEEE Member</p>
                     <p className="text-gray-600">Assistant Professor, Department of Electrical Engineering</p>
                   </div>
