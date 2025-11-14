@@ -393,6 +393,27 @@ const App = () => {
 
 </div>
 
+{/* Technical Sponsor */}
+<div className="w-full bg-white py-8 mb-6 mt-6">
+  <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
+    Technical Sponsor
+  </p>
+
+  <div className="flex flex-col justify-center items-center gap-4 px-4 sm:px-10 md:px-20">
+
+    {/* Logo */}
+    <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      <img
+        src="./MIT.png"   // <-- replace with actual logo file
+        alt="Technical Sponsor Logo"
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+
+  </div>
+</div>
+
+
 
  <WelcomeMessage/>
 
