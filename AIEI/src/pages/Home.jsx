@@ -347,7 +347,7 @@ const App = () => {
       <div className="w-full bg-white py-8 mb-6 mt-6">
   {/* Co-Organizers */}
   <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
-    CO-ORGANIZERS
+    TECHNICAL SPONSORS
   </p>
 
   {/* Logos with Descriptions */}
@@ -396,7 +396,7 @@ const App = () => {
 {/* Technical Sponsor */}
 <div className="w-full bg-white py-8 mb-6 mt-6">
   <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
-    TECHNICAL SPONSORS
+    KNOWLEDGE PARTNER
   </p>
 
   <div className="flex flex-col justify-center items-center gap-4 px-4 sm:px-10 md:px-20">
