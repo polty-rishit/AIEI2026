@@ -253,7 +253,7 @@ const handleSponsorshipLeave = () => {
               </div>
 
               {/* Students Dropdown */}
-<div
+{/* <div
   className="relative"
   onMouseEnter={handleStudentsEnter}
   onMouseLeave={handleStudentsLeave}
@@ -283,7 +283,7 @@ const handleSponsorshipLeave = () => {
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Student Desing Contest</a>
     </div>
   )}
-</div>
+</div> */}
 
 
 {/* Attend Dropdown */}
@@ -474,7 +474,7 @@ const handleSponsorshipLeave = () => {
             </div>
 
             {/* Mobile Students */}
-<div>
+{/* <div>
   <button
     onClick={() => setStudentsDropdown(!studentsDropdown)}
     className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between"
@@ -492,7 +492,7 @@ const handleSponsorshipLeave = () => {
       <a href="/s" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Student Desing Contest</a>
     </div>
   )}
-</div>
+</div> */}
 
 
 

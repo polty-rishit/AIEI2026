@@ -184,7 +184,7 @@ const Navbar = () => {
               </div>
 
               {/* Students Dropdown */}
-              <div className="relative" onMouseEnter={handleStudentsEnter} onMouseLeave={handleStudentsLeave}>
+              {/* <div className="relative" onMouseEnter={handleStudentsEnter} onMouseLeave={handleStudentsLeave}>
                 <button onClick={() => setStudentsDropdown(!studentsDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
                   STUDENTS
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -199,7 +199,7 @@ const Navbar = () => {
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Student Desing Contest</a>
                   </div>
                 )}
-              </div>
+              </div> */}
 
               {/* Attend Dropdown */}
 <div
@@ -361,7 +361,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Students */}
-            <div>
+            {/* <div>
               <button onClick={() => setStudentsDropdown(!studentsDropdown)} className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between">
                 STUDENTS
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -376,7 +376,7 @@ const Navbar = () => {
                   <a href="/students/resources" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Student Desing Contest</a>
                 </div>
               )}
-            </div>
+            </div> */}
 
 
             {/* Mobile Attend */}
