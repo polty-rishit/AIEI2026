@@ -486,7 +486,7 @@ const App = () => {
      
 
       {/* About NIT Jamshedpur Section */}
-      <section id="nitjsr" className="py-20 bg-gray-50">
+      <section id="nitjsr" className="py-20 bg-gray-50 -mb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
             <div className="overflow-hidden rounded-lg shadow-lg">
@@ -497,7 +497,7 @@ const App = () => {
               />
             </div>
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">About NIT Jamshedpur</h2>
+              <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">About NIT Jamshedpur</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of Education, Government of India, the National Institute of Technology Jamshedpur (NIT Jamshedpur) is a premier institution of higher learning and research. Established on 15th August 1960 as the Regional Institute of Technology (RIT) under India’s Second Five-Year Plan, it was among the first eight Regional Engineering Colleges created to nurture world-class technical talent. In 2002, RIT Jamshedpur was elevated to NIT status and in 2007, it was recognized as an Institute of National Importance by an Act of Parliament.
               </p>
@@ -526,6 +526,70 @@ const App = () => {
           </div>
         </div>
       </section>
+
+     <section id="department" className="py-24 bg-gradient-to-b from-gray-50 to-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    {/* 
+      Default (mobile): text first, image after 
+      Large screens (lg+): row layout with image on right
+    */}
+    <div className="flex flex-col lg:flex-row gap-16 items-center">
+
+      {/* Text Content */}
+      <div className="w-full lg:w-1/2 order-1">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+          Department of Electrical Engineering
+        </h2>
+
+        <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+          The Department of Electrical Engineering at NIT Jamshedpur stands as one of the institute’s most prominent and historic departments, known for academic excellence, practical learning, and a strong research culture.
+        </p>
+
+        <p className="text-lg text-gray-600 mb-10 leading-relaxed">
+          With advanced programs in Power Systems, Electric Drives, Renewable Energy, Control Engineering, Power Electronics, and Smart Grids, the department equips students with future-ready skills supported by modern laboratories and active research initiatives.
+        </p>
+
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
+          <div className="text-center">
+            <div className="text-4xl font-extrabold text-blue-600 mb-1">12+</div>
+            <div className="text-gray-600 text-sm font-medium">Specialized Labs</div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-4xl font-extrabold text-blue-600 mb-1">30+</div>
+            <div className="text-gray-600 text-sm font-medium">Faculty Members</div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-4xl font-extrabold text-blue-600 mb-1">50+</div>
+            <div className="text-gray-600 text-sm font-medium">Annual Publications</div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-4xl font-extrabold text-blue-600 mb-1">700+</div>
+            <div className="text-gray-600 text-sm font-medium">Active Students</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Image - Always at the bottom on small screens */}
+      <div className="w-full lg:w-1/2 order-2">
+        <div className="overflow-hidden rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-500">
+          <img
+            src="./Department.jpg"
+            alt="Electrical Engineering Department"
+            className="w-full h-[450px] object-cover object-center"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
       {/* Footer */}
       <Footer/>
