@@ -17,7 +17,7 @@ const Registration = () => {
         <div className="absolute inset-0 bg-[#1a1f4a]/40 backdrop-blur-sm"></div>
 
         <div className="relative text-center text-white drop-shadow-lg">
-          <h1 className="text-2xl md:text-6xl font-bold mb-1">Registration</h1>
+          <h1 className="text-2xl md:text-6xl font-bold mb-3">Registration</h1>
           <h2 className="text-sm md:text-2xl font-medium">
             IEEE International Conference on AI Engineering and Innovation
           </h2>
