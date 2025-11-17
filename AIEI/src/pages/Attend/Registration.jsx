@@ -99,7 +99,7 @@ const Registration = () => {
               },
               {
                 field: "Payment Remark (Comment)",
-                value: "ICE2CPT_Paper ID (e.g., ICE2CPT_157XXXX)"
+                value: "AIEI2026_Paper ID (e.g., AIEI2026_157XXXX)"
               }
             ].map((row, index) => (
               <div
