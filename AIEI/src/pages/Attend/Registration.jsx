@@ -32,7 +32,7 @@ const Registration = () => {
 
         <div className="w-full max-w-4xl shadow-lg border rounded-lg overflow-hidden bg-white">
           <img
-            src="/RateChart.jpg"
+            src="/RateChart.png"
             alt="Registration Rate Chart"
             className="w-full object-contain"
           />
@@ -120,7 +120,7 @@ const Registration = () => {
 
         {/* Registration Link Button */}
         <a
-          href="https://your-registration-link.com"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-600 text-white px-8 py-3 rounded-lg mt-10 mb-10 hover:bg-green-700 transition font-semibold shadow-md"
