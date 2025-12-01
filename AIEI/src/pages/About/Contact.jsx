@@ -37,7 +37,7 @@ const Contact = () => {
           <FaPhoneAlt className="mx-auto text-4xl text-blue-500 mb-4" />
           <h3 className="text-lg font-semibold mb-2">Call us</h3>
           <p className="text-sm font-medium">
-            P: <span className="font-bold">+91 973 993 7911</span>
+            P: <span className="font-bold">+919461109902</span>
           </p>
         </div>
 
