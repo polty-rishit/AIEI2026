@@ -9,7 +9,7 @@ const CallForPapers = () => {
 
 
         <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
-        {/* Background Image */}
+        {/* Background Image added */}
         <img 
           src="/photo1.jpg" 
           alt="Banner" 
