@@ -133,7 +133,7 @@ const Registration = () => {
 
         {/* Registration Link Button */}
         <a
-          href="/"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd10SAFkbi2csVn0B_QXoB22T5LW9K0TAIISjx2kOPo50CMug/viewform?usp=publish-editor"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-600 text-white px-8 py-3 rounded-lg mt-10 mb-10 hover:bg-green-700 transition font-semibold shadow-md"
