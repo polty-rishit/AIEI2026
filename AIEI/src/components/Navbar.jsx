@@ -172,12 +172,10 @@ const Navbar = () => {
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Camera Ready Submission</a>
                     <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Special Sessions</a>
-                    <a href="/guidelines" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Special Sessions Paper Submission Guidelines</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Special Journal Issue</a>
+                    
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
-                    <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Submit Paper</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Best Paper award</a>
+                    
+              
                     <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                   </div>
                 )}
@@ -349,12 +347,9 @@ const Navbar = () => {
                 <div className="ml-4 mt-2 space-y-2">
                   <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Camera Ready Submission</a>
                   <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
-                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Special Sessions</a>
-                  <a href="/guidelines" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Special Sessions Paper Submission Guidelines</a>
-                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Special Journal Issue</a>
+                  
                   <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
-                  <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Submit Paper</a>
-                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Best Paper award</a>
+                  
                   <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                 </div>
               )}
