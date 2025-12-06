@@ -374,6 +374,13 @@ const handleSponsorshipLeave = () => {
                       Best Paper award
                     </a> */}
                     <a
+                      href="/impdates"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Important Dates
+                    </a>
+
+                    <a
                       href="/cmt"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
@@ -825,6 +832,12 @@ const handleSponsorshipLeave = () => {
                   >
                     Best Paper award
                   </a> */}
+                  <a
+                    href="/impdates"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Important Dates
+                  </a>
                   <a
                     href="/cmt"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"

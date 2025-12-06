@@ -16,6 +16,7 @@ import IeeeP from './pages/About/IeeeP'
 import TechProgramme from './pages/Programme/TechProgramme'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
+import ImportantDates from './pages/ImportantDates'
 
  
  const App = () => {
@@ -30,25 +31,25 @@ import Registration from './pages/Attend/Registration'
    return (
      <div>
        <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/general' element={<General/>}/>
-        <Route path='/committee' element={<Committee/>}/>
-        <Route path='/venue' element={<Venue/>}/>
-        <Route path='/papers' element={<CallForPapers/>}/>
-        <Route path='/guidelines' element={<Guidelines/>}/>
-        <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
-        <Route path='/overview' element={<Overview/>}/>
-         <Route path='/patrons' element={<Patrons/>}/>
-         <Route path='/contact' element={<Contact/>}/>
-         <Route path='/ieeeac' element={<IeeeAc/>}/>
-         <Route path='/ieeep' element={<IeeeP/>}/>
-         <Route path='/techprogramme' element={<TechProgramme/>}/>
-         <Route path='/speakers' element={<Speakers/>}/>
-         <Route path='/registration' element={<Registration/>}/>
-         
+         <Route path="/" element={<Home />} />
+         <Route path="/general" element={<General />} />
+         <Route path="/committee" element={<Committee />} />
+         <Route path="/venue" element={<Venue />} />
+         <Route path="/papers" element={<CallForPapers />} />
+         <Route path="/impdates" element={<ImportantDates />} />
+         <Route path="/guidelines" element={<Guidelines />} />
+         <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
+         <Route path="/overview" element={<Overview />} />
+         <Route path="/patrons" element={<Patrons />} />
+         <Route path="/contact" element={<Contact />} />
+         <Route path="/ieeeac" element={<IeeeAc />} />
+         <Route path="/ieeep" element={<IeeeP />} />
+         <Route path="/techprogramme" element={<TechProgramme />} />
+         <Route path="/speakers" element={<Speakers />} />
+         <Route path="/registration" element={<Registration />} />
        </Routes>
      </div>
-   )
+   );
  }
  
  export default App
