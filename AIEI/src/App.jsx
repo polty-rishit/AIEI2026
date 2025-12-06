@@ -17,6 +17,7 @@ import TechProgramme from './pages/Programme/TechProgramme'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/ImportantDates'
+import CameraReady from './pages/CameraReady'
 
  
  const App = () => {
@@ -37,6 +38,7 @@ import ImportantDates from './pages/ImportantDates'
          <Route path="/venue" element={<Venue />} />
          <Route path="/papers" element={<CallForPapers />} />
          <Route path="/impdates" element={<ImportantDates />} />
+         <Route path="/cameraready" element={<CameraReady />} />
          <Route path="/guidelines" element={<Guidelines />} />
          <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
          <Route path="/overview" element={<Overview />} />

@@ -326,7 +326,7 @@ const handleSponsorshipLeave = () => {
                 {conferenceDropdown && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
                     <a
-                      href="/"
+                      href="/cameraready"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Camera Ready Submission
@@ -785,7 +785,7 @@ const handleSponsorshipLeave = () => {
               {conferenceDropdown && (
                 <div className="ml-4 mt-2 space-y-2">
                   <a
-                    href="/"
+                    href="/cameraready"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Camera Ready Submission
