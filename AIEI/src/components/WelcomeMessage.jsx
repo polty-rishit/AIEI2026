@@ -22,7 +22,7 @@ const WelcomeMessage = () => {
             />
             <div>
               <h3 className="text-lg font-semibold text-gray-800">
-                Dr. V. P. Meena
+                Dr. V. P. Meena hello
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 General Chair, AIEI 2026 <br />
@@ -101,7 +101,7 @@ const WelcomeMessage = () => {
               target="_blank" 
               className="text-blue-500 font-semibold"
             >
-              <strong> IEEE Systems Council</strong>
+              <strong> IEEE Systems Council </strong>
             </a>
             , the <strong>IEEE Kolkata Section</strong>, 
             and the <strong>IEEE Student Branch, NIT Jamshedpur</strong>.
