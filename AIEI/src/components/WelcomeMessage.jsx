@@ -22,7 +22,7 @@ const WelcomeMessage = () => {
             />
             <div>
               <h3 className="text-lg font-semibold text-gray-800">
-                Dr. V. P. Meena hello
+                Dr. V. P. Meena
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 General Chair, AIEI 2026 <br />
