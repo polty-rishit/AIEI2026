@@ -145,17 +145,17 @@ const Navbar = () => {
                 </button>
                 {programmeDropdown && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-2 z-10">
-                    <a href="/techprogramme" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Programme</a>
-                   <a href="/speakers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Speakers</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Call for Workshop Proposals</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">3MT Competition</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">SIGHT/COPE/STEM Event</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Sessions</a>
+                   <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Keynote Sessions</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Industry Sessions</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Women in Engineering (WIE)</a>
+                    {/* <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">SIGHT/COPE/STEM Event</a>
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Mentor-Mentee Initiative</a>
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Young Professionals Session</a>
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Industry Session</a>
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Women in Antennas, Microwave and Space (WAMS) Luncheon Meeting</a>
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Start-Up Connect & Lounge</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Chapter Chair Meeting</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Chapter Chair Meeting</a> */}
                   </div>
                 )}
               </div>
@@ -322,17 +322,17 @@ const Navbar = () => {
               </button>
               {programmeDropdown && (
                 <div className="ml-4 mt-2 space-y-2">
-                  <a href="/techprogramme" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Programme</a>
-                  <a href="/speakers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Speakers</a>
-                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Call for Workshop Proposals</a>
-                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">3MT Competition</a>
-                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">SIGHT/COPE/STEM Event</a>
+                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Sessions</a>
+                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Keynote Sessions</a>
+                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Industry Sessions</a>
+                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Women in Engineering (WIE)</a>
+                  {/* <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">SIGHT/COPE/STEM Event</a>
                   <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Mentor-Mentee Initiative</a>
                   <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Young Professionals Session</a>
                   <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Industry Session</a>
                   <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Women in Antennas, Microwave and Space (WAMS) Luncheon Meeting</a>
                   <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Start-Up Connect & Lounge</a>
-                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Chapter Chair Meeting</a>
+                  <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Chapter Chair Meeting</a> */}
                 </div>
               )}
             </div>
