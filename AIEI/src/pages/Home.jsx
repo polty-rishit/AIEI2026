@@ -3,6 +3,8 @@ import { FaCalendarAlt, FaFileAlt, FaBell, FaCheckCircle } from "react-icons/fa"
 import NavbarHome from '../components/NavbarHome';
 import Footer from '../components/Footer';
 import WelcomeMessage from '../components/WelcomeMessage';
+import MiniInfoCarousel from '../components/AnnouncementTicker';
+import AnnouncementTicker from '../components/AnnouncementTicker';
 
 const getIconForTitle = (title) => {
   switch (title.toLowerCase()) {
@@ -281,12 +283,10 @@ const App = () => {
   </div>
 </div>
 
-
     </div>
   </div>
 </div>
-
-
+<AnnouncementTicker/>
 
       <div className="w-full bg-white py-8 px-4 sm:px-10 lg:px-20">
   {/* Section Title */}
@@ -305,16 +305,14 @@ const App = () => {
     className="w-28 md:w-32 lg:w-35 object-contain"
   />
   <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-    <h2 className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
+    <a href='https://nitjsr.ac.in/' className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
       National Institute of Technology<sup>™</sup>
-    </h2>
-    <h1 className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
+    </a>
+    <a href='https://nitjsr.ac.in/' className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
       NIT Jamshedpur
-    </h1>
+    </a>
     <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
       (An Institution of National Importance under Ministry of Education, Govt. of India)  
-      <br />
-      Accredited by NBA & NAAC, Affiliated to AICTE
     </p>
   </div>
 </div>
@@ -328,9 +326,9 @@ const App = () => {
     className="w-32 md:w-40 lg:w-60 object-contain"
   />
   <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-    <h1 className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
+    <a href='https://www.ai-research-lab.org/' className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
       USD AI Research Lab
-    </h1>
+    </a>
     <p className="text-xs md:text-sm text-gray-600 mt-2">
       Fostering innovation in AI research and development
     </p>
