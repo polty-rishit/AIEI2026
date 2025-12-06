@@ -140,6 +140,7 @@ const handleRegistrationLeave = () => {
                     <a href="/General" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">General Chair</a>
                     {/* <a href="/patrons" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Patrons and Advisors</a> */}
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Organizing Committee</a>
+                    <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
                     {/* <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">International Advisory Commitee (IAC)</a> */}
                     <a href="/ieeeac" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Advisory Committee</a>
                     {/* <a href="/ieeep" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">IEEE Presidents(Sponsoring Societies)</a> */}
@@ -272,7 +273,7 @@ const handleRegistrationLeave = () => {
   </button>
   {attendDropdown && (
     <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
-      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a>
+      {/* <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a> */}
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Visa</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
@@ -349,6 +350,7 @@ const handleRegistrationLeave = () => {
                   <a href="/general" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">General Chair</a>
                   {/* <a href="/patrons" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Patrons and Advisors</a> */}
                   <a href="/committee" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Organizing Committee</a>
+                  <a href="/dates" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Important Dates</a>
                   {/* <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">International Advisory Commitee (IAC)</a> */}
                   <a href="/ieeeac" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Advisory Committee</a>
                   {/* <a href="/ieeep" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">IEEE Presidents(Sponsoring Societies)</a> */}
@@ -459,7 +461,7 @@ const handleRegistrationLeave = () => {
   </button>
   {attendDropdown && (
     <div className="ml-4 mt-2 space-y-2">
-      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a>
+      {/* <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a> */}
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Visa</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>

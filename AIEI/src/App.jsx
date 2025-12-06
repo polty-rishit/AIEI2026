@@ -16,6 +16,7 @@ import IeeeP from './pages/About/IeeeP'
 import TechProgramme from './pages/Programme/TechProgramme'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
+import ImportantDates from './pages/About/ImportantDates'
 
  
  const App = () => {
@@ -45,8 +46,8 @@ import Registration from './pages/Attend/Registration'
          <Route path='/techprogramme' element={<TechProgramme/>}/>
          <Route path='/speakers' element={<Speakers/>}/>
          <Route path='/registration' element={<Registration/>}/>
-         
-       </Routes>
+         <Route path='/dates' element={<ImportantDates/>}/>
+         </Routes>
      </div>
    )
  }

@@ -204,6 +204,12 @@ const handleRegistrationLeave = () => {
                     >
                       Organizing Committee
                     </a>
+                    <a
+                      href="/dates"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Important Dates
+                    </a>
                     {/* <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -489,12 +495,12 @@ const handleRegistrationLeave = () => {
                 </button>
                 {attendDropdown && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
-                    <a
+                    {/* <a
                       href="/registration"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Registration
-                    </a>
+                    </a> */}
                     <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -667,6 +673,12 @@ const handleRegistrationLeave = () => {
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Organizing Committee
+                  </a>
+                  <a
+                    href="/dates"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Important Dates
                   </a>
                   {/* <a
                     href="/"
@@ -948,12 +960,12 @@ const handleRegistrationLeave = () => {
               </button>
               {attendDropdown && (
                 <div className="ml-4 mt-2 space-y-2">
-                  <a
+                  {/* <a
                     href="/registration"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Registration
-                  </a>
+                  </a> */}
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
