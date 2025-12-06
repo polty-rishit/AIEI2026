@@ -3,6 +3,8 @@ import { FaCalendarAlt, FaFileAlt, FaBell, FaCheckCircle } from "react-icons/fa"
 import NavbarHome from '../components/NavbarHome';
 import Footer from '../components/Footer';
 import WelcomeMessage from '../components/WelcomeMessage';
+import MiniInfoCarousel from '../components/AnnouncementTicker';
+import AnnouncementTicker from '../components/AnnouncementTicker';
 
 const getIconForTitle = (title) => {
   switch (title.toLowerCase()) {
@@ -281,12 +283,10 @@ const App = () => {
   </div>
 </div>
 
-
     </div>
   </div>
 </div>
-
-
+<AnnouncementTicker/>
 
       <div className="w-full bg-white py-8 px-4 sm:px-10 lg:px-20">
   {/* Section Title */}
