@@ -337,7 +337,7 @@ const handleSponsorshipLeave = () => {
                     >
                       Call For Papers
                     </a>
-                    <a
+                    {/* <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
@@ -354,14 +354,14 @@ const handleSponsorshipLeave = () => {
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Special Journla Issue
-                    </a>
+                    </a> */}
                     <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Author Information
                     </a>
-                    <a
+                    {/* <a
                       href="/papers"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
@@ -372,7 +372,7 @@ const handleSponsorshipLeave = () => {
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Best Paper award
-                    </a>
+                    </a> */}
                     <a
                       href="/cmt"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -789,7 +789,7 @@ const handleSponsorshipLeave = () => {
                   >
                     Call For Papers
                   </a>
-                  <a
+                  {/* <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
@@ -806,14 +806,14 @@ const handleSponsorshipLeave = () => {
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Special Journla Issue
-                  </a>
+                  </a> */}
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Author Information
                   </a>
-                  <a
+                  {/* <a
                     href="/papers"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
@@ -824,7 +824,7 @@ const handleSponsorshipLeave = () => {
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Best Paper award
-                  </a>
+                  </a> */}
                   <a
                     href="/cmt"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
