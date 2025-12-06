@@ -62,8 +62,21 @@ const Registration = () => {
           <li className="font-semibold">
             Early-bird payment confirmation will be shared through email.
           </li>
+          <li className="font-semibold">
+            Extra pages Charges : Rs. 2500 or USD 25 + 18% GST per Page.
+          </li>
+          <li className="font-semibold">
+            Registration fee is non-refundable.
+          </li>
+          <li className="font-semibold">
+            Full registration includes access to plenary sessions (with prior booking), all conference sessions, a registration kit, lunches for three days, coffee breaks, a gala dinner, and inclusion of presented papers in IEEE Xplore.
+          </li>
+          <li className="font-semibold">
+           Student registration includes access to plenary sessions (with prior booking), all conference sessions, a registration kit, lunches for three days, coffee breaks, and the gala dinner. Students must submit valid proof of their status (a copy of a student ID card or a letter from their institution or program director) via email during registration and payment. Registration will only be confirmed after verifying the submitted proof.
+          </li>
         </ul>
       </div>
+      
 
       {/* GAP BEFORE TABLE */}
       <div className="mt-16"></div>
@@ -127,6 +140,11 @@ const Registration = () => {
         >
           Click Here to Register
         </a>
+
+
+        <div className="bg-[#edf3ff] mt-1 mb-10 p-3 rounded border-l-4 border-blue-600 text-sm font-medium text-[#1a1f4a]">
+            For further details, please contact the Registration Committee at - aiengineeringconference@gmail.com
+          </div>
       </div>
 
       <Footer />
