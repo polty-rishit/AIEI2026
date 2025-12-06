@@ -5,7 +5,7 @@ const AnnouncementTicker = () => {
   const formattedMessage = (
     <span>
       <span className="text-red-500 font-extrabold">AIEI 2026</span> WILL BE ORGANIZED AT NIT JAMSHEDPUR, JHARKHAND, INDIA, DURING{" "}
-      <span className="text-yellow-300 font-extrabold">MARCH 26–28, 2026 .</span>
+      <span className="text-yellow-300 font-extrabold">MARCH 26–28, 2026 </span>
     </span>
   );
 
@@ -14,7 +14,7 @@ const AnnouncementTicker = () => {
     "|",
     "📄 CALL FOR PAPER",
     "|",
-    "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY.",
+    "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
   ];
 
   return (
