@@ -92,6 +92,20 @@ const Navbar = () => {
     const timeout = setTimeout(() => setSponsorshipDropdown(false), 300);
     setSponsorshipTimeout(timeout);
   };
+
+  const [registrationDropdown, setRegistrationDropdown] = useState(false);
+const [registrationTimeout, setRegistrationTimeout] = useState(null);
+
+// Registration dropdown hover handlers
+const handleRegistrationEnter = () => {
+  if (registrationTimeout) clearTimeout(registrationTimeout);
+  setRegistrationDropdown(true);
+};
+const handleRegistrationLeave = () => {
+  const timeout = setTimeout(() => setRegistrationDropdown(false), 300);
+  setRegistrationTimeout(timeout);
+};
+
   
 
   return (
@@ -198,6 +212,38 @@ const Navbar = () => {
                   </div>
                 )}
               </div> */}
+
+              
+
+              {/*Registeration*/}
+              {/* Registration Dropdown */}
+<div
+  className="relative"
+  onMouseEnter={handleRegistrationEnter}
+  onMouseLeave={handleRegistrationLeave}
+>
+  <button
+    onClick={() => setRegistrationDropdown(!registrationDropdown)}
+    className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
+      isScrolled ? 'text-gray-900' : 'text-black'
+    }`}
+  >
+    REGISTRATION
+    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  {registrationDropdown && (
+    <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
+      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">
+        Register
+      </a>
+    </div>
+  )}
+</div>
+
+              
 
               {/* Attend Dropdown */}
 <div
@@ -372,6 +418,28 @@ const Navbar = () => {
                 </div>
               )}
             </div> */}
+
+            {/* Mobile Registration */}
+<div>
+  <button
+    onClick={() => setRegistrationDropdown(!registrationDropdown)}
+    className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between"
+  >
+    REGISTRATION
+    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  {registrationDropdown && (
+    <div className="ml-4 mt-2 space-y-2">
+      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">
+        Register
+      </a>
+    </div>
+  )}
+</div>
+
 
 
             {/* Mobile Attend */}

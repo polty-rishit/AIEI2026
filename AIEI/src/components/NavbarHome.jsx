@@ -96,6 +96,20 @@ const handleSponsorshipLeave = () => {
   setSponsorshipTimeout(timeout);
 };
 
+const [registrationDropdown, setRegistrationDropdown] = useState(false);
+const [registrationTimeout, setRegistrationTimeout] = useState(null);
+
+// Registration dropdown hover handlers
+const handleRegistrationEnter = () => {
+  if (registrationTimeout) clearTimeout(registrationTimeout);
+  setRegistrationDropdown(true);
+};
+
+const handleRegistrationLeave = () => {
+  const timeout = setTimeout(() => setRegistrationDropdown(false), 300);
+  setRegistrationTimeout(timeout);
+};
+
 
 
 
@@ -178,36 +192,36 @@ const handleSponsorshipLeave = () => {
                     >
                       General Chair
                     </a>
-                    <a
+                    {/* <a
                       href="/patrons"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Patrons and Advisors
-                    </a>
+                    </a> */}
                     <a
                       href="/committee"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Organizing Committee
                     </a>
-                    <a
+                    {/* <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       International Advisory Commitee (IAC)
-                    </a>
+                    </a> */}
                     <a
                       href="/ieeeac"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
-                      IEEE Advisory Council
+                      Advisory Committee
                     </a>
-                    <a
+                    {/* <a
                       href="/ieeep"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       IEEE Presidents(Sponsoring Societies)
-                    </a>
+                    </a> */}
                     <a
                       href="https://www.ieee.org/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -224,76 +238,7 @@ const handleSponsorshipLeave = () => {
                 )}
               </div>
 
-              {/* Programme Dropdown */}
-              <div
-                className="relative"
-                onMouseEnter={handleProgrammeEnter}
-                onMouseLeave={handleProgrammeLeave}
-              >
-                <button
-                  onClick={() => setProgrammeDropdown(!programmeDropdown)}
-                  className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-                    isScrolled ? "text-gray-900" : "text-white"
-                  }`}
-                >
-                  PROGRAMME
-                  <svg
-                    className="w-4 h-4 ml-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-                {programmeDropdown && (
-                  <div className="absolute top-full left-0 mt-2 w-72 bg-white rounded-md shadow-lg py-2 z-10">
-                    {/* <a href="/techprogramme" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Programme</a>
-                   <a href="/speakers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Speakers</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Call for Workshop Proposals</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">3MT Competition</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">SIGHT/COPE/STEM Event</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Mentor-Mentee Initiative</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Young Professionals Session</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Industry Session</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Women in Antennas, Microwave and Space (WAMS) Luncheon Meeting</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Start-Up Connect & Lounge</a>
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Chapter Chair Meeting</a> */}
-
-                    <a
-                      href="/"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                    >
-                      Technical Sessions
-                    </a>
-
-                    <a
-                      href="/"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                    >
-                      Keynote Sessions
-                    </a>
-                    <a
-                      href="/"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                    >
-                      Industry Sessions
-                    </a>
-                    <a
-                      href="/"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                    >
-                      Women in Engineering (WIE)
-                    </a>
-                  </div>
-                )}
-              </div>
+              
 
               {/* Conference Dropdown */}
               <div
@@ -383,6 +328,77 @@ const handleSponsorshipLeave = () => {
                 )}
               </div>
 
+              {/* Programme Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={handleProgrammeEnter}
+                onMouseLeave={handleProgrammeLeave}
+              >
+                <button
+                  onClick={() => setProgrammeDropdown(!programmeDropdown)}
+                  className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
+                    isScrolled ? "text-gray-900" : "text-white"
+                  }`}
+                >
+                  PROGRAMME
+                  <svg
+                    className="w-4 h-4 ml-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                {programmeDropdown && (
+                  <div className="absolute top-full left-0 mt-2 w-72 bg-white rounded-md shadow-lg py-2 z-10">
+                    {/* <a href="/techprogramme" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Programme</a>
+                   <a href="/speakers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Speakers</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Call for Workshop Proposals</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">3MT Competition</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">SIGHT/COPE/STEM Event</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Mentor-Mentee Initiative</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Young Professionals Session</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Industry Session</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Women in Antennas, Microwave and Space (WAMS) Luncheon Meeting</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Start-Up Connect & Lounge</a>
+                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Chapter Chair Meeting</a> */}
+
+                    <a
+                      href="/"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Technical Sessions
+                    </a>
+
+                    <a
+                      href="/"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Keynote Sessions
+                    </a>
+                    <a
+                      href="/"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Industry Sessions
+                    </a>
+                    <a
+                      href="/"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                    >
+                      Women in Engineering (WIE)
+                    </a>
+                  </div>
+                )}
+              </div>
+
               {/* Students Dropdown */}
               {/* <div
   className="relative"
@@ -415,6 +431,33 @@ const handleSponsorshipLeave = () => {
     </div>
   )}
 </div> */}
+{/* Registration Dropdown */}
+<div
+  className="relative"
+  onMouseEnter={handleRegistrationEnter}
+  onMouseLeave={handleRegistrationLeave}
+>
+  <button
+    onClick={() => setRegistrationDropdown(!registrationDropdown)}
+    className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
+      isScrolled ? "text-gray-900" : "text-white"
+    }`}
+  >
+    REGISTRATION
+    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  {registrationDropdown && (
+    <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
+      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">
+        Register
+      </a>
+    </div>
+  )}
+</div>
+
 
               {/* Attend Dropdown */}
               <div
@@ -613,36 +656,36 @@ const handleSponsorshipLeave = () => {
                   >
                     General Chair
                   </a>
-                  <a
+                  {/* <a
                     href="/patrons"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Patrons and Advisors
-                  </a>
+                  </a> */}
                   <a
                     href="/committee"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Organizing Committee
                   </a>
-                  <a
+                  {/* <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     International Advisory Commitee (IAC)
-                  </a>
+                  </a> */}
                   <a
                     href="/ieeeac"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
-                    IEEE Advisory Council
+                    Advisory Committee
                   </a>
-                  <a
+                  {/* <a
                     href="/ieeep"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     IEEE Presidents(Sponsoring Societies)
-                  </a>
+                  </a> */}
                   <a
                     href="https://www.ieee.org/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -654,6 +697,89 @@ const handleSponsorshipLeave = () => {
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Contact
+                  </a>
+                </div>
+              )}
+            </div>
+
+            
+
+            {/* Mobile Conference */}
+            <div>
+              <button
+                onClick={() => setConferenceDropdown(!conferenceDropdown)}
+                className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between"
+              >
+                AUTHORS
+                <svg
+                  className="w-4 h-4 ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              {conferenceDropdown && (
+                <div className="ml-4 mt-2 space-y-2">
+                  <a
+                    href="/"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Camera Ready Submission
+                  </a>
+                  <a
+                    href="/papers"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Call For Papers
+                  </a>
+                  {/* <a
+                    href="/"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Call For Special Sessions
+                  </a>
+                  <a
+                    href="/guidelines"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Special Sessions Paper Submission Guidelines
+                  </a>
+                  <a
+                    href="/"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Special Journla Issue
+                  </a> */}
+                  <a
+                    href="/"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Author Information
+                  </a>
+                  {/* <a
+                    href="/papers"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Submit Paper
+                  </a>
+                  <a
+                    href="/"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Best Paper award
+                  </a> */}
+                  <a
+                    href="/cmt"
+                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
+                  >
+                    CMT Acknowledegemnt
                   </a>
                 </div>
               )}
@@ -754,87 +880,6 @@ const handleSponsorshipLeave = () => {
               )}
             </div>
 
-            {/* Mobile Conference */}
-            <div>
-              <button
-                onClick={() => setConferenceDropdown(!conferenceDropdown)}
-                className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between"
-              >
-                AUTHORS
-                <svg
-                  className="w-4 h-4 ml-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-              {conferenceDropdown && (
-                <div className="ml-4 mt-2 space-y-2">
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Camera Ready Submission
-                  </a>
-                  <a
-                    href="/papers"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Call For Papers
-                  </a>
-                  {/* <a
-                    href="/"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Call For Special Sessions
-                  </a>
-                  <a
-                    href="/guidelines"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Special Sessions Paper Submission Guidelines
-                  </a>
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Special Journla Issue
-                  </a> */}
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Author Information
-                  </a>
-                  {/* <a
-                    href="/papers"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Submit Paper
-                  </a>
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    Best Paper award
-                  </a> */}
-                  <a
-                    href="/cmt"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
-                  >
-                    CMT Acknowledegemnt
-                  </a>
-                </div>
-              )}
-            </div>
-
             {/* Mobile Students */}
             {/* <div>
   <button
@@ -855,6 +900,30 @@ const handleSponsorshipLeave = () => {
     </div>
   )}
 </div> */}
+
+
+{/* Mobile Registration */}
+<div>
+  <button
+    onClick={() => setRegistrationDropdown(!registrationDropdown)}
+    className="w-full text-left text-gray-900 font-medium hover:bg-white/40 rounded-md px-3 py-2 transition flex items-center justify-between"
+  >
+    REGISTRATION
+    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  {registrationDropdown && (
+    <div className="ml-4 mt-2 space-y-2">
+      <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">
+        Register
+      </a>
+    </div>
+  )}
+</div>
+
+
 
             {/* Mobile Attend */}
             <div>

@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
               <div className="space-y-2 text-gray-400 flex gap-2">
                 <i class="fa-solid fa-phone pt-1"></i>
-                <p className="text-gray-400 mb-4">+919461109902 </p>
+                <p className="text-gray-400 mb-4">+91 9461109902 </p>
               </div>
               {/* <div className="flex space-x-4 bg-red-400">
                 <i className="fab fa-linkedin text-blue-400 text-xl cursor-pointer hover:text-blue-300"></i>

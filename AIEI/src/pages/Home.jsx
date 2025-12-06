@@ -308,7 +308,7 @@ const App = () => {
     <a href='https://nitjsr.ac.in/' className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
       National Institute of Technology<sup>™</sup>
     </a>
-    <a href='https://nitjsr.ac.in/' className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
+    <a  className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
       NIT Jamshedpur
     </a>
     <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
@@ -484,46 +484,72 @@ const App = () => {
      
 
       {/* About NIT Jamshedpur Section */}
-      <section id="nitjsr" className="py-20 bg-gray-50 -mb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="./nitjsr.jpg"
-                alt="NIT Jamshedpur Campus"
-                className="w-full h-full object-cover object-top"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">About NIT Jamshedpur</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of Education, Government of India, the National Institute of Technology Jamshedpur (NIT Jamshedpur) is a premier institution of higher learning and research. Established on 15th August 1960 as the Regional Institute of Technology (RIT) under India’s Second Five-Year Plan, it was among the first eight Regional Engineering Colleges created to nurture world-class technical talent. In 2002, RIT Jamshedpur was elevated to NIT status and in 2007, it was recognized as an Institute of National Importance by an Act of Parliament.
-              </p>
-              {/* <p className="text-lg text-gray-600 mb-6">
-                The institute has a strong tradition of fostering innovation and research in emerging technologies, making it an ideal venue for hosting international conferences on artificial intelligence and engineering innovations.
-              </p> */}
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">60+</div>
-                  <div className="text-gray-600">Years of Excellence</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                  <div className="text-gray-600">Departments</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">200+</div>
-                  <div className="text-gray-600">Faculty Members</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">5000+</div>
-                  <div className="text-gray-600">Students</div>
-                </div>
-              </div>
-            </div>
+     <section id="nitjsr" className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+      {/* LEFT IMAGE (on desktop) / BOTTOM IMAGE (on mobile) */}
+      <div className="overflow-hidden rounded-3xl shadow-2xl h-[420px] order-2 lg:order-1">
+        <img
+          src="./nitjsr.jpg"
+          alt="NIT Jamshedpur Campus"
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
+
+      {/* RIGHT TEXT (on desktop) / TOP TEXT (on mobile) */}
+      <div className="order-1 lg:order-2">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+          About NIT Jamshedpur
+        </h2>
+
+        <p className="text-lg text-gray-600 mb-6">
+          The National Institute of Technology Jamshedpur (NIT Jamshedpur), an Institute of 
+          National Importance located in Jamshedpur, Jharkhand, India, was established in 1960 
+          as the Regional Institute of Technology and upgraded to NIT with Deemed University 
+          status on 27 December 2002. Ranked 82nd in the NIRF 2025 Engineering Rankings by the 
+          Ministry of Education, Government of India, the institute is committed to high-quality 
+          teaching, advanced research, innovation, and industry-oriented training.
+        </p>
+
+        <p className="text-lg text-gray-600 mb-10">
+          As the third institute in the chain of eight NITs created under the Second Five-Year 
+          Plan, it now comprises twelve academic departments offering B.Tech, M.Tech, M.Sc, 
+          MCA, and Ph.D programs, with a strong emphasis on academic excellence, good governance, 
+          and leadership in engineering education and research.
+        </p>
+
+        {/* STATS GRID */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+
+          <div className="text-center">
+            <div className="text-3xl font-bold text-blue-600">60+</div>
+            <div className="text-gray-600 text-sm">Years of Excellence</div>
           </div>
+
+          <div className="text-center">
+            <div className="text-3xl font-bold text-blue-600">15+</div>
+            <div className="text-gray-600 text-sm">Departments</div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-3xl font-bold text-blue-600">200+</div>
+            <div className="text-gray-600 text-sm">Faculty Members</div>
+          </div>
+
+          <div className="text-center">
+            <div className="text-3xl font-bold text-blue-600">5000+</div>
+            <div className="text-gray-600 text-sm">Active Students</div>
+          </div>
+
         </div>
-      </section>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
      <section id="department" className="py-24 bg-gradient-to-b from-gray-50 to-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
