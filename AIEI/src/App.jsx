@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import General from './pages/General'
 import Committee from './pages/About/Committee'
 import Venue from './pages/Venue'
-import CallForPapers from './pages/CallForPapers'
+import CallForPapers from './pages/Authors/CallForPapers'
 import Guidelines from './pages/guidelines'
 import CMT from './pages/CMT'
 import { useEffect } from "react";
@@ -17,6 +17,7 @@ import TechProgramme from './pages/Programme/TechProgramme'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/About/ImportantDates'
+import CameraReady from './pages/Authors/CameraReady'
 
  
  const App = () => {
@@ -47,6 +48,7 @@ import ImportantDates from './pages/About/ImportantDates'
          <Route path='/speakers' element={<Speakers/>}/>
          <Route path='/registration' element={<Registration/>}/>
          <Route path='/dates' element={<ImportantDates/>}/>
+         <Route path='/camera' element={<CameraReady/>}/>
          </Routes>
      </div>
    )
