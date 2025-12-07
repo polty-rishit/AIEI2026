@@ -29,7 +29,10 @@ const CameraReady = () => {
       {/* Content Section */}
       <section className="bg-gray-50 text-gray-800 py-14 sm:py-16 md:py-20 px-4 sm:px-8 lg:px-20 xl:px-32 shadow-inner">
         <div className="max-w-5xl mx-auto">
-          <div className="text-base sm:text-lg md:text-xl leading-relaxed space-y-6 text-gray-700">
+          <div
+            className="text-base sm:text-lg md:text-xl leading-relaxed space-y-6 text-gray-700"
+            style={{ textAlign: "justify", textJustify: "inter-word" }}
+          >
             <p className="font-semibold">
               Authors are requested to follow the instructions below for final camera-ready paper submission:
             </p>
@@ -54,14 +57,12 @@ const CameraReady = () => {
               </li>
 
               <li>
-                The{" "}
-                <strong>plagiarism score must be below 30%</strong> using standard plagiarism tools before submission.
+                The <strong>plagiarism score must be below 30%</strong> using standard plagiarism tools before submission.
               </li>
 
               <li>
                 Final paper length must be{" "}
-                <strong>within 6 pages</strong>.  
-                Up to 2 additional pages allowed with over-length charges (maximum 8 pages).
+                <strong>within 6 pages</strong>. Up to 2 additional pages allowed with over-length charges (maximum 8 pages).
               </li>
 
               <li>
@@ -76,19 +77,19 @@ const CameraReady = () => {
                 </a>
                 <ul className="list-disc pl-6 sm:pl-10 space-y-2 pt-3">
                   <li>
-                    US Government authors:  
+                    US Government authors:{" "}
                     <strong>U.S. Government work not protected by U.S. copyright</strong>
                   </li>
                   <li>
-                    Crown Government (UK/Canada/Australia):  
+                    Crown Government (UK/Canada/Australia):{" "}
                     <strong>979-8-3315-6045-4/26/$31.00 ©2026 Crown</strong>
                   </li>
                   <li>
-                    European Union authors:  
+                    European Union authors:{" "}
                     <strong>979-8-3315-6045-4/26/$31.00 ©2026 European Union</strong>
                   </li>
                   <li>
-                    All other papers:  
+                    All other papers:{" "}
                     <strong>979-8-3315-6045-4/26/$31.00 ©2026 IEEE</strong>
                   </li>
                 </ul>
@@ -107,9 +108,7 @@ const CameraReady = () => {
                 and enter Conference ID: <strong>69164X</strong>
               </li>
 
-              <li>
-                One full author registration covers the presentation of one paper.
-              </li>
+              <li>One full author registration covers the presentation of one paper.</li>
 
               <li>
                 <strong>
