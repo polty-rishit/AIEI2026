@@ -26,8 +26,7 @@ const WelcomeMessage = () => {
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 General Chair, AIEI 2026 <br />
-                  National Institute of Technology Jamshedpur, India
-                
+                National Institute of Technology Jamshedpur, India
               </p>
             </div>
           </div>
@@ -52,7 +51,10 @@ const WelcomeMessage = () => {
         </div>
 
         {/* MESSAGE CONTENT */}
-        <div className="bg-white rounded-lg p-6 lg:p-10 shadow">
+        <div
+          className="bg-white rounded-lg p-6 lg:p-10 shadow"
+          style={{ textAlign: "justify", textJustify: "inter-word" }}
+        >
           <p className="text-gray-700 leading-relaxed mb-6">
             It is my great pleasure to welcome you to the{" "}
             <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong>,{" "}
@@ -134,8 +136,7 @@ const WelcomeMessage = () => {
             <h4 className="font-semibold text-gray-800">Dr. V. P. Meena</h4>
             <p className="text-gray-600 text-sm">
               General Chair, AIEI 2026 <br />
-                National Institute of Technology Jamshedpur, India
-             
+              National Institute of Technology Jamshedpur, India
             </p>
           </div>
 

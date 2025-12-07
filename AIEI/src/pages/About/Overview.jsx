@@ -31,7 +31,10 @@ const Overview = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex-grow px-6 md:px-20 py-12 max-w-6xl mx-auto text-gray-800">
+      <div
+        className="flex-grow px-6 md:px-20 py-12 max-w-6xl mx-auto text-gray-800"
+        style={{ textAlign: "justify", textJustify: "inter-word" }}
+      >
 
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           IEEE International Conference on AI Engineering and Innovation (AIEI 2026)
@@ -43,7 +46,7 @@ const Overview = () => {
         </p>
 
         <p className="mb-6 leading-relaxed">
-          The <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)  </strong>
+          The <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong>
           will be held on <strong>March 26–28, 2026</strong>, at the 
           <strong> National Institute of Technology (NIT) Jamshedpur, India</strong>.  
           This first edition of the conference is designed to bring together leading researchers, 
@@ -55,56 +58,73 @@ const Overview = () => {
         <p className="mb-6 leading-relaxed">
           AIEI 2026 is jointly organized by the
           <a 
-              href="https://www.nitjsr.ac.in" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            > <strong> Department of Electrical Engineering, 
-          National Institute of Technology Jamshedpur, India</strong></a>
-           
-          , and the 
+            href="https://www.nitjsr.ac.in" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> Department of Electrical Engineering, 
+            National Institute of Technology Jamshedpur, India</strong>
+          </a>,
+          and the 
           <a 
-              href="https://www.ai-research-lab.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            >  <strong> USD Artificial Intelligence Research Lab, University of South Dakota, USA</strong></a>
-         ,  
+            href="https://www.ai-research-lab.org/" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> USD Artificial Intelligence Research Lab, University of South Dakota, USA</strong>
+          </a>,
           in collaboration with the 
           <a 
-              href="https://www.ieee.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            ><strong> IEEE</strong></a>, the 
+            href="https://www.ieee.org/" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE</strong>
+          </a>, the 
           <a 
-              href="https://ieeesystemscouncil.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            ><strong> IEEE Systems Council</strong> </a>, 
-          the <a 
-              href="https://ewh.ieee.org/r10/calcutta/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            > <strong> IEEE Kolkata Section</strong></a>, and the
+            href="https://ieeesystemscouncil.org/" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE Systems Council</strong>
+          </a>, 
+          the 
           <a 
-              href="https://www.nitjsr.ac.in" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            > <strong> IEEE Student Branch, NIT Jamshedpur</strong></a>.  
-          The <a 
-              href="https://www.manipal.edu/mit.html" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            ><strong>Manipal Institute of Technology, Manipal, Karnataka</strong></a> , serves as the Knowledge Partner, 
-          contributing academic and research leadership to the event.  
+            href="https://ewh.ieee.org/r10/calcutta/" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE Kolkata Section</strong>
+          </a>, and the
+          <a 
+            href="https://www.nitjsr.ac.in" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE Student Branch, NIT Jamshedpur</strong>
+          </a>.  
+          The 
+          <a 
+            href="https://www.manipal.edu/mit.html" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong>Manipal Institute of Technology, Manipal, Karnataka</strong>
+          </a>
+          , serves as the Knowledge Partner, contributing academic and research leadership to the event.  
           Together, these organizations form the sponsoring and co-sponsoring bodies, ensuring strong 
           academic, technical, and financial support for the conference.
         </p>
 
         <p className="mb-6 leading-relaxed">
-          As a flagship international conference of the <a 
-              href="https://ieeesystemscouncil.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            ><strong>IEEE Systems Council</strong></a> ,  
+          As a flagship international conference of the 
+          <a 
+            href="https://ieeesystemscouncil.org/" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE Systems Council</strong>
+          </a>,  
           AIEI 2026 is committed to fostering multidisciplinary collaboration and accelerating the 
           advancement of next-generation AI technologies capable of addressing critical societal and 
           industrial challenges across diverse domains.
@@ -120,12 +140,13 @@ const Overview = () => {
         <p className="mb-6 leading-relaxed">
           All accepted and presented papers will be submitted for inclusion in the 
           <a 
-              href="https://ieeexplore.ieee.org/Xplore/home.jsp" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            ><strong>  IEEE Xplore Digital Library </strong></a>
-           and indexed in major scientific databases, ensuring  
-          global research visibility and high academic impact 
+            href="https://ieeexplore.ieee.org/Xplore/home.jsp" 
+            target="_blank" 
+            className="text-blue-500 font-semibold"
+          >
+            <strong> IEEE Xplore Digital Library </strong>
+          </a>
+          and indexed in major scientific databases, ensuring global research visibility and high academic impact 
           <em> (subject to IEEE approval)</em>.
         </p>
 
