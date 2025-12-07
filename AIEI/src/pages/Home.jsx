@@ -279,9 +279,11 @@ const App = () => {
           {label}
         </div>
       </div>
+      
     ))}
   </div>
 </div>
+
 
     </div>
   </div>
@@ -334,9 +336,6 @@ const App = () => {
     </p>
   </div>
 </div>
-
-
-
   </div>
 </div>
 
