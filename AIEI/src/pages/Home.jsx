@@ -416,133 +416,135 @@ const App = () => {
  <WelcomeMessage/>
 
 
-      {/* Key Dates Section */}
-      <section id="keydates" className="py-20 bg-white-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Key Dates</h2>
-            <p className="text-xl text-gray-600">Important milestones for AIEI 2026</p>
+     {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
+<section className="w-full bg-gray-50 py-20">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+      {/* ------------------ LEFT CONTENT ------------------ */}
+      <div className="lg:col-span-2 flex flex-col gap-20">
+
+        {/* =============== About NIT Jamshedpur Section =============== */}
+        {/* =============== About NIT Jamshedpur Section =============== */}
+<section id="nitjsr" className="w-full">
+  <div className="max-w-7xl mx-auto">
+
+    {/* HEADING */}
+    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+      About NIT Jamshedpur
+    </h2>
+
+    {/* IMAGE WITH FLOAT (same ratio as department) */}
+    <img
+      src="./nitjsr.jpg"
+      alt="NIT Jamshedpur Campus"
+      className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-3xl shadow-2xl object-cover"
+    />
+
+    {/* WRAPPING TEXT */}
+    <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+      The National Institute of Technology Jamshedpur (NIT Jamshedpur),
+      an Institute of National Importance located in Jamshedpur, Jharkhand, 
+      India, was established in 1960 as the Regional Institute of Technology 
+      and upgraded to NIT with Deemed University status on 27 December 2002. 
+      Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of 
+      Education, Government of India, the institute is committed to 
+      high-quality teaching, advanced research, innovation, and 
+      industry-oriented training.
+    </p>
+
+    <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+      As the third institute in the chain of eight NITs created under the 
+      Second Five-Year Plan, it now comprises twelve academic departments 
+      offering B.Tech, M.Tech, M.Sc, MCA, and Ph.D programs, with a strong 
+      emphasis on academic excellence, good governance, and leadership in 
+      engineering education and research.
+    </p>
+
+    {/* CLEAR FLOAT TO RESET FLOW */}
+    <div className="clear-both"></div>
+
+  </div>
+</section>
+
+
+
+        {/* =============== Department Section (unchanged except flow) =============== */}
+        {/* =============== Department of Electrical Engineering Section =============== */}
+<section id="department" className="w-full">
+  <div className="max-w-7xl mx-auto">
+
+    {/* HEADING */}
+    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+      Department of Electrical Engineering
+    </h2>
+
+    {/* IMAGE WITH FLOAT */}
+    <img
+  src="./Department.jpg"
+  alt="Electrical Engineering Department"
+  className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
+ />
+
+
+    {/* TEXT THAT WRAPS BEAUTIFULLY */}
+    <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+      The Department of Electrical Engineering was established in 1960 and has consistently 
+      produced highly skilled and industry-ready engineers since its inception. Along with strong 
+      academic foundations, the department is actively involved in research and development across 
+      emerging areas of electrical engineering.
+    </p>
+
+    <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+      The alumni of the department are well placed in both public and private sectors, contributing 
+      significantly to power systems, industries, research organizations, and higher education globally. 
+      In addition to the undergraduate (B.Tech) programme, the department offers postgraduate 
+      programmes in Power Systems and Power Electronics & Drives, along with a Ph.D. programme 
+      covering multiple specialized domains.
+    </p>
+
+    <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+      The department aims to emerge as a front-runner in addressing the evolving needs of the power 
+      sector, electrical industries, and public services. With a commitment to high human values and 
+      societal impact, it strives to impart quality education, develop advanced skills, and establish 
+      state-of-the-art research facilities. These efforts contribute to socio-economic development 
+      and support the vision of sustainable growth for society.
+    </p>
+
+    {/* CLEAR FLOAT SO NEXT CONTENT STARTS BELOW IMAGE */}
+    <div className="clear-both"></div>
+
+  </div>
+</section>
+
+
+
+      </div>
+
+      {/* ------------------ RIGHT COLUMN: KEY DATES ------------------ */}
+      <div className="lg:col-span-1">
+        <section id="keydates" className="bg-white p-8 rounded-3xl shadow-2xl sticky top-20">
+
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-900">Key Dates</h2>
+            <p className="text-lg text-gray-600">AIEI 2026 Timeline</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Small, clean card list (NO ICONS NOW) */}
+          <div className="flex flex-col gap-5">
             {keyDates.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+                className="bg-gray-50 border border-gray-200 rounded-xl p-4 hover:bg-white hover:shadow-md transition-all duration-200"
               >
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    {getIconForTitle(item.title)}
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="text-blue-600 font-medium">{item.date}</p>
-                </div>
+                <p className="text-lg font-semibold text-gray-900">{item.title}</p>
+                <p className="text-blue-600 font-medium">{item.date}</p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* About Conference Section */}
-      {/* <section id="about" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">About AIEI 2026</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                The IEEE International Conference on AI Engineering and Innovations (AIEI 2026) brings together leading researchers, engineers, and industry professionals to explore the latest advances in artificial intelligence and its engineering applications.
-              </p>
-              <p className="text-lg text-gray-600 mb-6">
-                This premier conference provides a platform for sharing cutting-edge research, innovative solutions, and emerging trends in AI engineering, machine learning, and intelligent systems.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <i className="fas fa-check-circle text-green-500 mr-3"></i>
-                  <span className="text-gray-700">|| Peer-reviewed research presentations</span>
-                </div>
-                <div className="flex items-center">
-                  <i className="fas fa-check-circle text-green-500 mr-3"></i>
-                  <span className="text-gray-700">|| Industry keynote speakers</span>
-                </div>
-                <div className="flex items-center">
-                  <i className="fas fa-check-circle text-green-500 mr-3"></i>
-                  <span className="text-gray-700">|| Networking opportunities</span>
-                </div>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="./ai.jpeg"
-                alt="AI Conference"
-                className="w-full h-full object-cover object-top"
-              />
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-     
-
-      {/* About NIT Jamshedpur Section */}
-     <section id="nitjsr" className="py-20 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid lg:grid-cols-2 gap-12 items-center">
-
-      {/* LEFT IMAGE (on desktop) / BOTTOM IMAGE (on mobile) */}
-      <div className="overflow-hidden rounded-3xl shadow-2xl h-[420px] order-2 lg:order-1">
-        <img
-          src="./nitjsr.jpg"
-          alt="NIT Jamshedpur Campus"
-          className="w-full h-full object-cover object-center"
-        />
-      </div>
-
-      {/* RIGHT TEXT (on desktop) / TOP TEXT (on mobile) */}
-      <div className="order-1 lg:order-2">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-          About NIT Jamshedpur
-        </h2>
-
-        <p className="text-lg text-gray-600 mb-6">
-          The National Institute of Technology Jamshedpur (NIT Jamshedpur), an Institute of 
-          National Importance located in Jamshedpur, Jharkhand, India, was established in 1960 
-          as the Regional Institute of Technology and upgraded to NIT with Deemed University 
-          status on 27 December 2002. Ranked 82nd in the NIRF 2025 Engineering Rankings by the 
-          Ministry of Education, Government of India, the institute is committed to high-quality 
-          teaching, advanced research, innovation, and industry-oriented training.
-        </p>
-
-        <p className="text-lg text-gray-600 mb-10">
-          As the third institute in the chain of eight NITs created under the Second Five-Year 
-          Plan, it now comprises twelve academic departments offering B.Tech, M.Tech, M.Sc, 
-          MCA, and Ph.D programs, with a strong emphasis on academic excellence, good governance, 
-          and leadership in engineering education and research.
-        </p>
-
-        {/* STATS GRID */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">60+</div>
-            <div className="text-gray-600 text-sm">Years of Excellence</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">15+</div>
-            <div className="text-gray-600 text-sm">Departments</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">200+</div>
-            <div className="text-gray-600 text-sm">Faculty Members</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">5000+</div>
-            <div className="text-gray-600 text-sm">Active Students</div>
-          </div>
-
-        </div>
+        </section>
       </div>
 
     </div>
@@ -551,67 +553,6 @@ const App = () => {
 
 
 
-     <section id="department" className="py-24 bg-gradient-to-b from-gray-50 to-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-    {/* 
-      Default (mobile): text first, image after 
-      Large screens (lg+): row layout with image on right
-    */}
-    <div className="flex flex-col lg:flex-row gap-16 items-center">
-
-      {/* Text Content */}
-      <div className="w-full lg:w-1/2 order-1">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-          Department of Electrical Engineering
-        </h2>
-
-        <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-          The Department of Electrical Engineering at NIT Jamshedpur stands as one of the institute’s most prominent and historic departments, known for academic excellence, practical learning, and a strong research culture.
-        </p>
-
-        <p className="text-lg text-gray-600 mb-10 leading-relaxed">
-          With advanced programs in Power Systems, Electric Drives, Renewable Energy, Control Engineering, Power Electronics, and Smart Grids, the department equips students with future-ready skills supported by modern laboratories and active research initiatives.
-        </p>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-4xl font-extrabold text-blue-600 mb-1">12+</div>
-            <div className="text-gray-600 text-sm font-medium">Specialized Labs</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-4xl font-extrabold text-blue-600 mb-1">30+</div>
-            <div className="text-gray-600 text-sm font-medium">Faculty Members</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-4xl font-extrabold text-blue-600 mb-1">50+</div>
-            <div className="text-gray-600 text-sm font-medium">Annual Publications</div>
-          </div>
-
-          <div className="text-center">
-            <div className="text-4xl font-extrabold text-blue-600 mb-1">700+</div>
-            <div className="text-gray-600 text-sm font-medium">Active Students</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Image - Always at the bottom on small screens */}
-      <div className="w-full lg:w-1/2 order-2">
-        <div className="overflow-hidden rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-500">
-          <img
-            src="./Department.jpg"
-            alt="Electrical Engineering Department"
-            className="w-full h-[450px] object-cover object-center"
-          />
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 
 

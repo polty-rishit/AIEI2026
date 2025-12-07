@@ -98,7 +98,7 @@ const CameraReady = () => {
                 IEEE requires strict PDF compliance.  
                 Use{" "}
                 <a
-                  href="https://www.pdf-express.org/"
+                  href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F"
                   target="_blank"
                   className="text-blue-600 underline"
                 >
