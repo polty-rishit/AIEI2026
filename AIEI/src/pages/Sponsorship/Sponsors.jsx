@@ -270,9 +270,11 @@ const Sponsors = () => {
 {/* ADDITIONAL OPPORTUNITIES – RESPONSIVE SIDE-BY-SIDE */}
 <section className="py-20 px-6 md:px-20 bg-white -mt-25">
 
-  <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-yellow-500">
-    Additional Opportunities
-  </h2>
+  <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-yellow-500 flex items-center gap-4">
+  <span className="w-2 h-12 bg-yellow-500 rounded-full shadow-md block"></span>
+  Additional Opportunities
+</h2>
+
 
   {/* RESPONSIVE WRAPPER */}
   <div className="flex flex-col lg:flex-row gap-16 items-start w-full">
@@ -324,9 +326,11 @@ const Sponsors = () => {
 
       {/* Terms of Payment */}
       <div>
-        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide">
-          Terms of Payment
-        </h2>
+        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide flex items-center gap-3">
+  <span className="w-2 h-8 bg-yellow-500 rounded-full shadow-md block"></span>
+  Terms of Payment
+</h2>
+
         <ul className="text-gray-800 text-lg font-semibold space-y-3 leading-relaxed pl-2">
           <li>• Invoice will be issued upon agreement.</li>
           <li>• 100% payment required within 30 days of invoice.</li>
@@ -338,9 +342,11 @@ const Sponsors = () => {
 
       {/* Bank Transfer */}
       <div>
-        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide">
-          Bank Transfer
-        </h2>
+        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide flex items-center gap-3">
+  <span className="w-2 h-8 bg-yellow-500 rounded-full shadow-md block"></span>
+  Bank Transfer
+</h2>
+
         <div className="text-gray-800 text-lg font-semibold space-y-3 leading-relaxed pl-2">
           <p>• Account No.: <span className="font-extrabold">38246478714</span></p>
           <p>• Account Name: <span className="font-extrabold">NIT JAMSHEDPUR RESEARCH AND TECHNOLOGY</span></p>
@@ -351,9 +357,11 @@ const Sponsors = () => {
 
       {/* Apply Button */}
       <div>
-        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide">
-          Apply
-        </h2>
+        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide flex items-center gap-3">
+  <span className="w-2 h-8 bg-yellow-500 rounded-full shadow-md block"></span>
+  Apply
+</h2>
+
         <a href="/form"><button className="
             w-full bg-green-600 hover:bg-green-700 text-white py-4 
             text-xl font-extrabold rounded-xl shadow-lg 
@@ -365,11 +373,13 @@ const Sponsors = () => {
 
       {/* Contact Person */}
       <div>
-        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide">
-          Contact Person
-        </h2>
+        <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide flex items-center gap-3">
+  <span className="w-2 h-8 bg-yellow-500 rounded-full shadow-md block"></span>
+  Contact Person
+</h2>
+
         <div className="text-red-600 text-lg font-bold space-y-2 pl-2">
-          <p>• Dr. Veer Pratap Meena : +91 9461109902</p>
+          <p>• Dr. Veerpratap Meena : +91 9461109902</p>
           <p>• Mail: aiengineeringconference@gmail.com</p>
         </div>
       </div>
