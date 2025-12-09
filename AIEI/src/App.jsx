@@ -18,6 +18,7 @@ import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/About/ImportantDates'
 import CameraReady from './pages/Authors/CameraReady'
+import Sponsors from './pages/Sponsorship/Sponsors'
 
  
  const App = () => {
@@ -49,6 +50,7 @@ import CameraReady from './pages/Authors/CameraReady'
          <Route path='/registration' element={<Registration/>}/>
          <Route path='/dates' element={<ImportantDates/>}/>
          <Route path='/camera' element={<CameraReady/>}/>
+         <Route path='/sponsors' element={<Sponsors/>}/>
          </Routes>
      </div>
    )
