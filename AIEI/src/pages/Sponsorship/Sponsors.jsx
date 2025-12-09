@@ -267,23 +267,21 @@ const Sponsors = () => {
 {/* ELEGANT ADDITIONAL OPPORTUNITIES + RIGHT SIDEBAR */}
 {/* ADDITIONAL OPPORTUNITIES + RIGHT SIDEBAR (SIDE-BY-SIDE, BEAUTIFUL UI) */}
 {/* ADDITIONAL OPPORTUNITIES + RIGHT SIDEBAR (ALWAYS SIDE-BY-SIDE) */}
+{/* ADDITIONAL OPPORTUNITIES – RESPONSIVE SIDE-BY-SIDE */}
 <section className="py-20 px-6 md:px-20 bg-white -mt-25">
 
-  {/* Section Title */}
   <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-yellow-500">
     Additional Opportunities
   </h2>
 
-  {/* FIXED SIDE-BY-SIDE WRAPPER */}
-  <div className="flex flex-row gap-16 w-full">
+  {/* RESPONSIVE WRAPPER */}
+  <div className="flex flex-col lg:flex-row gap-16 items-start w-full">
 
     {/* LEFT COLUMN — TABLE */}
-    <div className="w-1/2">
+    <div className="w-full lg:w-1/2">
       <div className="rounded-2xl shadow-xl border border-[#cfe8ed] overflow-hidden w-full">
 
         <table className="w-full">
-
-          {/* HEADER */}
           <thead>
             <tr className="bg-[#5baec0] text-white text-xl font-extrabold tracking-wide">
               <th className="py-5 px-6 border-r border-[#cfe8ed] text-left">ITEMS</th>
@@ -291,17 +289,16 @@ const Sponsors = () => {
             </tr>
           </thead>
 
-          {/* BODY */}
           <tbody className="text-gray-900 text-lg font-semibold">
             {[
               ["Conference Lanyard", "Brand Visibility Through Lanyards"],
               ["Conference Badges", "Brand Visibility Through Badges"],
-              ["Photography & Videography", "Branding in official photo & video coverage"],
+              ["Photography & Videography", "Branding in official photos & videos"],
               ["Food / Beverage", "Brand visibility on signage & menus"],
               ["Conference Kits", "Brand Visibility Through Kits"],
               ["Event Banners", "Brand Visibility Through Banners"],
               ["Transportation", "Brand visibility during travel"],
-              ["Award", "Brand recognition during the awards ceremony"],
+              ["Award", "Brand recognition during awards ceremony"],
               ["Lounge", "Brand Visibility Through Lounge"],
             ].map((row, i) => (
               <tr
@@ -322,8 +319,8 @@ const Sponsors = () => {
       </div>
     </div>
 
-    {/* RIGHT COLUMN — TERMS OF PAYMENT + BANK + APPLY + CONTACT */}
-    <div className="w-1/2 space-y-12">
+    {/* RIGHT COLUMN — TERMS, BANK, APPLY, CONTACT */}
+    <div className="w-full lg:w-1/2 space-y-12">
 
       {/* Terms of Payment */}
       <div>
@@ -382,6 +379,7 @@ const Sponsors = () => {
     </div>
   </div>
 </section>
+
 <Footer/>
     </div>
   );
