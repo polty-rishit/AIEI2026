@@ -1,5 +1,5 @@
  import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Form, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import General from './pages/General'
 import Committee from './pages/About/Committee'
@@ -19,6 +19,7 @@ import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/About/ImportantDates'
 import CameraReady from './pages/Authors/CameraReady'
 import Sponsors from './pages/Sponsorship/Sponsors'
+import Sform from './pages/Sponsorship/Sform'
 
  
  const App = () => {
@@ -51,6 +52,7 @@ import Sponsors from './pages/Sponsorship/Sponsors'
          <Route path='/dates' element={<ImportantDates/>}/>
          <Route path='/camera' element={<CameraReady/>}/>
          <Route path='/sponsors' element={<Sponsors/>}/>
+         <Route path='/form' element={<Sform/>}/>
          </Routes>
      </div>
    )

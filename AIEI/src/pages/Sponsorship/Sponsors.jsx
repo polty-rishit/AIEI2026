@@ -354,15 +354,13 @@ const Sponsors = () => {
         <h2 className="text-3xl font-extrabold text-yellow-500 mb-5 tracking-wide">
           Apply
         </h2>
-        <button
-          className="
+        <a href="/form"><button className="
             w-full bg-green-600 hover:bg-green-700 text-white py-4 
             text-xl font-extrabold rounded-xl shadow-lg 
             transition-transform duration-300 hover:scale-[1.03]
-          "
-        >
+          ">
           Apply Here
-        </button>
+        </button></a>
       </div>
 
       {/* Contact Person */}
