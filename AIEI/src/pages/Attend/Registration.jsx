@@ -12,7 +12,7 @@ const Registration = () => {
         <img
           src="/photo1.jpg"
           alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full  object-cover"
         />
         <div className="absolute inset-0 bg-[#1a1f4a]/40 backdrop-blur-sm"></div>
 
