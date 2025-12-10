@@ -20,6 +20,7 @@ import ImportantDates from './pages/About/ImportantDates'
 import CameraReady from './pages/Authors/CameraReady'
 import Sponsors from './pages/Sponsorship/Sponsors'
 import Sform from './pages/Sponsorship/Sform'
+import Gallery from './pages/Attend/Gallery'
 
  
  const App = () => {
@@ -53,6 +54,7 @@ import Sform from './pages/Sponsorship/Sform'
          <Route path='/camera' element={<CameraReady/>}/>
          <Route path='/sponsors' element={<Sponsors/>}/>
          <Route path='/form' element={<Sform/>}/>
+         <Route path='/gallery' element={<Gallery/>}/>
          </Routes>
      </div>
    )

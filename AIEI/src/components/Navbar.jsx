@@ -275,7 +275,7 @@ const handleRegistrationLeave = () => {
     <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10">
       {/* <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a> */}
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
-      <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Visa</a>
+      <a href="/gallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Gallery</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
       <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a>
     </div>
@@ -462,7 +462,7 @@ const handleRegistrationLeave = () => {
     <div className="ml-4 mt-2 space-y-2">
       {/* <a href="/registration" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Registration</a> */}
       <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
-      <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Visa</a>
+      <a href="/gallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Gallery</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
       <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a>
     </div>
