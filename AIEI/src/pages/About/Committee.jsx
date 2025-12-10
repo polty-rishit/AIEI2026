@@ -27,42 +27,46 @@ const Committee = () => {
       {/* Committee Sections */}
       <main className="bg-white py-16 px-4 flex flex-col items-center space-y-20">
 
-        {/* ====================== ROW 1: Chief Patron + Patron ====================== */}
+
+        {/* ====================== CHIEF PATRON ====================== */}
         <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-10">
-            Chief Patron & Patron
+          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
+            Chief Patron
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-center">
-
-            {/* Chief Patron */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="/director.png" alt="Chief Patron" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Prof. Goutam Sutradhar <br />
-                Director, NIT Jamshedpur
-              </p>
+          <div className="text-center">
+            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
+              <img src="/director.png" alt="Chief Patron" className="w-full h-full object-cover" />
             </div>
-
-            {/* Patron */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="/deputy Director.png" alt="Patron" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Prof. R.V. Sharma <br />
-                Deputy Director, NIT Jamshedpur
-              </p>
-            </div>
-
+            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
+              Prof. Goutam Sutradhar <br />
+              Director, NIT Jamshedpur
+            </p>
           </div>
         </div>
 
-        {/* ====================== ROW 2: Co-Patrons (Single Heading) ====================== */}
+
+        {/* ====================== PATRON ====================== */}
         <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-10">
+          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
+            Patron
+          </h3>
+
+          <div className="text-center">
+            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
+              <img src="/deputy Director.png" alt="Patron" className="w-full h-full object-cover" />
+            </div>
+            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
+              Prof. R.V. Sharma <br />
+              Deputy Director, NIT Jamshedpur
+            </p>
+          </div>
+        </div>
+
+
+        {/* ====================== CO-PATRONS ====================== */}
+        <div>
+          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
             Co-Patrons
           </h3>
 
@@ -93,7 +97,27 @@ const Committee = () => {
           </div>
         </div>
 
-        {/* ====================== ROW 3: Technical Program Chairs (Single Heading) ====================== */}
+
+        {/* ====================== HONORARY CHAIR (Moved BELOW Co-Patrons) ====================== */}
+        <div>
+          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
+            Honorary Chair
+          </h3>
+
+          <div className="text-center">
+            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
+              <img src="https://ice2cpt.com/images/sanj.png" alt="Honorary Chair" className="w-full h-full object-cover" />
+            </div>
+
+            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
+              Prof. Sanjeevikumar Padmanaban<br/>
+              University of South-Eastern Norway
+            </p>
+          </div>
+        </div>
+
+
+        {/* ====================== TECHNICAL PROGRAM CHAIRS ====================== */}
         <div>
           <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-10">
             Technical Program Chairs
@@ -115,7 +139,7 @@ const Committee = () => {
             {/* Tech Chair 2 */}
             <div>
               <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="https://th.bing.com/th/id/OIP.vGL6puDg4dxdKpsTzULY5QHaHa?w=164&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" alt="Tech Secretary" className="w-full h-full object-cover" />
+                <img src="https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" alt="Tech Secretary" className="w-full h-full object-cover" />
               </div>
               <p className="mt-4 text-xl font-bold uppercase text-gray-700">
                 Dr. Tridibesh Nag <br />
@@ -123,24 +147,6 @@ const Committee = () => {
               </p>
             </div>
 
-          </div>
-        </div>
-
-        {/* ====================== ROW 4: Honorary Chair (Single Photo) ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-10">
-            Honorary Chair
-          </h3>
-
-          <div className="text-center">
-            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-              <img src="https://ice2cpt.com/images/sanj.png" alt="Honorary Chair" className="w-full h-full object-cover" />
-            </div>
-
-            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-              Prof. Sanjeevikumar Padmanaban<br/>
-              University of South-Eastern Norway
-            </p>
           </div>
         </div>
 
