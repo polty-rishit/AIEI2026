@@ -139,7 +139,7 @@ const Committee = () => {
 
             <p className="mt-4 text-xl font-bold uppercase text-gray-700">
               Prof. Sanjeevikumar Padmanaban<br/>
-University of South-Eastern Norway
+              University of South-Eastern Norway
             </p>
           </div>
         </div>
