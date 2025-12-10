@@ -47,7 +47,7 @@ const Committee = () => {
             <p className="mt-4 text-xl font-semibold text-gray-700">
               {/* Add Name Here */}
               Prof. Goutam Sutradhar<br></br>
-              Director, NIT Jamshedpur
+              Director, NIT Jamshedpur is
             </p>
           </div>
 
