@@ -63,7 +63,7 @@ const Registration = () => {
             Early-bird payment confirmation will be shared through email.
           </li>
           <li className="font-semibold">
-            Extra pages Charges : Rs. 2500 or USD 25 + 18% GST per Page.
+            Extra pages Charges : Rs. 2500 or USD 30 + 18% GST per Page.
           </li>
           <li className="font-semibold">
             Registration fee is non-refundable.

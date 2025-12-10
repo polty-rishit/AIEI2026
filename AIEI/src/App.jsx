@@ -21,6 +21,7 @@ import CameraReady from './pages/Authors/CameraReady'
 import Sponsors from './pages/Sponsorship/Sponsors'
 import Sform from './pages/Sponsorship/Sform'
 import Gallery from './pages/Attend/Gallery'
+import AuthInfo from './pages/Authors/AuthInfo'
 
  
  const App = () => {
@@ -55,6 +56,7 @@ import Gallery from './pages/Attend/Gallery'
          <Route path='/sponsors' element={<Sponsors/>}/>
          <Route path='/form' element={<Sform/>}/>
          <Route path='/gallery' element={<Gallery/>}/>
+         <Route path='/authinfo' element={<AuthInfo/>}/>
          </Routes>
      </div>
    )

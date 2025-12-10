@@ -165,7 +165,7 @@ const handleRegistrationLeave = () => {
                     <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
                      <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
                     
-                    <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
+                    <a href="/authinfo" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
                     
               
                     <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
@@ -374,7 +374,7 @@ const handleRegistrationLeave = () => {
                   <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
                   <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
                   
-                  <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
+                  <a href="/authinfo" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
                   
                   <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
                 </div>
