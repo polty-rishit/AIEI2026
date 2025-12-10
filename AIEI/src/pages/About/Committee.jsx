@@ -34,7 +34,7 @@ const Committee = () => {
 
           {/* Chief Patron */}
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+            <h3 className="text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-6">
               Chief Patron
             </h3>
             <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
@@ -53,7 +53,7 @@ const Committee = () => {
 
           {/* Co-Patron */}
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+            <h3 className="text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-6">
               Co-Patron
             </h3>
             <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
