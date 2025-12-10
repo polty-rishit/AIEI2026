@@ -131,6 +131,7 @@ const CameraReady = () => {
                   <li>Upload it back to CMT under the copyright section.</li>
                 </ul>
               </li>
+              <li>The PDF must be generated using the IEEE PDF eXpress portal. After downloading the validated PDF, it must be re-uploaded to PDF eXpress to obtain a “Passed” status. <strong>After that the status of the submission should be marked as approved.</strong></li>
             </ol>
 
             <p>
