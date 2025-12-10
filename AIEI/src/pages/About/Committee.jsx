@@ -44,11 +44,11 @@ const Committee = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <p className="mt-4 text-xl font-semibold text-gray-700">
-              {/* Add Name Here */}
-              Prof. Goutam Sutradhar<br></br>
-              Director, NIT Jamshedpur 
-            </p>
+            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
+  Prof. Goutam Sutradhar <br />
+  Director, NIT Jamshedpur
+</p>
+
           </div>
 
           {/* Co-Patron */}
@@ -63,7 +63,7 @@ const Committee = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <p className="mt-4 text-xl font-semibold text-gray-700">
+            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
               {/* Add Name Here */}
               Prof. R.V. Sharma <br></br>
 Deputy Director, NIT Jamshedpur
