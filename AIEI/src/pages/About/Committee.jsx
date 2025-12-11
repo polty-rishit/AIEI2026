@@ -1,13 +1,72 @@
-import React from 'react';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import React from 'react'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+
+const councilMembers = [
+  {
+    role: "Chief Patron",
+    name: "Prof. Goutam Sutradhar",
+    title: "Director, NIT Jamshedpur",
+    image: "https://ice2cpt.com/images/dir.png",
+    link: "https://www.nitjsr.ac.in/Administration/Director"
+  },
+  {
+    role: "Patron",
+    name: "Prof. R.V. Sharma",
+    title: "Deputy Director, NIT Jamshedpur",
+    image: "https://ice2cpt.com/images/RVS.png",
+    link: "https://www.nitjsr.ac.in/Administration/deputy_director"
+  },
+  {
+    role: "Co-Patron",
+    name: "Prof. Satish Kumar",
+    title: "Dean (Research and Consultancy)",
+    image: "https://ice2cpt.com/images/satish%20kumar.jpeg",
+    link: "https://www.nitjsr.ac.in/people/profile/ME117"
+  },
+  {
+    role: "Co-Patron",
+    name: "Dr. Madhu Singh",
+    title: "HOD, Electrical Engineering, Associate Professor,NIT Jamshedpur",
+    image: "https://ice2cpt.com/images/Madhu.png",
+    link: "https://www.nitjsr.ac.in/people/profile/EE105"
+  },
+  {
+    role: "Honorary Chair",
+    name: "Prof. Sanjeevikumar Padmanaban",
+    title: "University of South-Eastern Norway",
+    image: "https://ice2cpt.com/images/sanj.png",
+    link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
+  },
+  {
+    role: "Technical Program Chair",
+    name: "Prof. Paolo Carbone",
+    title: "Vice President (Conferences), IEEE Systems Council",
+    image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
+    link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
+  },
+  {
+    role: "Technical Program Chair",
+    name: "Dr. Tridibesh Nag",
+    title: "Secretary, IEEE Kolkata Section",
+    image: "https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180",
+    link: "https://ewh.ieee.org/r10/calcutta/message_secretary.html"
+  },
+];
+
+// Group by roles
+const groupedMembers = councilMembers.reduce((acc, member) => {
+  if (!acc[member.role]) acc[member.role] = [];
+  acc[member.role].push(member);
+  return acc;
+}, {});
 
 const Committee = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <Navbar />
 
-      {/* Header Section */}
+      {/* Banner Section */}
       <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
         <img 
           src="/photo1.jpg" 
@@ -16,145 +75,65 @@ const Committee = () => {
         />
         <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
 
-        <div className="relative text-center text-white drop-shadow-lg">
-          <h1 className="text-2xl md:text-6xl font-bold mb-1">Organizing Committee</h1>
+        <div className="relative text-center text-white drop-shadow-lg px-4">
+          <h1 className="text-2xl md:text-6xl font-bold mb-1">
+          Organizing Committee
+          </h1>
           <h2 className="text-sm md:text-2xl font-medium">
             IEEE International Conference on AI Engineering and Innovation
           </h2>
         </div>
       </div>
 
-      {/* Committee Sections */}
-      <main className="bg-white py-16 px-4 flex flex-col items-center space-y-20">
+      {/* Council Members */}
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 space-y-20">
+        
+        {Object.keys(groupedMembers).map((role, index) => (
+          <div key={index} className="w-full">
+            
+            {/* Role Heading */}
+            <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 uppercase mb-10 -mt-10">
+              {role}
+            </h2>
 
+            {/* Members */}
+            <div className="flex flex-wrap justify-center gap-x-16 gap-y-16">
+              {groupedMembers[role].map((member, idx) => (
+                <div 
+                  key={idx} 
+                  className="flex flex-col items-center text-center w-[160px] sm:w-[190px] md:w-[220px]"
+                >
+                  {/* Image */}
+                  <img 
+                    src={member.image} 
+                    alt={member.name} 
+                    className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-md transform transition duration-300 hover:scale-105"
+                  />
 
-        {/* ====================== CHIEF PATRON ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
-            Chief Patron
-          </h3>
+                  {/* Name */}
+                  <a 
+                    href={member.link} 
+                    className="mt-2 text-base sm:text-lg md:text-xl font-bold text-blue-700 hover:underline leading-tight"
+                  >
+                    {member.name}
+                  </a>
 
-          <div className="text-center">
-            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-              <img src="/director.png" alt="Chief Patron" className="w-full h-full object-cover" />
-            </div>
-            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-              Prof. Goutam Sutradhar <br />
-              Director, NIT Jamshedpur
-            </p>
-          </div>
-        </div>
-
-
-        {/* ====================== PATRON ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
-            Patron
-          </h3>
-
-          <div className="text-center">
-            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-              <img src="/deputy Director.png" alt="Patron" className="w-full h-full object-cover" />
-            </div>
-            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-              Prof. R.V. Sharma <br />
-              Deputy Director, NIT Jamshedpur
-            </p>
-          </div>
-        </div>
-
-
-        {/* ====================== CO-PATRONS ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
-            Co-Patrons
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-center">
-
-            {/* Co-Patron 1 */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="/satish kumar.jpeg" alt="Co Patron" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Prof. Satish Kumar <br />
-                Dean (Research and Consultancy)
-              </p>
-            </div>
-
-            {/* Co-Patron 2 */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="/Madhu.png" alt="Co Patron" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Dr. Madhu Singh <br />
-                HOD, Electrical Engineering
-              </p>
+                  {/* Title */}
+                  <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-tight mt-1">
+                    {member.title}
+                  </p>
+                </div>
+              ))}
             </div>
 
           </div>
-        </div>
+        ))}
 
-
-        {/* ====================== HONORARY CHAIR (Moved BELOW Co-Patrons) ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-black mb-10">
-            Honorary Chair
-          </h3>
-
-          <div className="text-center">
-            <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-              <img src="https://ice2cpt.com/images/sanj.png" alt="Honorary Chair" className="w-full h-full object-cover" />
-            </div>
-
-            <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-              Prof. Sanjeevikumar Padmanaban<br/>
-              University of South-Eastern Norway
-            </p>
-          </div>
-        </div>
-
-
-        {/* ====================== TECHNICAL PROGRAM CHAIRS ====================== */}
-        <div>
-          <h3 className="text-center text-3xl md:text-4xl uppercase font-bold text-gray-800 mb-10">
-            Technical Program Chairs
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-center">
-
-            {/* Tech Chair 1 */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq" alt="Tech Secretary" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Prof. Paolo Carbone <br />
-                Vice President (Conferences)<br/> IEEE Systems Council, University of Perugia
-              </p>
-            </div>
-
-            {/* Tech Chair 2 */}
-            <div>
-              <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-yellow-500">
-                <img src="https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" alt="Tech Secretary" className="w-full h-full object-cover" />
-              </div>
-              <p className="mt-4 text-xl font-bold uppercase text-gray-700">
-                Dr. Tridibesh Nag <br />
-                Secretary, IEEE Kolkata Section
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-      </main>
+      </div>
 
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Committee;
+export default Committee

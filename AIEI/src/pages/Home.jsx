@@ -352,7 +352,7 @@ const App = () => {
   {/* Logo 1 */}
   <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
     <img
-      src="./ieeeKolkatta.png"
+      src="ieeeSystem.png"
       alt="IEEE Kolkata Section Logo"
       className="max-h-full max-w-full object-contain"
     />
@@ -370,7 +370,7 @@ const App = () => {
   {/* Logo 3 */}
   <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
     <img
-      src="./ieeeSystem.png"
+      src="./ieeeKolkatta.png"
       alt="IEEE Systems Council Logo"
       className="max-h-full max-w-full object-contain"
     />
@@ -396,19 +396,33 @@ const App = () => {
     KNOWLEDGE PARTNER
   </p>
 
-  <div className="flex flex-col justify-center items-center gap-4 px-4 sm:px-10 md:px-20">
+  <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
 
-    {/* Logo */}
+    {/* Logo 1 */}
     <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-      <img
-        src="./MIT.png"   // <-- replace with actual logo file
+      <a href='https://www.manipal.edu/mit.html'>
+        <img
+        src="./MIT.png"
         alt="Technical Sponsor Logo"
         className="max-h-full max-w-full object-contain"
       />
+      </a>
+    </div>
+
+    {/* Logo 2 */}
+    <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      <a href='https://aiacademi.org/'>
+        <img
+        src="./techSponsor.png"
+        alt="Technical Sponsor Logo"
+        className="max-h-full max-w-full object-contain"
+      />
+      </a>
     </div>
 
   </div>
 </div>
+
 
 
 
