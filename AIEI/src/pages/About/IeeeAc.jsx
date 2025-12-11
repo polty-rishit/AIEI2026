@@ -4,71 +4,71 @@ import Footer from '../../components/Footer'
 
 const councilMembers = [
   {
-    name: "Takako Hashimoto",
-    title: "Director, IEEE Region-10",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/takako-hashimoto-1995071a/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=jp"
+    name: "Professor Steven Li",
+    title: "Western New England University,   President-elect of IEEE Systems Council 2026.",
+    image: "AdvisoryCouncil.png",
+    link: "https://ieeesystemscouncil.org/contact/zhaojun-steven-li"
   },
   {
-    name: "Deepak Mathur",
-    title: "IEEE Vice President, MGA",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/deepakmathur25/"
+    name: "Shiyan Hu",
+    title: "University of Southampton",
+    image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
+    link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
   },
-  {
-    name: "Sameer S M",
-    title: "Director Elect, IEEE Region-10",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/dr-sameer-s-m-27a177b0/?originalSubdomain=in"
-  },
-  {
-    name: "Srikanth Chandrasekaran",
-    title: "Country Head, IEEE India",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/srichandra-ieee/"
-  },
-  {
-    name: "Debabrata Das",
-    title: "Past Chair, IEEE India Council",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/debabrata-das-41712814/?originalSubdomain=in"
-  },
-  {
-    name: "Manoj B.S",
-    title: "Chair, IEEE Kerela Section",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/bsmanoj/?originalSubdomain=in"
-  },
-  {
-    name: "Surendra Pal",
-    title: "IEEE AP-S Adcom Member",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://surendapal1948.tripod.com/"
-  },
-  {
-    name: "Debatosh Guha",
-    title: "IEEE AP-S MGA Chair",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/debatosh-guha-2b0a3615/?originalSubdomain=in"
-  },
-  {
-    name: "Jaleel Akhtar",
-    title: "IEEE MTT-S Adcom Member",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/prof-dr-m-jaleel-akhtar-603a3363/?originalSubdomain=in"
-  },
-  {
-    name: "Chinmoy Saha",
-    title: "MTT-S SIGHT Chair, MTT-S R10 Coordinator.",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/dr-chinmoy-saha-7129a9192/"
-  },
-  {
-    name: "Jawad Y. Siddiqui",
-    title: "IEEE AP-S SIGHT Chair",
-    image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://www.linkedin.com/in/jawad-y-siddiqui-59454b65/"
-  },
+  // {
+  //   name: "Sameer S M",
+  //   title: "Director Elect, IEEE Region-10",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/dr-sameer-s-m-27a177b0/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Srikanth Chandrasekaran",
+  //   title: "Country Head, IEEE India",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/srichandra-ieee/"
+  // },
+  // {
+  //   name: "Debabrata Das",
+  //   title: "Past Chair, IEEE India Council",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/debabrata-das-41712814/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Manoj B.S",
+  //   title: "Chair, IEEE Kerela Section",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/bsmanoj/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Surendra Pal",
+  //   title: "IEEE AP-S Adcom Member",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://surendapal1948.tripod.com/"
+  // },
+  // {
+  //   name: "Debatosh Guha",
+  //   title: "IEEE AP-S MGA Chair",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/debatosh-guha-2b0a3615/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Jaleel Akhtar",
+  //   title: "IEEE MTT-S Adcom Member",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/prof-dr-m-jaleel-akhtar-603a3363/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Chinmoy Saha",
+  //   title: "MTT-S SIGHT Chair, MTT-S R10 Coordinator.",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/dr-chinmoy-saha-7129a9192/"
+  // },
+  // {
+  //   name: "Jawad Y. Siddiqui",
+  //   title: "IEEE AP-S SIGHT Chair",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/jawad-y-siddiqui-59454b65/"
+  // },
 ]
 
 const IeeeAc = () => {
