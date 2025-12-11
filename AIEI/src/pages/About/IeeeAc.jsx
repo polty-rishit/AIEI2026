@@ -5,13 +5,13 @@ import Footer from '../../components/Footer'
 const councilMembers = [
   {
     name: "Prof. Steven Li",
-    title: "Western New England University,   President-elect of IEEE Systems Council 2026.",
+    title: "Western New England University, President-Elect of IEEE Systems Council 2026.",
     image: "AdvisoryCouncil.png",
     link: "https://ieeesystemscouncil.org/contact/zhaojun-steven-li"
   },
   {
     name: "Prof. Shiyan Hu",
-    title: "University of Southampton,VP Technical Operations",
+    title: "University of Southampton, VP Technical Operations, IEEE Systems Council",
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
     link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
   },
