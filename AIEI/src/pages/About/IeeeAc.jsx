@@ -4,13 +4,13 @@ import Footer from '../../components/Footer'
 
 const councilMembers = [
   {
-    name: "Professor Steven Li",
+    name: "Prof. Steven Li",
     title: "Western New England University,   President-elect of IEEE Systems Council 2026.",
     image: "AdvisoryCouncil.png",
     link: "https://ieeesystemscouncil.org/contact/zhaojun-steven-li"
   },
   {
-    name: "Shiyan Hu",
+    name: "Prof. Shiyan Hu",
     title: "University of Southampton,VP Technical Operations",
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
     link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
@@ -87,7 +87,7 @@ const IeeeAc = () => {
 
         <div className="relative text-center text-white drop-shadow-lg px-4">
           <h1 className="text-2xl md:text-6xl font-bold mb-1">
-            IEEE Advisory Council
+            IEEE Advisory Committee
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
             IEEE International Conference on AI Engineering and Innovation
