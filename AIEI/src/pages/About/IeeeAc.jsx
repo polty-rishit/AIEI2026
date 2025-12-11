@@ -11,7 +11,7 @@ const councilMembers = [
   },
   {
     name: "Shiyan Hu",
-    title: "University of Southampton",
+    title: "University of Southampton,VP Technical Operations",
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
     link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
   },

@@ -34,7 +34,7 @@ const councilMembers = [
   {
     role: "Honorary Chair",
     name: "Prof. Sanjeevikumar Padmanaban",
-    title: "University of South-Eastern Norway",
+    title: "University of South-Eastern Norway,VP Education",
     image: "https://ice2cpt.com/images/sanj.png",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
   },
