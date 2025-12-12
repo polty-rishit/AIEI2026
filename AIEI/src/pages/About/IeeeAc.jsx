@@ -15,6 +15,18 @@ const councilMembers = [
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
     link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
   },
+  {
+    name: "Mr. Walter D. Downing",
+    title: "P.E. Southwest Research Institute Past President, IEEE Systems Council",
+    image: "/Walt.jpg",
+    link: "https://ieeesystemscouncil.org/contact/walter-downing"
+  },
+  {
+    name: "Prof. Andy Chen",
+    title: "IEEE Systems Council 2025 President",
+    image: "https://ice2cpt.com/images/Andy.png",
+    link: "https://ieeesystemscouncil.org/contact/andy-chen"
+  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",
