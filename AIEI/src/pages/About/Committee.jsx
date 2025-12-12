@@ -18,14 +18,14 @@ const councilMembers = [
     link: "https://www.nitjsr.ac.in/Administration/deputy_director"
   },
   {
-    role: "Co-Patron",
+    role: "Co-Patrons",
     name: "Prof. Satish Kumar",
     title: "Dean (Research and Consultancy)",
     image: "https://ice2cpt.com/images/satish%20kumar.jpeg",
     link: "https://www.nitjsr.ac.in/people/profile/ME117"
   },
   {
-    role: "Co-Patron",
+    role: "Co-Patrons",
     name: "Dr. Madhu Singh",
     title: "HOD, Electrical Engineering, Associate Professor,NIT Jamshedpur",
     image: "https://ice2cpt.com/images/Madhu.png",
@@ -39,14 +39,14 @@ const councilMembers = [
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
   },
   {
-    role: "Technical Program Chair",
+    role: "Technical Program Chairs",
     name: "Prof. Paolo Carbone",
     title: "Vice President (Conferences), IEEE Systems Council",
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
     link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
   },
   {
-    role: "Technical Program Chair",
+    role: "Technical Program Chairs",
     name: "Dr. Tridibesh Nag",
     title: "Secretary, IEEE Kolkata Section",
     image: "https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180",
