@@ -109,7 +109,7 @@ const Overview = () => {
             target="_blank" 
             className="text-blue-500 font-semibold"
           >
-            <strong>Manipal Institute of Technology, Manipal, Karnataka</strong>
+            <strong> Manipal Institute of Technology, Manipal, Karnataka</strong>
           </a>
           , serves as the Knowledge Partner, contributing academic and research leadership to the event.  
           Together, these organizations form the sponsoring and co-sponsoring bodies, ensuring strong 

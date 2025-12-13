@@ -21,12 +21,6 @@ const councilMembers = [
     image: "/Walt.jpg",
     link: "https://ieeesystemscouncil.org/contact/walter-downing"
   },
-  {
-    name: "Prof. Andy Chen",
-    title: "IEEE Systems Council 2025 President",
-    image: "https://ice2cpt.com/images/Andy.png",
-    link: "https://ieeesystemscouncil.org/contact/andy-chen"
-  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",

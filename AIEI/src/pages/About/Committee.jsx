@@ -32,11 +32,18 @@ const councilMembers = [
     link: "https://www.nitjsr.ac.in/people/profile/EE105"
   },
   {
-    role: "Honorary Chair",
+    role: "Honorary Chairs",
     name: "Prof. Sanjeevikumar Padmanaban",
     title: "University of South-Eastern Norway,VP Education",
     image: "https://ice2cpt.com/images/sanj.png",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
+  },
+  {
+    role: "Honorary Chairs",
+    name: "Prof. Andy Chen",
+    title: "IEEE Systems Council 2025 President",
+    image: "https://ice2cpt.com/images/Andy.png",
+    link: "https://ieeesystemscouncil.org/contact/andy-chen"
   },
   {
     role: "Technical Program Chairs",
