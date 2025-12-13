@@ -16,10 +16,10 @@ const councilMembers = [
     link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
   },
   {
-    name: "Mr. Walter D. Downing",
-    title: "P.E. Southwest Research Institute Past President, IEEE Systems Council",
+    name: "Mr. Walter D. Downing ,P.E.",
+    title: " Southwest Research Institute, Past President, IEEE Systems Council",
     image: "/Walt.jpg",
-    link: "https://ieeesystemscouncil.org/contact/walter-downing"
+    link: "https://www.swri.org/walter-d-downing-pe"
   },
   // {
   //   name: "Sameer S M",

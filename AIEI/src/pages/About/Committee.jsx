@@ -20,28 +20,28 @@ const councilMembers = [
   {
     role: "Co-Patrons",
     name: "Prof. Satish Kumar",
-    title: "Dean (Research and Consultancy)",
+    title: "Dean (Research and Consultancy), NIT Jamshedpur",
     image: "https://ice2cpt.com/images/satish%20kumar.jpeg",
     link: "https://www.nitjsr.ac.in/people/profile/ME117"
   },
   {
     role: "Co-Patrons",
     name: "Dr. Madhu Singh",
-    title: "HOD, Electrical Engineering, Associate Professor,NIT Jamshedpur",
-    image: "https://ice2cpt.com/images/Madhu.png",
+    title: "HOD, Electrical Engineering, Associate Professor, NIT Jamshedpur",
+    image: "/Madhu.jpg",
     link: "https://www.nitjsr.ac.in/people/profile/EE105"
   },
   {
     role: "Honorary Chairs",
     name: "Prof. Sanjeevikumar Padmanaban",
-    title: "University of South-Eastern Norway,VP Education",
+    title: "University of South-Eastern Norway, VP Education",
     image: "https://ice2cpt.com/images/sanj.png",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
   },
   {
     role: "Honorary Chairs",
-    name: "Prof. Andy Chen",
-    title: "IEEE Systems Council 2025 President",
+    name: "Dr. Andy Chen",
+    title: "IEEE Systems Council President, IEEE Systems Council",
     image: "https://ice2cpt.com/images/Andy.png",
     link: "https://ieeesystemscouncil.org/contact/andy-chen"
   },
