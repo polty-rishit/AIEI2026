@@ -27,6 +27,12 @@ const councilMembers = [
     image: "https://th.bing.com/th/id/OIP.wFhxVCpXwktb53NvMYu39gHaJQ?w=140&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
     link: "https://piuri.di.unimi.it/"
   },
+  {
+    name: "Prof. Jeffrey Voas",
+    title: "2026 Editor in Chief IEEE Security and Privacy magazine",
+    image: "https://th.bing.com/th/id/OIP.xu_myvMq360Vi_p2EDWo2wHaJQ?w=130&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    link: "https://www.nist.gov/people/jeff-voas"
+  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",

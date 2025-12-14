@@ -113,8 +113,22 @@ const WelcomeMessage = () => {
             <strong>AIEI 2026</strong> features keynote sessions, technical paper presentations, tutorials, industry sessions, 
             and panel discussions across various AI domains—including{" "}
             <strong>healthcare, agriculture, energy, business, automation, education, defense, intelligent control, and smart systems</strong>. 
-            All accepted papers will be submitted to the{" "}
-            <strong>IEEE Xplore Digital Library</strong>, ensuring global visibility and academic impact (subject to IEEE approval).
+            <strong className="text-green-500"> All registered and presented papers will be submitted to{' '}
+              <a href="https://ieeexplore.ieee.org/Xplore/home.jsp"
+              target="_blank"
+              className="text-blue-500 font-semibold"
+               >
+                <strong>IEEE Xplore Digital Library</strong>
+                </a>  for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in 
+              <a
+              href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013"
+              target="_blank"
+              className="text-blue-500 font-semibold"
+              >
+                 <strong>{' '}IEEE Security & Privacy Magazine.</strong>
+              </a>
+              
+              </strong>
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">

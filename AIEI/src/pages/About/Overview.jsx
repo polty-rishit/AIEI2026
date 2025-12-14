@@ -137,8 +137,12 @@ const Overview = () => {
           industrial automation, and smart systems.
         </p>
 
-        <p className="mb-6 leading-relaxed">
-          All accepted and presented papers will be submitted for inclusion in the 
+  
+
+        <p className="mb-6 leading-relaxed text-green-500">
+          <strong>
+            All registered and presented papers will be submitted to
+          </strong>
           <a 
             href="https://ieeexplore.ieee.org/Xplore/home.jsp" 
             target="_blank" 
@@ -146,8 +150,13 @@ const Overview = () => {
           >
             <strong> IEEE Xplore Digital Library </strong>
           </a>
-          and indexed in major scientific databases, ensuring global research visibility and high academic impact 
-          <em> (subject to IEEE approval)</em>.
+          <strong>for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in {' '}
+            <a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013'
+            target='_blank'
+            className='text-blue-500 font-semibold'>
+              <strong>IEEE Security & Privacy Magazine.</strong>
+            </a>
+            </strong>
         </p>
 
         <p className="leading-relaxed">
