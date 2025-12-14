@@ -21,6 +21,12 @@ const councilMembers = [
     image: "/Walt.jpg",
     link: "https://www.swri.org/walter-d-downing-pe"
   },
+  {
+    name: "Prof. Vincenzo Piuri",
+    title: "Department of Computer Science, University of Milan, Italy",
+    image: "https://th.bing.com/th/id/OIP.wFhxVCpXwktb53NvMYu39gHaJQ?w=140&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    link: "https://piuri.di.unimi.it/"
+  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",
