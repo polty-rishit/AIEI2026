@@ -25,7 +25,7 @@ const Overview = () => {
             AIEI 2026 Overview
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            IEEE International Conference on AI Engineering and Innovation
+            International Conference on AI Engineering and Innovation
           </h2>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Overview = () => {
       >
 
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
-          IEEE International Conference on AI Engineering and Innovation (AIEI 2026)
+          International Conference on AI Engineering and Innovation (AIEI 2026)
         </h2>
 
         <p className="text-lg font-semibold mb-4">
@@ -46,7 +46,7 @@ const Overview = () => {
         </p>
 
         <p className="mb-6 leading-relaxed">
-          The <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong>
+          The <strong>International Conference on AI Engineering and Innovation (AIEI 2026)</strong>
           will be held on <strong>March 26–28, 2026</strong>, at the 
           <strong> National Institute of Technology (NIT) Jamshedpur, India</strong>.  
           This first edition of the conference is designed to bring together leading researchers, 

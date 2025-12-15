@@ -57,7 +57,7 @@ const WelcomeMessage = () => {
         >
           <p className="text-gray-700 leading-relaxed mb-6">
             It is my great pleasure to welcome you to the{" "}
-            <strong>IEEE International Conference on AI Engineering and Innovation (AIEI 2026)</strong>,{" "}
+            <strong>International Conference on AI Engineering and Innovation (AIEI 2026)</strong>,{" "}
             Conference Record Number: <strong>69164</strong> and ISBN: <strong>979-8-3315-6045-4</strong>, 
             scheduled to be held on <strong>March 26–28, 2026</strong> at the{" "}
             <a 
