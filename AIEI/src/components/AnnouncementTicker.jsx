@@ -15,12 +15,12 @@ const AnnouncementTicker = () => {
     "📄 CALL FOR PAPER",
     "|",
     // "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
-    // "|",
+    // "|" ,
     "All registered and presented papers will be submitted to IEEE Xplore for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in IEEE Security & Privacy Magazine.",
   ];
 
   return (
-    <div className="w-full bg-gradient-to-r from-blue-300 to-blue-500 py-2 overflow-hidden border-y border-blue-400">
+    <div     className="w-full bg-gradient-to-r from-blue-300 to-blue-500 py-2 overflow-hidden border-y border-blue-400">
 
       {/* Scroll Container */}
       <div className="whitespace-nowrap animate-scroll ticker-content uppercase font-bold text-gray-900 text-sm md:text-base flex items-center gap-12 px-4">
