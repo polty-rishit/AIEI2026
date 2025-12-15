@@ -12,6 +12,8 @@ const AnnouncementTicker = () => {
   const messages = [
     formattedMessage,
     "|",
+    "THE CONFERENCE WILL BE CONDUCTED IN HYBRID MODE.",
+    "|",
     "📄 CALL FOR PAPER",
     "|",
     // "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
