@@ -232,7 +232,6 @@ const App = () => {
     {/* Right Side - Text */}
     <div className="text-white lg:mt-10 w-full md:w-auto text-center md:text-left max-w-xl">
       <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-2 sm:mb-4">
-        IEEE 
         International Conference on
       </h1>
       <h2
