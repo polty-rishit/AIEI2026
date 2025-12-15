@@ -14,8 +14,8 @@ const AnnouncementTicker = () => {
     "|",
     "📄 CALL FOR PAPER",
     "|",
-    "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
-    "|",
+    // "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
+    // "|",
     "All registered and presented papers will be submitted to IEEE Xplore for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in IEEE Security & Privacy Magazine.",
   ];
 

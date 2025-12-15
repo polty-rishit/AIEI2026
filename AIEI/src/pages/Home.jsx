@@ -341,11 +341,11 @@ const App = () => {
 
 
       {/*logo*/}
-      <div className="w-full bg-white py-8 mb-6 mt-6">
+      <div className="w-full bg-white py-8 mb-6 -mt-2">
   {/* Co-Organizers */}
-  <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
+  {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
     TECHNICAL SPONSORS
-  </p>
+  </p> */}
 
   {/* Logos with Descriptions */}
   <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
