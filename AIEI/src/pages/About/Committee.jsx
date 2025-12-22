@@ -7,21 +7,21 @@ const councilMembers = [
     role: "Chief Patron",
     name: "Prof. Goutam Sutradhar",
     title: "Director, NIT Jamshedpur",
-    image: "https://ice2cpt.com/images/dir.png",
+    image: "/director.png",
     link: "https://www.nitjsr.ac.in/Administration/Director"
   },
   {
     role: "Patron",
     name: "Prof. R.V. Sharma",
     title: "Deputy Director, NIT Jamshedpur",
-    image: "https://ice2cpt.com/images/RVS.png",
+    image: "https://www.nitjsr.ac.in/static/media/deputy_director.a4aca0ca6d3a54793e35.jpg",
     link: "https://www.nitjsr.ac.in/Administration/deputy_director"
   },
   {
     role: "Co-Patrons",
     name: "Prof. Satish Kumar",
     title: "Dean (Research and Consultancy), NIT Jamshedpur",
-    image: "https://ice2cpt.com/images/satish%20kumar.jpeg",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME117/profile/d11340f5-94c0-4177-a081-02b09771640c.JPG",
     link: "https://www.nitjsr.ac.in/people/profile/ME117"
   },
   {
@@ -35,14 +35,14 @@ const councilMembers = [
     role: "Honorary Chairs",
     name: "Prof. Sanjeevikumar Padmanaban",
     title: "University of South-Eastern Norway, VP Education",
-    image: "https://ice2cpt.com/images/sanj.png",
+    image: "https://i1.rgstatic.net/ii/profile.image/11431281286419629-1730048404664_Q512/Sanjeevikumar-Padmanaban.jpg",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
   },
   {
     role: "Honorary Chairs",
     name: "Dr. Andy Chen",
     title: "IEEE Systems Council President, IEEE Systems Council",
-    image: "https://ice2cpt.com/images/Andy.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwuFiThjyo80alXy7aO6Pf-i4r6qIJXZd7w&s",
     link: "https://ieeesystemscouncil.org/contact/andy-chen"
   },
   {
@@ -72,6 +72,55 @@ const councilMembers = [
     title: "Kaunas University of Technology, Kaunas, Lithuania",
     image: "/robert.jpeg",
     link: "https://en.ktu.edu/people/dr-robertas-damasevicius/"
+  },
+  {
+    role: "Technical Program Chairs",
+    name: "Prof. Camile Kurtz",
+    title: "Université Paris Cité, France",
+    image: "https://camille-kurtz.com/index_fichiers/img/ckurtz.jpg",
+    link: "https://camille-kurtz.com/"
+  },
+  {
+    role: "Technical Program Chairs",
+    name: "Prof. Guang Wang",
+    title: "Imperial College London, UK",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ZfzEFpsAAAAJ&citpid=3",
+    link: "https://profiles.imperial.ac.uk/g.yang/about"
+  },
+  {
+    role: "Workshop Chairs",
+    name: "Prof. Hubert Cecotti",
+    title: "University of California Fresno, USA",
+    image: "https://i1.rgstatic.net/ii/profile.image/334803330191361-1456834742169_Q512/Hubert-Cecotti.jpg",
+    link: "https://csm.fresnostate.edu/about/directory/csci/cecotti-hubert.html"
+  },
+  {
+    role: "Workshop Chairs",
+    name: "Dr. Rodrigue Rizk",
+    title: "USD AI Research, University of South Dakota, USA",
+    image: "https://usd-asp.usd.edu/directory-image-management/assets/images/rodrigue.rizk/publicimage",
+    link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/rodrigue-rizk"
+  },
+  {
+    role: "Workshop Chairs",
+    name: "Prof. Mohamed-Rafik Bouguelia",
+    title: "University of Doha for Science and Technology, Qatar",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YXM_FmgAAAAJ&citpid=5",
+    link: "https://www.linkedin.com/in/mohamed-rafik-bouguelia/?originalSubdomain=qa"
+  },
+  {
+    role: "Workshop Chairs",
+    name: "Dr. Teena Sharma",
+    title: "IIT Guwahati (India)",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fkDuIfIAAAAJ&citpid=8",
+    link: "https://iitg.ac.in/iitg_faculty_details?fac=dWNtRy9lYmtaVHdLQ3gwb2ZndjQ5dz09"
+  },
+  {
+    role: "Publicity Chairs",
+    name: "Dr. Longwei Wang",
+    title: "USD AI Research, University of South Dakota (USA)",
+    image: "https://usd-asp.usd.edu/directory-image-management/assets/images/longwei.wang/publicimage",
+    link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/longwei-wang"
   },
 ];
 

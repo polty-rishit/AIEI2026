@@ -63,6 +63,18 @@ const councilMembers = [
     image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=KVdMlqMAAAAJ&citpid=3",
     link: "#"
   },
+  {
+    name: "Dr. Ali Behravan",
+    title: "CEO - GreeNovaX, Germany",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSaRIKZJ1waRQCv3m5C5jAIPGltmJMnlPwvQ&s",
+    link: "https://www.linkedin.com/in/alibehravan/?originalSubdomain=de"
+  },
+  {
+    name: "Prof. Shreek Mandayam",
+    title: "VP Finance, IEEE Systems Council, Texas State University, USA",
+    image: "/shreek.jpeg",
+    link: "https://users.rowan.edu/~shreek/"
+  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",
