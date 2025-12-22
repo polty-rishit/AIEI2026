@@ -105,10 +105,10 @@ const IeeeAc = () => {
 
         <div className="relative text-center text-white drop-shadow-lg px-4">
           <h1 className="text-2xl md:text-6xl font-bold mb-1">
-            IEEE Advisory Committee
+            Advisory Committee
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            IEEE International Conference on AI Engineering and Innovation
+            International Conference on AI Engineering and Innovation
           </h2>
         </div>
       </div>
