@@ -46,6 +46,13 @@ const councilMembers = [
     link: "https://ieeesystemscouncil.org/contact/andy-chen"
   },
   {
+    role: "Honorary Chairs",
+    name: "Prof. Xizhao Wang",
+    title: "IEEE Fellow, ShenZhen University, China",
+    image: "/xizhao.jpeg",
+    link: "https://www.hebmlc.org/en/"
+  },
+  {
     role: "Technical Program Chairs",
     name: "Prof. Paolo Carbone",
     title: "Vice President (Conferences), IEEE Systems Council",
@@ -58,6 +65,13 @@ const councilMembers = [
     title: "Secretary, IEEE Kolkata Section",
     image: "https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180",
     link: "https://ewh.ieee.org/r10/calcutta/message_secretary.html"
+  },
+  {
+    role: "Technical Program Chairs",
+    name: "Prof. Robertas Damaševičius",
+    title: "Kaunas University of Technology, Kaunas, Lithuania",
+    image: "/robert.jpeg",
+    link: "https://en.ktu.edu/people/dr-robertas-damasevicius/"
   },
 ];
 
