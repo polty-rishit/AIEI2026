@@ -87,18 +87,18 @@ const councilMembers = [
     image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=KVdMlqMAAAAJ&citpid=3",
     link: "#"
   },
-  // {
-  //   name: "Sameer S M",
-  //   title: "Director Elect, IEEE Region-10",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/dr-sameer-s-m-27a177b0/?originalSubdomain=in"
-  // },
-  // {
-  //   name: "Srikanth Chandrasekaran",
-  //   title: "Country Head, IEEE India",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/srichandra-ieee/"
-  // },
+  {
+    name: "Dr. Ali Behravan",
+    title: "CEO - GreeNovaX (Germany)",
+    image: "https://th.bing.com/th/id/OIP.8Zhr-vFysf2yoDceZeJEtQHaHa?w=192&h=192&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/alibehravan/?originalSubdomain=de"
+  },
+  {
+    name: "Dr. Shreekanth Mandayam",
+    title: "Vice President for Research, Texas State University",
+    image: "https://users.rowan.edu/~shreek/index_files/image003.jpg",
+    link: "https://users.rowan.edu/~shreek/"
+  },
   // {
   //   name: "Debabrata Das",
   //   title: "Past Chair, IEEE India Council",
