@@ -138,14 +138,14 @@ const councilMembers = [
   },
   {
     role: "Web & Media Chairs",
-    name: "Dr Devendra Gowda Patil",
-    title: "AIT",
+    name: "Devendra Gowda Patil",
+    title: "Acharya Institute of Technology",
     image: "https://ieeespace.org/wp-content/uploads/2025/12/Dr._Devendra_Gowda_Patil.webp",
     link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
   },
   {
     role: "Web & Media Chairs",
-    name: "Aniruddha Koudinya",
+    name: "Aniruddh Koundinya",
     title: "IEEE Bangalore Section",
     image: "https://ieeespace.org/wp-content/uploads/2025/12/Aniruddha_Koudinya.jpeg",
     link: "https://www.linkedin.com/in/aniruddhkoundinya/?originalSubdomain=in"
