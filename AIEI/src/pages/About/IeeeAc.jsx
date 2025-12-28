@@ -141,6 +141,12 @@ const councilMembers = [
     image: "https://th.bing.com/th/id/OIP.Z2RFFIa6JVULDsFkqvcdDQHaHa?w=180&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://iitj.ac.in/People/Profile/82d1a133-2bf5-403f-b504-cc8864ef15d2"
   },
+  {
+    name: "Prof. Ersan KABALCI",
+    title: "Nevşehir University, Turkey",
+    image: "https://sistem.nevsehir.edu.tr/bizdosyalar/profilresimler/8540eb935eae056702722715b014270c/DSC_0028_.jpg",
+    link: "https://biz.nevsehir.edu.tr/kabalci/tr"
+  },
 ]
 
 const IeeeAc = () => {
