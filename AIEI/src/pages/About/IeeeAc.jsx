@@ -33,30 +33,30 @@ const councilMembers = [
     image: "https://th.bing.com/th/id/OIP.xu_myvMq360Vi_p2EDWo2wHaJQ?w=130&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
     link: "https://www.nist.gov/people/jeff-voas"
   },
-  {
-    name: "Mr. Deepak Mathur",
-    title: "IEEE Vice President, MGA",
-    image: "https://th.bing.com/th/id/OIP.fI1K3Sq5U_NxaREZSZO6kQHaFj?w=226&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/deepakmathur25/?originalSubdomain=in"
-  },
-  {
-    name: "Mr. David Koehler",
-    title: "Executive Advisor, Quanta Technology, LLC, Senior IEEE Volunteer",
-    image: "https://th.bing.com/th/id/OIP.BVMuUEuA-LjgYaf1ANqsvwHaE7?w=230&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/davidakoehler/"
-  },
-  {
-    name: "Dr. Braham Himed",
-    title: "President-Elect, IEEE AESS",
-    image: "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://ieee-aess.org/contact/braham-himed"
-  },
-  {
-    name: "Prof. Maurizio Bozzi",
-    title: "2024 IEEE MTT-S President and Professor, University of Pavaia, Itly",
-    image: "https://th.bing.com/th/id/OIP.UyAfzw9joPnOh1EVmYsKoQHaHa?w=151&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://mtt.org/profile/maurizio-bozzi/"
-  },
+  // {
+  //   name: "Sameer S M",
+  //   title: "Director Elect, IEEE Region-10",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/dr-sameer-s-m-27a177b0/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Srikanth Chandrasekaran",
+  //   title: "Country Head, IEEE India",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/srichandra-ieee/"
+  // },
+  // {
+  //   name: "Debabrata Das",
+  //   title: "Past Chair, IEEE India Council",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/debabrata-das-41712814/?originalSubdomain=in"
+  // },
+  // {
+  //   name: "Manoj B.S",
+  //   title: "Chair, IEEE Kerela Section",
+  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://www.linkedin.com/in/bsmanoj/?originalSubdomain=in"
+  // },
   // {
   //   name: "Surendra Pal",
   //   title: "IEEE AP-S Adcom Member",
@@ -105,10 +105,10 @@ const IeeeAc = () => {
 
         <div className="relative text-center text-white drop-shadow-lg px-4">
           <h1 className="text-2xl md:text-6xl font-bold mb-1">
-            IEEE Advisory Committee
+            Advisory Committee
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            IEEE International Conference on AI Engineering and Innovation
+            International Conference on AI Engineering and Innovation
           </h2>
         </div>
       </div>
