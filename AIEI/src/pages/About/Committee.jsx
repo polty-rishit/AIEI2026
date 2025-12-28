@@ -122,6 +122,34 @@ const councilMembers = [
     image: "https://usd-asp.usd.edu/directory-image-management/assets/images/longwei.wang/publicimage",
     link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/longwei-wang"
   },
+  {
+    role: "Web & Media Chairs",
+    name: "Rishit Raj",
+    title: "National Institute of Technology, Jamshedpur",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFYwLqpGJEdSQ/profile-displayphoto-shrink_400_400/B4EZcNFstzHQAo-/0/1748271287696?e=1768435200&v=beta&t=EBqd88GT_frWeF9JO-2hjVrRoOWXkXDRYgvfXrH1F-M",
+    link: "https://www.linkedin.com/in/rishitraj/"
+  },
+  {
+    role: "Web & Media Chairs",
+    name: "Dr Devendra Gowda Patil",
+    title: "AIT",
+    image: "https://ieeespace.org/wp-content/uploads/2025/12/Dr._Devendra_Gowda_Patil.webp",
+    link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
+  },
+  {
+    role: "Web & Media Chairs",
+    name: "Aniruddha Koudinya",
+    title: "IEEE Bangalore Section",
+    image: "https://ieeespace.org/wp-content/uploads/2025/12/Aniruddha_Koudinya.jpeg",
+    link: "https://www.linkedin.com/in/aniruddhkoundinya/?originalSubdomain=in"
+  },
+  {
+    role: "Web & Media Chairs",
+    name: "Aditya Prem",
+    title: "National Institute of Technology, Jamshedpur",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEdpSP-m_1smQ/profile-displayphoto-scale_400_400/B56ZnD_890I4Ag-/0/1759929948571?e=1768435200&v=beta&t=bS1jzOeIjXPy1GZZ53SR__JP1Lh5Nv2CBETCDOUtw_8",
+    link: "https://www.linkedin.com/in/aditya-prem/"
+  },
 ];
 
 // Group by roles
