@@ -147,6 +147,18 @@ const councilMembers = [
     image: "https://sistem.nevsehir.edu.tr/bizdosyalar/profilresimler/8540eb935eae056702722715b014270c/DSC_0028_.jpg",
     link: "https://biz.nevsehir.edu.tr/kabalci/tr"
   },
+  {
+    name: "Prof. Atif Iqbal",
+    title: "Qatar University, Qatar",
+    image: "https://th.bing.com/th/id/OIP.GCC-NAqkFefAGu8DApK3qwAAAA?w=198&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://ieeeaccess.ieee.org/editorial-team/atif-iqbal/"
+  },
+  {
+    name: "Dr. Ashutosh Kedar",
+    title: "LRDE, DRDO, India",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQE_XNEkEQD2Gg/profile-displayphoto-shrink_400_400/B56ZbxaYjEG4Ag-/0/1747806950195?e=1768435200&v=beta&t=ZA_8KYIjC6oAgTlpjrn6yq-S1B7YVFJJ1m5Cf_hYwvM",
+    link: "https://www.linkedin.com/in/dr-ashutosh-kedar-968924a/?originalSubdomain=in"
+  },
 ]
 
 const IeeeAc = () => {
