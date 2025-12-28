@@ -33,6 +33,60 @@ const councilMembers = [
     image: "https://th.bing.com/th/id/OIP.xu_myvMq360Vi_p2EDWo2wHaJQ?w=130&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
     link: "https://www.nist.gov/people/jeff-voas"
   },
+  {
+    name: "Mr. Deepak Mathur",
+    title: "IEEE Vice President, MGA",
+    image: "https://th.bing.com/th/id/OIP.fI1K3Sq5U_NxaREZSZO6kQHaFj?w=226&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/deepakmathur25/?originalSubdomain=in"
+  },
+  {
+    name: "Mr. David Koehler",
+    title: "Executive Advisor, Quanta Technology, LLC, Senior IEEE Volunteer",
+    image: "https://th.bing.com/th/id/OIP.BVMuUEuA-LjgYaf1ANqsvwHaE7?w=230&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/davidakoehler/"
+  },
+  {
+    name: "Dr. Braham Himed",
+    title: "President-Elect, IEEE AESS",
+    image: "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://ieee-aess.org/contact/braham-himed"
+  },
+  {
+    name: "Prof. Maurizio Bozzi",
+    title: "2024 IEEE MTT-S President and Professor, University of Pavaia, Itly",
+    image: "https://th.bing.com/th/id/OIP.UyAfzw9joPnOh1EVmYsKoQHaHa?w=151&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://mtt.org/profile/maurizio-bozzi/"
+  },
+  {
+    name: "Prof. Maria Sabrina Greco",
+    title: "University of Pisa, President, IEEE AESS",
+    image: "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Greco.jpg?h=25fac813&itok=jjurvExN",
+    link: "https://ieee-aess.org/contact/maria-sabrina-greco"
+  },
+  {
+    name: "Prof. Seyedali Mirjalili",
+    title: "Professor of AI, Torrens University, Australia",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=TJHmrREAAAAJ&citpid=7",
+    link: "https://seyedalimirjalili.com/"
+  },
+  {
+    name: "Prof. Anas Abou El Kalam",
+    title: "University de Cadi Ayyad, Morocco",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwSSZMjJJgG-j0f9irrAohJmfjlOcGrUNYA&s",
+    link: "https://abouelkalam.com/"
+  },
+  {
+    name: "Prof. Akram Bennour",
+    title: "Larbi Tebessi university, Algeria",
+    image: "/akram.jpeg",
+    link: "https://www.linkedin.com/in/akram-bennour-205302141/?originalSubdomain=dz"
+  },
+  {
+    name: "Dr. Bassem Bouaziz",
+    title: "University of Sfax, Tunisia",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=KVdMlqMAAAAJ&citpid=3",
+    link: "#"
+  },
   // {
   //   name: "Sameer S M",
   //   title: "Director Elect, IEEE Region-10",
