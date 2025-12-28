@@ -12,6 +12,13 @@ const councilMembers = [
   },
   {
     role: "Patron",
+    name: "Prof. N. P. Padhy",
+    title: "Director, MNIT Jaipur",
+    image: "https://th.bing.com/th/id/OIP.OWAAXgxHp2tLGbrmD6r7kQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://mnit.ac.in/admin/director"
+  },
+  {
+    role: "Patron",
     name: "Prof. R.V. Sharma",
     title: "Deputy Director, NIT Jamshedpur",
     image: "https://www.nitjsr.ac.in/static/media/deputy_director.a4aca0ca6d3a54793e35.jpg",

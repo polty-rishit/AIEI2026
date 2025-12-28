@@ -94,53 +94,53 @@ const councilMembers = [
     link: "https://www.linkedin.com/in/alibehravan/?originalSubdomain=de"
   },
   {
-    name: "Dr. Shreekanth Mandayam",
+    name: "Prof. Shreekanth Mandayam",
     title: "Vice President for Research, Texas State University",
     image: "https://users.rowan.edu/~shreek/index_files/image003.jpg",
     link: "https://users.rowan.edu/~shreek/"
   },
-  // {
-  //   name: "Debabrata Das",
-  //   title: "Past Chair, IEEE India Council",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/debabrata-das-41712814/?originalSubdomain=in"
-  // },
-  // {
-  //   name: "Manoj B.S",
-  //   title: "Chair, IEEE Kerela Section",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/bsmanoj/?originalSubdomain=in"
-  // },
-  // {
-  //   name: "Surendra Pal",
-  //   title: "IEEE AP-S Adcom Member",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://surendapal1948.tripod.com/"
-  // },
-  // {
-  //   name: "Debatosh Guha",
-  //   title: "IEEE AP-S MGA Chair",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/debatosh-guha-2b0a3615/?originalSubdomain=in"
-  // },
-  // {
-  //   name: "Jaleel Akhtar",
-  //   title: "IEEE MTT-S Adcom Member",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/prof-dr-m-jaleel-akhtar-603a3363/?originalSubdomain=in"
-  // },
-  // {
-  //   name: "Chinmoy Saha",
-  //   title: "MTT-S SIGHT Chair, MTT-S R10 Coordinator.",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/dr-chinmoy-saha-7129a9192/"
-  // },
-  // {
-  //   name: "Jawad Y. Siddiqui",
-  //   title: "IEEE AP-S SIGHT Chair",
-  //   image: "https://tse1.mm.bing.net/th/id/OIP.RPJF4pzIY2eTVVasifZRiAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-  //   link: "https://www.linkedin.com/in/jawad-y-siddiqui-59454b65/"
-  // },
+  {
+    name: "Prof. Bhim Singh",
+    title: "Emeritus Professor, IIT Delhi",
+    image: "https://tse3.mm.bing.net/th/id/OIP.tQhRwTIFBHlqhBk9wyA5UAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    link: "https://web.iitd.ac.in/~bsingh/"
+  },
+  {
+    name: "Prof. Swades De",
+    title: "Professor, IIT Delhi",
+    image: "https://www.icsdp.com/img/photo/s_de.jpg",
+    link: "https://web.iitd.ac.in/~swadesd/"
+  },
+  {
+    name: "Prof. Ram Bilas Pachori",
+    title: "Professor, IIT Indore",
+    image: "https://people.iiti.ac.in/~pachori/images/profile.jpg",
+    link: "https://people.iiti.ac.in/~pachori/"
+  },
+  {
+    name: "Dr. Sudeendra Koushik",
+    title: "President-Elect, IEEE TEMS",
+    image: "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
+    link: "https://www.ieee-tems.org/board-of-governors/"
+  },
+  {
+    name: "Mr. Puneet Kumar Mishra",
+    title: "VP Education, IEEE AESS",
+    image: "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Puneet-headshot.jpeg?h=b2631347&itok=f8MET9S_",
+    link: "https://www.ieee-tems.org/board-of-governors/"
+  },
+  {
+    name: "Prof. Nikhil Gupta",
+    title: "New York University, USA",
+    image: "https://engineering.nyu.edu/sites/default/files/styles/square_large_620_2x/public/migrated/2009-06/pictures/picture-374.jpg?h=a06a24e3&itok=xI4Kso7D",
+    link: "https://engineering.nyu.edu/faculty/nikhil-gupta"
+  },
+  {
+    name: "Prof. Shree Prakash Tiwari",
+    title: "Professor, IIT Jodhpur",
+    image: "https://th.bing.com/th/id/OIP.Z2RFFIa6JVULDsFkqvcdDQHaHa?w=180&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://iitj.ac.in/People/Profile/82d1a133-2bf5-403f-b504-cc8864ef15d2"
+  },
 ]
 
 const IeeeAc = () => {
