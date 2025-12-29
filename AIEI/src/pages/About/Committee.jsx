@@ -132,8 +132,8 @@ const councilMembers = [
   {
     role: "Web & Media Chairs",
     name: "Rishit Raj",
-    title: "National Institute of Technology, Jamshedpur",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFYwLqpGJEdSQ/profile-displayphoto-shrink_400_400/B4EZcNFstzHQAo-/0/1748271287696?e=1768435200&v=beta&t=EBqd88GT_frWeF9JO-2hjVrRoOWXkXDRYgvfXrH1F-M",
+    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    image:"./rishit.png",
     link: "https://www.linkedin.com/in/rishitraj/"
   },
   {
@@ -153,8 +153,8 @@ const councilMembers = [
   {
     role: "Web & Media Chairs",
     name: "Aditya Prem",
-    title: "National Institute of Technology, Jamshedpur",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEdpSP-m_1smQ/profile-displayphoto-scale_400_400/B56ZnD_890I4Ag-/0/1759929948571?e=1768435200&v=beta&t=bS1jzOeIjXPy1GZZ53SR__JP1Lh5Nv2CBETCDOUtw_8",
+    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    image: "./prem.png",
     link: "https://www.linkedin.com/in/aditya-prem/"
   },
 ];
