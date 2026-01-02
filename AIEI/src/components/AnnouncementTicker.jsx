@@ -66,7 +66,7 @@ const AnnouncementTicker = () => {
       <style>{`
         .animate-scroll {
           display: inline-block;
-          animation: scroll-left 50s linear infinite;
+          animation: scroll-left 45s linear infinite;
         }
 
         @keyframes scroll-left {
