@@ -8,4 +8,4 @@ AIEI 2026 features keynote sessions, technical paper presentations, tutorials, i
 
 We extend our sincere gratitude to all speakers, authors, reviewers, session chairs, volunteers, sponsors, and partnering institutions. We hope that AIEI 2026 will inspire collaborations and fuel innovations across the global AI ecosystem.
 
-We look forward to your active participation and wish you a rewarding and memorable experience at AIEI 2026. 
+We look forward to your active participation and wish you a rewarding and memorable experience at AIEI 2026.  
