@@ -71,7 +71,7 @@ const Overview = () => {
             target="_blank" 
             className="text-blue-500 font-semibold"
           >
-            <strong> USD Artificial Intelligence Research Lab, University of South Dakota, USA</strong>
+            <strong> USD Artificial Intelligence Research, University of South Dakota, USA</strong>
           </a>,
           in collaboration with the 
           <a 

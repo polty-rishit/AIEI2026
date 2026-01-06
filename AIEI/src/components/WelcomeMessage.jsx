@@ -44,7 +44,7 @@ const WelcomeMessage = () => {
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 General Chair, AIEI 2026 <br />
-                USD Artificial Intelligence Research Lab, USA
+                USD Artificial Intelligence Research, USA
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ const WelcomeMessage = () => {
               target="_blank" 
               className="text-blue-500 font-semibold"
             >
-              <strong>USD Artificial Intelligence Research Lab, University of South Dakota, USA</strong>
+              <strong>USD Artificial Intelligence Research, University of South Dakota, USA</strong>
             </a>
             , in collaboration with{" "}
             <strong>IEEE</strong>, the 
@@ -158,7 +158,7 @@ const WelcomeMessage = () => {
             <h4 className="font-semibold text-gray-800">Prof. KC (Casey) Santosh</h4>
             <p className="text-gray-600 text-sm">
               General Chair, AIEI 2026 <br />
-              USD Artificial Intelligence Research Lab, USA
+              USD Artificial Intelligence Research, USA
             </p>
           </div>
 

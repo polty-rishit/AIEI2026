@@ -328,7 +328,7 @@ const App = () => {
   />
   <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
     <a href='https://www.ai-research-lab.org/' className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
-      USD AI Research Lab
+      USD AI Research
     </a>
     <p className="text-xs md:text-sm text-gray-600 mt-2">
       Fostering innovation in AI research and development

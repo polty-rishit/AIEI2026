@@ -141,7 +141,7 @@ const General = () => {
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900">Prof. KC (Casey) Santosh</h3>
                     <p className="text-blue-600 font-medium">Professor (AI) and Chair, Department of Computer Science</p>
-                    <p className="text-gray-600">Founding Director, AI Research Lab</p>
+                    <p className="text-gray-600">Founding Director, Artificial Intelligence Research</p>
                   </div>
                 </div>
 
