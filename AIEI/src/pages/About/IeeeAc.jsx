@@ -47,7 +47,7 @@ const councilMembers = [
   },
   {
     name: "Dr. Braham Himed",
-    title: "President-Elect, IEEE AESS",
+    title: "President 2026, IEEE AESS",
     image: "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://ieee-aess.org/contact/braham-himed"
   },
