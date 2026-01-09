@@ -67,6 +67,34 @@ const councilMembers = [
     link: "https://www.hebmlc.org/en/"
   },
   {
+    role: "STEERING COMMITTEE",
+    name: "Dr. Suparna Kar Chowdhury",
+    title: "Chair, IEEE Kolkata Section",
+    image: "https://tse1.explicit.bing.net/th/id/OIP.vGL6puDg4dxdKpsTzULY5QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    link: "https://ieeexplore.ieee.org/author/37086090061"
+  },
+  {
+    role: "STEERING COMMITTEE",
+    name: "Prof. R. N. Mahanty",
+    title: "NIT Jamshedpur",
+    image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/6979/11278554/11197532/mahan-3611268-small.gif",
+    link: "https://ieeexplore.ieee.org/author/37442136400"
+  },
+  {
+    role: "STEERING COMMITTEE",
+    name: "Prof. Niranjan Kumar",
+    title: "NIT Jamshedpur",
+    image: "https://th.bing.com/th/id/OIP.BlnTiCFEhmOYcX-qqRMDIQHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.bing.com/search?q=Prof.+Niranjan+Kumar+NIT+Jamshedpur&FORM=HDRSC1"
+  },
+  {
+    role: "STEERING COMMITTEE",
+    name: "Prof. Krishna Bihari Yadav",
+    title: "NIT Jamshedpur",
+    image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/4147829/4147830/4147974/4147974-photo-2-source-small.gif",
+    link: "https://ieeexplore.ieee.org/author/38184993600"
+  },
+  {
     role: "Technical Program Chairs",
     name: "Prof. Paolo Carbone",
     title: "Vice President (Conferences), IEEE Systems Council",
