@@ -47,7 +47,7 @@ const councilMembers = [
   },
   {
     name: "Dr. Braham Himed",
-    title: "President-Elect, IEEE AESS",
+    title: "2026 President, IEEE AESS",
     image: "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://ieee-aess.org/contact/braham-himed"
   },
@@ -59,7 +59,7 @@ const councilMembers = [
   },
   {
     name: "Prof. Maria Sabrina Greco",
-    title: "University of Pisa, President, IEEE AESS",
+    title: "University of Pisa,Past President, IEEE AESS",
     image: "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Greco.jpg?h=25fac813&itok=jjurvExN",
     link: "https://ieee-aess.org/contact/maria-sabrina-greco"
   },
@@ -173,7 +173,7 @@ const councilMembers = [
   },
   {
     name: "Ram Narayanan",
-    title: "Director of the Center for Radar Engineering, Science, and Technology (CREST) at Pennsylvania State University",
+    title: "Director Center for Radar Engineering,Pennsylvania State University",
     image: "https://th.bing.com/th/id/OIP.tmPln3q92aA0pQf3uLsHkgHaHa?w=181&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://www.linkedin.com/in/ram-narayanan-a931243/"
   },
@@ -194,6 +194,24 @@ const councilMembers = [
     title: "Professor, IIT Bombay",
     image: "https://www.civil.iitb.ac.in//resources/images/people_image/33/dce7a8d75ca154bd33e16ae210ee9736.jpeg",
     link: "https://www.civil.iitb.ac.in/faculty/details/prof-dharamveer-singh"
+  },
+  {
+    name: "Usman Munawar (MA.Sc SMIEEE HKN)",
+    title: "Principal Architect, University of Regina",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQHlb4hGTV5XIQ/profile-displayphoto-scale_400_400/B56ZoDNPlZHkAg-/0/1760990395220?e=1769644800&v=beta&t=KjnzwFPdtKuLYf3MErgGYcULkZZ1WfG7lYhQIjGLkBY",
+    link: "https://www.linkedin.com/in/musmanm/"
+  },
+  {
+    name: "Chad Kidder",
+    title: "Keysight EDA Services Manager",
+    image: "https://careerfair.ieee.org/wp-content/uploads/2025/10/Chad-Kidder.jpg",
+    link: "https://careerfair.ieee.org/invited-talks/chad-kidder/"
+  },
+  {
+    name: "Lorenzo Lo Monte",
+    title: "President-Elect, IEEE AESS",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
+    link: "https://www.linkedin.com/in/lorenzolomonte/"
   },
 ] 
 
