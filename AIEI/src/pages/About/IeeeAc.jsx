@@ -209,7 +209,7 @@ const councilMembers = [
   },
   {
     name: "Lorenzo Lo Monte",
-    title: "President-Elect, IEEE AESS",
+    title: "2026 President-Elect, IEEE AESS",
     image: "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
     link: "https://www.linkedin.com/in/lorenzolomonte/"
   },
