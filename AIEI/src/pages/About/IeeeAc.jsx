@@ -159,7 +159,43 @@ const councilMembers = [
     image: "https://media.licdn.com/dms/image/v2/D5603AQE_XNEkEQD2Gg/profile-displayphoto-shrink_400_400/B56ZbxaYjEG4Ag-/0/1747806950195?e=1768435200&v=beta&t=ZA_8KYIjC6oAgTlpjrn6yq-S1B7YVFJJ1m5Cf_hYwvM",
     link: "https://www.linkedin.com/in/dr-ashutosh-kedar-968924a/?originalSubdomain=in"
   },
-]
+  {
+    name: "Prof. Janet (Jing) Lin",
+    title: "VP of Publications, IEEE Reliability Society",
+    image: "https://th.bing.com/th/id/OIP.BMLBjafYNC0lOeOlKjXrjAAAAA?w=176&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.bing.com/search?q=rof.+Janet+(Jing)+Lin&FORM=HDRSC1"
+  },
+  {
+    name: "Dr. C.J. Reddy",
+    title: "President ,IEEE Antennas and Propagation Society",
+    image: "https://th.bing.com/th/id/OIP.RCNlSZBng-VSRwCZGz1_iAAAAA?w=147&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.bing.com/search?q=dr+cj+reddy+&FORM=HDRSC1"
+  },
+  {
+    name: "Ram Narayanan",
+    title: "Director of the Center for Radar Engineering, Science, and Technology (CREST) at Pennsylvania State University",
+    image: "https://th.bing.com/th/id/OIP.tmPln3q92aA0pQf3uLsHkgHaHa?w=181&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/ram-narayanan-a931243/"
+  },
+  {
+    name: "Vijay Sood",
+    title: "Professor Emeritus at Ontario Tech University",
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQGCeIvgc7fdRQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516997242552?e=1769644800&v=beta&t=oLBFaISG1cUuGNpjyj2aX_PnddjzekEajJ2z4ftXMx4",
+    link: "https://www.linkedin.com/in/vijay-sood-951b0022/"
+  },
+  {
+    name: "Arpan K. Kar",
+    title: "Chair Professor at IIT Delhi",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQH_gNk_i_bYIg/profile-displayphoto-scale_400_400/B4DZnB0bkYIEAg-/0/1759893372127?e=1769644800&v=beta&t=Re13Fbg_W6vC_6YzdE-oSh8zSMGiuI2rS6wYJGPDuJI",
+    link: "https://www.linkedin.com/in/arpankar/"
+  },
+  {
+    name: "Prof. Dharamveer Singh",
+    title: "Professor, IIT Bombay",
+    image: "https://www.civil.iitb.ac.in//resources/images/people_image/33/dce7a8d75ca154bd33e16ae210ee9736.jpeg",
+    link: "https://www.civil.iitb.ac.in/faculty/details/prof-dharamveer-singh"
+  },
+] 
 
 const IeeeAc = () => {
   return (
