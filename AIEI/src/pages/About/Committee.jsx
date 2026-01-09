@@ -26,6 +26,13 @@ const councilMembers = [
   },
   {
     role: "Co-Patrons",
+    name: "Prof. Saroj Kumar Sarangi",
+    title: "Registrar, NIT Jamshedpur",
+    image: "https://www.nitjsr.ac.in/static/media/Registrar.1c068d52fc38c8eaed7d.png",
+    link: "https://www.nitjsr.ac.in/Administration/Registrar"
+  },
+  {
+    role: "Co-Patrons",
     name: "Prof. Satish Kumar",
     title: "Dean (Research and Consultancy), NIT Jamshedpur",
     image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME117/profile/d11340f5-94c0-4177-a081-02b09771640c.JPG",
