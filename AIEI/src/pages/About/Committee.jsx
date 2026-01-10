@@ -110,6 +110,13 @@ const councilMembers = [
   },
   {
     role: "Organizing CHAIRS",
+    name: "Dr. Mrinal Kanti Sarkar",
+    title: "NIT Jamshedpur",
+    image: "./MKS.jpeg",
+    link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
+  },
+  {
+    role: "Organizing CHAIRS",
     name: "Dr. Dinesh Kumar ",
     title: "NIT Jamshedpur",
     image: "https://th.bing.com/th/id/OIP._n8X3dQYTsu3mZM3OlrRjwHaHa?w=171&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
@@ -117,10 +124,17 @@ const councilMembers = [
   },
   {
     role: "Organizing CHAIRS",
-    name: "Dr. Mrinal Kanti Sarkar",
+    name: "Dr. Swagatadeb Sahoo",
     title: "NIT Jamshedpur",
-    image: "./MKS.jpeg",
-    link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
+    image: "./sahoo.jpg",
+    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
+  },
+  {
+    role: "Organizing CHAIRS",
+    name: "Dr. Supriyo Das",
+    title: "NIT Jamshedpur",
+    image: "https://th.bing.com/th/id/OIP.4rNnial9KeuVPdrlS3kitgAAAA?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
     role: "Organizing Secretaries",
@@ -128,6 +142,20 @@ const councilMembers = [
     title: "NIT Jamshedpur",
     image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=q4lxqvsAAAAJ&citpid=2",
     link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
+  },
+  {
+    role: "Organizing Secretaries",
+    name: "Dr. Mrutyunjay Rout",
+    title: "NIT Jamshedpur",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=AQWr2zcAAAAJ&citpid=2",
+    link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en"
+  },
+  {
+    role: "Organizing Secretaries",
+    name: "Dr. Sanjay Kumar",
+    title: "NIT Jamshedpur",
+    image: "https://th.bing.com/th/id/OIP.wEBIU-9QQX-6nt45DbtDBgHaHa?w=108&h=108&c=1&bgcl=aa4f7e&r=0&o=7&dpr=1.3&pid=ImgRC&rm=3",
+    link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
   },
   {
     role: "Organizing Secretaries",
