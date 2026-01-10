@@ -49,10 +49,10 @@ const Footer = () => {
             <div>
               <h4 className="text-2xl font-bold mb-4">Sponsors</h4>
               <div className="space-y-0 text-gray-400">
-                <p>IEEE</p>
-                <p>IEEE Systems Council</p>
-                <p>IEEE Kolkata Section</p>
-                <p>IEEE NIT Jamshedpur</p>
+                <a href='https://www.ieee.org/'>IEEE</a>
+                <a href='https://ieeesystemscouncil.org/'>IEEE Systems Council</a>
+                <a href='https://ewh.ieee.org/r10/calcutta/'>IEEE Kolkata Section</a>
+                <a href='https://nitjsr.ac.in'>IEEE NIT Jamshedpur</a>
               </div>
             </div>
 
