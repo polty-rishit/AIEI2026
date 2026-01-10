@@ -119,7 +119,7 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Dinesh Kumar ",
     title: "CSE, NIT Jamshedpur",
-    image: "https://th.bing.com/th/id/OIP._n8X3dQYTsu3mZM3OlrRjwHaHa?w=171&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    image: "./Dinesh.jpg",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
@@ -127,7 +127,7 @@ const councilMembers = [
     name: "Dr. Swagatadeb Sahoo",
     title: "ECE, NIT Jamshedpur",
     image: "./sahoo.jpg",
-    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
+    link: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EC117/profile/f1ba3240-cf7e-4cf5-8383-58dd44931077.jpeg"
   },
   {
     role: "Organizing CHAIRS",
