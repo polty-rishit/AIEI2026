@@ -126,8 +126,8 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Swagatadeb Sahoo",
     title: "ECE, NIT Jamshedpur",
-    image: "./sahoo.jpg",
-    link: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EC117/profile/f1ba3240-cf7e-4cf5-8383-58dd44931077.jpeg"
+    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EC117/profile/f1ba3240-cf7e-4cf5-8383-58dd44931077.jpeg",
+    link: "https://www.researchgate.net/profile/Swagatadeb-Sahoo"
   },
   {
     role: "Organizing CHAIRS",
