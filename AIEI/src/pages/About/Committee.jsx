@@ -94,6 +94,20 @@ const councilMembers = [
     image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/4147829/4147830/4147974/4147974-photo-2-source-small.gif",
     link: "https://ieeexplore.ieee.org/author/38184993600"
   },
+   {
+    role: "GENERAL CHAIRS",
+    name: "Dr. V. P. Meena",
+    title: "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee",
+    image: "./veer.png",
+    link: "https://ieeexplore.ieee.org/author/38184993600"
+  },
+   {
+    role: "GENERAL CHAIRS",
+    name: "Prof. KC (Casey) Santosh,",
+    title: " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
+    image: "./santosh.png",
+    link: "https://ieeexplore.ieee.org/author/38184993600"
+  },
   {
     role: "Technical Program Chairs",
     name: "Prof. Paolo Carbone",
