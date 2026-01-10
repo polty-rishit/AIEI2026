@@ -133,7 +133,7 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Supriyo Das",
     title: "EED, NIT Jamshedpur",
-    image: "https://th.bing.com/th/id/OIP.4rNnial9KeuVPdrlS3kitgAAAA?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EE2201/profile/40ee6e75-7c2d-43b7-a3fa-4bc2632cd29f.jpeg",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
@@ -154,7 +154,7 @@ const councilMembers = [
     role: "Organizing Secretaries",
     name: "Dr. Sanjay Kumar",
     title: "EED, NIT Jamshedpur",
-    image: "https://th.bing.com/th/id/OIP.wEBIU-9QQX-6nt45DbtDBgHaHa?w=108&h=108&c=1&bgcl=aa4f7e&r=0&o=7&dpr=1.3&pid=ImgRC&rm=3",
+    image: "./Sanjay.jpeg",
     link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
   },
   {
