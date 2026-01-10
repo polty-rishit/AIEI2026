@@ -97,7 +97,7 @@ const councilMembers = [
    {
     role: "GENERAL CHAIRS",
     name: "Dr. V. P. Meena",
-    title: "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee",
+    title: "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee,USA",
     image: "./meenaSir.png",
     link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en"
   },

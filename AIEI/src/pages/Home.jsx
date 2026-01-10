@@ -92,7 +92,7 @@ const App = () => {
 
   const keyDates = [
     { title: 'Opening Paper Submission', date: 'September 01, 2025' },
-    { title: 'Paper Submission Deadline', date: 'January 10, 2026' },
+    { title: 'Paper Submission Deadline', date: 'January 15, 2026' },
     { title: 'Acceptance Notification', date: 'February 5, 2026' },
     { title: 'Submission of Final Manuscript & Copyright', date: 'February 20, 2026' },
     { title: 'Registration Deadline', date: 'March 1, 2026' },
