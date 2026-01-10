@@ -111,55 +111,55 @@ const councilMembers = [
   {
     role: "Organizing CHAIRS",
     name: "Dr. Mrinal Kanti Sarkar",
-    title: "NIT Jamshedpur",
+    title: "EED, NIT Jamshedpur",
     image: "./MKS.jpeg",
     link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
   },
   {
     role: "Organizing CHAIRS",
     name: "Dr. Dinesh Kumar ",
-    title: "NIT Jamshedpur",
+    title: "CSE, NIT Jamshedpur",
     image: "https://th.bing.com/th/id/OIP._n8X3dQYTsu3mZM3OlrRjwHaHa?w=171&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
     role: "Organizing CHAIRS",
     name: "Dr. Swagatadeb Sahoo",
-    title: "NIT Jamshedpur",
+    title: "ECE, NIT Jamshedpur",
     image: "./sahoo.jpg",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
     role: "Organizing CHAIRS",
     name: "Dr. Supriyo Das",
-    title: "NIT Jamshedpur",
+    title: "EED, NIT Jamshedpur",
     image: "https://th.bing.com/th/id/OIP.4rNnial9KeuVPdrlS3kitgAAAA?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
     role: "Organizing Secretaries",
     name: "Dr. Surya Prakash",
-    title: "NIT Jamshedpur",
+    title: "EED, NIT Jamshedpur",
     image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=q4lxqvsAAAAJ&citpid=2",
     link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
   },
   {
     role: "Organizing Secretaries",
     name: "Dr. Mrutyunjay Rout",
-    title: "NIT Jamshedpur",
+    title: "ECE, NIT Jamshedpur",
     image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=AQWr2zcAAAAJ&citpid=2",
     link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en"
   },
   {
     role: "Organizing Secretaries",
     name: "Dr. Sanjay Kumar",
-    title: "NIT Jamshedpur",
+    title: "EED, NIT Jamshedpur",
     image: "https://th.bing.com/th/id/OIP.wEBIU-9QQX-6nt45DbtDBgHaHa?w=108&h=108&c=1&bgcl=aa4f7e&r=0&o=7&dpr=1.3&pid=ImgRC&rm=3",
     link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
   },
   {
     role: "Organizing Secretaries",
-    name: "Dr Vinay Kumar Jadoun",
+    name: "Dr. Vinay Kumar Jadoun",
     title: "Manipal University",
     image: "https://www.manipal.edu/content/dam/manipal/mu/mit/images/electrical-dept-faculty-profile-photos/EEE_VJ_Feb20.png.transform/manipal-edu-transform-width-height-528px/image.jpg",
     link: "https://www.manipal.edu/mit/department-faculty/faculty-list/vinay-kumar-jadoun/_jcr_content.html"

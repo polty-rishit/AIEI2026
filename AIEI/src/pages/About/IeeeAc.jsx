@@ -184,7 +184,7 @@ const councilMembers = [
     link: "https://www.linkedin.com/in/vijay-sood-951b0022/"
   },
   {
-    name: "Arpan K. Kar",
+    name: "Prof. Arpan K. Kar",
     title: "Chair Professor at IIT Delhi",
     image: "https://media.licdn.com/dms/image/v2/D4D03AQH_gNk_i_bYIg/profile-displayphoto-scale_400_400/B4DZnB0bkYIEAg-/0/1759893372127?e=1769644800&v=beta&t=Re13Fbg_W6vC_6YzdE-oSh8zSMGiuI2rS6wYJGPDuJI",
     link: "https://www.linkedin.com/in/arpankar/"
@@ -196,24 +196,30 @@ const councilMembers = [
     link: "https://www.civil.iitb.ac.in/faculty/details/prof-dharamveer-singh"
   },
   {
-    name: "Usman Munawar (MA.Sc SMIEEE HKN)",
+    name: "Dr. Usman Munawar",
     title: "Principal Architect, University of Regina",
     image: "https://media.licdn.com/dms/image/v2/D5603AQHlb4hGTV5XIQ/profile-displayphoto-scale_400_400/B56ZoDNPlZHkAg-/0/1760990395220?e=1769644800&v=beta&t=KjnzwFPdtKuLYf3MErgGYcULkZZ1WfG7lYhQIjGLkBY",
     link: "https://www.linkedin.com/in/musmanm/"
   },
   {
-    name: "Chad Kidder",
+    name: "Dr. Chad Kidder",
     title: "Keysight EDA Services Manager",
     image: "https://careerfair.ieee.org/wp-content/uploads/2025/10/Chad-Kidder.jpg",
     link: "https://careerfair.ieee.org/invited-talks/chad-kidder/"
   },
   {
-    name: "Lorenzo Lo Monte",
+    name: "Dr. Lorenzo Lo Monte",
     title: "2026 President-Elect, IEEE AESS",
     image: "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
     link: "https://www.linkedin.com/in/lorenzolomonte/"
   },
-] 
+  {
+    name: "Sheldon Williamson",
+    title: "Prof. Ontario Tech University",
+    image: "https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/sheldon.williamson.jpg",
+    link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php"
+  },
+]
 
 const IeeeAc = () => {
   return (
