@@ -98,15 +98,29 @@ const councilMembers = [
     role: "GENERAL CHAIRS",
     name: "Dr. V. P. Meena",
     title: "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee",
-    image: "./veer.png",
-    link: "https://ieeexplore.ieee.org/author/38184993600"
+    image: "./meenaSir.png",
+    link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en"
   },
    {
     role: "GENERAL CHAIRS",
-    name: "Prof. KC (Casey) Santosh,",
+    name: "Prof. KC (Casey) Santosh",
     title: " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
     image: "./santosh.png",
-    link: "https://ieeexplore.ieee.org/author/38184993600"
+    link: "https://www.linkedin.com/in/kcsantosh1/"
+  },
+  {
+    role: "Organizing CHAIRS",
+    name: "Dr. Dinesh Kumar ",
+    title: "NIT Jamshedpur",
+    image: "https://th.bing.com/th/id/OIP._n8X3dQYTsu3mZM3OlrRjwHaHa?w=171&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
+  },
+  {
+    role: "Organizing CHAIRS",
+    name: "Dr. Mrinal Kanti Sarkar",
+    title: "NIT Jamshedpur",
+    image: "https://th.bing.com/th/id/OIP.1cJTCONkRj5je22FiA3veQAAAA?w=202&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
   },
   {
     role: "Technical Program Chairs",
