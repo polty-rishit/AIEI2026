@@ -119,7 +119,7 @@ const councilMembers = [
   },
   {
     name: "Dr. Sudeendra Koushik",
-    title: "President-Elect, IEEE TEMS",
+    title: "2026 President, IEEE TEMS",
     image: "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
     link: "https://www.ieee-tems.org/board-of-governors/"
   },
