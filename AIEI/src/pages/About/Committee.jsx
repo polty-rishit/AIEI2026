@@ -119,8 +119,22 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Mrinal Kanti Sarkar",
     title: "NIT Jamshedpur",
-    image: "https://th.bing.com/th/id/OIP.1cJTCONkRj5je22FiA3veQAAAA?w=202&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    image: "./MKS.jpeg",
     link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
+  },
+  {
+    role: "Organizing Secretaries",
+    name: "Dr. Surya Prakash",
+    title: "NIT Jamshedpur",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=q4lxqvsAAAAJ&citpid=2",
+    link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
+  },
+  {
+    role: "Organizing Secretaries",
+    name: "Dr Vinay Kumar Jadoun",
+    title: "Manipal University",
+    image: "https://www.manipal.edu/content/dam/manipal/mu/mit/images/electrical-dept-faculty-profile-photos/EEE_VJ_Feb20.png.transform/manipal-edu-transform-width-height-528px/image.jpg",
+    link: "https://www.manipal.edu/mit/department-faculty/faculty-list/vinay-kumar-jadoun/_jcr_content.html"
   },
   {
     role: "Technical Program Chairs",
