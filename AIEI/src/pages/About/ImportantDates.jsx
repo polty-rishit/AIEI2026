@@ -62,7 +62,7 @@ const ImportantDates = () => {
                     Paper Submission Deadline
                   </td>
                   <td className="py-5 px-6 text-right font-bold text-red-400 text-lg">
-                    January 10, 2026
+                    January 15, 2026
                   </td>
                 </tr>
 
