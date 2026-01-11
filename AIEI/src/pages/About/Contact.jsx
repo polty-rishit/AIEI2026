@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      {/* Hero Section */}
+      {/* Hero Section one */}
       <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
         {/* Background Image */}
         <img
