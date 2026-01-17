@@ -16,7 +16,7 @@ const Contact = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Glass overlay */}
+        {/* Glass overlay  */}
         <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
 
         {/* Titles */}
