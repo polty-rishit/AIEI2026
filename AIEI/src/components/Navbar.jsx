@@ -142,7 +142,7 @@ const handleRegistrationLeave = () => {
                     <a href="/committee" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Organizing Committee</a>
                     {/* <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">International Advisory Commitee (IAC)</a> */}
                     <a href="/ieeeac" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Advisory Committee</a>
-                    {/* <a href="/ieeep" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">IEEE Presidents(Sponsoring Societies)</a> */}
+                    <a href="/ieeep" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Technical Programme Committee</a>
                     <a href="https://www.ieee.org/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">About IEEE</a>
                     <a href="/contact" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Contact</a>
                   </div>
@@ -351,7 +351,7 @@ const handleRegistrationLeave = () => {
                   
                   {/* <a href="/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">International Advisory Commitee (IAC)</a> */}
                   <a href="/ieeeac" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Advisory Committee</a>
-                  {/* <a href="/ieeep" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">IEEE Presidents(Sponsoring Societies)</a> */}
+                  <a href="/ieeep" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Technical Programme Committee</a>
                   <a href="https://www.ieee.org/" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">About IEEE</a>
                   <a href="/contact" className="block text-gray-800 hover:bg-white/30 rounded px-2 py-1 transition">Contact</a>
                 </div>
