@@ -109,6 +109,34 @@ const councilMembers = [
     link: "https://www.linkedin.com/in/kcsantosh1/"
   },
   {
+    role: "GENERAL CO-CHAIRS",
+    name: "Dr. Surajit Kundu",
+    title:"ECE, NIT Jamshedpur",
+    image: "https://ice2cpt.org/images/surajit.jpg",
+    link: "https://www.linkedin.com/in/dr-surajit-kundu-9ba194143/"
+  },
+  {
+    role: "GENERAL CO-CHAIRS",
+    name: "Prof. Prabha Chand",
+    title:"ME, NIT Jamshedpur",
+    image: "https://ice2cpt.org/images/PC.png",
+    link: "https://scholar.google.com/citations?user=yAIgnmcAAAAJ&hl=en"
+  },
+  {
+    role: "GENERAL CO-CHAIRS",
+    name: "Atanu Kundu",
+    title:"IEEE Kolkata Section",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEdxD04OEZ8Dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709389746552?e=1772668800&v=beta&t=Ii76cxt7ecH_NZJhQWaEAvAKpeSLgmpZ6ZXMJkD__DY",
+    link: "https://www.linkedin.com/in/atanu-kundu-385979234/?originalSubdomain=in"
+  },
+  {
+    role: "GENERAL CO-CHAIRS",
+    name: "Dr. Omhari Gupta",
+    title:"EED, NIT Jamshedpur",
+    image: "https://ice2cpt.org/images/ohg.png",
+    link: "https://scholar.google.com/citations?user=XkZYkSkAAAAJ&hl=en"
+  },
+  {
     role: "Organizing CHAIRS",
     name: "Dr. Mrinal Kanti Sarkar",
     title: "EED, NIT Jamshedpur",
