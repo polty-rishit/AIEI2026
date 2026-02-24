@@ -219,6 +219,12 @@ const councilMembers = [
     image: "https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/sheldon.williamson.jpg",
     link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php"
   },
+  {
+    name: "Tarun Kumar Chatterjee",
+    title: "Presidio, USA",
+    image: "/tarun.jpeg",
+    link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php"
+  },
 ]
 
 const IeeeAc = () => {
