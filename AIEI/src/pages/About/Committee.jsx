@@ -228,6 +228,13 @@ const councilMembers = [
     link: "https://profiles.imperial.ac.uk/g.yang/about"
   },
   {
+    role: "Technical Program Chairs",
+    name: "Vishal Kumar Gaur",
+    title: "MNIT Allahabad",
+    image: "https://mnnit.ac.in/userprofile/uploads/94216-Vishal%20TIET%20Photo311.jpeg",
+    link: "https://mnnit.ac.in/profile/vkgaur"
+  },
+  {
     role: "Workshop Chairs",
     name: "Prof. Hubert Cecotti",
     title: "University of California Fresno, USA",
