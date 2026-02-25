@@ -223,7 +223,7 @@ const councilMembers = [
     name: "Tarun Kumar Chatterjee",
     title: "Presidio, USA",
     image: "/tarun.jpeg",
-    link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php"
+    link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/"
   },
 ]
 
