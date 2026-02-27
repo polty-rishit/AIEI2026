@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 
 const KeynoteSpeaker = () => {
   return (
@@ -65,12 +66,50 @@ const KeynoteSpeaker = () => {
                 </p> */}
               </div>
 
-              {/* <p className="text-sm font-medium text-indigo-600">
-                🕒 28th March | 9:30 AM (IST)
-              </p> */}
+              <p className="text-sm font-medium text-indigo-600">
+                🕒 26th March | 9:30 AM (IST)
+              </p>
 
             </div>
           </div>
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 overflow-hidden flex flex-col">
+
+            <div className="h-64 overflow-hidden">
+              <img
+                src="https://th.bing.com/th/id/OIP.QJhjAW2isKR35cUjC9UqowHaHa?w=201&h=201&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                alt="Dr. Jane Smith"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+
+            <div className="p-8 flex-1 flex flex-col justify-between space-y-4">
+
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-800">
+                 Dr.-Ing. Ali Behravan
+                </h3>
+
+                <p className="text-sm text-gray-500 mt-1">
+                  Gründer und Geschäftsführer GreeNovaX
+                </p>
+              </div>
+
+              <div className="border-t pt-4">
+                <p className="text-sm font-semibold text-gray-700">
+                  Title of the Talk
+                </p>
+                <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                  Artificial intelligence applications for fault detection and diagnosis
+                </p>
+              </div>
+
+              <p className="text-sm font-medium text-indigo-600">
+                🕒 27th March | 15:30–16:00 (IST)
+              </p>
+
+            </div>
+          </div> 
+          
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 overflow-hidden flex flex-col">
 
             {/* Image */}
@@ -112,47 +151,11 @@ const KeynoteSpeaker = () => {
           </div>
 
           {/* Speaker Card 2 */}
-          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 overflow-hidden flex flex-col">
-
-            <div className="h-64 overflow-hidden">
-              <img
-                src="https://th.bing.com/th/id/OIP.QJhjAW2isKR35cUjC9UqowHaHa?w=201&h=201&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
-                alt="Dr. Jane Smith"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-
-            <div className="p-8 flex-1 flex flex-col justify-between space-y-4">
-
-              <div>
-                <h3 className="text-2xl font-semibold text-gray-800">
-                 Dr.-Ing. Ali Behravan
-                </h3>
-
-                <p className="text-sm text-gray-500 mt-1">
-                  Gründer und Geschäftsführer GreeNovaX
-                </p>
-              </div>
-
-              <div className="border-t pt-4">
-                <p className="text-sm font-semibold text-gray-700">
-                  Title of the Talk
-                </p>
-                <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                  Artificial intelligence applications for fault detection and diagnosis
-                </p>
-              </div>
-
-              <p className="text-sm font-medium text-indigo-600">
-                🕒 27th March | 15:30–16:00 (IST)
-              </p>
-
-            </div>
-          </div>
+          
 
         </div>
-
       </div>
+      <Footer/>
     </div>
   )
 }
