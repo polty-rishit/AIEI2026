@@ -14,6 +14,7 @@ import Contact from './pages/About/Contact'
 import IeeeAc from './pages/About/IeeeAc'
 import IeeeP from './pages/About/IeeeP'
 import TechProgramme from './pages/Programme/TechProgramme'
+import KeyNoteSpeaker from './pages/Programme/KeyNoteSpeaker'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/About/ImportantDates'
@@ -22,6 +23,7 @@ import Sponsors from './pages/Sponsorship/Sponsors'
 import Sform from './pages/Sponsorship/Sform'
 import Gallery from './pages/Attend/Gallery'
 import AuthInfo from './pages/Authors/AuthInfo'
+
 
  
  const App = () => {
@@ -57,6 +59,8 @@ import AuthInfo from './pages/Authors/AuthInfo'
          <Route path='/form' element={<Sform/>}/>
          <Route path='/gallery' element={<Gallery/>}/>
          <Route path='/authinfo' element={<AuthInfo/>}/>
+         <Route path='/keynote' element={<KeyNoteSpeaker/>}/>
+         
          </Routes>
      </div>
    )
