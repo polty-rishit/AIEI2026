@@ -90,7 +90,7 @@ const KeynoteSpeaker = () => {
                 </h3>
 
                 <p className="text-sm text-gray-500 mt-1">
-                  Gründer und Geschäftsführer GreeNovaX
+                  Chief Executive Officer GreeNovaX 
                 </p>
               </div>
 
