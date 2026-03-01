@@ -51,7 +51,7 @@ const KeynoteSpeaker = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                AI-driven medical imaging and intelligent document analysis systems
+                {/* AI-driven medical imaging and intelligent document analysis systems */}
               </p>
             </div>
 
