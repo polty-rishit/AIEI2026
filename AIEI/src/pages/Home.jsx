@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom'; // <-- 1. Import useNavigate
+import { useNavigate } from 'react-router-dom';
 import { FaCalendarAlt, FaFileAlt, FaBell, FaCheckCircle } from "react-icons/fa";
 import NavbarHome from '../components/NavbarHome';
 import Footer from '../components/Footer';
@@ -20,7 +20,7 @@ const getIconForTitle = (title) => {
 };
 
 const App = () => {
-  const navigate = useNavigate(); // <-- 2. Initialize the navigate function
+  const navigate = useNavigate();
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -250,6 +250,8 @@ const App = () => {
           ORGANIZERS
         </p>
         <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
+          
+          {/* NIT Jamshedpur */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
             <img src="./nitjsr_logo.png" alt="NIT Jamshedpur Logo" className="w-28 md:w-32 lg:w-35 object-contain" />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
@@ -265,7 +267,7 @@ const App = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
+          {/* USD AI Research Lab */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
             <img src="./usd_lab.png" alt="USD AI Research Lab Logo" className="w-32 md:w-40 lg:w-60 object-contain" />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
@@ -277,307 +279,7 @@ const App = () => {
               </p>
             </div>
           </div>
-=======
-  {/* Organizer Cards */}
-  <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
-    
-    {/* NIT Jamshedpur */}
-   <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-  <img
-    src="./nitjsr_logo.png"
-    alt="NIT Jamshedpur Logo"
-    className="w-28 md:w-32 lg:w-35 object-contain"
-  />
-  <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-    <a href='https://nitjsr.ac.in/' className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
-      National Institute of Technology<sup>™</sup>
-    </a>
-    <a  className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
-      NIT Jamshedpur
-    </a>
-    <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
-      (An Institution of National Importance under Ministry of Education, Govt. of India)  
-    </p>
-  </div>
-</div>
-
-
-    {/* USD AI Research Lab */}
-    <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-  <img
-    src="./usd_lab.png"
-    alt="USD AI Research Lab Logo"
-    className="w-32 md:w-40 lg:w-60 object-contain"
-  />
-  <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-    <a href='https://www.ai-research-lab.org/' className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
-      USD AI Research
-    </a>
-    <p className="text-xs md:text-sm text-gray-600 mt-2">
-      Fostering innovation in AI research and development
-    </p>
-  </div>
-</div>
-  </div>
-</div>
-
-
-      {/*logo*/}
-      <div className="w-full bg-white py-8 mb-6 -mt-2">
-  {/* Co-Organizers */}
-  {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
-    TECHNICAL SPONSORS
-  </p> */}
-
-  {/* Logos with Descriptions */}
-  <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
-  {/* Logo 1 */}
-  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-    <img
-      src="ieeeSystem.png"
-      alt="IEEE Kolkata Section Logo"
-      className="max-h-full max-w-full object-contain"
-    />
-  </div>
-
-  {/* Logo 2 */}
-  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-    <img
-      src="./ieeeNit.png"
-      alt="IEEE NIT JSR Student Branch Logo"
-      className="max-h-full max-w-full object-contain"
-    />
-  </div>
-
-  {/* Logo 3 */}
-  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-    <img
-      src="./ieeeKolkatta.png"
-      alt="IEEE Systems Council Logo"
-      className="max-h-full max-w-full object-contain"
-    />
-  </div>
-
-  {/* Logo 4 */}
-  <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-  <img
-    src="./ieee.png"
-    alt="New IEEE Logo"
-    className="h-full w-full object-contain p-4"
-  />
-</div>
-
-
-</div>
-
-</div>
-
-{/* Technical Sponsor */}
-<div className="w-full bg-white py-8 mb-6 mt-6">
-  <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
-    KNOWLEDGE PARTNER
-  </p>
-
-  <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
-
-    {/* Logo 1 */}
-    <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-      <a href='https://www.manipal.edu/mit.html'>
-        <img
-        src="./MIT.png"
-        alt="Technical Sponsor Logo"
-        className="max-h-full max-w-full object-contain"
-      />
-      </a>
-    </div>
-
-    {/* Logo 2 */}
-    <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-      <a href='https://aiacademi.org/'>
-        <img
-        src="./techSponsor.png"
-        alt="Technical Sponsor Logo"
-        className="max-h-full max-w-full object-contain"
-      />
-      </a>
-    </div>
-
-  </div>
-</div>
-
-
-
-
- <WelcomeMessage/>
-
-
-     {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
-<section className="w-full bg-gray-50 py-20">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-
-      {/* ------------------ LEFT CONTENT ------------------ */}
-      <div className="lg:col-span-2 flex flex-col gap-20">
-
-        {/* =============== About NIT Jamshedpur Section =============== */}
-        {/* =============== About NIT Jamshedpur Section =============== */}
-<section id="nitjsr" className="w-full">
-  <div className="max-w-7xl mx-auto">
-
-    {/* HEADING */}
-    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-10 -mt-15">
-      About NIT Jamshedpur
-    </h2>
-
-    {/* IMAGE WITH FLOAT */}
-    <img
-      src="./nitjsr.jpg"
-      alt="NIT Jamshedpur Campus"
-      className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-3xl shadow-2xl object-cover"
-    />
-
-    {/* JUSTIFIED TEXT */}
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      The National Institute of Technology Jamshedpur (NIT Jamshedpur),
-      an Institute of National Importance located in Jamshedpur, Jharkhand, 
-      India, was established in 1960 as the Regional Institute of Technology 
-      and upgraded to NIT with Deemed University status on 27 December 2002. 
-      Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of 
-      Education, Government of India, the institute is committed to 
-      high-quality teaching, advanced research, innovation, and 
-      industry-oriented training.
-    </p>
-
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      As the third institute in the chain of eight NITs created under the 
-      Second Five-Year Plan, it now comprises twelve academic departments 
-      offering B.Tech, M.Tech, M.Sc, MCA, and Ph.D programs, with a strong 
-      emphasis on academic excellence, good governance, and leadership in 
-      engineering education and research.
-    </p>
-
-    {/* CLEAR FLOAT */}
-    <div className="clear-both"></div>
-
-  </div>
-</section>
-
-
-
-
-        {/* =============== Department Section (unchanged except flow) =============== */}
-        {/* =============== Department of Electrical Engineering Section =============== */}
-<section id="department" className="w-full">
-  <div className="max-w-7xl mx-auto">
-
-    {/* HEADING */}
-    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
-      Department of Electrical Engineering
-    </h2>
-
-    {/* IMAGE WITH FLOAT */}
-    <img
-      src="./Department.jpg"
-      alt="Electrical Engineering Department"
-      className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
-    />
-
-    {/* TEXT WITH JUSTIFY */}
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      The Department of Electrical Engineering was established in 1960 and has consistently 
-      produced highly skilled and industry-ready engineers since its inception. Along with strong 
-      academic foundations, the department is actively involved in research and development across 
-      emerging areas of electrical engineering.
-    </p>
-
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      The alumni of the department are well placed in both public and private sectors, contributing 
-      significantly to power systems, industries, research organizations, and higher education globally. 
-      In addition to the undergraduate (B.Tech) programme, the department offers postgraduate 
-      programmes in Power Systems and Power Electronics & Drives, along with a Ph.D. programme 
-      covering multiple specialized domains.
-    </p>
-
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      The department aims to emerge as a front-runner in addressing the evolving needs of the power 
-      sector, electrical industries, and public services. With a commitment to high human values and 
-      societal impact, it strives to impart quality education, develop advanced skills, and establish 
-      state-of-the-art research facilities. These efforts contribute to socio-economic development 
-      and support the vision of sustainable growth for society.
-    </p>
-
-    {/* CLEAR FLOAT */}
-    <div className="clear-both"></div>
-
-  </div>
-</section>
-
-
-
-
-      </div>
-
-
-     
-      {/* ------------------ RIGHT COLUMN: KEY DATES ------------------ */}
-      <div className="lg:col-span-1">
-
-        
-        <section
-  id="keydates"
-  className="p-8 rounded-3xl shadow-2xl sticky top-20 
-             bg-gradient-to-b from-purple-100 via-purple-50 to-blue-100
-             border border-purple-200"
->
-
-  {/* Heading */}
-  <div className="text-center mb-10">
-    <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
-      Key Dates
-    </h2>
-    <p className="text-lg text-gray-700">AIEI 2026 Timeline</p>
-  </div>
-
-  {/* Card List */}
-  <div className="flex flex-col gap-6">
-    {keyDates.map((item, index) => {
-      const isRed = index % 2 === 0; // alternate red → yellow → red
-      return (
-        <div
-          key={index}
-          className="rounded-2xl border border-purple-100 bg-white p-5 shadow-sm
-                     hover:shadow-lg hover:scale-[1.02] transition-all duration-300
-                     hover:border-purple-300 hover:bg-gradient-to-r
-                     from-purple-50 to-blue-50 cursor-pointer"
-        >
-          <p className="text-lg font-bold text-gray-900 mb-1">
-            {item.title}
-          </p>
-
-          <p
-            className={`font-extrabold tracking-wide ${
-              isRed ? "text-red-600" : "text-yellow-400"
-            }`}
-          >
-            {item.date}
-          </p>
->>>>>>> ae1c966f6201bf34be2af2b1ce7f83b97b2c3402
+          
         </div>
       </div>
 
@@ -701,7 +403,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* --- 3. Updated Button onClick --- */}
+      {/* --- Expanding Floating Button --- */}
       <button 
         className="aiei-floating-btn" 
         aria-label="Technical Sessions Schedule"
@@ -743,7 +445,7 @@ const App = () => {
           z-index: 9999;
           height: 65px;
           width: 65px; 
-          border-radius: 50px; /* High value ensures pill shape at any size */
+          border-radius: 50px; 
           background: rgba(20, 25, 50, 0.6); 
           backdrop-filter: blur(12px);
           -webkit-backdrop-filter: blur(12px);
@@ -812,7 +514,6 @@ const App = () => {
             height: 50px;
           }
 
-          /* Scales down the React Icon */
           .icon-wrapper svg {
             width: 20px;
             height: 20px;
@@ -823,7 +524,7 @@ const App = () => {
           }
 
           .aiei-floating-btn:hover {
-            width: 190px; /* Reduced expansion width for mobile screens */
+            width: 190px; 
           }
 
           .aiei-floating-btn:hover .btn-text {
