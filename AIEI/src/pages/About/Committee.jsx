@@ -147,7 +147,7 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Dinesh Kumar ",
     title: "CSE, NIT Jamshedpur",
-    image: "./Dinesh.jpg",
+    image: "./Dinesh_one.jpg.jpeg",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
