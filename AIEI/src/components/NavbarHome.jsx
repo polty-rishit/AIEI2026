@@ -378,7 +378,7 @@ const handleRegistrationLeave = () => {
                     <a href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Chapter Chair Meeting</a> */}
 
                     <a
-                      href="/"
+                      href="/techSession"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Technical Sessions
@@ -811,7 +811,7 @@ const handleRegistrationLeave = () => {
               {programmeDropdown && (
                 <div className="ml-4 mt-2 space-y-2">
                   <a
-                    href="/"
+                    href="/techSession"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Technical Sessions

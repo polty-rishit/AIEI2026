@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 
-const KeynoteSpeaker = () => {
+const KeyNoteSpeaker = () => {
   return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
       <Navbar />
@@ -190,4 +190,4 @@ const KeynoteSpeaker = () => {
   )
 }
 
-export default KeynoteSpeaker
+export default KeyNoteSpeaker
