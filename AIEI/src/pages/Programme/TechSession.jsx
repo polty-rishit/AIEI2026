@@ -257,7 +257,7 @@ const tracks = [
   title: "Track 6 - AI for Healthcare, Medical Imaging & Biomedical Systems",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   papers: [
     {
       sno: 1,
@@ -334,7 +334,7 @@ const tracks = [
    title: "Track 7 - Computer Vision & Image Processing",
    date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -396,7 +396,7 @@ const tracks = [
   "title": "Track 8 - Natural Language Processing, LLMs & Generative AI",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -458,7 +458,7 @@ const tracks = [
   title: "Track 9 - Cybersecurity, Blockchain & Privacy",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -514,7 +514,7 @@ const tracks = [
    title: "Track 10 - Internet of Things, Edge AI & Smart Systems",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -570,7 +570,7 @@ const tracks = [
   title: "Track 11 - Smart Cities, Transportation & Urban Systems",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -626,7 +626,7 @@ const tracks = [
   title: "Track 12 - Renewable Energy, Smart Grid & Sustainability",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -682,7 +682,7 @@ const tracks = [
   title : "Track 13 - Robotics, Autonomous Systems & Control",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -738,7 +738,7 @@ const tracks = [
   title: "Track 14 - Data Science, Machine Learning & Optimization",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -794,7 +794,7 @@ const tracks = [
   title : "Track 15 - AI Applications in Industry, Finance, Education & Society",
   date: "March 27, 2026",
   time: "11:00 AM – 01:00 PM",
-  mode: "OFFLINE",
+  mode: "ONLINE",
   "papers": [
     {
       "sno": 1,
