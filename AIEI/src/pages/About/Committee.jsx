@@ -147,7 +147,7 @@ const councilMembers = [
     role: "Organizing CHAIRS",
     name: "Dr. Dinesh Kumar ",
     title: "CSE, NIT Jamshedpur",
-    image: "./Dinesh.jpg",
+    image: "./Dinesh_one.jpg.jpeg",
     link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
   },
   {
@@ -235,6 +235,13 @@ const councilMembers = [
     link: "https://mnnit.ac.in/profile/vkgaur"
   },
   {
+    role: "Technical Program Chairs",
+    name: "Simanta Samal ",
+    title: "EED, NIT Jamshedpur",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEeaka92c5E2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727180443829?e=1775088000&v=beta&t=tm0NghZqUnCJvQgN7Fzvh3kZYhFYI2c3AfTPtNy1e2U",
+    link: "https://www.bing.com/ck/a?!&&p=385a9ebff279d59ab75a85addbe3612d3cd413c5cf0920afa404967a739d6838JmltdHM9MTc3MzM2MDAwMA&ptn=3&ver=2&hsh=4&fclid=39f01e57-4e5f-624a-18e6-0acc4fad639b&psq=simnata+kumar+samal+nit+jsr&u=a1aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20vY2l0YXRpb25zP3VzZXI9dmFLR3htY0FBQUFKJmhsPWVu"
+  },
+  {
     role: "Workshop Chairs",
     name: "Prof. Hubert Cecotti",
     title: "University of California Fresno, USA",
@@ -270,6 +277,20 @@ const councilMembers = [
     link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/longwei-wang"
   },
   {
+    role: "Publicity Chairs",
+    name: "K. Raghavendra Naik",
+    title: "EED, NIT Jamshedpur",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YjIK-p8AAAAJ&citpid=1",
+    link: "https://scholar.google.com/citations?user=YjIK-p8AAAAJ&hl=en"
+  },
+  {
+    role: "Publicity Chairs",
+    name: "Jitendra Kumar",
+    title: "EED, NIT Jamshedpur",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5JIt2LIAAAAJ&citpid=2",
+    link: "https://scholar.google.com/citations?user=5JIt2LIAAAAJ&hl=en"
+  },
+  {
     role: "Web & Media Chairs",
     name: "Rishit Raj",
     title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
@@ -297,7 +318,23 @@ const councilMembers = [
     image: "./prem.png",
     link: "https://www.linkedin.com/in/aditya-prem/"
   },
+   {
+    role: "Web & Media Chairs",
+    name: "Supriyo Dhani",
+    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    image: "https://ice2cpt.org/images/dhani.png",
+    link: "https://www.linkedin.com/in/supriyodhani/"
+  },
+   {
+    role: "Web & Media Chairs",
+    name: "Asmi Srivastava",
+    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQGdjgS5PkRhwQ/profile-displayphoto-shrink_400_400/B56ZsS2iVlIEAg-/0/1765547846019?e=1775088000&v=beta&t=_l1zZvhRdojmMfgNYv35L0CsaDZo7vWORipsMDsCLhQ",
+    link: "https://www.linkedin.com/in/asmi-srivastava-39180427b/"
+  },
 ];
+
+
 
 // Group by roles
 const groupedMembers = councilMembers.reduce((acc, member) => {
