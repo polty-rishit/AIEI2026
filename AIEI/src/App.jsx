@@ -6,7 +6,6 @@ import Committee from './pages/About/Committee'
 import Venue from './pages/Venue'
 import CallForPapers from './pages/Authors/CallForPapers'
 import Guidelines from './pages/guidelines'
-import CMT from './pages/CMT'
 import { useEffect } from "react";
 import Overview from './pages/About/Overview'
 import Patrons from './pages/About/Patrons'
@@ -23,7 +22,7 @@ import Sform from './pages/Sponsorship/Sform'
 import Gallery from './pages/Attend/Gallery'
 import AuthInfo from './pages/Authors/AuthInfo'
 import TechSession from './pages/Programme/TechSession'
-import keynoteSpeaker from './pages/Programme/keynoteSpeaker'
+// import keynoteSpeaker from './pages/Attend/keynoteSpeaker'
 
 
 
@@ -62,7 +61,7 @@ import keynoteSpeaker from './pages/Programme/keynoteSpeaker'
          <Route path='/gallery' element={<Gallery/>}/>
          <Route path='/authinfo' element={<AuthInfo/>}/>
          <Route path='/techSession' element={<TechSession/>}/>
-         <Route path='/keynote' element={<KeyNoteSpeaker/>}/>
+         {/* <Route path='/keynote' element={<keynoteSpeaker/>}/> */}
          </Routes>
      </div>
    )
