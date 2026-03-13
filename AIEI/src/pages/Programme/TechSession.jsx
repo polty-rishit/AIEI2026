@@ -677,6 +677,1300 @@ const tracks = [
       "presenter": "Yashaswini C S; Mahipal Bukya; Nisha Prasad; Babu Naik Gugulothu; Srinivas Yelisetti; Rajesh Kumar"
     }
   ]
+},
+{
+  "title": "Track 13 - Robotics, Autonomous Systems & Control",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 871,
+      "title": "Smart Robotic Arms Trained with RL for Assembly-Line Automation",
+      "presenter": "Devi M"
+    },
+    {
+      "sno": 2,
+      "id": 940,
+      "title": "Multi-Agent Reinforcement Learning with Decentralized AI in Autonomous Drone Swarms",
+      "presenter": "Vibhor Pal; Gaurav Sarraf; Manisha Bhende; Suvarna Patil"
+    },
+    {
+      "sno": 3,
+      "id": 1177,
+      "title": "Intelligent Drone Traffic Management with Multi-Agent Learning",
+      "presenter": "Akshya J"
+    },
+    {
+      "sno": 4,
+      "id": 1371,
+      "title": "Multimodal Deep Learning for Dissociation Detection: Window-Based, Sequential, and Attention-Augmented Architectures",
+      "presenter": "Deepa Gupta; Nischal V Pattedar; Punav Anirudh Potluri; Raunak Choudhury; Sravan Kumar Reddy"
+    },
+    {
+      "sno": 5,
+      "id": 1391,
+      "title": "A Study of Environmental Pollution and its Relation with Disorders, Diseases and Mortality using Machine Learning, Deep Learning",
+      "presenter": "Swapnaneel Chakrabarty; Atmadeep Samaddar; Poly Sil Sen"
+    },
+    {
+      "sno": 6,
+      "id": 1534,
+      "title": "Evaluating LoRA Adaptation and Fine-Tuning for Multi-Class Adversarial Prompt Detection in Transformer Models",
+      "presenter": "Sajal Bajaj; Kamlesh Dutta"
+    },
+    {
+      "sno": 7,
+      "id": 1710,
+      "title": "Real Time Screen Based Gaze Estimation Using MediaPipe and Machine Learning Models",
+      "presenter": "Sahil Kumar Gupta; Aaditya Yadav; Adrija Adhikary; Raushan Kumar Gupta; Jyotsna C; Amudha J"
+    },
+    {
+      "sno": 8,
+      "id": 1795,
+      "title": "Smart Eye-Wear for Real-Time Alertness and Alcohol Monitoring for Motorcycle Riders",
+      "presenter": "G Satyanandam; Ankur Pandey; Vivek Upadhyaya"
+    }
+  ]
+},
+{
+  "title": "Track 14 - Data Science, Machine Learning & Optimization",
+  "date": "March 25, 2026",
+  "time": "",
+  "mode": "OFFLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 274,
+      "title": "Dynamic Feature Fusion in a Semi-Supervised Scene for Cardiovascular Risk Identification",
+      "presenter": "Rajesh Turaka; Dr Suthir Sriram"
+    },
+    {
+      "sno": 2,
+      "id": 362,
+      "title": "CF-GNN: An Imbalance-Aware Counterfactual Graph Neural Network for ICU Mortality Prediction in Coronary Artery Disease Patients",
+      "presenter": "Geetha Pratyusha Miriyala; Arun Sinha"
+    },
+    {
+      "sno": 3,
+      "id": 552,
+      "title": "AI-Powered Learning Difficulty Prediction Using Federated Analytics for Early Academic Risk Detection in STEM Students",
+      "presenter": "Ayesha Ambreen; CH N V Jyothirmai; Prasanta Chatterjee Biswas; Kathari Santosh; Dr Chinmaya Dash; Ponni Valavan M"
+    },
+    {
+      "sno": 4,
+      "id": 852,
+      "title": "Learning to Decide When Not to Decide: Coverage-Constrained Selective Classification with Abstention",
+      "presenter": "Janice Karen Petra K; Jenavani D; Deepa R"
+    },
+    {
+      "sno": 5,
+      "id": 983,
+      "title": "Quantum-Inspired Machine Learning for High-Dimensional Data Optimization",
+      "presenter": "Amit Verma; Arpana Chaturvedi; S Nagaraju; Amit Verma"
+    },
+    {
+      "sno": 6,
+      "id": 1018,
+      "title": "A Hybrid Lightweight AI Framework for Skill Gap Analysis in HR Analytics",
+      "presenter": "Nazia Tasleem; Mohammed Nadeem Ansari"
+    },
+    {
+      "sno": 7,
+      "id": 1266,
+      "title": "HiPELog: Hierarchical and Parameter-Efficient Transformer for Log Anomaly Detection",
+      "presenter": "Anjana Devi M; Sountharrajan S"
+    },
+    {
+      "sno": 8,
+      "id": 1347,
+      "title": "Lightweight ViT-U-Net with Wandering Patches for Hyperspectral Road Scene Segmentation",
+      "presenter": "Vani Chaurasia; Dr Meera Dhabu; Dr Ashish Tiwari; Koukantala Pranav"
+    }
+  ]
+},
+{
+  "title": "Track 15 - AI Applications in Industry, Finance, Education & Society",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 233,
+      "title": "Artificial Intelligence in Education (AIEd) for Deployment at Scale: Architectures, Evaluation, and Safety",
+      "presenter": "Ashraf Alam"
+    },
+    {
+      "sno": 2,
+      "id": 234,
+      "title": "Internet of Things (IoT) in Education",
+      "presenter": "Ashraf Alam"
+    },
+    {
+      "sno": 3,
+      "id": 413,
+      "title": "Proactive Student Risk Identification Using Optimized Random Forest Classification with Synthetic Minority Over-sampling Techniques",
+      "presenter": "Sugandha Saxena; Rakesh B; Akkinebbal Surya Bhargava; Bharath C; Abdul Haq Nalband; Pradeep Kumar K"
+    },
+    {
+      "sno": 4,
+      "id": 465,
+      "title": "Combining Large Language Models with Retrieval Systems for Enhanced Educational Tutoring: A Practical Implementation Study",
+      "presenter": "Yogesh G; Sudharsan N M; Priyadharshini SP"
+    },
+    {
+      "sno": 5,
+      "id": 729,
+      "title": "AI and Blockchain-Based Mining of Text and Sensor Data for Mental Health Monitoring",
+      "presenter": "Richa Kaushik"
+    },
+    {
+      "sno": 6,
+      "id": 877,
+      "title": "Evaluating Machine Learning Algorithms for Identifying Student Confusion while Watching MOOCs",
+      "presenter": "Pankaj Singh"
+    },
+    {
+      "sno": 7,
+      "id": 1094,
+      "title": "A Survey on Agentic AI-Powered Adaptive Learning Platforms",
+      "presenter": "Niveditha T; Kabil Kirithik S S"
+    },
+    {
+      "sno": 8,
+      "id": 1202,
+      "title": "Exploring the Impact of ICT-Based Learning Environments on Preschool Children’s Innovative Learning Behaviours",
+      "presenter": "Binyong Zhu; Miao Tian"
+    }
+  ]
+},
+{
+  "title": "Track 16 - AI for Healthcare, Medical Imaging & Biomedical Systems",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 709,
+      "title": "Meta-Edu: An Adaptive Multi-Agent Framework for Educational Content Generation and Assessment",
+      "presenter": "Samridhi Raj Sinha; Asmi Parikh; Soni Sweta"
+    },
+    {
+      "sno": 2,
+      "id": 1215,
+      "title": "Multimodal Deep Learning for Early Cardiovascular Risk Prediction: A Systematic Review and the OC-GRU-RAE Framework",
+      "presenter": "Jerin Jose J; Prem Jacob T; Parthiban Mohandas"
+    },
+    {
+      "sno": 3,
+      "id": 1293,
+      "title": "Physio-Aware Contrastive Variational Autoencoder for Unsupervised ECG Anomaly Detection",
+      "presenter": "Jayalaxmi Anem; Kanaka Raju Kalla; Sai Lakshmi Bevara; Pasumarthi Srinivasarao; Keta Lokesh; Chintha Sai Ganesh"
+    },
+    {
+      "sno": 4,
+      "id": 1297,
+      "title": "LungSense AI - Lung Disease Prediction Using Convolutional Neural Network (CNN)",
+      "presenter": "Abilash Sivakumar; Antony Mittul S; Matthias Daniel; Vishnu Sekhar M"
+    },
+    {
+      "sno": 5,
+      "id": 1314,
+      "title": "Multimodal Hybrid Attention-Gating Fusion Deep Learning Framework for Alzheimer’s Disease Classification",
+      "presenter": "Mohammed Rizwan Shaikh; Andrew Jeyabose; R Vijaya Arjunan"
+    },
+    {
+      "sno": 6,
+      "id": 1350,
+      "title": "ExpAVOA-DMN for Depression Detection: Multimodal Deep Learning Framework using Acoustic and sMRI Biomarkers",
+      "presenter": "Harshada Magar; Yash Chavhan; Niranjana Patil; Tejas Patil"
+    },
+    {
+      "sno": 7,
+      "id": 1397,
+      "title": "Multimodal Fusion for Breast Cancer Prognosis: Integrating Frozen Swin-T Backbones with Mutual-Guided Attention",
+      "presenter": "Bikash Sharma; Biswanath Dey"
+    },
+    {
+      "sno": 8,
+      "id": 1405,
+      "title": "Deep Learning-Based Multi Class Retinal Image Classification From Fundus Images",
+      "presenter": "G Karthik"
+    },
+    {
+      "sno": 9,
+      "id": 1776,
+      "title": "Melanoma Skin Cancer Detection Using a Deep Learning Approach",
+      "presenter": "Ajay Indian; Gaurav Meena; Ravi Raj Choudhary"
+    }
+  ]
+},
+{
+  "title": "Track 17 - Computer Vision & Image Processing",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 880,
+      "title": "Intelligent Glass-Defect Detection Using Convolutional Neural Networks",
+      "presenter": "Bhuvaneshwari V"
+    },
+    {
+      "sno": 2,
+      "id": 1358,
+      "title": "Statistical Analysis of Lung Histopathology Images for Deep Learning Based Cancer Detection",
+      "presenter": "Rajarajeswari K; Akila I S"
+    },
+    {
+      "sno": 3,
+      "id": 1394,
+      "title": "Decoding Cancer Tissues: A Comparative Deep Learning View of Breast Histopathology",
+      "presenter": "Hima Deepthi Vankayalapati; Sanya Malik; Maanasvee Khetan; Reya Oberoi"
+    },
+    {
+      "sno": 4,
+      "id": 1419,
+      "title": "Neural Vision-Language Modeling for Automated Image Caption Generation",
+      "presenter": "Reshma Chadaram"
+    },
+    {
+      "sno": 5,
+      "id": 1521,
+      "title": "Improved Skin Lesion Segmentation Using Dilated SegNet and Image Processing Techniques",
+      "presenter": "Vaishnavi C; Siva Balaji A; Anitha Setti; Yepuganti"
+    },
+    {
+      "sno": 6,
+      "id": 1543,
+      "title": "Virtual Eye Test App Using Gaze Tracking and Mobile Camera",
+      "presenter": "Gowtham Raghunath"
+    },
+    {
+      "sno": 7,
+      "id": 1713,
+      "title": "Comparative Analysis of Deep Learning Models for Visual Classification of Terrestrial and Extraterrestrial Rock Image",
+      "presenter": "Parikshith Sivakumar; B U Naveen Raj; Jyotsna Chandrasekharan; Ullas S"
+    },
+    {
+      "sno": 8,
+      "id": 1729,
+      "title": "Golden Ratio and Fibonacci Guided Non-Uniform Patch Segmentation for Osteoporosis Classification from X-ray Images",
+      "presenter": "Subhayu Dutta; Kumar Souvik Chatterjee; Anish Kumar; Arun Kumar Maurya; Mohit Gupta"
+    }
+  ]
+},
+{
+  "title": "Track 18 - Natural Language Processing, LLMs & Generative AI",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 967,
+      "title": "Multi-Agent AI assisted Multimodal Content Synthesis: Knowledge Sharing across Barriers",
+      "presenter": "Rajagopal A; Aradhana R"
+    },
+    {
+      "sno": 2,
+      "id": 1197,
+      "title": "Artificial Intelligence Based ECAPA-TDNN Voice Cloning",
+      "presenter": "Akash N; Harshitha N Reddy; Jayapandian N; Chirag B; Aaron L Dsouza; Anaswara Raghuthaman"
+    },
+    {
+      "sno": 3,
+      "id": 1231,
+      "title": "Audio-to-Text Conversion with Speaker Identification",
+      "presenter": "Vijayalaxmi H N; Shrimani Jahagirdar; Shwetha K C; Radhakrishnan Gopalapillai"
+    },
+    {
+      "sno": 4,
+      "id": 1321,
+      "title": "Multilingual Hope Speech Classification Framework for English, Thunglish, and Manglish in Social Media Texts",
+      "presenter": "Dr Srinivasan R; Tamil Selvan V P; Vignesh S; Nandha Kumar; Dr Nikkath Bushra S"
+    },
+    {
+      "sno": 5,
+      "id": 1781,
+      "title": "When to Hash and When to Learn: A Systematic Performance Analysis of Deterministic Indexing versus Neural Inference for Text Retrieval",
+      "presenter": "Bhupesh Kumar; Yash Verma; Chandramohan Dhasarathan"
+    },
+    {
+      "sno": 6,
+      "id": 1780,
+      "title": "Generative AI in Higher Education: Pathways for Sustainable, Inclusive, and Adaptive Learning in the Context of India’s NEP 2020",
+      "presenter": "Rahul Kumar; Neha Jaiswal"
+    },
+    {
+      "sno": 7,
+      "id": 583,
+      "title": "AI Driven Adaptive Storytelling for Language Learning Advancing Personalization Engagement and Linguistic Development",
+      "presenter": "Angalakuduru Aravind; Dr Shagufta Parween; Purnachandra Rao Alapati; Kalpanapriyadharshini Thiyagarajan; B Pavan Kumar; P Nagaraj"
+    },
+    {
+      "sno": 8,
+      "id": 757,
+      "title": "AI-Enhanced Semiconductor Yield Optimization Using Hybrid Deep Learning and Edge Data Analytics",
+      "presenter": "Botlagunta Preethish Nandan; Ravi Shankar Garapati"
+    }
+  ]
+},
+{
+  "title": "Track 19 - Cybersecurity, Blockchain & Privacy",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1057,
+      "title": "Rug Pulls in Blockchain-Based NFT Markets: Detection Techniques and Risk Mitigation Strategies",
+      "presenter": "Swati Sharma; Nipun Sharma"
+    },
+    {
+      "sno": 2,
+      "id": 1477,
+      "title": "Unified Blockchain and Machine Learning Framework for Secure Digital Certification and Adaptive Course Recommendations",
+      "presenter": "Renangi Sandeep"
+    },
+    {
+      "sno": 3,
+      "id": 1364,
+      "title": "Hybrid Decentralization for Real-Time Messaging: A Smart Contract and IPFS-Based Approach on Ethereum",
+      "presenter": "Venkatesh Babu; Vignesh D; Sibaath Ahmed S; Ramkumar M P; Emil Selvan G S R"
+    },
+    {
+      "sno": 4,
+      "id": 1784,
+      "title": "AI-Enabled Trustworthiness in Edge Zero Trust Architectures",
+      "presenter": "Vibha Negi; Pramod Negi"
+    },
+    {
+      "sno": 5,
+      "id": 1833,
+      "title": "Policy- and Tenant-Aware AI Fabric: Embedding Trustworthy Machine Learning into Enterprise SaaS at Scale",
+      "presenter": "Suresh Kurapati"
+    },
+    {
+      "sno": 6,
+      "id": 1845,
+      "title": "Harnessing Artificial Intelligence Cybersecurity: Cutting Edge Collaboration of SAP AWS to Safeguard Life Science Data",
+      "presenter": "Anjaneyulu Gudla; Manish Kumar; Vamshi Jeksani; Kiran Kumar Reddy; Gayathri Band"
+    },
+    {
+      "sno": 7,
+      "id": 1841,
+      "title": "Intelligent Risk-Aware Release Governance Using Agentic AI in Cloud-Native P&C Insurance Ecosystems",
+      "presenter": "Kiran Babu Boddapati; Pavan Madduri; Karthik Turaga"
+    },
+    {
+      "sno": 8,
+      "id": 758,
+      "title": "Generative AI-Enhanced Data Engineering Pipelines for Predictive Biomarker Discovery in Alzheimer’s and Kidney Disease",
+      "presenter": "Mahesh Recharla; Avinash Reddy Aitha; Dr Seenu Aaluri"
+    }
+  ]
+},
+{
+  "title": "Track 20 - Internet of Things, Edge AI & Smart Systems",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 817,
+      "title": "A Multi-Factor Risk-Minimization Framework for Integrated Personal Safety and Navigation",
+      "presenter": "Niki Modi; Yash Wadhvani; Rishi Mehta; Tirth Borad; Prit Suthar"
+    },
+    {
+      "sno": 2,
+      "id": 1819,
+      "title": "Smart Helmet with GNSS Based Linked Location Alerts",
+      "presenter": "Mallikharjuna Rakesh Manepalli"
+    },
+    {
+      "sno": 3,
+      "id": 1826,
+      "title": "Sound Aware Haptic Feedback Wearable for the Hearing Impaired",
+      "presenter": "Krishnaveni Musku"
+    },
+    {
+      "sno": 4,
+      "id": 1827,
+      "title": "NutriFit360 AI: An Intelligent Machine Learning-Based Diet and Workout Recommendation",
+      "presenter": "Mallikharjuna Rakesh Manepalli"
+    },
+    {
+      "sno": 5,
+      "id": 1832,
+      "title": "Smart Stick for Visually Impaired with Real-time GNSS Tracking and Guardian Monitoring",
+      "presenter": "Mallikharjuna Rakesh Manepalli"
+    },
+    {
+      "sno": 6,
+      "id": 1822,
+      "title": "Geo-Synchronized Smart Waste Management System",
+      "presenter": "Krishnaveni Musku"
+    },
+    {
+      "sno": 7,
+      "id": 1821,
+      "title": "File Vault Secure: Multi-Factor Encryption Using Password, Geolocation, and One-Time Password",
+      "presenter": "Krishnaveni Musku"
+    },
+    {
+      "sno": 8,
+      "id": 842,
+      "title": "A Neuro-Symbolic AI System for Policy Evaluation on Canine Rights, Urban Safety, and Human-Animal Legal Coexistence",
+      "presenter": "R Vimala"
+    }
+  ]
+},
+{
+  "title": "Track 21 - Smart Cities, Transportation & Urban Systems",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 843,
+      "title": "A Federated Legal Intelligence Architecture for Cross-Jurisdictional Trademark Licensing in the Dairy Industry",
+      "presenter": "R Vimala"
+    },
+    {
+      "sno": 2,
+      "id": 844,
+      "title": "A Federated Legal Decision System Using Case-Based Reasoning and Crowd-AI to Resolve Street Dog Disputes Across Jurisdictions",
+      "presenter": "Manonmani M"
+    },
+    {
+      "sno": 3,
+      "id": 858,
+      "title": "Federated Multi-Modal Learning System for Privacy-Preserving Medical Diagnostics in Next-Generation Healthcare",
+      "presenter": "Kaviya S"
+    },
+    {
+      "sno": 4,
+      "id": 900,
+      "title": "An Evidence-Grounded Multi-Stage Retrieval-Augmented Framework for Multimodal Medical Question Answering",
+      "presenter": "Khushi Sharma; Srishti Srivastava; Shruti Sahrawat; Abhishek Singhal"
+    },
+    {
+      "sno": 5,
+      "id": 922,
+      "title": "Machine Learning–Based Earthquake Prediction Using Global Seismic Data",
+      "presenter": "Allacheruvu Brahmaiah; Kondragunta Rama Krishnaiah; Kattika Koteswara Rao; Nanduri Srinivas; Shahanaz Shaik; Venneti Murali Krishna"
+    },
+    {
+      "sno": 6,
+      "id": 937,
+      "title": "A Privacy-Preserving Federated Learning Framework for Adaptable Cross-organizational Collaboration",
+      "presenter": "Nimish Kushwaha; Sandesh Varma; A Padmavathi"
+    },
+    {
+      "sno": 7,
+      "id": 1741,
+      "title": "TeachMate: A Teaching Assistant using Small Language Models for Education in Remote Areas",
+      "presenter": "Sireesha K; Erol John D'Silva"
+    },
+    {
+      "sno": 8,
+      "id": 1771,
+      "title": "Multi-Objective Task Scheduling in Fog-Cloud Environments Using Proximal Policy Optimization",
+      "presenter": "Arwaz Khan; Pinky K; Karan Verma"
+    }
+  ]
+},
+{
+  "title": "Track 22 - Renewable Energy, Smart Grid & Sustainability",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 605,
+      "title": "AI-Driven Hybrid Optimization of BiFeO3–rGO Nanocomposites for High-Performance Energy Storage",
+      "presenter": "Raj Kumar Gupta"
+    },
+    {
+      "sno": 2,
+      "id": 1441,
+      "title": "Electricity Generation from Waste Materials",
+      "presenter": "Bhanuteja Vilasagarm"
+    },
+    {
+      "sno": 3,
+      "id": 1161,
+      "title": "Hybrid Machine Learning-Based Wind Power Prediction with Anomaly Detection",
+      "presenter": "Venkateshkumar M; Shrinidhee P B; Sundaresh S; Pranav Krishna J S; Vishal M"
+    },
+    {
+      "sno": 4,
+      "id": 1167,
+      "title": "Fault Detection in Smart Grids Using Machine Learning and Raspberry Pi for Condition Monitoring",
+      "presenter": "Venkateshkumar M"
+    },
+    {
+      "sno": 5,
+      "id": 1774,
+      "title": "Analysis of Performance and Switching Behavior of SPS-Modulated DAB Converter",
+      "presenter": "Kumar Shanu; K B Yadav"
+    },
+    {
+      "sno": 6,
+      "id": 1772,
+      "title": "A Compact and Stable Wideband Metamaterial Absorber for Shielding Technology",
+      "presenter": "Shashi Kumar Ranjan; Jigyasa Pagaria; Rajesh Kumar Yadav; Debajyoti Chatterjee; Juliano Katrib; Swagatadeb Sahoo"
+    },
+    {
+      "sno": 7,
+      "id": 868,
+      "title": "ML-Optimized THz-Band Massive MIMO Architecture for Energy-Efficient 6G Communication",
+      "presenter": "K P Ramapraba S"
+    },
+    {
+      "sno": 8,
+      "id": 1107,
+      "title": "Deep Neural Networks for Automatic Vehicle Damage Assessment in Insurance",
+      "presenter": "Lalitha S"
+    }
+  ]
+},
+{
+  "title": "Track 23 - Robotics, Autonomous Systems & Control",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 405,
+      "title": "Efficient FPGA-Based CNN Accelerator for Real-Time Traffic Sign Classification on PYNQ-Z2",
+      "presenter": "Anushka Tiwari; Jai Dhairya Kumar; Wafiza Syed; Suhas Venkat; Girish H"
+    },
+    {
+      "sno": 2,
+      "id": 867,
+      "title": "FPGA-Driven Parallel Inference Engine for High-Throughput Deep Learning in Autonomous Robotics",
+      "presenter": "Lalitha S"
+    },
+    {
+      "sno": 3,
+      "id": 878,
+      "title": "Energy-Aware RISC-V SoC with Integrated AI Accelerator for Edge Computing Applications",
+      "presenter": "G Pavani"
+    },
+    {
+      "sno": 4,
+      "id": 1083,
+      "title": "An FPGA–Based Enhanced Phase Measurement System",
+      "presenter": "Shrikant Upadhyay; Jadhav Vivek Singh; B Varun; Barla Dhanush; J Gowtham"
+    },
+    {
+      "sno": 5,
+      "id": 1573,
+      "title": "A Lightweight Hybrid DVFS Governor with EMA Smoothing and Asymmetric Hysteresis: FPGA Based Evaluation and Node-Scaled Analysis",
+      "presenter": "Chirag Tripathi; R K Sharma"
+    },
+    {
+      "sno": 6,
+      "id": 1095,
+      "title": "Custom Training, Channel Adaptation, and Quantization of Deep Learning Enabled Semantic Communication",
+      "presenter": "Het Valera; Sumedha Goyal"
+    },
+    {
+      "sno": 7,
+      "id": 1201,
+      "title": "A Real-World Fractional Assets Tokenization Platform using Hedera: SAMK Framework",
+      "presenter": "Shikha Jain; Minal Shirure; Aakanksha Bedi; Kapil Kushwaha"
+    },
+    {
+      "sno": 8,
+      "id": 1208,
+      "title": "Research on a Cross-Subject EEG Signal Analysis Framework Based on Self-Representation Learning",
+      "presenter": "Yue Chao; HaiChun Huang; JiaNing Xue"
+    }
+  ]
+},
+{
+  "title": "Track 24 - Data Science, Machine Learning & Optimization",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 307,
+      "title": "AI-Driven Credit Scoring: A Study of Machine Learning Algorithms for Enhanced Risk Assessment",
+      "presenter": "Shaikh Irfan"
+    },
+    {
+      "sno": 2,
+      "id": 755,
+      "title": "Towards Automated Financial Risk Scoring in Automotive Financing with Explainable Machine Learning",
+      "presenter": "Kushvanth Chowdary Nagabhyru; Anil Lokesh Gadi; Dr Aaluri Seenu"
+    },
+    {
+      "sno": 3,
+      "id": 759,
+      "title": "Cloud-Native Orchestration of Multi-Counterparty Derivatives and Collateral in Manufacturing Enterprises via AI-Assisted Financial Audit Engines",
+      "presenter": "Ravi Shankar Garapati; Preethish Nandan Botlagunta; Dr Sudha Rani P R"
+    },
+    {
+      "sno": 4,
+      "id": 760,
+      "title": "Real-Time AI-Driven Audit and Compliance Framework for Smart Manufacturing Financial Workflows",
+      "presenter": "Dwaraka Kummari; Appa Rao Nagubandi; Venkata Kesava Kumar Majjari"
+    },
+    {
+      "sno": 5,
+      "id": 763,
+      "title": "Architecting Hybrid Data Products Using AI/ML and Agentic AI for Group Insurance and Retirement Solution Platforms with Advanced Data Governance",
+      "presenter": "Ramesh Inala; Goutham Kumar Sheelam; Dr Aaluri Seenu"
+    },
+    {
+      "sno": 6,
+      "id": 768,
+      "title": "Leveraging AI-Based Mental Health Applications as Strategic Business Tools for Addressing Workplace Well-being and Productivity Challenges",
+      "presenter": "Shrikant Upadhyay; Khiro d Chandra Maharana; Binod Kumar; V Rama Krishna Sharma; A Geetha; Rakesh Kumar"
+    },
+    {
+      "sno": 7,
+      "id": 1790,
+      "title": "A Hybrid Ensemble Learning Approach for Robust Tumor Detection and Classification",
+      "presenter": "Chandra Prabha Jain; Dipti Prasad; Sunil Kumar"
+    },
+    {
+      "sno": 8,
+      "id": 1225,
+      "title": "Real Time Online Proctoring System Using AI And Full Stack Integration",
+      "presenter": "Sai Vara Prasad Muvvala; Naga Ravi Teja Reddy V; Neeraj Amudalapalli; Meenapriyadharshini A"
+    }
+  ]
+},
+{
+  "title": "Track 25 - AI Applications in Industry, Finance, Education & Society",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1204,
+      "title": "Research on the Construction and Application of Design Metaverse Teaching Environment Integrating AIGC and Virtual Simulation",
+      "presenter": "Weiqing Guo"
+    },
+    {
+      "sno": 2,
+      "id": 1206,
+      "title": "AI-Driven Financial Data Analytics for Digital Transformation in the Steel Industry: A Case Study of Liaoning",
+      "presenter": "Jing Zhang; Tao Zhang"
+    },
+    {
+      "sno": 3,
+      "id": 1209,
+      "title": "Lifecycle-Oriented Modular Design of Consumer Electronics Based on Recyclable Material Systems",
+      "presenter": "Tong Zhou; Weijun Xie; Jungsik Jang"
+    },
+    {
+      "sno": 4,
+      "id": 1210,
+      "title": "Digital Transformation in University Sports Management: A Case Study of RFID-Enabled Attendance and Performance Tracking System",
+      "presenter": "Zhihao Chen"
+    },
+    {
+      "sno": 5,
+      "id": 1212,
+      "title": "The Impact of Artificial Intelligence on Financial Decision-Making: An Empirical Study in Commercial Bank Operations",
+      "presenter": "Jiawei Yi"
+    },
+    {
+      "sno": 6,
+      "id": 1211,
+      "title": "Intelligent Decision-Making for Patent-Standard Collaborative Transformation in the Power Industry: An Explainable Multi-Task Learning Framework",
+      "presenter": "Sanshan Zhao; Xiaoman Qi"
+    },
+    {
+      "sno": 7,
+      "id": 601,
+      "title": "CHAID Based Decision Tree for Intelligent Employee Performance Appraisal in Human Resource Management Systems",
+      "presenter": "Mohammad Shahid Kamal"
+    },
+    {
+      "sno": 8,
+      "id": 1263,
+      "title": "AI-Based Hybrid Framework for Intelligent Movie Recommendation Systems",
+      "presenter": "Aanchal Singh S Vardhan"
+    }
+  ]
+},
+{
+  "title": "Track 26 - AI for Healthcare, Medical Imaging & Biomedical Systems",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1725,
+      "title": "AI-Based Detection of Emergency Care Episodes Using Hospital Power Consumption Signals",
+      "presenter": "Shubham Gade; Shubham Sarote; Jigarkumar Shah; Anjali Gupta; Aniket Ragadwale"
+    },
+    {
+      "sno": 2,
+      "id": 1608,
+      "title": "Advancements in AI-Based Approaches for Early Detection of Diabetic Retinopathy: A Review",
+      "presenter": "Ayush Ohal; Arnav Bhalgaonkar"
+    },
+    {
+      "sno": 3,
+      "id": 1505,
+      "title": "Adapter-Based Spatial Tuning of Foundation Models for Ultrasound-Based DDH Detection",
+      "presenter": "Prashnatita Pal"
+    },
+    {
+      "sno": 4,
+      "id": 879,
+      "title": "Deep Learning-Integrated Digital Pathology System for Early-Stage Cancer Screening Using High-Resolution Tissue Images",
+      "presenter": "Sameer Nanivadekar"
+    },
+    {
+      "sno": 5,
+      "id": 896,
+      "title": "CATS-AD: Phase-Aware Cognitive Trajectory Modeling of Alzheimer’s Disease Using Longitudinal ADAS-Cog Scores",
+      "presenter": "Maga Vigna C; Bhavani G"
+    },
+    {
+      "sno": 6,
+      "id": 1668,
+      "title": "BeatBound: A Knowledge-Bounded Retrieval-Augmented Generation Framework for Precision Cardiology",
+      "presenter": "Shailendra Kumar Singh; Ayush Sharma; Janvi Chauhan; Uzma Saghir; Nitish Kumar Ojha; Anil Sharma"
+    },
+    {
+      "sno": 7,
+      "id": 1268,
+      "title": "Cardiac Rhythm Classification Using HRV and Threshold-Based Intelligence",
+      "presenter": "Jayaparvathy R; Daphin Lilda S; Pravin Kumar S"
+    },
+    {
+      "sno": 8,
+      "id": 1289,
+      "title": "An Explainable Deep Learning Approach for Chronic Kidney Disease Prediction in Clinical Systems",
+      "presenter": "Chapa Kalyani; Bhramaramba Ravi"
+    }
+  ]
+},
+{
+  "title": "Track 27 - Computer Vision & Image Processing",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1635,
+      "title": "Real-Time Infant Emotion Recognition Using EfficientNet-B0 with Explainable Deep Learning",
+      "presenter": "Shivam Singh"
+    },
+    {
+      "sno": 2,
+      "id": 883,
+      "title": "Deep Learning-Based Real-Time Emotion Analytics for Multi-Person Settings with Confidence Visualization",
+      "presenter": "Vaishnavi Janjanam; Suma Kamalesh Gandhimathi"
+    },
+    {
+      "sno": 3,
+      "id": 953,
+      "title": "Robust and Explainable Evaluation of Ensemble Learning Models for Line-to-Ground Fault Classification",
+      "presenter": "Dr Ijjada Ramesh; Mahesh K; V Rajesh Kumar; Kanaka Raju Kalla"
+    },
+    {
+      "sno": 4,
+      "id": 1256,
+      "title": "Wide-scale Enhanced Face Detection and Recognition with Geometry-Aware Multi-scale Occlusion",
+      "presenter": "Abhishek Phull; Jyoti Maggu; Rahul Nijhawan"
+    },
+    {
+      "sno": 5,
+      "id": 1717,
+      "title": "Disagreement-Aware Multi-Expert Deep Learning Framework for Enhanced Breast Cancer Detection in Ultrasound Images",
+      "presenter": "Harijit Tripura; Pinki Roy"
+    },
+    {
+      "sno": 6,
+      "id": 1251,
+      "title": "Analysis of Object Detection in Optical Remote Sensing Images using YOLO Frameworks",
+      "presenter": "Darshan Shankar R; Niharika G; Dilip Kumar Dalei; Narayan Panigrahi"
+    },
+    {
+      "sno": 7,
+      "id": 1593,
+      "title": "Performance Analysis of Two-Way Half Duplex Non-Orthogonal Multiple Access Over Orthogonal Multiple Access",
+      "presenter": "Sravani Potula"
+    },
+    {
+      "sno": 8,
+      "id": 1696,
+      "title": "Handwritten Compound Odia Character Recognition using Deep Learning Architectures",
+      "presenter": "Subham Sahoo; Umakanta Majhi"
+    }
+  ]
+},
+{
+  "title": "Track 28 - Natural Language Processing, LLMs & Generative AI",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 415,
+      "title": "Revolutionizing Literary Sentiment Analysis with AI: A Novel Deep Learning Approach",
+      "presenter": "Munawar Yusuf Sayed; Dr. Yashwant Waykar; Dr. R. Subhashini; Kalpana Priyadharshini Thiyagarajan; Ramesh Vijaya Babu K; B Kiran Bala"
+    },
+    {
+      "sno": 2,
+      "id": 416,
+      "title": "Explainable AI for English Reading Comprehension Support in Intelligent Tutoring Systems",
+      "presenter": "Dr. Madhavaiah U; G.M Prem Kumar; Purnachandra Rao Alapati; Dr Shagufta Parween; Dr S Suma Christal Mary; B Kiran Bala"
+    },
+    {
+      "sno": 3,
+      "id": 470,
+      "title": "Random Forest Model for Enhancing English Speaking Fluency and Literary Skills in Higher Education",
+      "presenter": "G Suganthi"
+    },
+    {
+      "sno": 4,
+      "id": 574,
+      "title": "Hybrid Knowledge Graph–Transformer Ensemble for Automated English Literacy Assessment in Higher Education",
+      "presenter": "Roseline Jesudas"
+    },
+    {
+      "sno": 5,
+      "id": 429,
+      "title": "Emotion-Aware AI Pronunciation Tutor with DeepSpeech and Facial Recognition for Indian ESL English Improvement",
+      "presenter": "Ayesha Ambreen; Ms. V Arunadevi; Dr. B Lavanya; Shailendran U; Gulnaz Fatma; I Infant Raj"
+    },
+    {
+      "sno": 6,
+      "id": 717,
+      "title": "Hybrid ML-Driven Behavioral Intelligence Framework for Evaluating Soft Skills in Higher Education Learners",
+      "presenter": "Dr Sarah Leah Dsouza; Ms Viral S Ahire; Dr Ganraj S Mane; Dr Sita Nirmala Kumaraswamy; Ms Girija Paranjpe"
+    },
+    {
+      "sno": 7,
+      "id": 833,
+      "title": "AI-Driven Semantic Question Management System for Interactive Conferences",
+      "presenter": "Sahana Sharma M; Shiva Prasad; Shaik Moinuddin; Ankita S Patil; Sameer Singh"
+    },
+    {
+      "sno": 8,
+      "id": 979,
+      "title": "Stress Detection and Suggestion for IT Professional Using Natural Language Processing",
+      "presenter": "Jwithesh Yadav; Sivamurugan C; P Gowsalaya; Pavan Sai; Abdul Jilani; Rohith"
+    }
+  ]
+},
+{
+  "title": "Track 29 - Cybersecurity, Blockchain & Privacy",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 698,
+      "title": "Identification of Financial Fraud Transactions: A Cybersecurity via Machine Learning Methods",
+      "presenter": "Shaikh Irfan"
+    },
+    {
+      "sno": 2,
+      "id": 823,
+      "title": "Probabilistic Manifold Learning for High-Sensitivity DDoS Detection: A Swarm-Optimized Hybrid Deep Learning Framework",
+      "presenter": "Kirubavathi G; Jothith Athithya R; Varunicka P R; Vira V; Suhas T"
+    },
+    {
+      "sno": 3,
+      "id": 927,
+      "title": "Guardians of Knowledge: AI-Powered Intrusion Detection for Academic Network Resilience",
+      "presenter": "Dinesh Babu; Rajeev Kumar Sharma"
+    },
+    {
+      "sno": 4,
+      "id": 1071,
+      "title": "Hybrid Deep Learning Framework for Efficient Ransomware Detection",
+      "presenter": "V S S S Veda Swaroop Cheruvu; Praveen Kumar Kollu; Manikantha Peetha"
+    },
+    {
+      "sno": 5,
+      "id": 1332,
+      "title": "Just-In-Time Permission Framework for Secure Autonomous AI Agent Operations in Data Pipeline Environments",
+      "presenter": "Jubin Abhishek Soni; Amit Anand; Rajesh Kumar Pandey"
+    },
+    {
+      "sno": 6,
+      "id": 1848,
+      "title": "Machine-Learning-Driven Surveillance in Law Enforcement: Accuracy, Bias, and Privacy Trade-Offs",
+      "presenter": "A C Philip; Tancy Sebastian; Ajitha E; Peketi Kasi Visweswara Sita Rama Rao; B Rajeswari; Goriparthi Naresh"
+    },
+    {
+      "sno": 7,
+      "id": 1849,
+      "title": "Ensemble Machine Learning Models for Tax Compliance Prediction in the Digital Economy",
+      "presenter": "Ugarthi Shankalia M; Sailaja Petikam; S Selvaraju"
+    },
+    {
+      "sno": 8,
+      "id": 1852,
+      "title": "A Legally Trustworthy and Sustainable AI Framework for Automated Legal Systems",
+      "presenter": "Aarthy Jonathan Kennedy; Arun D Raj; A Sivanandam; Krishna Kishore Padala; Chesha P Chellappan; Sreeja B G"
+    }
+  ]
+},
+{
+  "title": "Track 30 - Internet of Things, Edge AI & Smart Systems",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 791,
+      "title": "Smart EV Charging Infrastructure And Energy Optimization",
+      "presenter": "Devendra Gowda; Buddivantappagouda Biradar; Jay Chandra; Vignesh R; Varshith NM"
+    },
+    {
+      "sno": 2,
+      "id": 860,
+      "title": "Machine-Learning Optimization of Rubber-Mixing and Curing Processes",
+      "presenter": "Amutha M"
+    },
+    {
+      "sno": 3,
+      "id": 1132,
+      "title": "A Levy-Flight Enhanced Whale Optimization Algorithm for Load Balancing in Edge IoT",
+      "presenter": "Aman Anand; Mahendra Pratap Yadav"
+    },
+    {
+      "sno": 4,
+      "id": 1166,
+      "title": "Edge-Based Multi-Sensor Machine Learning Framework for Real-Time Industrial Anomaly Detection",
+      "presenter": "Venkateshkumar M; Desai Neerav Dharmesh Pinakini; Shobbiqa U K"
+    },
+    {
+      "sno": 5,
+      "id": 811,
+      "title": "Artifact Comparison Analyzer: Evaluating Microservice Build Metrics for Performance and Efficiency Improvements",
+      "presenter": "Sharad Jain; Dileep Jain"
+    },
+    {
+      "sno": 6,
+      "id": 143,
+      "title": "An Intelligent System for E-Commerce Using RPA-Driven Web Scraping and Analytical Dashboards",
+      "presenter": "Kavibalan P"
+    },
+    {
+      "sno": 7,
+      "id": 163,
+      "title": "Prompt Fence: A Semantic Guardrail for Healthcare AI to Defend Against Prompt Injection Attacks",
+      "presenter": "Samira Deepak; Ronit Shetty; Viha Shukla"
+    },
+    {
+      "sno": 8,
+      "id": 268,
+      "title": "Exploring the Artificial Intelligence (AI) for Intrusion Detection System in Network Traffic Analysis for Improved Cybersecurity",
+      "presenter": "Manoj Kumar; Sathiyaviradhan Janarthanan; Suresh Dodda; Prakash Parida; MD Shadman Soumik"
+    }
+  ]
+},
+{
+  "title": "Track 31 - Smart Cities, Transportation & Urban Systems",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1063,
+      "title": "AI-Driven Document Automation: A Gemini API Integrated System for Data Extraction",
+      "presenter": "Gold Beulah Patturose J"
+    },
+    {
+      "sno": 2,
+      "id": 1070,
+      "title": "Autism Spectrum Disorder Detection Using Voting based Multi-model Deep Ensemble Network",
+      "presenter": "Sampad Mondal; Gopa Bhaumik; B Balaji Naik"
+    },
+    {
+      "sno": 3,
+      "id": 1087,
+      "title": "Mathematical Modelling, Simulation and Arduino-Based Implementation of a Temperature and Hardness Controlled 1-Litre Ice Cream Production System",
+      "presenter": "Naga Prudhvi Raj Vattikuti; Poornakowshik Gadireddy; Yogeswar Koka; Deepak Daram; Sasank Somarowthu"
+    },
+    {
+      "sno": 4,
+      "id": 1102,
+      "title": "NLP-Based Contract Review and Clause Risk Identification for Corporate Compliance",
+      "presenter": "Priyanka V S"
+    },
+    {
+      "sno": 5,
+      "id": 1817,
+      "title": "A Visual-Language Agent for Summarizing Surveillance Footage Using Vision Transformers and Agentic LLM",
+      "presenter": "Mugunth Chandran"
+    },
+    {
+      "sno": 6,
+      "id": 1825,
+      "title": "DermatoPredict: A Two-Stage Machine Learning Framework for Automated Skin Disease Diagnosis",
+      "presenter": "Mallikharjuna Rakesh Manepalli"
+    },
+    {
+      "sno": 7,
+      "id": 1834,
+      "title": "AI-Enhanced VR Fire Evacuation Training System for Educational Institutions",
+      "presenter": "Deepika Paturu"
+    },
+    {
+      "sno": 8,
+      "id": 1835,
+      "title": "Integrating Satellite Imagery and IoT Field-Based Observations for In-Situ Soil Moisture Analysis",
+      "presenter": "Deepika Paturu"
+    }
+  ]
+},
+{
+  "title": "Track 32 - Renewable Energy, Smart Grid & Sustainability",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 566,
+      "title": "Rainfall Prediction Using Hybrid CNN–LSTM Model with Seasonal Trend Decomposition",
+      "presenter": "C V Satheesh Kumar"
+    },
+    {
+      "sno": 2,
+      "id": 1269,
+      "title": "A Comparative Analysis on Patch-Based Deep CNN Model for Tomato Leaf Disease Classification",
+      "presenter": "Dhanesh Debnath; Shyamosree Pal; Arpita Nath Boruah; Saroj Kr Biswas"
+    },
+    {
+      "sno": 3,
+      "id": 1279,
+      "title": "Hybrid Model: Predicting Heart Issues by Combining SVM and ANN/CNN Approaches",
+      "presenter": "Murali Erasappa; Murali E; Lahari Dasari; Akshaya Nikitha Makena; Manoj Mareppagari; Vamsi Battala"
+    },
+    {
+      "sno": 4,
+      "id": 1287,
+      "title": "SRM-Net: A Dual-Stream Deep Learning Framework for Pixel-Level Localization of Inpainting-Based Forgeries in Academic Credentials",
+      "presenter": "Vaddireddy Pragathi; Navaneeth Siliveri; Deepak Munaga; Arun Kumar Ravula"
+    },
+    {
+      "sno": 5,
+      "id": 1395,
+      "title": "Autonomous Multi-Agent Architecture for Intelligent Precision Farming",
+      "presenter": "Ashish Manwatkar"
+    },
+    {
+      "sno": 6,
+      "id": 1404,
+      "title": "Parkinson’s Disease Probability Estimation via Latent Fusion of Handwriting Images and Gait Accelerometer Signals",
+      "presenter": "Sumayah Kakarla; Vinuthna Reddy; Keerthana Menon; Deheem Bhat; Deepa Gupta"
+    },
+    {
+      "sno": 7,
+      "id": 1847,
+      "title": "SAP Cloud System on AWS for Risk Detection and Integration Artificial Intelligence Scalable Cybersecurity",
+      "presenter": "Mahender G; Vamshi Jeksani; Manish Kumar; Koppuravuri Sri Lakshmi Sruthi; Kiran Kumar Reddy"
+    },
+    {
+      "sno": 8,
+      "id": 1846,
+      "title": "Explainable Multimodal Emotion Recognition Using Integrated Eye-Tracking and Galvanic Skin Response Signals",
+      "presenter": "Abhinav Rana; Kiran Jot Singh; Divneet Singh Kapoor"
+    }
+  ]
+},
+{
+  "title": "Track 33 - Robotics, Autonomous Systems & Control",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1347,
+      "title": "Lightweight ViT-U-Net with Wandering Patches for Hyperspectral Road Scene Segmentation",
+      "presenter": "Vani Chaurasia; Dr Meera Dhabu; Dr Ashish Tiwari; Koukantala Pranav"
+    },
+    {
+      "sno": 2,
+      "id": 1377,
+      "title": "Noise-Adaptive Bidirectional and Representation-Level Knowledge Distillation for Federated Human Activity Recognition",
+      "presenter": "Dhvani Vachhani"
+    },
+    {
+      "sno": 3,
+      "id": 1383,
+      "title": "Fed-Prism: Federated Attention-Based Learning for Privacy-Preserving Mental Health Classification",
+      "presenter": "Samin Ahmed"
+    },
+    {
+      "sno": 4,
+      "id": 1789,
+      "title": "Hybrid XGBoost based Machine Learning Framework for Prediction of Battery Health Indicators",
+      "presenter": "Archana Umrao; Mahendra Kumar"
+    },
+    {
+      "sno": 5,
+      "id": 748,
+      "title": "Quantum Generative Learning via QBMs",
+      "presenter": "Ahmed Yahya Adam; Pooja K; Gokul G Nair; Kamleshwar Kumar Yadav"
+    },
+    {
+      "sno": 6,
+      "id": 371,
+      "title": "Multimode Duffing–Jaynes–Cummings Hamiltonian Modelling of a Coupled Transmon Chip Layout",
+      "presenter": "Nongmeikapam Brajabidhu Singh; Joseph L Pachua; Anish Kumar Saha"
+    },
+    {
+      "sno": 7,
+      "id": 1126,
+      "title": "Quantum-Inspired Penalty-Based Optimization of Heterogeneous Anomaly Detectors via QUBO in Electricity Demand Time Series",
+      "presenter": "Pranav Kalro; Reeba Khan; Anupama Jawale"
+    },
+    {
+      "sno": 8,
+      "id": 1775,
+      "title": "Multi-Modal ISL Translation Framework with Semantic Sentence Completion",
+      "presenter": "Aditya Aryan; Rishit Raj; V P Meena; Kaushal Raj; Mehmadullah Sheikh; Ritwik Raj"
+    }
+  ]
+},
+{
+  "title": "Track 34 - Data Science, Machine Learning & Optimization",
+  "date": "",
+  "time": "",
+  "mode": "",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1798,
+      "title": "Master Data Management: A Foundational Pillar for Reliable and Trustworthy AI Systems",
+      "presenter": "Swetha Talluri"
+    },
+    {
+      "sno": 2,
+      "id": 1800,
+      "title": "Interoperability Conflict in Data Warehouse Implementation: A Paired Samples T-Test Analysis of Technical Performance and Stakeholder Satisfaction",
+      "presenter": "Nagababu Kandula; Kamala Marepalli"
+    },
+    {
+      "sno": 3,
+      "id": 1801,
+      "title": "Autonomous Performance Diagnosis Using LLM-Based Agents in Cloud-Scale Systems",
+      "presenter": "Sowjanya Kommi; Ravi Kumar Amaresam; Rajesh Kumar Butteddi"
+    },
+    {
+      "sno": 4,
+      "id": 1802,
+      "title": "Operationalizing Enterprise Data Workflows across AWS, Azure and On-Premises Systems",
+      "presenter": "Parikshit Premchand Sahagal; Hastimal Jangid; Sandeep Kumar Khandelwal"
+    },
+    {
+      "sno": 5,
+      "id": 1842,
+      "title": "Cognitive Knowledge-Graph-Driven Enterprise Change Reasoning for Proactive Operational Stability",
+      "presenter": "Parvathi Nair; Chandramouli Viswanathan; Rang Ganesh Singh Alampur; Girish Shashikant Patil"
+    },
+    {
+      "sno": 6,
+      "id": 1843,
+      "title": "Event-Driven Financial Close Automation Using Universal Journal and Embedded Analytics in SAP S/4HANA",
+      "presenter": "Vandhana Sivam; Kajendran Jayaram; Maheshwar Gourishetty"
+    },
+    {
+      "sno": 7,
+      "id": 1844,
+      "title": "Performance Benchmarking of Machine Learning Algorithms for Attention State Classification Using Physiological and Oculometric Features",
+      "presenter": "Abhinav Rana; Kiran Jot Singh; Divneet Singh Kapoor"
+    },
+    {
+      "sno": 8,
+      "id": 1824,
+      "title": "GIS Approach for Identifying Suitable EV Charger Installation",
+      "presenter": "Krishnaveni Musku"
+    }
+  ]
+},
+{
+  "title": "Track 35 - AI Applications in Industry, Finance, Education & Society",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
+  "papers": [
+    {
+      "sno": 1,
+      "id": 1271,
+      "title": "Personalized Tour Recommendation System",
+      "presenter": "Purushothama Raju V"
+    },
+    {
+      "sno": 2,
+      "id": 1278,
+      "title": "A Study of Agentic AI in Industry Applications",
+      "presenter": "Shivang Kukreja; Vishal Bharate; Sanjogata Kamble"
+    },
+    {
+      "sno": 3,
+      "id": 1398,
+      "title": "An Intelligent Approach in Exploring Brilliance Beyond the Bounds of Traditional Learning",
+      "presenter": "Chinthapathla Kavya Sree; V Saishree; Rishabh Kumar Jaiswal; Yugandhar Manchala; Nirmal Keshari Swain; Kachi Anvesh"
+    },
+    {
+      "sno": 4,
+      "id": 1850,
+      "title": "A Data-Driven Legal Analytics Framework for Healthcare Litigation Outcome Prediction",
+      "presenter": "Tancy Sebastian; A C Philip; Prashant Panwar; V Ch Jwala; Kalaimagal V; Pandi Raj S"
+    },
+    {
+      "sno": 5,
+      "id": 1851,
+      "title": "A Computational Framework for Intelligent Decision Making Using Behavioural and Creative Models",
+      "presenter": "Shalini Jadiya; Swati Mishra"
+    },
+    {
+      "sno": 6,
+      "id": 1783,
+      "title": "AI-Driven Intercompany Accounting Systems: A Survey of Architectures and Netting Models",
+      "presenter": "Srihari Kumar Pendyala; Rajesh Kumar Butteddi"
+    },
+    {
+      "sno": 7,
+      "id": 443,
+      "title": "Hybrid Crop Recommendation System Integrating Soil–Climate Suitability and Market-Aware Overproduction/Shortage Detection",
+      "presenter": "Sasikala R; Udhayarani M; Elakkiya E"
+    },
+    {
+      "sno": 8,
+      "id": 518,
+      "title": "Real-Time Academic Assessment Analysis: A Data-Driven Approach to Institutional Growth and Target Achievement",
+      "presenter": "Shrikant Upadhyay; Rakesh Kumar"
+    }
+  ]
 }
 ];
 
