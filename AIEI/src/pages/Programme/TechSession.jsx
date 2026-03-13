@@ -5,7 +5,7 @@ const tracks = [
   {
     title: "Track 1 - AI for Healthcare, Medical Imaging & Biomedical Systems",
     date: "March 26, 2026",
-    time: "3:00 AM – 5:00 PM",
+    time: "3:30 PM – 5:00 PM",
     mode:"OFFLINE",
     papers: [
       {
@@ -59,7 +59,7 @@ const tracks = [
   {
     title: "Track 2 - Renewable Energy, Smart Grid & Sustainability",
     date: "March 26, 2026",
-    time: "03:00 PM – 5:00 PM",
+    time: "3:30 PM – 5:00 PM",
     mode:"OFFLINE",
     papers: [
       {
@@ -112,9 +112,9 @@ const tracks = [
   },
  {
   title: "Track 3 - Computer Vision & Image Processing",
-  date: "March 25, 2026",
-  time: "03:00 PM – 05:00 PM",
-  mode: "OFFLINE",
+  date: "March 26, 2026",
+    time: "3:30 PM – 5:00 PM",
+    mode:"OFFLINE",
   papers: [
     {
       sno: 1,
@@ -167,9 +167,9 @@ const tracks = [
 },
 {
   title: "Track 4 - Smart Cities, Transportation & Urban Systems",
-  date: "March 25, 2026",
-  time: "03:00 PM – 05:00 PM",
-  mode: "OFFLINE",
+  date: "March 26, 2026",
+    time: "3:30 PM – 5:00 PM",
+    mode:"OFFLINE",
   "papers": [
     {
       "sno": 1,
@@ -211,9 +211,9 @@ const tracks = [
 },
 {
   title: "Track 5 - Internet of Things, Edge AI & Smart Systems",
-  date: "March 25, 2026",
-  time: "03:00 PM – 05:00 PM",
-  mode: "OFFLINE",
+  date: "March 26, 2026",
+    time: "3:30 PM – 5:00 PM",
+    mode:"OFFLINE",
   "papers": [
     {
       "sno": 1,
@@ -679,10 +679,10 @@ const tracks = [
   ]
 },
 {
-  "title": "Track 13 - Robotics, Autonomous Systems & Control",
-  "date": "",
-  "time": "",
-  "mode": "",
+  title : "Track 13 - Robotics, Autonomous Systems & Control",
+  date: "March 27, 2026",
+  time: "11:00 AM – 01:00 PM",
+  mode: "OFFLINE",
   "papers": [
     {
       "sno": 1,
@@ -735,10 +735,10 @@ const tracks = [
   ]
 },
 {
-  "title": "Track 14 - Data Science, Machine Learning & Optimization",
-  "date": "March 25, 2026",
-  "time": "",
-  "mode": "OFFLINE",
+  title: "Track 14 - Data Science, Machine Learning & Optimization",
+  date: "March 27, 2026",
+  time: "11:00 AM – 01:00 PM",
+  mode: "OFFLINE",
   "papers": [
     {
       "sno": 1,
@@ -791,10 +791,10 @@ const tracks = [
   ]
 },
 {
-  "title": "Track 15 - AI Applications in Industry, Finance, Education & Society",
-  "date": "",
-  "time": "",
-  "mode": "",
+  title : "Track 15 - AI Applications in Industry, Finance, Education & Society",
+  date: "March 27, 2026",
+  time: "11:00 AM – 01:00 PM",
+  mode: "OFFLINE",
   "papers": [
     {
       "sno": 1,
@@ -910,9 +910,9 @@ const tracks = [
 },
 {
   "title": "Track 17 - Computer Vision & Image Processing",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1022,9 +1022,9 @@ const tracks = [
 },
 {
   "title": "Track 19 - Cybersecurity, Blockchain & Privacy",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1078,9 +1078,9 @@ const tracks = [
 },
 {
   "title": "Track 20 - Internet of Things, Edge AI & Smart Systems",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1246,9 +1246,9 @@ const tracks = [
 },
 {
   "title": "Track 23 - Robotics, Autonomous Systems & Control",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1358,9 +1358,9 @@ const tracks = [
 },
 {
   "title": "Track 25 - AI Applications in Industry, Finance, Education & Society",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 27, 2026",
+  "time": "03:30 PM – 05:30 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1526,9 +1526,9 @@ const tracks = [
 },
 {
   "title": "Track 28 - Natural Language Processing, LLMs & Generative AI",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1582,9 +1582,9 @@ const tracks = [
 },
 {
   "title": "Track 29 - Cybersecurity, Blockchain & Privacy",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1750,9 +1750,9 @@ const tracks = [
 },
 {
   "title": "Track 32 - Renewable Energy, Smart Grid & Sustainability",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
@@ -1862,9 +1862,9 @@ const tracks = [
 },
 {
   "title": "Track 34 - Data Science, Machine Learning & Optimization",
-  "date": "",
-  "time": "",
-  "mode": "",
+  "date": "March 28, 2026",
+  "time": "11:00 AM – 01:00 PM",
+  "mode": "ONLINE",
   "papers": [
     {
       "sno": 1,
