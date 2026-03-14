@@ -22,7 +22,8 @@ import Sform from './pages/Sponsorship/Sform'
 import Gallery from './pages/Attend/Gallery'
 import AuthInfo from './pages/Authors/AuthInfo'
 import TechSession from './pages/Programme/TechSession'
-// import keynoteSpeaker from './pages/Attend/keynoteSpeaker'
+
+
 
 
 
@@ -61,12 +62,11 @@ import TechSession from './pages/Programme/TechSession'
          <Route path='/gallery' element={<Gallery/>}/>
          <Route path='/authinfo' element={<AuthInfo/>}/>
          <Route path='/techSession' element={<TechSession/>}/>
-         {/* <Route path='/keynote' element={<keynoteSpeaker/>}/> */}
+         <Route path='/keynote' element={<Speakers/>}/>
          </Routes>
      </div>
    )
  }
- //hello
  
  export default App
  
