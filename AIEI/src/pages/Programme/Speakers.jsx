@@ -56,7 +56,7 @@ const Speakers = () => {
             </div>
 
             <p className="text-sm font-medium text-indigo-600 mt-4">
-              🕒 27th March | 9:00 AM (IST)
+              🕒 26th March | 12:30 PM - 1:30 PM (IST)
             </p>
           </div>
 
