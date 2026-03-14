@@ -407,7 +407,7 @@ const App = () => {
       <button 
         className="aiei-floating-btn" 
         aria-label="Technical Sessions Schedule"
-        onClick={() => navigate('/techprogramme')} 
+        onClick={() => navigate('/techSession')} 
       >
         <div className="icon-wrapper">
           <FaCalendarAlt size={24} />
@@ -494,6 +494,12 @@ const App = () => {
           opacity: 1;
           transform: translateX(0);
           padding-left: 25px; 
+          
+          /* --- Gradient Text Effect --- */
+          background: linear-gradient(to right, #00f2fe, #bc78ff); 
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
         }
 
         .aiei-floating-btn:active {
@@ -529,6 +535,12 @@ const App = () => {
 
           .aiei-floating-btn:hover .btn-text {
             padding-left: 18px; 
+            
+            /* --- Gradient Text Effect (Mobile) --- */
+            background: linear-gradient(to right, #00f2fe, #bc78ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
           }
         }
       `}</style>

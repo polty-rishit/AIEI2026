@@ -1812,9 +1812,9 @@ const tracks = [
   "papers": [
     {
       "sno": 1,
-      "id": 1347,
-      "title": "Lightweight ViT-U-Net with Wandering Patches for Hyperspectral Road Scene Segmentation",
-      "presenter": "Vani Chaurasia; Dr Meera Dhabu; Dr Ashish Tiwari; Koukantala Pranav"
+      "id": 1374,
+      "title": "Reinforcement Learning Driven Augmentation in Self-Supervised Human Activity Recognition",
+      "presenter": "Dhvani Vachhani"
     },
     {
       "sno": 2,
