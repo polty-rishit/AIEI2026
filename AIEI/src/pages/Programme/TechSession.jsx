@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const tracks = [
   {
@@ -2124,8 +2125,9 @@ export default function TechSessionPage() {
             No matching papers found.
           </div>
         )}
-
+    
       </div>
+      <Footer/>
     </div>
   );
 }
