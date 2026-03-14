@@ -6,7 +6,6 @@ import Committee from './pages/About/Committee'
 import Venue from './pages/Venue'
 import CallForPapers from './pages/Authors/CallForPapers'
 import Guidelines from './pages/guidelines'
-import CMT from './pages/CMT'
 import { useEffect } from "react";
 import Overview from './pages/About/Overview'
 import Patrons from './pages/About/Patrons'
@@ -14,7 +13,6 @@ import Contact from './pages/About/Contact'
 import IeeeAc from './pages/About/IeeeAc'
 import IeeeP from './pages/About/IeeeP'
 import TechProgramme from './pages/Programme/TechProgramme'
-import KeyNoteSpeaker from './pages/Programme/KeyNoteSpeaker'
 import Speakers from './pages/Programme/Speakers'
 import Registration from './pages/Attend/Registration'
 import ImportantDates from './pages/About/ImportantDates'
@@ -23,6 +21,9 @@ import Sponsors from './pages/Sponsorship/Sponsors'
 import Sform from './pages/Sponsorship/Sform'
 import Gallery from './pages/Attend/Gallery'
 import AuthInfo from './pages/Authors/AuthInfo'
+import TechSession from './pages/Programme/TechSession'
+// import keynoteSpeaker from './pages/Attend/keynoteSpeaker'
+
 
 
  
@@ -59,12 +60,13 @@ import AuthInfo from './pages/Authors/AuthInfo'
          <Route path='/form' element={<Sform/>}/>
          <Route path='/gallery' element={<Gallery/>}/>
          <Route path='/authinfo' element={<AuthInfo/>}/>
-         <Route path='/keynote' element={<KeyNoteSpeaker/>}/>
-         
+         <Route path='/techSession' element={<TechSession/>}/>
+         {/* <Route path='/keynote' element={<keynoteSpeaker/>}/> */}
          </Routes>
      </div>
    )
  }
+ //hello
  
  export default App
  
