@@ -291,6 +291,13 @@ const councilMembers = [
     link: "https://scholar.google.com/citations?user=5JIt2LIAAAAJ&hl=en"
   },
   {
+    role: "Publicity Chairs",
+    name: "Ratnesh Kumar Mishra",
+    title: "NIT Jamshedpur",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=54HS0Y8AAAAJ&citpid=1",
+    link: "https://scholar.google.com/citations?user=54HS0Y8AAAAJ&hl=en"
+  },
+  {
     role: "Web & Media Chairs",
     name: "Rishit Raj",
     title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
