@@ -391,10 +391,10 @@ const handleRegistrationLeave = () => {
                       Keynote Sessions
                     </a>
                     <a
-                      href="/"
+                      href="/panel"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
-                      Industry Sessions
+                    Panel Discussion
                     </a>
                     <a
                       href="/"
@@ -823,10 +823,10 @@ const handleRegistrationLeave = () => {
                     Keynote Sessions
                   </a>
                   <a
-                    href="/"
+                    href="/panel"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
-                    Industry Sessions
+                  Panel Discussion
                   </a>
                   <a
                     href="/"
