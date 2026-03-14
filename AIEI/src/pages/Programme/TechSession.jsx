@@ -85,7 +85,7 @@ const tracks = [
         title:
           "Deep Autoencoder Networks for Fault Detection in AC Microgrids",
         Authors:
-          "Satyavan Kumar Mukhi; Ashish Kumar; K Raghavendra Naik; Arvind Kumar Nirala",
+          "Rudranarayan Pradhan",
       },
       {
         sno: 4,
