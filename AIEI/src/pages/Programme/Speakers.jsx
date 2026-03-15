@@ -67,11 +67,11 @@ const Speakers = () => {
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
-              Mr. Walter D. Downing ,P.E.
+              Mr. Walter D. Downing, P.E.
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
-              Southwest Research Institute, Past President, IEEE Systems Council
+              Southwest Research Institute, Executive Vice President Emeritus
             </p>
 
             <div className="border-t w-full mt-6 pt-4">
@@ -79,7 +79,7 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                {/* AI-driven medical imaging and intelligent document analysis systems */}
+                Innovation in Applied Research
               </p>
             </div>
 
