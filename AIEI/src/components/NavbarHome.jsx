@@ -289,6 +289,7 @@ const handleRegistrationLeave = () => {
                     >
                       Important Dates
                     </a>
+                    <a href="https://docs.google.com/presentation/d/1f1OQ2KF5XGHgdWTydzgrPar8cAU65nLS/edit?usp=sharing&ouid=116742708030694007353&rtpof=true&sd=true" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">PPT Format</a>
                     {/* <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -740,6 +741,7 @@ const handleRegistrationLeave = () => {
                   >
                     Important Dates
                   </a>
+                  <a href="https://docs.google.com/presentation/d/1f1OQ2KF5XGHgdWTydzgrPar8cAU65nLS/edit?usp=sharing&ouid=116742708030694007353&rtpof=true&sd=true" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">PPT Format</a>
                   {/* <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"

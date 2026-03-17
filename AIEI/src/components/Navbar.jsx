@@ -164,6 +164,7 @@ const handleRegistrationLeave = () => {
                     <a href="/camera" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Camera Ready Submission</a>
                     <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
                      <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
+                     <a href="https://docs.google.com/presentation/d/1f1OQ2KF5XGHgdWTydzgrPar8cAU65nLS/edit?usp=sharing&ouid=116742708030694007353&rtpof=true&sd=true" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">PPT Format</a>
                     
                     <a href="/authinfo" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
                     
@@ -372,8 +373,8 @@ const handleRegistrationLeave = () => {
                 <div className="ml-4 mt-2 space-y-2">
                   <a href="/camera" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Camera Ready Submission</a>
                   <a href="/papers" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Call For Papers</a>
-                  <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
-                  
+                  <a href="https://docs.google.com/presentation/d/1f1OQ2KF5XGHgdWTydzgrPar8cAU65nLS/edit?usp=sharing&ouid=116742708030694007353&rtpof=true&sd=true" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Important Dates</a>
+                  <a href="/dates" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">PPT Format</a>
                   <a href="/authinfo" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Author Information</a>
                   
                   <a href="/cmt" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">CMT Acknowledegemnt</a>
