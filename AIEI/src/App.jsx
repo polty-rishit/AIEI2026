@@ -23,6 +23,7 @@ import Gallery from './pages/Attend/Gallery'
 import AuthInfo from './pages/Authors/AuthInfo'
 import TechSession from './pages/Programme/TechSession'
 import Panel from './pages/Programme/Panel'
+import Stay from './pages/Attend/Stay'
 
 
 
@@ -65,6 +66,7 @@ import Panel from './pages/Programme/Panel'
          <Route path='/techSession' element={<TechSession/>}/>
          <Route path='/keynote' element={<Speakers/>}/>
          <Route path='/panel' element={<Panel/>}/>
+         <Route path='/stay' element={<Stay/>}/>
          </Routes>
      </div>
    )

@@ -504,7 +504,7 @@ const handleRegistrationLeave = () => {
                       Registration
                     </a> */}
                     <a
-                      href="/"
+                      href="/stay"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Accommodation
@@ -958,7 +958,7 @@ const handleRegistrationLeave = () => {
                     Registration
                   </a> */}
                   <a
-                    href="/"
+                    href="/stay"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                     Accommodation
