@@ -241,6 +241,18 @@ const councilMembers = [
     image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE102/profile/f05e40ba-dc2d-4687-954f-bcaa910e529c.jpg",
     link: "https://www.nitjsr.ac.in/people/profile/CE102"
   },
+  {
+    name: "Dr Rakesh Pratap Singh",
+    title: "Dean Planning and Development, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE113/profile/66f9f0b0-5caf-4b49-ba5f-112956f96bc4.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CE113"
+  },
+  {
+    name: "Prof. Virendra Kumar",
+    title: "CVO, NIT Jamshedpur",
+    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/CE121/profile/37c9170c-cdf4-4650-a2ab-ae61514ee9e6.jpg",
+    link: "https://www.nitjsr.ac.in/Administration/Chief_Vigilance_Officer2 new"
+  },
 ]
 
 const IeeeAc = () => {
