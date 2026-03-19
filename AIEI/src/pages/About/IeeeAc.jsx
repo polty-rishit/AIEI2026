@@ -243,7 +243,7 @@ const councilMembers = [
   },
   {
     name: "Dr Rakesh Pratap Singh",
-    title: "Dean Planning and Development, NIT Jamshedpur",
+    title: "Dean Student Welfare, NIT Jamshedpur",
     image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE113/profile/66f9f0b0-5caf-4b49-ba5f-112956f96bc4.jpg",
     link: "https://www.nitjsr.ac.in/people/profile/CE113"
   },
