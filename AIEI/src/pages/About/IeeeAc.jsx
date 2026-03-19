@@ -253,6 +253,12 @@ const councilMembers = [
     image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/CE121/profile/37c9170c-cdf4-4650-a2ab-ae61514ee9e6.jpg",
     link: "https://www.nitjsr.ac.in/Administration/Chief_Vigilance_Officer2 new"
   },
+  {
+    name: "Dr Sushil Kumar Gupta",
+    title: "EED, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/EE113/profile/b167a8a1-dc9b-498a-93bf-54dfb460e2fb.jpg",
+    link: "https://nitjsr.ac.in/people/profile/EE113"
+  },
 ]
 
 const IeeeAc = () => {
