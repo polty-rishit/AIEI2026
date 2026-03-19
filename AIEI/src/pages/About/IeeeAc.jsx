@@ -225,6 +225,22 @@ const councilMembers = [
     image: "/tarun.jpeg",
     link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/"
   },
+  {
+    name: "Prof. Mrityunjay Kumar Sinha",
+    title: "Dean Academics, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME108/profile/19cbb633-ebd5-4fc9-ad52-688350940df1.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/ME108"
+  },{
+    name: "Prof. DK Yadav",
+    title: "Dean Faculty Welfare, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CA105/profile/5294d20f-8269-480c-85b3-ec7ba71c53f6.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CA105"
+  },{
+    name: "Prof. Arvind Kumar Lal Srivastava",
+    title: "Dean Planning and Development, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE102/profile/f05e40ba-dc2d-4687-954f-bcaa910e529c.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CE102"
+  },
 ]
 
 const IeeeAc = () => {
