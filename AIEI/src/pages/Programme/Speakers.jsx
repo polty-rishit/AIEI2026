@@ -63,6 +63,90 @@ const Speakers = () => {
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
 
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
+              <img src="https://www.iitism.ac.in/facultyImages/Prof%20Biplab%20Bhattacharyya.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800">
+              Prof.Biplab Bhattacharyya
+            </h3>
+
+            <p className="text-sm text-gray-500 mt-2">
+              Prof. Electrical Engineering at IIT (ISM) Dhanbad
+            </p>
+
+            <div className="border-t w-full mt-6 pt-4">
+              <p className="text-sm font-semibold text-gray-700">
+                Title of the Talk
+              </p>
+              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                {/* AI-driven medical imaging and intelligent document analysis systems */}
+              </p>
+            </div>
+
+            <p className="text-sm font-medium text-indigo-600 mt-4">
+              🕒 26th March | 10:00 AM (IST)
+            </p>
+          </div>
+
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
+
+            <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
+              <img src="./xyz.jpeg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800">
+             Mr Subhamoy Chakraborti
+            </h3>
+
+            <p className="text-sm text-gray-500 mt-2">
+              CTO, ABP Pvt Ltd Sr Member, IEEE Vice Chair, IEEE TEMS India Chair, IEEE TEMS Kolkata Chapter Industry Chair, IEEE ComSoc Kolkata
+            </p>
+
+            <div className="border-t w-full mt-6 pt-4">
+              <p className="text-sm font-semibold text-gray-700">
+                Title of the Talk
+              </p>
+              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                {/* AI-driven medical imaging and intelligent document analysis systems */}
+              </p>
+            </div>
+
+            <p className="text-sm font-medium text-indigo-600 mt-4">
+              🕒 26th March
+            </p>
+          </div>
+
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
+
+            <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
+              <img src="https://mnnit.ac.in/userprofile/uploads/AKS_pic.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800">
+              Prof. Asheesh Kumar Singh 
+            </h3>
+
+            <p className="text-sm text-gray-500 mt-2">
+              Prof. Electrical Engineering at MNIT, Allahabad
+            </p>
+
+            <div className="border-t w-full mt-6 pt-4">
+              <p className="text-sm font-semibold text-gray-700">
+                Title of the Talk
+              </p>
+              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                {/* AI-driven medical imaging and intelligent document analysis systems */}
+              </p>
+            </div>
+
+            <p className="text-sm font-medium text-indigo-600 mt-4">
+              🕒 26th March 
+            </p>
+          </div>
+
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
+
+            <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
               <img src="https://www.aiengineering-conference.org/Walt.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
             </div>
 
@@ -87,35 +171,6 @@ const Speakers = () => {
               🕒 27th March | 9:00 AM (IST)
             </p>
           </div>
-
-          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
-            <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://www.iitism.ac.in/facultyImages/Prof%20Biplab%20Bhattacharyya.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
-            </div>
-
-            <h3 className="text-2xl font-semibold text-gray-800">
-              Prof.Biplab Bhattacharyya
-            </h3>
-
-            <p className="text-sm text-gray-500 mt-2">
-              Prof. Electrical Engineering at IIT (ISM) Dhanbad
-            </p>
-
-            <div className="border-t w-full mt-6 pt-4">
-              <p className="text-sm font-semibold text-gray-700">
-                Title of the Talk
-              </p>
-              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                {/* AI-driven medical imaging and intelligent document analysis systems */}
-              </p>
-            </div>
-
-            <p className="text-sm font-medium text-indigo-600 mt-4">
-              🕒 27th March | 10:00 AM (IST)
-            </p>
-          </div>
-
 
           {/* Speaker 2 */}
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
