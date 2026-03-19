@@ -259,6 +259,42 @@ const councilMembers = [
     image: "https://nitjsr.ac.in/backend/uploads/Faculty/EE113/profile/b167a8a1-dc9b-498a-93bf-54dfb460e2fb.jpg",
     link: "https://nitjsr.ac.in/people/profile/EE113"
   },
+  {
+    name: "Dr. Dilip Kumar Shaw",
+    title: "HOD-Computer Science Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/ccfaculty.8ce64231b8a8d684de79.jpeg",
+    link: "https://nitjsr.ac.in/departments/cs"
+  },
+  {
+    name: "Dr. Dilip Kumar",
+    title: "HOD-ECE Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/hod_ece.adf78a9942915c273216.jpg",
+    link: "https://nitjsr.ac.in/departments/ece"
+  },
+  {
+    name: "Dr. Parmanand Kumar",
+    title: "HOD-Mechanical Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/hod_mec.3804536147c6acebdd4d.jpg",
+    link: "https://nitjsr.ac.in/departments/mech"
+  },
+  {
+    name: "Dr. Prahalad Prasad",
+    title: "HOD-Civil Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/hod_civil.5a7efdf580ad90e68c73.jpeg",
+    link: "https://nitjsr.ac.in/departments/civil"
+  },
+  {
+    name: "Dr. Raj BALLAV",
+    title: "HOD-Production and Industrial Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/hod_prod.ce4207e1a4a0ef31db34.jpg",
+    link: "https://nitjsr.ac.in/departments/prod"
+  },
+   {
+    name: "Dr. Ashok Kumar",
+    title: "HOD-Metallurgical and Materials Engineering, NIT Jamshedpur",
+    image: "https://nitjsr.ac.in/static/media/hod_met.618c10cc98704dd5514f.jpg",
+    link: "https://nitjsr.ac.in/departments/meta"
+  },
 ]
 
 const IeeeAc = () => {
