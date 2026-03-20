@@ -168,21 +168,21 @@ const councilMembers = [
     role: "Organizing Secretaries",
     name: "Dr. Surya Prakash",
     title: "EED, NIT Jamshedpur",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=q4lxqvsAAAAJ&citpid=2",
+    image: "/surya.jpeg",
     link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
   },
   {
     role: "Organizing Secretaries",
     name: "Dr. Mrutyunjay Rout",
     title: "ECE, NIT Jamshedpur",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=AQWr2zcAAAAJ&citpid=2",
+    image: "/rout.jpeg",
     link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en"
   },
   {
     role: "Organizing Secretaries",
     name: "Dr. Sanjay Kumar",
     title: "EED, NIT Jamshedpur",
-    image: "./Sanjay.jpeg",
+    image: "./sanjay1.jpeg",
     link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
   },
   {
