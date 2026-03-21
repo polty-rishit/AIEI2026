@@ -176,7 +176,7 @@ const councilMembers = [
     name: "Dr. Mrutyunjay Rout",
     title: "ECE, NIT Jamshedpur",
     image: "/rout.jpeg",
-    link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en"
+    link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en "
   },
   {
     role: "Organizing Secretaries",
