@@ -127,7 +127,7 @@ const Speakers = () => {
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
-              Prof. Electrical Engineering at MNIT, Allahabad
+              Prof. Electrical Engineering at MNNIT, Allahabad
             </p>
 
             <div className="border-t w-full mt-6 pt-4">
@@ -136,6 +136,34 @@ const Speakers = () => {
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
                 {/* AI-driven medical imaging and intelligent document analysis systems */}
+              </p>
+            </div>
+
+            <p className="text-sm font-medium text-indigo-600 mt-4">
+              🕒 26th March 
+            </p>
+          </div>
+
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
+
+            <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
+              <img src="https://www.mnit.ac.in/PortalProfile/images/faculty/mnitjas282.png" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800">
+               Dr. V. P. Singh 
+            </h3>
+
+            <p className="text-sm text-gray-500 mt-2">
+              Prof. Electrical Engineering at MNIT, Jaipur
+            </p>
+
+            <div className="border-t w-full mt-6 pt-4">
+              <p className="text-sm font-semibold text-gray-700">
+                Title of the Talk
+              </p>
+              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                 Applications of machine learning for control of electric vehicles
               </p>
             </div>
 
