@@ -217,12 +217,12 @@ const handleRegistrationLeave = () => {
                     >
                       Advisory Committee
                     </a>
-                    <a
+                    {/* <a
                       href="/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                     >
                       Technical Programme Committee
-                    </a>
+                    </a> */}
                     <a
                       href="https://www.ieee.org/"
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
@@ -676,12 +676,12 @@ const handleRegistrationLeave = () => {
                   >
                     Advisory Committee
                   </a>
-                  <a
+                  {/* <a
                     href="/ieeep"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
                   >
                    Technical Programme Committee
-                  </a>
+                  </a> */}
                   <a
                     href="https://www.ieee.org/"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer"
