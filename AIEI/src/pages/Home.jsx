@@ -429,7 +429,7 @@ const App = () => {
                 </div>
               </section>
 
-              <section id="department" className="w-full">
+              {/* <section id="department" className="w-full">
                 <div className="max-w-7xl mx-auto">
                   <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
                     Department of Electrical Engineering
@@ -478,7 +478,7 @@ const App = () => {
                   </p>
                   <div className="clear-both"></div>
                 </div>
-              </section>
+              </section> */}
             </div>
 
             <div className="lg:col-span-1">
