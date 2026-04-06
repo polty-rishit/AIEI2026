@@ -72,15 +72,15 @@ const App = () => {
   }, [currentSlide]);
 
   const keyDates = [
-    { title: "Opening Paper Submission", date: "September 01, 2025" },
-    { title: "Paper Submission Deadline", date: "January 15, 2026" },
-    { title: "Acceptance Notification", date: "February 5, 2026" },
+    { title: "Opening Paper Submission", date: "01 May 2026" },
+    { title: "Paper Submission Deadline", date: "30 September 2026" },
+    { title: "Acceptance Notification", date: "30 October 2026" },
     {
       title: "Submission of Final Manuscript & Copyright",
-      date: "February 20, 2026",
+      date: "15 November 2026",
     },
-    { title: "Registration Deadline", date: "March 1, 2026" },
-    { title: "Conference Dates", date: "Januaury 21 - 23, 2027" },
+    { title: "Registration Deadline", date: "30 November 2026" },
+    { title: "Conference Dates", date: "21–23 January 2027" },
   ];
 
   useEffect(() => {
@@ -332,7 +332,7 @@ const App = () => {
           </div>
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img
-              src="IEEE_TEAMS.png"
+              src="https://media.licdn.com/dms/image/v2/C560BAQHU_-Y0Zpv5ow/company-logo_200_200/company-logo_200_200/0/1631363373978?e=1776902400&v=beta&t=fC7N788v0Pw3n3O_9RVQTeyiddVFX3CZrS8ProQzY28"
               alt="IEEE NIT JSR Student Branch Logo"
               className="h-50 w-50 object-contain"
             />
