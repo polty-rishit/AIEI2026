@@ -1,10 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { FaCalendarAlt, FaFileAlt, FaBell, FaCheckCircle } from "react-icons/fa";
-import NavbarHome from '../components/NavbarHome';
-import Footer from '../components/Footer';
-import WelcomeMessage from '../components/WelcomeMessage';
-import AnnouncementTicker from '../components/AnnouncementTicker';
+import React, { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import {
+  FaCalendarAlt,
+  FaFileAlt,
+  FaBell,
+  FaCheckCircle,
+} from "react-icons/fa";
+import NavbarHome from "../components/NavbarHome";
+import Footer from "../components/Footer";
+import WelcomeMessage from "../components/WelcomeMessage";
+import AnnouncementTicker from "../components/AnnouncementTicker";
 
 const getIconForTitle = (title) => {
   switch (title.toLowerCase()) {
@@ -29,36 +34,36 @@ const App = () => {
   const videoRefs = useRef([]);
 
   const carouselItems = [
-    { type: 'video', src: '/vid1.mp4' },
-    { type: 'video', src: '/campus.mp4' },
-    { type: 'video', src: '/jhar1.mp4' },
-    { type: 'video', src: '/vid2.mp4' },
-    { type: 'video', src: '/jhar2.mp4' },
-    { type: 'video', src: '/vid3.mp4' },
-    { type: 'video', src: '/jhar3.mp4' }
+    { type: "video", src: "/vid1.mp4" },
+    { type: "video", src: "/campus.mp4" },
+    { type: "video", src: "/jhar1.mp4" },
+    { type: "video", src: "/vid2.mp4" },
+    { type: "video", src: "/jhar2.mp4" },
+    { type: "video", src: "/vid3.mp4" },
+    { type: "video", src: "/jhar3.mp4" },
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
-    }, 8000); 
+    }, 8000);
 
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
       clearInterval(interval);
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   useEffect(() => {
     videoRefs.current.forEach((video, index) => {
       if (video) {
-        if (index === currentSlide && carouselItems[index].type === 'video') {
-          video.play().catch(e => console.log("Video play error:", e));
+        if (index === currentSlide && carouselItems[index].type === "video") {
+          video.play().catch((e) => console.log("Video play error:", e));
         } else {
           video.pause();
         }
@@ -67,42 +72,47 @@ const App = () => {
   }, [currentSlide]);
 
   const keyDates = [
-    { title: 'Opening Paper Submission', date: 'September 01, 2025' },
-    { title: 'Paper Submission Deadline', date: 'January 15, 2026' },
-    { title: 'Acceptance Notification', date: 'February 5, 2026' },
-    { title: 'Submission of Final Manuscript & Copyright', date: 'February 20, 2026' },
-    { title: 'Registration Deadline', date: 'March 1, 2026' },
-    { title: 'Conference Dates', date: 'March 26-28, 2026' }
+    { title: "Opening Paper Submission", date: "September 01, 2025" },
+    { title: "Paper Submission Deadline", date: "January 15, 2026" },
+    { title: "Acceptance Notification", date: "February 5, 2026" },
+    {
+      title: "Submission of Final Manuscript & Copyright",
+      date: "February 20, 2026",
+    },
+    { title: "Registration Deadline", date: "March 1, 2026" },
+    { title: "Conference Dates", date: "Januaury 21 - 23, 2027" },
   ];
 
   useEffect(() => {
     const updateCountdown = () => {
-      const conferenceDate = new Date('January  21, 2027 09:00:00').getTime();
+      const conferenceDate = new Date("January  21, 2027 09:00:00").getTime();
       const now = new Date().getTime();
       const distance = conferenceDate - now;
 
       if (distance < 0) {
-        document.getElementById('days').innerText = '00';
-        document.getElementById('hours').innerText = '00';
-        document.getElementById('minutes').innerText = '00';
-        document.getElementById('seconds').innerText = '00';
+        document.getElementById("days").innerText = "00";
+        document.getElementById("hours").innerText = "00";
+        document.getElementById("minutes").innerText = "00";
+        document.getElementById("seconds").innerText = "00";
         return;
       }
 
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+      );
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       const updateElement = (id, value) => {
         const el = document.getElementById(id);
-        if (el) el.innerText = value.toString().padStart(2, '0');
+        if (el) el.innerText = value.toString().padStart(2, "0");
       };
 
-      updateElement('days', days);
-      updateElement('hours', hours);
-      updateElement('minutes', minutes);
-      updateElement('seconds', seconds);
+      updateElement("days", days);
+      updateElement("hours", hours);
+      updateElement("minutes", minutes);
+      updateElement("seconds", seconds);
     };
 
     updateCountdown();
@@ -123,10 +133,13 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <NavbarHome/>
+      <NavbarHome />
 
       {/* Hero Section */}
-      <div id="home" className="relative min-h-screen overflow-hidden flex flex-col">
+      <div
+        id="home"
+        className="relative min-h-screen overflow-hidden flex flex-col"
+      >
         {/* Carousel Background */}
         <div className="absolute inset-0">
           {carouselItems.map((item, index) => (
@@ -159,7 +172,11 @@ const App = () => {
 
         {/* Left Arrow */}
         <button
-          onClick={() => setCurrentSlide((prev) => prev === 0 ? carouselItems.length - 1 : prev - 1)}
+          onClick={() =>
+            setCurrentSlide((prev) =>
+              prev === 0 ? carouselItems.length - 1 : prev - 1,
+            )
+          }
           className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full z-20"
         >
           &#10094;
@@ -167,7 +184,11 @@ const App = () => {
 
         {/* Right Arrow */}
         <button
-          onClick={() => setCurrentSlide((prev) => prev === carouselItems.length - 1 ? 0 : prev + 1)}
+          onClick={() =>
+            setCurrentSlide((prev) =>
+              prev === carouselItems.length - 1 ? 0 : prev + 1,
+            )
+          }
           className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full z-20"
         >
           &#10095;
@@ -190,7 +211,7 @@ const App = () => {
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-center flex-grow px-4 sm:px-8 lg:px-12 py-20 gap-10 md:gap-16">
           <div className="flex justify-center md:justify-end w-full md:w-auto">
             <img
-              src="/logo_final_1.gif"
+              src="/AIEI2027.gif"
               alt="Conference Logo"
               className="md:ml-33 w-40 sm:w-56 md:w-72 lg:w-96 h-auto"
             />
@@ -214,7 +235,7 @@ const App = () => {
               21 - 23 JANUARY 2027
             </p>
             <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
-              NIT Jamshedpur, India
+              Bangalore , India (TBD)
             </p>
 
             <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-3 sm:p-4 w-full max-w-md border border-white/30 mx-auto md:mx-0">
@@ -228,7 +249,10 @@ const App = () => {
                     key={label}
                     className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-lg p-2 sm:p-3 md:p-4 shadow-md backdrop-blur-sm flex flex-col items-center"
                   >
-                    <div className="text-lg sm:text-2xl md:text-3xl font-bold" id={label.toLowerCase()}>
+                    <div
+                      className="text-lg sm:text-2xl md:text-3xl font-bold"
+                      id={label.toLowerCase()}
+                    >
                       00
                     </div>
                     <div className="uppercase tracking-wider text-[8px] sm:text-xs md:text-sm text-center">
@@ -241,8 +265,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      
-      <AnnouncementTicker/>
+
+      <AnnouncementTicker />
 
       {/* ORGANIZERS */}
       <div className="w-full bg-white py-8 px-4 sm:px-10 lg:px-20">
@@ -250,28 +274,42 @@ const App = () => {
           ORGANIZERS
         </p>
         <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
-          
           {/* NIT Jamshedpur */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-            <img src="./nitjsr_logo.png" alt="NIT Jamshedpur Logo" className="w-28 md:w-32 lg:w-35 object-contain" />
+            <img
+              src="./nitjsr_logo.png"
+              alt="NIT Jamshedpur Logo"
+              className="w-28 md:w-32 lg:w-35 object-contain"
+            />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <a href='https://nitjsr.ac.in/' className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide">
+              <a
+                href="https://nitjsr.ac.in/"
+                className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide"
+              >
                 National Institute of Technology<sup>™</sup>
               </a>
               <a className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
                 NIT Jamshedpur
               </a>
               <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
-                (An Institution of National Importance under Ministry of Education, Govt. of India)  
+                (An Institution of National Importance under Ministry of
+                Education, Govt. of India)
               </p>
             </div>
           </div>
 
           {/* USD AI Research Lab */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-            <img src="./usd_lab.png" alt="USD AI Research Lab Logo" className="w-32 md:w-40 lg:w-60 object-contain" />
+            <img
+              src="./usd_lab.png"
+              alt="USD AI Research Lab Logo"
+              className="w-32 md:w-40 lg:w-60 object-contain"
+            />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <a href='https://www.ai-research-lab.org/' className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug">
+              <a
+                href="https://www.ai-research-lab.org/"
+                className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug"
+              >
                 USD AI Research Lab
               </a>
               <p className="text-xs md:text-sm text-gray-600 mt-2">
@@ -279,7 +317,6 @@ const App = () => {
               </p>
             </div>
           </div>
-          
         </div>
       </div>
 
@@ -287,16 +324,28 @@ const App = () => {
       <div className="w-full bg-white py-8 mb-6 -mt-2">
         <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <img src="ieeeSystem.png" alt="IEEE Kolkata Section Logo" className="max-h-full max-w-full object-contain" />
+            <img
+              src="ieeeSystem.png"
+              alt="IEEE Kolkata Section Logo"
+              className="max-h-full max-w-full object-contain"
+            />
           </div>
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <img src="./ieeeNit.png" alt="IEEE NIT JSR Student Branch Logo" className="max-h-full max-w-full object-contain" />
+            <img
+              src="IEEE_TEAMS.png"
+              alt="IEEE NIT JSR Student Branch Logo"
+              className="h-50 w-50 object-contain"
+            />
           </div>
-          <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img src="./ieeeKolkatta.png" alt="IEEE Systems Council Logo" className="max-h-full max-w-full object-contain" />
-          </div>
+          </div> */}
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
-            <img src="./ieee.png" alt="New IEEE Logo" className="h-full w-full object-contain p-4" />
+            <img
+              src="./ieee.png"
+              alt="New IEEE Logo"
+              className="h-full w-full object-contain p-4"
+            />
           </div>
         </div>
       </div>
@@ -307,42 +356,74 @@ const App = () => {
           KNOWLEDGE PARTNER
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
-          <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <a href='https://www.manipal.edu/mit.html'>
               <img src="./MIT.png" alt="Technical Sponsor Logo" className="max-h-full max-w-full object-contain" />
             </a>
-          </div>
+          </div> */}
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <a href='https://aiacademi.org/'>
-              <img src="./techSponsor.png" alt="Technical Sponsor Logo" className="max-h-full max-w-full object-contain" />
+            <a href="https://aiacademi.org/">
+              <img
+                src="./techSponsor.png"
+                alt="Technical Sponsor Logo"
+                className="max-h-full max-w-full object-contain"
+              />
             </a>
           </div>
         </div>
       </div>
 
-      <WelcomeMessage/>
+      <WelcomeMessage />
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
       <section className="w-full bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            
             <div className="lg:col-span-2 flex flex-col gap-20">
               <section id="nitjsr" className="w-full">
                 <div className="max-w-7xl mx-auto">
                   <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-10 -mt-15">
-                    About NIT Jamshedpur
+                    About Bangalore
                   </h2>
                   <img
-                    src="./nitjsr.jpg"
+                    src="https://images.hindustantimes.com/img/2022/08/26/1600x900/bangalore_1660646224204_1661514785801_1661514785801.jpg"
                     alt="NIT Jamshedpur Campus"
                     className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-3xl shadow-2xl object-cover"
                   />
-                  <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                    The National Institute of Technology Jamshedpur (NIT Jamshedpur), an Institute of National Importance located in Jamshedpur, Jharkhand, India, was established in 1960 as the Regional Institute of Technology and upgraded to NIT with Deemed University status on 27 December 2002. Ranked 82nd in the NIRF 2025 Engineering Rankings by the Ministry of Education, Government of India, the institute is committed to high-quality teaching, advanced research, innovation, and industry-oriented training.
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    Bangalore, widely known as the Silicon Valley of India,
+                    stands at the forefront of the country’s technological
+                    revolution, driven by a powerful blend of innovation,
+                    ambition, and youthful energy. The city is home to some of
+                    the world’s biggest tech companies, thriving startups, and
+                    cutting-edge research centers, all contributing to an
+                    ecosystem that constantly pushes boundaries. Areas like
+                    Electronic City and Whitefield buzz with activity, where
+                    ideas turn into products and startups evolve into global
+                    players. However, what truly sets Bangalore apart is its
+                    vibrant youth culture—young minds from across India and
+                    beyond migrate here, bringing with them fresh perspectives,
+                    diverse skills, and a strong entrepreneurial spirit.
                   </p>
-                  <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                    As the third institute in the chain of eight NITs created under the Second Five-Year Plan, it now comprises twelve academic departments offering B.Tech, M.Tech, M.Sc, MCA, and Ph.D programs, with a strong emphasis on academic excellence, good governance, and leadership in engineering education and research.
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    The city’s youth are not just participants but active
+                    creators of its tech identity. From hackathons and coding
+                    meetups to startup incubators and co-working spaces,
+                    Bangalore offers countless opportunities for collaboration
+                    and growth. Cafés double as workspaces, late-night
+                    discussions spark new ventures, and innovation flows as
+                    naturally as conversation. This energetic environment
+                    fosters risk-taking, creativity, and continuous learning,
+                    making Bangalore more than just a tech hub—it becomes a
+                    lifestyle. Here, technology blends seamlessly with culture,
+                    and the aspirations of young individuals shape the future of
+                    not just the city, but the entire nation.
                   </p>
                   <div className="clear-both"></div>
                 </div>
@@ -358,14 +439,42 @@ const App = () => {
                     alt="Electrical Engineering Department"
                     className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
                   />
-                  <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                    The Department of Electrical Engineering was established in 1960 and has consistently produced highly skilled and industry-ready engineers since its inception. Along with strong academic foundations, the department is actively involved in research and development across emerging areas of electrical engineering.
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    The Department of Electrical Engineering was established in
+                    1960 and has consistently produced highly skilled and
+                    industry-ready engineers since its inception. Along with
+                    strong academic foundations, the department is actively
+                    involved in research and development across emerging areas
+                    of electrical engineering.
                   </p>
-                  <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                    The alumni of the department are well placed in both public and private sectors, contributing significantly to power systems, industries, research organizations, and higher education globally. In addition to the undergraduate (B.Tech) programme, the department offers postgraduate programmes in Power Systems and Power Electronics & Drives, along with a Ph.D. programme covering multiple specialized domains.
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    The alumni of the department are well placed in both public
+                    and private sectors, contributing significantly to power
+                    systems, industries, research organizations, and higher
+                    education globally. In addition to the undergraduate
+                    (B.Tech) programme, the department offers postgraduate
+                    programmes in Power Systems and Power Electronics & Drives,
+                    along with a Ph.D. programme covering multiple specialized
+                    domains.
                   </p>
-                  <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                    The department aims to emerge as a front-runner in addressing the evolving needs of the power sector, electrical industries, and public services. With a commitment to high human values and societal impact, it strives to impart quality education, develop advanced skills, and establish state-of-the-art research facilities. These efforts contribute to socio-economic development and support the vision of sustainable growth for society.
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    The department aims to emerge as a front-runner in
+                    addressing the evolving needs of the power sector,
+                    electrical industries, and public services. With a
+                    commitment to high human values and societal impact, it
+                    strives to impart quality education, develop advanced
+                    skills, and establish state-of-the-art research facilities.
+                    These efforts contribute to socio-economic development and
+                    support the vision of sustainable growth for society.
                   </p>
                   <div className="clear-both"></div>
                 </div>
@@ -378,19 +487,25 @@ const App = () => {
                 className="p-8 rounded-3xl shadow-2xl sticky top-20 bg-gradient-to-b from-purple-100 via-purple-50 to-blue-100 border border-purple-200"
               >
                 <div className="text-center mb-10">
-                  <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">Key Dates</h2>
+                  <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
+                    Key Dates
+                  </h2>
                   <p className="text-lg text-gray-700">AIEI 2026 Timeline</p>
                 </div>
                 <div className="flex flex-col gap-6">
                   {keyDates.map((item, index) => {
-                    const isRed = index % 2 === 0; 
+                    const isRed = index % 2 === 0;
                     return (
                       <div
                         key={index}
                         className="rounded-2xl border border-purple-100 bg-white p-5 shadow-sm hover:shadow-lg hover:scale-[1.02] transition-all duration-300 hover:border-purple-300 hover:bg-gradient-to-r from-purple-50 to-blue-50 cursor-pointer"
                       >
-                        <p className="text-lg font-bold text-gray-900 mb-1">{item.title}</p>
-                        <p className={`font-extrabold tracking-wide ${isRed ? "text-red-600" : "text-yellow-400"}`}>
+                        <p className="text-lg font-bold text-gray-900 mb-1">
+                          {item.title}
+                        </p>
+                        <p
+                          className={`font-extrabold tracking-wide ${isRed ? "text-red-600" : "text-yellow-400"}`}
+                        >
                           {item.date}
                         </p>
                       </div>
@@ -404,10 +519,10 @@ const App = () => {
       </section>
 
       {/* --- Expanding Floating Button --- */}
-      <button 
-        className="aiei-floating-btn" 
+      <button
+        className="aiei-floating-btn"
         aria-label="Technical Sessions Schedule"
-        onClick={() => navigate('/techSession')} 
+        onClick={() => navigate("/techSession")}
       >
         <div className="icon-wrapper">
           <FaCalendarAlt size={24} />
@@ -416,23 +531,23 @@ const App = () => {
       </button>
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
 
       <style jsx>{`
         .!rounded-button {
           border-radius: 25px;
         }
-        
+
         input[type="number"]::-webkit-outer-spin-button,
         input[type="number"]::-webkit-inner-spin-button {
           -webkit-appearance: none;
           margin: 0;
         }
-        
+
         input[type="number"] {
           -moz-appearance: textfield;
         }
-        
+
         html {
           scroll-behavior: smooth;
         }
@@ -444,25 +559,27 @@ const App = () => {
           right: 30px;
           z-index: 9999;
           height: 65px;
-          width: 65px; 
-          border-radius: 50px; 
-          background: rgba(20, 25, 50, 0.6); 
+          width: 65px;
+          border-radius: 50px;
+          background: rgba(20, 25, 50, 0.6);
           backdrop-filter: blur(12px);
           -webkit-backdrop-filter: blur(12px);
-          border: 1px solid rgba(160, 140, 255, 0.3); 
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4), 0 0 15px rgba(138, 43, 226, 0.4); 
+          border: 1px solid rgba(160, 140, 255, 0.3);
+          box-shadow:
+            0 8px 32px 0 rgba(0, 0, 0, 0.4),
+            0 0 15px rgba(138, 43, 226, 0.4);
           color: #ffffff;
           display: flex;
           flex-direction: row-reverse;
           align-items: center;
           padding: 0;
           cursor: pointer;
-          overflow: hidden; 
+          overflow: hidden;
           transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
         .icon-wrapper {
-          min-width: 65px; 
+          min-width: 65px;
           height: 65px;
           display: flex;
           justify-content: center;
@@ -478,22 +595,24 @@ const App = () => {
           font-size: 16px;
           white-space: nowrap;
           opacity: 0;
-          transform: translateX(10px); 
+          transform: translateX(10px);
           transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
         .aiei-floating-btn:hover {
-          width: 235px; 
-          transform: translateY(-5px); 
+          width: 235px;
+          transform: translateY(-5px);
           border-color: rgba(79, 115, 255, 0.6);
-          box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5), 0 0 25px rgba(79, 115, 255, 0.6);
-          color: #ffffffff; 
+          box-shadow:
+            0 12px 40px 0 rgba(0, 0, 0, 0.5),
+            0 0 25px rgba(79, 115, 255, 0.6);
+          color: #ffffffff;
         }
 
         .aiei-floating-btn:hover .btn-text {
           opacity: 1;
           transform: translateX(0);
-          padding-left: 25px; 
+          padding-left: 25px;
         }
 
         .aiei-floating-btn:active {
@@ -524,11 +643,11 @@ const App = () => {
           }
 
           .aiei-floating-btn:hover {
-            width: 190px; 
+            width: 190px;
           }
 
           .aiei-floating-btn:hover .btn-text {
-            padding-left: 18px; 
+            padding-left: 18px;
           }
         }
       `}</style>

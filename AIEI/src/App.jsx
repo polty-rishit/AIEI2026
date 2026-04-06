@@ -1,76 +1,69 @@
- import React from 'react'
-import { Form, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import General from './pages/General'
-import Committee from './pages/About/Committee'
-import Venue from './pages/Venue'
-import CallForPapers from './pages/Authors/CallForPapers'
-import Guidelines from './pages/guidelines'
+import React from "react";
+import { Form, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import General from "./pages/General";
+import Committee from "./pages/About/Committee";
+import Venue from "./pages/Venue";
+import CallForPapers from "./pages/Authors/CallForPapers";
+import Guidelines from "./pages/guidelines";
 import { useEffect } from "react";
-import Overview from './pages/About/Overview'
-import Patrons from './pages/About/Patrons'
-import Contact from './pages/About/Contact'
-import IeeeAc from './pages/About/IeeeAc'
-import IeeeP from './pages/About/IeeeP'
-import TechProgramme from './pages/Programme/TechProgramme'
-import Speakers from './pages/Programme/Speakers'
-import Registration from './pages/Attend/Registration'
-import ImportantDates from './pages/About/ImportantDates'
-import CameraReady from './pages/Authors/CameraReady'
-import Sponsors from './pages/Sponsorship/Sponsors'
-import Sform from './pages/Sponsorship/Sform'
-import Gallery from './pages/Attend/Gallery'
-import AuthInfo from './pages/Authors/AuthInfo'
-import TechSession from './pages/Programme/TechSession'
-import Panel from './pages/Programme/Panel'
-import Stay from './pages/Attend/Stay'
+import Overview from "./pages/About/Overview";
+import Patrons from "./pages/About/Patrons";
+import Contact from "./pages/About/Contact";
+import IeeeAc from "./pages/About/IeeeAc";
+import IeeeP from "./pages/About/IeeeP";
+import TechProgramme from "./pages/Programme/TechProgramme";
+import Speakers from "./pages/Programme/Speakers";
+import Registration from "./pages/Attend/Registration";
+import ImportantDates from "./pages/About/ImportantDates";
+import CameraReady from "./pages/Authors/CameraReady";
+import Sponsors from "./pages/Sponsorship/Sponsors";
+import Sform from "./pages/Sponsorship/Sform";
+import Gallery from "./pages/Attend/Gallery";
+import AuthInfo from "./pages/Authors/AuthInfo";
+import TechSession from "./pages/Programme/TechSession";
+import Panel from "./pages/Programme/Panel";
+import Stay from "./pages/Attend/Stay";
 
-
-
-
-
- 
- const App = () => {
-
+const App = () => {
   function RedirectToHTML() {
-  useEffect(() => {
-    window.location.href = "/cmt.html";
-  }, []);
-  return null;
-}
+    useEffect(() => {
+      window.location.href = "/cmt.html";
+    }, []);
+    return null;
+  }
 
-   return (
-     <div>
-       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/general' element={<General/>}/>
-        <Route path='/committee' element={<Committee/>}/>
-        <Route path='/venue' element={<Venue/>}/>
-        <Route path='/papers' element={<CallForPapers/>}/>
-        <Route path='/guidelines' element={<Guidelines/>}/>
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/general" element={<General />} />
+        <Route path="/committee" element={<Committee />} />
+        <Route path="/venue" element={<Venue />} />
+        <Route path="/papers" element={<CallForPapers />} />
+        <Route path="/guidelines" element={<Guidelines />} />
         <Route path="/cmt-acknowledgment" element={<RedirectToHTML />} />
-        <Route path='/overview' element={<Overview/>}/>
-         <Route path='/patrons' element={<Patrons/>}/>
-         <Route path='/contact' element={<Contact/>}/>
-         <Route path='/ieeeac' element={<IeeeAc/>}/>
-         <Route path='/ieeep' element={<IeeeP/>}/>
-         <Route path='/techprogramme' element={<TechProgramme/>}/>
-         <Route path='/speakers' element={<Speakers/>}/>
-         <Route path='/registration' element={<Registration/>}/>
-         <Route path='/dates' element={<ImportantDates/>}/>
-         <Route path='/camera' element={<CameraReady/>}/>
-         <Route path='/sponsors' element={<Sponsors/>}/>
-         <Route path='/form' element={<Sform/>}/>
-         <Route path='/gallery' element={<Gallery/>}/>
-         <Route path='/authinfo' element={<AuthInfo/>}/>
-         <Route path='/techSession' element={<TechSession/>}/>
-         <Route path='/keynote' element={<Speakers/>}/>
-         <Route path='/panel' element={<Panel/>}/>
-         <Route path='/stay' element={<Stay/>}/>
-         </Routes>
-     </div>
-   )
- }
- 
- export default App
- 
+        <Route path="/overview" element={<Overview />} />
+        <Route path="/patrons" element={<Patrons />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/ieeeac" element={<IeeeAc />} />
+        <Route path="/ieeep" element={<IeeeP />} />
+        <Route path="/techprogramme" element={<TechProgramme />} />
+        <Route path="/speakers" element={<Speakers />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/dates" element={<ImportantDates />} />
+        <Route path="/camera" element={<CameraReady />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/form" element={<Sform />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/authinfo" element={<AuthInfo />} />
+        <Route path="/techSession" element={<TechSession />} />
+        <Route path="/keynote" element={<Speakers />} />
+        <Route path="/panel" element={<Panel />} />
+        <Route path="/stay" element={<Stay />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default App;

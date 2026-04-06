@@ -1,347 +1,350 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import React from "react";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const councilMembers = [
+  // {
+  //   role: "Chief Patron",
+  //   name: "Prof. Goutam Sutradhar",
+  //   title: "Director, NIT Jamshedpur",
+  //   image: "/director.png",
+  //   link: "https://www.nitjsr.ac.in/Administration/Director"
+  // },
+  // {
+  //   role: "Patron",
+  //   name: "Prof. N. P. Padhy",
+  //   title: "Director, MNIT Jaipur",
+  //   image: "https://th.bing.com/th/id/OIP.OWAAXgxHp2tLGbrmD6r7kQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  //   link: "https://mnit.ac.in/admin/director"
+  // },
+  // {
+  //   role: "Patron",
+  //   name: "Prof. R.V. Sharma",
+  //   title: "Deputy Director, NIT Jamshedpur",
+  //   image: "https://www.nitjsr.ac.in/static/media/deputy_director.a4aca0ca6d3a54793e35.jpg",
+  //   link: "https://www.nitjsr.ac.in/Administration/deputy_director"
+  // },
+  // {
+  //   role: "Co-Patrons",
+  //   name: "Prof. Saroj Kumar Sarangi",
+  //   title: "Registrar, NIT Jamshedpur",
+  //   image: "https://www.nitjsr.ac.in/static/media/Registrar.1c068d52fc38c8eaed7d.png",
+  //   link: "https://www.nitjsr.ac.in/Administration/Registrar"
+  // },
+  // {
+  //   role: "Co-Patrons",
+  //   name: "Prof. Satish Kumar",
+  //   title: "Dean (Research and Consultancy), NIT Jamshedpur",
+  //   image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME117/profile/d11340f5-94c0-4177-a081-02b09771640c.JPG",
+  //   link: "https://www.nitjsr.ac.in/people/profile/ME117"
+  // },
+  // {
+  //   role: "Co-Patrons",
+  //   name: "Dr. Madhu Singh",
+  //   title: "HOD, Electrical Engineering, Associate Professor, NIT Jamshedpur",
+  //   image: "/Madhu.jpg",
+  //   link: "https://www.nitjsr.ac.in/people/profile/EE105"
+  // },
   {
-    role: "Chief Patron",
-    name: "Prof. Goutam Sutradhar",
-    title: "Director, NIT Jamshedpur",
-    image: "/director.png",
-    link: "https://www.nitjsr.ac.in/Administration/Director"
+    role: "Honorary Chairs",
+    name: "Dr. Andy Chen",
+    title: "IEEE Systems Council President, IEEE Systems Council",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwuFiThjyo80alXy7aO6Pf-i4r6qIJXZd7w&s",
+    link: "https://ieeesystemscouncil.org/contact/andy-chen",
   },
   {
-    role: "Patron",
-    name: "Prof. N. P. Padhy",
-    title: "Director, MNIT Jaipur",
-    image: "https://th.bing.com/th/id/OIP.OWAAXgxHp2tLGbrmD6r7kQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://mnit.ac.in/admin/director"
-  },
-  {
-    role: "Patron",
-    name: "Prof. R.V. Sharma",
-    title: "Deputy Director, NIT Jamshedpur",
-    image: "https://www.nitjsr.ac.in/static/media/deputy_director.a4aca0ca6d3a54793e35.jpg",
-    link: "https://www.nitjsr.ac.in/Administration/deputy_director"
-  },
-  {
-    role: "Co-Patrons",
-    name: "Prof. Saroj Kumar Sarangi",
-    title: "Registrar, NIT Jamshedpur",
-    image: "https://www.nitjsr.ac.in/static/media/Registrar.1c068d52fc38c8eaed7d.png",
-    link: "https://www.nitjsr.ac.in/Administration/Registrar"
-  },
-  {
-    role: "Co-Patrons",
-    name: "Prof. Satish Kumar",
-    title: "Dean (Research and Consultancy), NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME117/profile/d11340f5-94c0-4177-a081-02b09771640c.JPG",
-    link: "https://www.nitjsr.ac.in/people/profile/ME117"
-  },
-  {
-    role: "Co-Patrons",
-    name: "Dr. Madhu Singh",
-    title: "HOD, Electrical Engineering, Associate Professor, NIT Jamshedpur",
-    image: "/Madhu.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/EE105"
+    role: "Honorary Chairs",
+    name: "Dr. Sudeendra Koushik",
+    title: "2026 President, IEEE TEMS",
+    image:
+      "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
+    link: "https://www.linkedin.com/in/sudeendrakoushik/",
   },
   {
     role: "Honorary Chairs",
     name: "Prof. Sanjeevikumar Padmanaban",
     title: "University of South-Eastern Norway, VP Education",
-    image: "https://i1.rgstatic.net/ii/profile.image/11431281286419629-1730048404664_Q512/Sanjeevikumar-Padmanaban.jpg",
-    link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban"
+    image:
+      "https://i1.rgstatic.net/ii/profile.image/11431281286419629-1730048404664_Q512/Sanjeevikumar-Padmanaban.jpg",
+    link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban",
   },
+  // {
+  //   role: "STEERING COMMITTEE",
+  //   name: "Dr. Suparna Kar Chowdhury",
+  //   title: "Chair, IEEE Kolkata Section",
+  //   image: "https://tse1.explicit.bing.net/th/id/OIP.vGL6puDg4dxdKpsTzULY5QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   link: "https://ieeexplore.ieee.org/author/37086090061"
+  // },
+  // {
+  //   role: "STEERING COMMITTEE",
+  //   name: "Prof. R. N. Mahanty",
+  //   title: "NIT Jamshedpur",
+  //   image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/6979/11278554/11197532/mahan-3611268-small.gif",
+  //   link: "https://ieeexplore.ieee.org/author/37442136400"
+  // },
+  // {
+  //   role: "STEERING COMMITTEE",
+  //   name: "Prof. Niranjan Kumar",
+  //   title: "NIT Jamshedpur",
+  //   image: "https://th.bing.com/th/id/OIP.BlnTiCFEhmOYcX-qqRMDIQHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  //   link: "https://www.bing.com/search?q=Prof.+Niranjan+Kumar+NIT+Jamshedpur&FORM=HDRSC1"
+  // },
+  // {
+  //   role: "STEERING COMMITTEE",
+  //   name: "Prof. Krishna Bihari Yadav",
+  //   title: "NIT Jamshedpur",
+  //   image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/4147829/4147830/4147974/4147974-photo-2-source-small.gif",
+  //   link: "https://ieeexplore.ieee.org/author/38184993600"
+  // },
   {
-    role: "Honorary Chairs",
-    name: "Dr. Andy Chen",
-    title: "IEEE Systems Council President, IEEE Systems Council",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwuFiThjyo80alXy7aO6Pf-i4r6qIJXZd7w&s",
-    link: "https://ieeesystemscouncil.org/contact/andy-chen"
-  },
-  {
-    role: "Honorary Chairs",
-    name: "Prof. Xizhao Wang",
-    title: "IEEE Fellow, ShenZhen University, China",
-    image: "/xizhao.jpeg",
-    link: "https://www.hebmlc.org/en/"
-  },
-  {
-    role: "STEERING COMMITTEE",
-    name: "Dr. Suparna Kar Chowdhury",
-    title: "Chair, IEEE Kolkata Section",
-    image: "https://tse1.explicit.bing.net/th/id/OIP.vGL6puDg4dxdKpsTzULY5QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://ieeexplore.ieee.org/author/37086090061"
-  },
-  {
-    role: "STEERING COMMITTEE",
-    name: "Prof. R. N. Mahanty",
-    title: "NIT Jamshedpur",
-    image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/6979/11278554/11197532/mahan-3611268-small.gif",
-    link: "https://ieeexplore.ieee.org/author/37442136400"
-  },
-  {
-    role: "STEERING COMMITTEE",
-    name: "Prof. Niranjan Kumar",
-    title: "NIT Jamshedpur",
-    image: "https://th.bing.com/th/id/OIP.BlnTiCFEhmOYcX-qqRMDIQHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.bing.com/search?q=Prof.+Niranjan+Kumar+NIT+Jamshedpur&FORM=HDRSC1"
-  },
-  {
-    role: "STEERING COMMITTEE",
-    name: "Prof. Krishna Bihari Yadav",
-    title: "NIT Jamshedpur",
-    image: "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/4147829/4147830/4147974/4147974-photo-2-source-small.gif",
-    link: "https://ieeexplore.ieee.org/author/38184993600"
-  },
-   {
     role: "GENERAL CHAIRS",
     name: "Dr. V. P. Meena",
-    title: "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee,USA",
+    title:
+      "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee,USA",
     image: "./meenaSir.png",
-    link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en"
+    link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en",
   },
-   {
+  {
     role: "GENERAL CHAIRS",
     name: "Prof. KC (Casey) Santosh",
-    title: " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
+    title:
+      " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
     image: "./santosh.png",
-    link: "https://www.linkedin.com/in/kcsantosh1/"
+    link: "https://www.linkedin.com/in/kcsantosh1/",
   },
-  {
-    role: "GENERAL CO-CHAIRS",
-    name: "Dr. Surajit Kundu",
-    title:"ECE, NIT Jamshedpur",
-    image: "https://ice2cpt.org/images/surajit.jpg",
-    link: "https://www.linkedin.com/in/dr-surajit-kundu-9ba194143/"
-  },
-  {
-    role: "GENERAL CO-CHAIRS",
-    name: "Prof. Prabha Chand",
-    title:"ME, NIT Jamshedpur",
-    image: "https://ice2cpt.org/images/PC.png",
-    link: "https://scholar.google.com/citations?user=yAIgnmcAAAAJ&hl=en"
-  },
-  {
-    role: "GENERAL CO-CHAIRS",
-    name: "Atanu Kundu",
-    title:"IEEE Kolkata Section",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEdxD04OEZ8Dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709389746552?e=1772668800&v=beta&t=Ii76cxt7ecH_NZJhQWaEAvAKpeSLgmpZ6ZXMJkD__DY",
-    link: "https://www.linkedin.com/in/atanu-kundu-385979234/?originalSubdomain=in"
-  },
-  {
-    role: "GENERAL CO-CHAIRS",
-    name: "Dr. Omhari Gupta",
-    title:"EED, NIT Jamshedpur",
-    image: "https://ice2cpt.org/images/ohg.png",
-    link: "https://scholar.google.com/citations?user=XkZYkSkAAAAJ&hl=en"
-  },
-  {
-    role: "Organizing CHAIRS",
-    name: "Dr. Mrinal Kanti Sarkar",
-    title: "EED, NIT Jamshedpur",
-    image: "./MKS.jpeg",
-    link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
-  },
-  {
-    role: "Organizing CHAIRS",
-    name: "Dr. Dinesh Kumar ",
-    title: "CSE, NIT Jamshedpur",
-    image: "./Dinesh_one.jpg.jpeg",
-    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
-  },
-  {
-    role: "Organizing CHAIRS",
-    name: "Dr. Swagatadeb Sahoo",
-    title: "ECE, NIT Jamshedpur",
-    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EC117/profile/f1ba3240-cf7e-4cf5-8383-58dd44931077.jpeg",
-    link: "https://www.researchgate.net/profile/Swagatadeb-Sahoo"
-  },
-  {
-    role: "Organizing CHAIRS",
-    name: "Dr. Supriyo Das",
-    title: "EED, NIT Jamshedpur",
-    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EE2201/profile/40ee6e75-7c2d-43b7-a3fa-4bc2632cd29f.jpeg",
-    link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
-  },
-  {
-    role: "Organizing Secretaries",
-    name: "Dr. Surya Prakash",
-    title: "EED, NIT Jamshedpur",
-    image: "/surya.jpeg",
-    link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
-  },
-  {
-    role: "Organizing Secretaries",
-    name: "Dr. Mrutyunjay Rout",
-    title: "ECE, NIT Jamshedpur",
-    image: "/rout.jpeg",
-    link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en "
-  },
-  {
-    role: "Organizing Secretaries",
-    name: "Dr. Sanjay Kumar",
-    title: "EED, NIT Jamshedpur",
-    image: "./sanjay1.jpeg",
-    link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
-  },
-  {
-    role: "Organizing Secretaries",
-    name: "Dr. Vinay Kumar Jadoun",
-    title: "Manipal University",
-    image: "https://www.manipal.edu/content/dam/manipal/mu/mit/images/electrical-dept-faculty-profile-photos/EEE_VJ_Feb20.png.transform/manipal-edu-transform-width-height-528px/image.jpg",
-    link: "https://www.manipal.edu/mit/department-faculty/faculty-list/vinay-kumar-jadoun/_jcr_content.html"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Prof. Paolo Carbone",
-    title: "Vice President (Conferences), IEEE Systems Council",
-    image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
-    link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Dr. Tridibesh Nag",
-    title: "Secretary, IEEE Kolkata Section",
-    image: "https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180",
-    link: "https://ewh.ieee.org/r10/calcutta/message_secretary.html"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Prof. Robertas Damaševičius",
-    title: "Kaunas University of Technology, Kaunas, Lithuania",
-    image: "/robert.jpeg",
-    link: "https://en.ktu.edu/people/dr-robertas-damasevicius/"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Prof. Camile Kurtz",
-    title: "Université Paris Cité, France",
-    image: "https://camille-kurtz.com/index_fichiers/img/ckurtz.jpg",
-    link: "https://camille-kurtz.com/"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Prof. Guang Wang",
-    title: "Imperial College London, UK",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ZfzEFpsAAAAJ&citpid=3",
-    link: "https://profiles.imperial.ac.uk/g.yang/about"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Vishal Kumar Gaur",
-    title: "MNIT Allahabad",
-    image: "https://mnnit.ac.in/userprofile/uploads/94216-Vishal%20TIET%20Photo311.jpeg",
-    link: "https://mnnit.ac.in/profile/vkgaur"
-  },
-  {
-    role: "Technical Program Chairs",
-    name: "Simanta Samal ",
-    title: "EED, NIT Jamshedpur",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEeaka92c5E2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727180443829?e=1775088000&v=beta&t=tm0NghZqUnCJvQgN7Fzvh3kZYhFYI2c3AfTPtNy1e2U",
-    link: "https://www.bing.com/ck/a?!&&p=385a9ebff279d59ab75a85addbe3612d3cd413c5cf0920afa404967a739d6838JmltdHM9MTc3MzM2MDAwMA&ptn=3&ver=2&hsh=4&fclid=39f01e57-4e5f-624a-18e6-0acc4fad639b&psq=simnata+kumar+samal+nit+jsr&u=a1aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20vY2l0YXRpb25zP3VzZXI9dmFLR3htY0FBQUFKJmhsPWVu"
-  },
-  {
-    role: "Workshop Chairs",
-    name: "Prof. Hubert Cecotti",
-    title: "University of California Fresno, USA",
-    image: "https://i1.rgstatic.net/ii/profile.image/334803330191361-1456834742169_Q512/Hubert-Cecotti.jpg",
-    link: "https://csm.fresnostate.edu/about/directory/csci/cecotti-hubert.html"
-  },
-  {
-    role: "Workshop Chairs",
-    name: "Dr. Rodrigue Rizk",
-    title: "USD AI Research, University of South Dakota, USA",
-    image: "https://usd-asp.usd.edu/directory-image-management/assets/images/rodrigue.rizk/publicimage",
-    link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/rodrigue-rizk"
-  },
-  {
-    role: "Workshop Chairs",
-    name: "Prof. Mohamed-Rafik Bouguelia",
-    title: "University of Doha for Science and Technology, Qatar",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YXM_FmgAAAAJ&citpid=5",
-    link: "https://www.linkedin.com/in/mohamed-rafik-bouguelia/?originalSubdomain=qa"
-  },
-  {
-    role: "Workshop Chairs",
-    name: "Dr. Teena Sharma",
-    title: "IIT Guwahati (India)",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fkDuIfIAAAAJ&citpid=8",
-    link: "https://iitg.ac.in/iitg_faculty_details?fac=dWNtRy9lYmtaVHdLQ3gwb2ZndjQ5dz09"
-  },
-  {
-    role: "Publicity Chairs",
-    name: "Dr. Longwei Wang",
-    title: "USD AI Research, University of South Dakota (USA)",
-    image: "https://usd-asp.usd.edu/directory-image-management/assets/images/longwei.wang/publicimage",
-    link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/longwei-wang"
-  },
-  {
-    role: "Publicity Chairs",
-    name: "Dr. K. Raghavendra Naik",
-    title: "EED, NIT Jamshedpur",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YjIK-p8AAAAJ&citpid=1",
-    link: "https://scholar.google.com/citations?user=YjIK-p8AAAAJ&hl=en"
-  },
-  {
-    role: "Publicity Chairs",
-    name: "Dr. Jitendra Kumar",
-    title: "EED, NIT Jamshedpur",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5JIt2LIAAAAJ&citpid=2",
-    link: "https://scholar.google.com/citations?user=5JIt2LIAAAAJ&hl=en"
-  },
-  {
-    role: "Publicity Chairs",
-    name: "Dr. Ratnesh Kumar Mishra",
-    title: "NIT Jamshedpur",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=54HS0Y8AAAAJ&citpid=1",
-    link: "https://scholar.google.com/citations?user=54HS0Y8AAAAJ&hl=en"
-  },
-  {
-    role: "Web & Media Chairs",
-    name: "Rishit Raj",
-    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
-    image:"./rishit.png",
-    link: "https://www.linkedin.com/in/rishitraj/"
-  },
-  {
-    role: "Web & Media Chairs",
-    name: "Devendra Gowda Patil",
-    title: "Acharya Institute of Technology",
-    image: "https://ieeespace.org/wp-content/uploads/2025/12/Dr._Devendra_Gowda_Patil.webp",
-    link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
-  },
-  {
-    role: "Web & Media Chairs",
-    name: "Aniruddh Koundinya",
-    title: "IEEE Bangalore Section",
-    image: "https://ieeespace.org/wp-content/uploads/2025/12/Aniruddha_Koudinya.jpeg",
-    link: "https://www.linkedin.com/in/aniruddhkoundinya/?originalSubdomain=in"
-  },
-  {
-    role: "Web & Media Chairs",
-    name: "Aditya Prem",
-    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
-    image: "./prem.png",
-    link: "https://www.linkedin.com/in/aditya-prem/"
-  },
-   {
-    role: "Web & Media Chairs",
-    name: "Supriyo Dhani",
-    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
-    image: "https://ice2cpt.org/images/dhani.png",
-    link: "https://www.linkedin.com/in/supriyodhani/"
-  },
-   {
-    role: "Web & Media Chairs",
-    name: "Asmi Srivastava",
-    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQGdjgS5PkRhwQ/profile-displayphoto-shrink_400_400/B56ZsS2iVlIEAg-/0/1765547846019?e=1775088000&v=beta&t=_l1zZvhRdojmMfgNYv35L0CsaDZo7vWORipsMDsCLhQ",
-    link: "https://www.linkedin.com/in/asmi-srivastava-39180427b/"
-  },
+  // {
+  //   role: "GENERAL CO-CHAIRS",
+  //   name: "Dr. Surajit Kundu",
+  //   title:"ECE, NIT Jamshedpur",
+  //   image: "https://ice2cpt.org/images/surajit.jpg",
+  //   link: "https://www.linkedin.com/in/dr-surajit-kundu-9ba194143/"
+  // },
+  // {
+  //   role: "GENERAL CO-CHAIRS",
+  //   name: "Prof. Prabha Chand",
+  //   title:"ME, NIT Jamshedpur",
+  //   image: "https://ice2cpt.org/images/PC.png",
+  //   link: "https://scholar.google.com/citations?user=yAIgnmcAAAAJ&hl=en"
+  // },
+  // {
+  //   role: "GENERAL CO-CHAIRS",
+  //   name: "Atanu Kundu",
+  //   title:"IEEE Kolkata Section",
+  //   image: "https://media.licdn.com/dms/image/v2/D5603AQEdxD04OEZ8Dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709389746552?e=1772668800&v=beta&t=Ii76cxt7ecH_NZJhQWaEAvAKpeSLgmpZ6ZXMJkD__DY",
+  //   link: "https://www.linkedin.com/in/atanu-kundu-385979234/?originalSubdomain=in"
+  // },
+  // {
+  //   role: "GENERAL CO-CHAIRS",
+  //   name: "Dr. Omhari Gupta",
+  //   title:"EED, NIT Jamshedpur",
+  //   image: "https://ice2cpt.org/images/ohg.png",
+  //   link: "https://scholar.google.com/citations?user=XkZYkSkAAAAJ&hl=en"
+  // },
+  // {
+  //   role: "Organizing CHAIRS",
+  //   name: "Dr. Mrinal Kanti Sarkar",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "./MKS.jpeg",
+  //   link: "https://www.researchgate.net/profile/Mrinal-Kanti-Sarkar"
+  // },
+  // {
+  //   role: "Organizing CHAIRS",
+  //   name: "Dr. Dinesh Kumar ",
+  //   title: "CSE, NIT Jamshedpur",
+  //   image: "./Dinesh_one.jpg.jpeg",
+  //   link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
+  // },
+  // {
+  //   role: "Organizing CHAIRS",
+  //   name: "Dr. Swagatadeb Sahoo",
+  //   title: "ECE, NIT Jamshedpur",
+  //   image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EC117/profile/f1ba3240-cf7e-4cf5-8383-58dd44931077.jpeg",
+  //   link: "https://www.researchgate.net/profile/Swagatadeb-Sahoo"
+  // },
+  // {
+  //   role: "Organizing CHAIRS",
+  //   name: "Dr. Supriyo Das",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/EE2201/profile/40ee6e75-7c2d-43b7-a3fa-4bc2632cd29f.jpeg",
+  //   link: "https://www.linkedin.com/in/dinesh-kumar-6840a3120/?originalSubdomain=in"
+  // },
+  // {
+  //   role: "Organizing Secretaries",
+  //   name: "Dr. Surya Prakash",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "/surya.jpeg",
+  //   link: "https://scholar.google.com/citations?user=q4lxqvsAAAAJ&hl=en"
+  // },
+  // {
+  //   role: "Organizing Secretaries",
+  //   name: "Dr. Mrutyunjay Rout",
+  //   title: "ECE, NIT Jamshedpur",
+  //   image: "/rout.jpeg",
+  //   link: "https://scholar.google.com/citations?user=AQWr2zcAAAAJ&hl=en "
+  // },
+  // {
+  //   role: "Organizing Secretaries",
+  //   name: "Dr. Sanjay Kumar",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "./sanjay1.jpeg",
+  //   link: "https://www.researchgate.net/profile/Sanjay-Kumar-89"
+  // },
+  // {
+  //   role: "Organizing Secretaries",
+  //   name: "Dr. Vinay Kumar Jadoun",
+  //   title: "Manipal University",
+  //   image: "https://www.manipal.edu/content/dam/manipal/mu/mit/images/electrical-dept-faculty-profile-photos/EEE_VJ_Feb20.png.transform/manipal-edu-transform-width-height-528px/image.jpg",
+  //   link: "https://www.manipal.edu/mit/department-faculty/faculty-list/vinay-kumar-jadoun/_jcr_content.html"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Prof. Paolo Carbone",
+  //   title: "Vice President (Conferences), IEEE Systems Council",
+  //   image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
+  //   link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Dr. Tridibesh Nag",
+  //   title: "Secretary, IEEE Kolkata Section",
+  //   image: "https://th.bing.com/th/id/OIP.hwz5ke9AaWP3AlHdmDknKgHaHa?w=219&h=180",
+  //   link: "https://ewh.ieee.org/r10/calcutta/message_secretary.html"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Prof. Robertas Damaševičius",
+  //   title: "Kaunas University of Technology, Kaunas, Lithuania",
+  //   image: "/robert.jpeg",
+  //   link: "https://en.ktu.edu/people/dr-robertas-damasevicius/"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Prof. Camile Kurtz",
+  //   title: "Université Paris Cité, France",
+  //   image: "https://camille-kurtz.com/index_fichiers/img/ckurtz.jpg",
+  //   link: "https://camille-kurtz.com/"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Prof. Guang Wang",
+  //   title: "Imperial College London, UK",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ZfzEFpsAAAAJ&citpid=3",
+  //   link: "https://profiles.imperial.ac.uk/g.yang/about"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Vishal Kumar Gaur",
+  //   title: "MNIT Allahabad",
+  //   image: "https://mnnit.ac.in/userprofile/uploads/94216-Vishal%20TIET%20Photo311.jpeg",
+  //   link: "https://mnnit.ac.in/profile/vkgaur"
+  // },
+  // {
+  //   role: "Technical Program Chairs",
+  //   name: "Simanta Samal ",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "https://media.licdn.com/dms/image/v2/D5603AQEeaka92c5E2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727180443829?e=1775088000&v=beta&t=tm0NghZqUnCJvQgN7Fzvh3kZYhFYI2c3AfTPtNy1e2U",
+  //   link: "https://www.bing.com/ck/a?!&&p=385a9ebff279d59ab75a85addbe3612d3cd413c5cf0920afa404967a739d6838JmltdHM9MTc3MzM2MDAwMA&ptn=3&ver=2&hsh=4&fclid=39f01e57-4e5f-624a-18e6-0acc4fad639b&psq=simnata+kumar+samal+nit+jsr&u=a1aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20vY2l0YXRpb25zP3VzZXI9dmFLR3htY0FBQUFKJmhsPWVu"
+  // },
+  // {
+  //   role: "Workshop Chairs",
+  //   name: "Prof. Hubert Cecotti",
+  //   title: "University of California Fresno, USA",
+  //   image: "https://i1.rgstatic.net/ii/profile.image/334803330191361-1456834742169_Q512/Hubert-Cecotti.jpg",
+  //   link: "https://csm.fresnostate.edu/about/directory/csci/cecotti-hubert.html"
+  // },
+  // {
+  //   role: "Workshop Chairs",
+  //   name: "Dr. Rodrigue Rizk",
+  //   title: "USD AI Research, University of South Dakota, USA",
+  //   image: "https://usd-asp.usd.edu/directory-image-management/assets/images/rodrigue.rizk/publicimage",
+  //   link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/rodrigue-rizk"
+  // },
+  // {
+  //   role: "Workshop Chairs",
+  //   name: "Prof. Mohamed-Rafik Bouguelia",
+  //   title: "University of Doha for Science and Technology, Qatar",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YXM_FmgAAAAJ&citpid=5",
+  //   link: "https://www.linkedin.com/in/mohamed-rafik-bouguelia/?originalSubdomain=qa"
+  // },
+  // {
+  //   role: "Workshop Chairs",
+  //   name: "Dr. Teena Sharma",
+  //   title: "IIT Guwahati (India)",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fkDuIfIAAAAJ&citpid=8",
+  //   link: "https://iitg.ac.in/iitg_faculty_details?fac=dWNtRy9lYmtaVHdLQ3gwb2ZndjQ5dz09"
+  // },
+  // {
+  //   role: "Publicity Chairs",
+  //   name: "Dr. Longwei Wang",
+  //   title: "USD AI Research, University of South Dakota (USA)",
+  //   image: "https://usd-asp.usd.edu/directory-image-management/assets/images/longwei.wang/publicimage",
+  //   link: "https://www.usd.edu/research-and-faculty/faculty-and-staff/longwei-wang"
+  // },
+  // {
+  //   role: "Publicity Chairs",
+  //   name: "Dr. K. Raghavendra Naik",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YjIK-p8AAAAJ&citpid=1",
+  //   link: "https://scholar.google.com/citations?user=YjIK-p8AAAAJ&hl=en"
+  // },
+  // {
+  //   role: "Publicity Chairs",
+  //   name: "Dr. Jitendra Kumar",
+  //   title: "EED, NIT Jamshedpur",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5JIt2LIAAAAJ&citpid=2",
+  //   link: "https://scholar.google.com/citations?user=5JIt2LIAAAAJ&hl=en"
+  // },
+  // {
+  //   role: "Publicity Chairs",
+  //   name: "Dr. Ratnesh Kumar Mishra",
+  //   title: "NIT Jamshedpur",
+  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=54HS0Y8AAAAJ&citpid=1",
+  //   link: "https://scholar.google.com/citations?user=54HS0Y8AAAAJ&hl=en"
+  // },
+  // {
+  //   role: "Web & Media Chairs",
+  //   name: "Rishit Raj",
+  //   title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+  //   image:"./rishit.png",
+  //   link: "https://www.linkedin.com/in/rishitraj/"
+  // },
+  // {
+  //   role: "Web & Media Chairs",
+  //   name: "Devendra Gowda Patil",
+  //   title: "Acharya Institute of Technology",
+  //   image: "https://ieeespace.org/wp-content/uploads/2025/12/Dr._Devendra_Gowda_Patil.webp",
+  //   link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
+  // },
+  // {
+  //   role: "Web & Media Chairs",
+  //   name: "Aniruddh Koundinya",
+  //   title: "IEEE Bangalore Section",
+  //   image: "https://ieeespace.org/wp-content/uploads/2025/12/Aniruddha_Koudinya.jpeg",
+  //   link: "https://www.linkedin.com/in/aniruddhkoundinya/?originalSubdomain=in"
+  // },
+  // {
+  //   role: "Web & Media Chairs",
+  //   name: "Aditya Prem",
+  //   title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+  //   image: "./prem.png",
+  //   link: "https://www.linkedin.com/in/aditya-prem/"
+  // },
+  //  {
+  //   role: "Web & Media Chairs",
+  //   name: "Supriyo Dhani",
+  //   title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+  //   image: "https://ice2cpt.org/images/dhani.png",
+  //   link: "https://www.linkedin.com/in/supriyodhani/"
+  // },
+  //  {
+  //   role: "Web & Media Chairs",
+  //   name: "Asmi Srivastava",
+  //   title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+  //   image: "https://media.licdn.com/dms/image/v2/D5603AQGdjgS5PkRhwQ/profile-displayphoto-shrink_400_400/B56ZsS2iVlIEAg-/0/1765547846019?e=1775088000&v=beta&t=_l1zZvhRdojmMfgNYv35L0CsaDZo7vWORipsMDsCLhQ",
+  //   link: "https://www.linkedin.com/in/asmi-srivastava-39180427b/"
+  // },
 ];
-
-
 
 // Group by roles
 const groupedMembers = councilMembers.reduce((acc, member) => {
@@ -357,16 +360,16 @@ const Committee = () => {
 
       {/* Banner Section */}
       <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
-        <img 
-          src="/photo1.jpg" 
-          alt="Banner" 
+        <img
+          src="/photo1.jpg"
+          alt="Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
 
         <div className="relative text-center text-white drop-shadow-lg px-4">
           <h1 className="text-2xl md:text-6xl font-bold mb-1">
-          Organizing Committee
+            Organizing Committee
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
             International Conference on AI Engineering and Innovation
@@ -376,10 +379,8 @@ const Committee = () => {
 
       {/* Council Members */}
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 space-y-20">
-        
         {Object.keys(groupedMembers).map((role, index) => (
           <div key={index} className="w-full">
-            
             {/* Role Heading */}
             <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 uppercase mb-10 -mt-10">
               {role}
@@ -388,20 +389,20 @@ const Committee = () => {
             {/* Members */}
             <div className="flex flex-wrap justify-center gap-x-16 gap-y-16">
               {groupedMembers[role].map((member, idx) => (
-                <div 
-                  key={idx} 
+                <div
+                  key={idx}
                   className="flex flex-col items-center text-center w-[160px] sm:w-[190px] md:w-[220px]"
                 >
                   {/* Image */}
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
+                  <img
+                    src={member.image}
+                    alt={member.name}
                     className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-md transform transition duration-300 hover:scale-105"
                   />
 
                   {/* Name */}
-                  <a 
-                    href={member.link} 
+                  <a
+                    href={member.link}
                     className="mt-2 text-base sm:text-lg md:text-xl font-bold text-blue-700 hover:underline leading-tight"
                   >
                     {member.name}
@@ -414,15 +415,13 @@ const Committee = () => {
                 </div>
               ))}
             </div>
-
           </div>
         ))}
-
       </div>
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Committee
+export default Committee;

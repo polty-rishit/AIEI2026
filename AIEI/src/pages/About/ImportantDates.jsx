@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const ImportantDates = () => {
   return (
@@ -31,7 +31,6 @@ const ImportantDates = () => {
 
       <section className="bg-gray-50 text-gray-800 py-20 px-6 sm:px-12 lg:px-32 shadow-inner">
         <div className="max-w-6xl mx-auto">
-
           <div className="text-lg leading-relaxed space-y-6 text-gray-700">
             <p className="text-3xl font-extrabold text-gray-800 text-center -mb-4 -mt-4">
               Timeline
@@ -43,7 +42,6 @@ const ImportantDates = () => {
           <div className="max-w-4xl mx-auto mt-12">
             <table className="w-full border-separate border-spacing-y-4">
               <tbody>
-
                 {/* Row 1 */}
                 <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
                   <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
@@ -109,12 +107,10 @@ const ImportantDates = () => {
                     March 26–28, 2026
                   </td>
                 </tr>
-
               </tbody>
             </table>
           </div>
           {/* BEAUTIFUL TABLE ENDS HERE */}
-
         </div>
       </section>
 

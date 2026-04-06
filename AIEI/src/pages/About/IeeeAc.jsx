@@ -1,301 +1,347 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import React from "react";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const councilMembers = [
   {
     name: "Prof. Steven Li",
-    title: "Western New England University, President-Elect of IEEE Systems Council 2026.",
+    title:
+      "Western New England University, President-Elect of IEEE Systems Council 2026.",
     image: "AdvisoryCouncil.png",
-    link: "https://ieeesystemscouncil.org/contact/zhaojun-steven-li"
+    link: "https://ieeesystemscouncil.org/contact/zhaojun-steven-li",
   },
   {
     name: "Prof. Shiyan Hu",
-    title: "University of Southampton, VP Technical Operations, IEEE Systems Council",
-    image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
-    link: "https://ieeesystemscouncil.org/contact/shiyan-hu"
+    title:
+      "University of Southampton, VP Technical Operations, IEEE Systems Council",
+    image:
+      "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_1_1_500w/public/images/contacts/Shiyan%2520Hu.jpeg?h=daed5ab1&itok=6EzjEmak",
+    link: "https://ieeesystemscouncil.org/contact/shiyan-hu",
   },
   {
     name: "Mr. Walter D. Downing ,P.E.",
-    title: " Southwest Research Institute, Past President, IEEE Systems Council",
+    title:
+      " Southwest Research Institute, Past President, IEEE Systems Council",
     image: "/Walt.jpg",
-    link: "https://www.swri.org/walter-d-downing-pe"
+    link: "https://www.swri.org/walter-d-downing-pe",
   },
   {
     name: "Prof. Vincenzo Piuri",
     title: "Department of Computer Science, University of Milan, Italy",
-    image: "https://th.bing.com/th/id/OIP.wFhxVCpXwktb53NvMYu39gHaJQ?w=140&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-    link: "https://piuri.di.unimi.it/"
+    image:
+      "https://th.bing.com/th/id/OIP.wFhxVCpXwktb53NvMYu39gHaJQ?w=140&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    link: "https://piuri.di.unimi.it/",
   },
   {
     name: "Prof. Jeffrey Voas",
     title: "2026 Editor in Chief IEEE Security and Privacy magazine",
-    image: "https://th.bing.com/th/id/OIP.xu_myvMq360Vi_p2EDWo2wHaJQ?w=130&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-    link: "https://www.nist.gov/people/jeff-voas"
+    image:
+      "https://th.bing.com/th/id/OIP.xu_myvMq360Vi_p2EDWo2wHaJQ?w=130&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    link: "https://www.nist.gov/people/jeff-voas",
   },
   {
     name: "Mr. Deepak Mathur",
     title: "IEEE Vice President, MGA",
-    image: "https://th.bing.com/th/id/OIP.fI1K3Sq5U_NxaREZSZO6kQHaFj?w=226&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/deepakmathur25/?originalSubdomain=in"
+    image:
+      "https://th.bing.com/th/id/OIP.fI1K3Sq5U_NxaREZSZO6kQHaFj?w=226&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/deepakmathur25/?originalSubdomain=in",
   },
   {
     name: "Mr. David Koehler",
     title: "Executive Advisor, Quanta Technology, LLC, Senior IEEE Volunteer",
-    image: "https://th.bing.com/th/id/OIP.BVMuUEuA-LjgYaf1ANqsvwHaE7?w=230&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/davidakoehler/"
+    image:
+      "https://th.bing.com/th/id/OIP.BVMuUEuA-LjgYaf1ANqsvwHaE7?w=230&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/davidakoehler/",
   },
   {
     name: "Dr. Braham Himed",
     title: "2026 President, IEEE AESS",
-    image: "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://ieee-aess.org/contact/braham-himed"
+    image:
+      "https://th.bing.com/th/id/OIP._wmT_xVsNkuwsj4y_3caPgAAAA?w=128&h=154&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://ieee-aess.org/contact/braham-himed",
   },
   {
     name: "Prof. Maurizio Bozzi",
-    title: "2024 IEEE MTT-S President and Professor, University of Pavaia, Itly",
-    image: "https://th.bing.com/th/id/OIP.UyAfzw9joPnOh1EVmYsKoQHaHa?w=151&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://mtt.org/profile/maurizio-bozzi/"
+    title:
+      "2024 IEEE MTT-S President and Professor, University of Pavaia, Itly",
+    image:
+      "https://th.bing.com/th/id/OIP.UyAfzw9joPnOh1EVmYsKoQHaHa?w=151&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://mtt.org/profile/maurizio-bozzi/",
   },
   {
     name: "Prof. Maria Sabrina Greco",
     title: "University of Pisa,Past President, IEEE AESS",
-    image: "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Greco.jpg?h=25fac813&itok=jjurvExN",
-    link: "https://ieee-aess.org/contact/maria-sabrina-greco"
+    image:
+      "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Greco.jpg?h=25fac813&itok=jjurvExN",
+    link: "https://ieee-aess.org/contact/maria-sabrina-greco",
   },
   {
     name: "Prof. Seyedali Mirjalili",
     title: "Professor of AI, Torrens University, Australia",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=TJHmrREAAAAJ&citpid=7",
-    link: "https://seyedalimirjalili.com/"
+    image:
+      "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=TJHmrREAAAAJ&citpid=7",
+    link: "https://seyedalimirjalili.com/",
   },
   {
     name: "Prof. Anas Abou El Kalam",
     title: "University de Cadi Ayyad, Morocco",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwSSZMjJJgG-j0f9irrAohJmfjlOcGrUNYA&s",
-    link: "https://abouelkalam.com/"
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwSSZMjJJgG-j0f9irrAohJmfjlOcGrUNYA&s",
+    link: "https://abouelkalam.com/",
   },
   {
     name: "Prof. Akram Bennour",
     title: "Larbi Tebessi university, Algeria",
     image: "/akram.jpeg",
-    link: "https://www.linkedin.com/in/akram-bennour-205302141/?originalSubdomain=dz"
+    link: "https://www.linkedin.com/in/akram-bennour-205302141/?originalSubdomain=dz",
   },
   {
     name: "Dr. Bassem Bouaziz",
     title: "University of Sfax, Tunisia",
-    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=KVdMlqMAAAAJ&citpid=3",
-    link: "#"
+    image:
+      "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=KVdMlqMAAAAJ&citpid=3",
+    link: "#",
   },
   {
     name: "Dr. Ali Behravan",
     title: "CEO - GreeNovaX (Germany)",
-    image: "https://th.bing.com/th/id/OIP.8Zhr-vFysf2yoDceZeJEtQHaHa?w=192&h=192&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/alibehravan/?originalSubdomain=de"
+    image:
+      "https://th.bing.com/th/id/OIP.8Zhr-vFysf2yoDceZeJEtQHaHa?w=192&h=192&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/alibehravan/?originalSubdomain=de",
   },
   {
     name: "Prof. Shreekanth Mandayam",
     title: "Vice President for Research, Texas State University",
     image: "https://users.rowan.edu/~shreek/index_files/image003.jpg",
-    link: "https://users.rowan.edu/~shreek/"
+    link: "https://users.rowan.edu/~shreek/",
   },
   {
     name: "Prof. Bhim Singh",
     title: "Emeritus Professor, IIT Delhi",
-    image: "https://tse3.mm.bing.net/th/id/OIP.tQhRwTIFBHlqhBk9wyA5UAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    link: "https://web.iitd.ac.in/~bsingh/"
+    image:
+      "https://tse3.mm.bing.net/th/id/OIP.tQhRwTIFBHlqhBk9wyA5UAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    link: "https://web.iitd.ac.in/~bsingh/",
   },
   {
     name: "Prof. Swades De",
     title: "Professor, IIT Delhi",
     image: "https://www.icsdp.com/img/photo/s_de.jpg",
-    link: "https://web.iitd.ac.in/~swadesd/"
+    link: "https://web.iitd.ac.in/~swadesd/",
   },
   {
     name: "Prof. Ram Bilas Pachori",
     title: "Professor, IIT Indore",
     image: "https://people.iiti.ac.in/~pachori/images/profile.jpg",
-    link: "https://people.iiti.ac.in/~pachori/"
+    link: "https://people.iiti.ac.in/~pachori/",
   },
   {
     name: "Dr. Sudeendra Koushik",
     title: "2026 President, IEEE TEMS",
-    image: "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
-    link: "https://www.ieee-tems.org/board-of-governors/"
+    image:
+      "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
+    link: "https://www.ieee-tems.org/board-of-governors/",
   },
   {
     name: "Mr. Puneet Kumar Mishra",
     title: "VP Education, IEEE AESS",
-    image: "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Puneet-headshot.jpeg?h=b2631347&itok=f8MET9S_",
-    link: "https://www.ieee-tems.org/board-of-governors/"
+    image:
+      "https://ieee-aess.org/files/ieeeaess/styles/responsive_4_5_760w/public/images/contacts/Puneet-headshot.jpeg?h=b2631347&itok=f8MET9S_",
+    link: "https://www.ieee-tems.org/board-of-governors/",
   },
   {
     name: "Prof. Nikhil Gupta",
     title: "New York University, USA",
-    image: "https://engineering.nyu.edu/sites/default/files/styles/square_large_620_2x/public/migrated/2009-06/pictures/picture-374.jpg?h=a06a24e3&itok=xI4Kso7D",
-    link: "https://engineering.nyu.edu/faculty/nikhil-gupta"
+    image:
+      "https://engineering.nyu.edu/sites/default/files/styles/square_large_620_2x/public/migrated/2009-06/pictures/picture-374.jpg?h=a06a24e3&itok=xI4Kso7D",
+    link: "https://engineering.nyu.edu/faculty/nikhil-gupta",
   },
   {
     name: "Prof. Shree Prakash Tiwari",
     title: "Professor, IIT Jodhpur",
-    image: "https://th.bing.com/th/id/OIP.Z2RFFIa6JVULDsFkqvcdDQHaHa?w=180&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://iitj.ac.in/People/Profile/82d1a133-2bf5-403f-b504-cc8864ef15d2"
+    image:
+      "https://th.bing.com/th/id/OIP.Z2RFFIa6JVULDsFkqvcdDQHaHa?w=180&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://iitj.ac.in/People/Profile/82d1a133-2bf5-403f-b504-cc8864ef15d2",
   },
   {
     name: "Prof. Ersan KABALCI",
     title: "Nevşehir University, Turkey",
-    image: "https://sistem.nevsehir.edu.tr/bizdosyalar/profilresimler/8540eb935eae056702722715b014270c/DSC_0028_.jpg",
-    link: "https://biz.nevsehir.edu.tr/kabalci/tr"
+    image:
+      "https://sistem.nevsehir.edu.tr/bizdosyalar/profilresimler/8540eb935eae056702722715b014270c/DSC_0028_.jpg",
+    link: "https://biz.nevsehir.edu.tr/kabalci/tr",
   },
   {
     name: "Prof. Atif Iqbal",
     title: "Qatar University, Qatar",
-    image: "https://th.bing.com/th/id/OIP.GCC-NAqkFefAGu8DApK3qwAAAA?w=198&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://ieeeaccess.ieee.org/editorial-team/atif-iqbal/"
+    image:
+      "https://th.bing.com/th/id/OIP.GCC-NAqkFefAGu8DApK3qwAAAA?w=198&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://ieeeaccess.ieee.org/editorial-team/atif-iqbal/",
   },
   {
     name: "Dr. Ashutosh Kedar",
     title: "LRDE, DRDO, India",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQE_XNEkEQD2Gg/profile-displayphoto-shrink_400_400/B56ZbxaYjEG4Ag-/0/1747806950195?e=1768435200&v=beta&t=ZA_8KYIjC6oAgTlpjrn6yq-S1B7YVFJJ1m5Cf_hYwvM",
-    link: "https://www.linkedin.com/in/dr-ashutosh-kedar-968924a/?originalSubdomain=in"
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQE_XNEkEQD2Gg/profile-displayphoto-shrink_400_400/B56ZbxaYjEG4Ag-/0/1747806950195?e=1768435200&v=beta&t=ZA_8KYIjC6oAgTlpjrn6yq-S1B7YVFJJ1m5Cf_hYwvM",
+    link: "https://www.linkedin.com/in/dr-ashutosh-kedar-968924a/?originalSubdomain=in",
   },
   {
     name: "Prof. Janet (Jing) Lin",
     title: "VP of Publications, IEEE Reliability Society",
-    image: "https://th.bing.com/th/id/OIP.BMLBjafYNC0lOeOlKjXrjAAAAA?w=176&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.bing.com/search?q=rof.+Janet+(Jing)+Lin&FORM=HDRSC1"
+    image:
+      "https://th.bing.com/th/id/OIP.BMLBjafYNC0lOeOlKjXrjAAAAA?w=176&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.bing.com/search?q=rof.+Janet+(Jing)+Lin&FORM=HDRSC1",
   },
   {
     name: "Dr. C.J. Reddy",
     title: "President ,IEEE Antennas and Propagation Society",
-    image: "https://th.bing.com/th/id/OIP.RCNlSZBng-VSRwCZGz1_iAAAAA?w=147&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.bing.com/search?q=dr+cj+reddy+&FORM=HDRSC1"
+    image:
+      "https://th.bing.com/th/id/OIP.RCNlSZBng-VSRwCZGz1_iAAAAA?w=147&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.bing.com/search?q=dr+cj+reddy+&FORM=HDRSC1",
   },
   {
     name: "Ram Narayanan",
-    title: "Director Center for Radar Engineering,Pennsylvania State University",
-    image: "https://th.bing.com/th/id/OIP.tmPln3q92aA0pQf3uLsHkgHaHa?w=181&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/ram-narayanan-a931243/"
+    title:
+      "Director Center for Radar Engineering,Pennsylvania State University",
+    image:
+      "https://th.bing.com/th/id/OIP.tmPln3q92aA0pQf3uLsHkgHaHa?w=181&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://www.linkedin.com/in/ram-narayanan-a931243/",
   },
   {
     name: "Vijay Sood",
     title: "Professor Emeritus at Ontario Tech University",
-    image: "https://media.licdn.com/dms/image/v2/C4D03AQGCeIvgc7fdRQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516997242552?e=1769644800&v=beta&t=oLBFaISG1cUuGNpjyj2aX_PnddjzekEajJ2z4ftXMx4",
-    link: "https://www.linkedin.com/in/vijay-sood-951b0022/"
+    image:
+      "https://media.licdn.com/dms/image/v2/C4D03AQGCeIvgc7fdRQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516997242552?e=1769644800&v=beta&t=oLBFaISG1cUuGNpjyj2aX_PnddjzekEajJ2z4ftXMx4",
+    link: "https://www.linkedin.com/in/vijay-sood-951b0022/",
   },
   {
     name: "Prof. Arpan K. Kar",
     title: "Chair Professor at IIT Delhi",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQH_gNk_i_bYIg/profile-displayphoto-scale_400_400/B4DZnB0bkYIEAg-/0/1759893372127?e=1769644800&v=beta&t=Re13Fbg_W6vC_6YzdE-oSh8zSMGiuI2rS6wYJGPDuJI",
-    link: "https://www.linkedin.com/in/arpankar/"
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D03AQH_gNk_i_bYIg/profile-displayphoto-scale_400_400/B4DZnB0bkYIEAg-/0/1759893372127?e=1769644800&v=beta&t=Re13Fbg_W6vC_6YzdE-oSh8zSMGiuI2rS6wYJGPDuJI",
+    link: "https://www.linkedin.com/in/arpankar/",
   },
   {
     name: "Prof. Dharamveer Singh",
     title: "Professor, IIT Bombay",
-    image: "https://www.civil.iitb.ac.in//resources/images/people_image/33/dce7a8d75ca154bd33e16ae210ee9736.jpeg",
-    link: "https://www.civil.iitb.ac.in/faculty/details/prof-dharamveer-singh"
+    image:
+      "https://www.civil.iitb.ac.in//resources/images/people_image/33/dce7a8d75ca154bd33e16ae210ee9736.jpeg",
+    link: "https://www.civil.iitb.ac.in/faculty/details/prof-dharamveer-singh",
   },
   {
     name: "Dr. Usman Munawar",
     title: "Principal Architect, University of Regina",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQHlb4hGTV5XIQ/profile-displayphoto-scale_400_400/B56ZoDNPlZHkAg-/0/1760990395220?e=1769644800&v=beta&t=KjnzwFPdtKuLYf3MErgGYcULkZZ1WfG7lYhQIjGLkBY",
-    link: "https://www.linkedin.com/in/musmanm/"
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQHlb4hGTV5XIQ/profile-displayphoto-scale_400_400/B56ZoDNPlZHkAg-/0/1760990395220?e=1769644800&v=beta&t=KjnzwFPdtKuLYf3MErgGYcULkZZ1WfG7lYhQIjGLkBY",
+    link: "https://www.linkedin.com/in/musmanm/",
   },
   {
     name: "Dr. Chad Kidder",
     title: "Keysight EDA Services Manager",
-    image: "https://careerfair.ieee.org/wp-content/uploads/2025/10/Chad-Kidder.jpg",
-    link: "https://careerfair.ieee.org/invited-talks/chad-kidder/"
+    image:
+      "https://careerfair.ieee.org/wp-content/uploads/2025/10/Chad-Kidder.jpg",
+    link: "https://careerfair.ieee.org/invited-talks/chad-kidder/",
   },
   {
     name: "Dr. Lorenzo Lo Monte",
     title: "2026 President-Elect, IEEE AESS",
-    image: "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
-    link: "https://www.linkedin.com/in/lorenzolomonte/"
+    image:
+      "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
+    link: "https://www.linkedin.com/in/lorenzolomonte/",
   },
   {
     name: "Sheldon Williamson",
     title: "Prof. Ontario Tech University",
-    image: "https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/sheldon.williamson.jpg",
-    link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php"
+    image:
+      "https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/sheldon.williamson.jpg",
+    link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php",
   },
   {
     name: "Tarun Kumar Chatterjee",
     title: "Presidio, USA",
     image: "/tarun.jpeg",
-    link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/"
+    link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/",
   },
   {
     name: "Prof. Mrityunjay Kumar Sinha",
     title: "Dean Academics, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/ME108/profile/19cbb633-ebd5-4fc9-ad52-688350940df1.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/ME108"
-  },{
+    image:
+      "https://nitjsr.ac.in/backend/uploads/Faculty/ME108/profile/19cbb633-ebd5-4fc9-ad52-688350940df1.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/ME108",
+  },
+  {
     name: "Prof. DK Yadav",
     title: "Dean Faculty Welfare, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CA105/profile/5294d20f-8269-480c-85b3-ec7ba71c53f6.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CA105"
-  },{
+    image:
+      "https://nitjsr.ac.in/backend/uploads/Faculty/CA105/profile/5294d20f-8269-480c-85b3-ec7ba71c53f6.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CA105",
+  },
+  {
     name: "Prof. Arvind Kumar Lal Srivastava",
     title: "Dean Planning and Development, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE102/profile/f05e40ba-dc2d-4687-954f-bcaa910e529c.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CE102"
+    image:
+      "https://nitjsr.ac.in/backend/uploads/Faculty/CE102/profile/f05e40ba-dc2d-4687-954f-bcaa910e529c.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CE102",
   },
   {
     name: "Dr Rakesh Pratap Singh",
     title: "Dean Student Welfare, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/CE113/profile/66f9f0b0-5caf-4b49-ba5f-112956f96bc4.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CE113"
+    image:
+      "https://nitjsr.ac.in/backend/uploads/Faculty/CE113/profile/66f9f0b0-5caf-4b49-ba5f-112956f96bc4.jpg",
+    link: "https://www.nitjsr.ac.in/people/profile/CE113",
   },
   {
     name: "Prof. Virendra Kumar",
     title: "CVO, NIT Jamshedpur",
-    image: "https://www.nitjsr.ac.in/backend/uploads/Faculty/CE121/profile/37c9170c-cdf4-4650-a2ab-ae61514ee9e6.jpg",
-    link: "https://www.nitjsr.ac.in/Administration/Chief_Vigilance_Officer2 new"
+    image:
+      "https://www.nitjsr.ac.in/backend/uploads/Faculty/CE121/profile/37c9170c-cdf4-4650-a2ab-ae61514ee9e6.jpg",
+    link: "https://www.nitjsr.ac.in/Administration/Chief_Vigilance_Officer2 new",
   },
   {
     name: "Dr Sushil Kumar Gupta",
     title: "EED, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/backend/uploads/Faculty/EE113/profile/b167a8a1-dc9b-498a-93bf-54dfb460e2fb.jpg",
-    link: "https://nitjsr.ac.in/people/profile/EE113"
+    image:
+      "https://nitjsr.ac.in/backend/uploads/Faculty/EE113/profile/b167a8a1-dc9b-498a-93bf-54dfb460e2fb.jpg",
+    link: "https://nitjsr.ac.in/people/profile/EE113",
   },
   {
     name: "Dr. Dilip Kumar Shaw",
     title: "HOD-Computer Science Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/ccfaculty.8ce64231b8a8d684de79.jpeg",
-    link: "https://nitjsr.ac.in/departments/cs"
+    image:
+      "https://nitjsr.ac.in/static/media/ccfaculty.8ce64231b8a8d684de79.jpeg",
+    link: "https://nitjsr.ac.in/departments/cs",
   },
   {
     name: "Dr. Dilip Kumar",
     title: "HOD-ECE Engineering, NIT Jamshedpur",
     image: "https://nitjsr.ac.in/static/media/hod_ece.adf78a9942915c273216.jpg",
-    link: "https://nitjsr.ac.in/departments/ece"
+    link: "https://nitjsr.ac.in/departments/ece",
   },
   {
     name: "Dr. Parmanand Kumar",
     title: "HOD-Mechanical Engineering, NIT Jamshedpur",
     image: "https://nitjsr.ac.in/static/media/hod_mec.3804536147c6acebdd4d.jpg",
-    link: "https://nitjsr.ac.in/departments/mech"
+    link: "https://nitjsr.ac.in/departments/mech",
   },
   {
     name: "Dr. Prahalad Prasad",
     title: "HOD-Civil Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/hod_civil.5a7efdf580ad90e68c73.jpeg",
-    link: "https://nitjsr.ac.in/departments/civil"
+    image:
+      "https://nitjsr.ac.in/static/media/hod_civil.5a7efdf580ad90e68c73.jpeg",
+    link: "https://nitjsr.ac.in/departments/civil",
   },
   {
     name: "Dr. Raj BALLAV",
     title: "HOD-Production and Industrial Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/hod_prod.ce4207e1a4a0ef31db34.jpg",
-    link: "https://nitjsr.ac.in/departments/prod"
+    image:
+      "https://nitjsr.ac.in/static/media/hod_prod.ce4207e1a4a0ef31db34.jpg",
+    link: "https://nitjsr.ac.in/departments/prod",
   },
-   {
+  {
     name: "Dr. Ashok Kumar",
     title: "HOD-Metallurgical and Materials Engineering, NIT Jamshedpur",
     image: "https://nitjsr.ac.in/static/media/hod_met.618c10cc98704dd5514f.jpg",
-    link: "https://nitjsr.ac.in/departments/meta"
+    link: "https://nitjsr.ac.in/departments/meta",
   },
-]
+];
 
 const IeeeAc = () => {
   return (
@@ -304,9 +350,9 @@ const IeeeAc = () => {
 
       {/* Banner Section */}
       <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
-        <img 
-          src="/photo1.jpg" 
-          alt="Banner" 
+        <img
+          src="/photo1.jpg"
+          alt="Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
@@ -325,18 +371,18 @@ const IeeeAc = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-center gap-x-16 gap-y-20">
           {councilMembers.map((member, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className="flex flex-col items-center text-center w-[140px] sm:w-[180px] md:w-[200px]"
             >
               {/* Image with hover zoom */}
-              <img 
-                src={member.image} 
-                alt={member.name} 
+              <img
+                src={member.image}
+                alt={member.name}
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-md transform transition duration-300 hover:scale-105"
               />
-              <a 
-                href={member.link} 
+              <a
+                href={member.link}
                 className="mt-4 text-base sm:text-lg md:text-xl font-bold text-blue-700 hover:underline"
               >
                 {member.name}
@@ -351,7 +397,7 @@ const IeeeAc = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default IeeeAc
+export default IeeeAc;
