@@ -235,7 +235,7 @@ const App = () => {
               21 - 23 JANUARY 2027
             </p>
             <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
-              Bangalore , India (TBD)
+              Bangalore , India
             </p>
 
             <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-2xl p-3 sm:p-4 w-full max-w-md border border-white/30 mx-auto md:mx-0">
@@ -275,7 +275,7 @@ const App = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
           {/* NIT Jamshedpur */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
+          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
             <img
               src="./nitjsr_logo.png"
               alt="NIT Jamshedpur Logo"
@@ -296,7 +296,7 @@ const App = () => {
                 Education, Govt. of India)
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* USD AI Research Lab */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">

@@ -1,9 +1,9 @@
-import React from 'react';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import React from "react";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const Speakers = () => {
-  return ( 
+  return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
       <Navbar />
 
@@ -26,16 +26,27 @@ const Speakers = () => {
         </div>
       </div>
 
+      <div className="flex flex-col items-center justify-center text-center py-32 px-6">
+        <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
+          🚧 Coming Soon
+        </h2>
+        <p className="text-gray-600 text-lg md:text-xl max-w-2xl leading-relaxed">
+          We are currently preparing an exciting lineup of keynote speakers for
+          the conference. Stay tuned for updates and announcements. Amazing
+          personalities from academia and industry will be joining us soon!
+        </p>
+      </div>
+
       {/* Speaker Section */}
-      <div className="max-w-7xl mx-auto px-6 py-20">
-
+      {/* <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-
-          {/* Speaker 1 */}
-           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
+          <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://www.aiengineering-conference.org/robert.jpeg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="https://www.aiengineering-conference.org/robert.jpeg"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -51,7 +62,8 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-               Pareto and Subdifferential Optimization Methods for Trustworthy AI Engineering
+                Pareto and Subdifferential Optimization Methods for Trustworthy
+                AI Engineering
               </p>
             </div>
 
@@ -61,9 +73,12 @@ const Speakers = () => {
           </div>
 
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://www.iitism.ac.in/facultyImages/Prof%20Biplab%20Bhattacharyya.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="https://www.iitism.ac.in/facultyImages/Prof%20Biplab%20Bhattacharyya.jpg"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -79,7 +94,6 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                {/* AI-driven medical imaging and intelligent document analysis systems */}
               </p>
             </div>
 
@@ -89,17 +103,22 @@ const Speakers = () => {
           </div>
 
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="./xyz.jpeg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="./xyz.jpeg"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
-             Mr Subhamoy Chakraborti
+              Mr Subhamoy Chakraborti
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
-              CTO, ABP Pvt Ltd Sr Member, IEEE Vice Chair, IEEE TEMS India Chair, IEEE TEMS Kolkata Chapter Industry Chair, IEEE ComSoc Kolkata
+              CTO, ABP Pvt Ltd Sr Member, IEEE Vice Chair, IEEE TEMS India
+              Chair, IEEE TEMS Kolkata Chapter Industry Chair, IEEE ComSoc
+              Kolkata
             </p>
 
             <div className="border-t w-full mt-6 pt-4">
@@ -107,7 +126,6 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                {/* AI-driven medical imaging and intelligent document analysis systems */}
               </p>
             </div>
 
@@ -117,13 +135,16 @@ const Speakers = () => {
           </div>
 
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://mnnit.ac.in/userprofile/uploads/AKS_pic.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="https://mnnit.ac.in/userprofile/uploads/AKS_pic.jpg"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
-              Prof. Asheesh Kumar Singh 
+              Prof. Asheesh Kumar Singh
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
@@ -135,23 +156,25 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                {/* AI-driven medical imaging and intelligent document analysis systems */}
               </p>
             </div>
 
             <p className="text-sm font-medium text-indigo-600 mt-4">
-              🕒 26th March 
+              🕒 26th March
             </p>
           </div>
 
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://www.mnit.ac.in/PortalProfile/images/faculty/mnitjas282.png" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="https://www.mnit.ac.in/PortalProfile/images/faculty/mnitjas282.png"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
-               Dr. V. P. Singh 
+              Dr. V. P. Singh
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
@@ -163,19 +186,23 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                 Applications of machine learning for control of electric vehicles
+                Applications of machine learning for control of electric
+                vehicles
               </p>
             </div>
 
             <p className="text-sm font-medium text-indigo-600 mt-4">
-              🕒 26th March 
+              🕒 26th March
             </p>
           </div>
 
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://www.aiengineering-conference.org/Walt.jpg" alt="Prof. KC Santosh" className="w-full h-full object-cover" />
+              <img
+                src="https://www.aiengineering-conference.org/Walt.jpg"
+                alt="Prof. KC Santosh"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -200,13 +227,13 @@ const Speakers = () => {
             </p>
           </div>
 
-          {/* Speaker 2 */}
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="https://th.bing.com/th/id/OIP.QJhjAW2isKR35cUjC9UqowHaHa?w=201&h=201&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+              <img
+                src="https://th.bing.com/th/id/OIP.QJhjAW2isKR35cUjC9UqowHaHa?w=201&h=201&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
                 alt="Dr. Ali Behravan"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -222,7 +249,8 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                Artificial intelligence applications for fault detection and diagnosis
+                Artificial intelligence applications for fault detection and
+                diagnosis
               </p>
             </div>
 
@@ -231,12 +259,13 @@ const Speakers = () => {
             </p>
           </div>
 
-
-          {/* Speaker 3 */}
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="/vinesh.jpeg" alt="Dr. Vinesh Sukumar" className="w-full h-full object-cover" />
+              <img
+                src="/vinesh.jpeg"
+                alt="Dr. Vinesh Sukumar"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -252,7 +281,8 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                Generative and Agentic AI - Infrastructure Innovation Needs on the Edge
+                Generative and Agentic AI - Infrastructure Innovation Needs on
+                the Edge
               </p>
             </div>
 
@@ -261,14 +291,14 @@ const Speakers = () => {
             </p>
           </div>
 
-
-          {/* Speaker 4 */}
+  
           <div className="group bg-white/70 backdrop-blur-lg rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-200 flex flex-col items-center text-center p-8">
-
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-indigo-500">
-              <img src="kelly.jpeg"
+              <img
+                src="kelly.jpeg"
                 alt="Dr. John Doe"
-                className="w-full h-full object-cover" />
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h3 className="text-2xl font-semibold text-gray-800">
@@ -276,7 +306,8 @@ const Speakers = () => {
             </h3>
 
             <p className="text-sm text-gray-500 mt-2">
-               Department of Mathematics and Department of Neuroscience, University of Massachusetts (UMass), USA
+              Department of Mathematics and Department of Neuroscience,
+              University of Massachusetts (UMass), USA
             </p>
 
             <div className="border-t w-full mt-6 pt-4">
@@ -284,7 +315,9 @@ const Speakers = () => {
                 Title of the Talk
               </p>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                Artificial Intelligence, Mobile Cloud Computing and Knowledge-based Healthcare System: Mathematical and Computational Neuroscience, Biology and Precision Medicine
+                Artificial Intelligence, Mobile Cloud Computing and
+                Knowledge-based Healthcare System: Mathematical and
+                Computational Neuroscience, Biology and Precision Medicine
               </p>
             </div>
 
@@ -292,16 +325,12 @@ const Speakers = () => {
               🕒 28th March | 10:00 AM - 10:30 AM (IST)
             </p>
           </div>
-
         </div>
-      </div>
+      </div> */}
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
 export default Speakers;
-
-
-

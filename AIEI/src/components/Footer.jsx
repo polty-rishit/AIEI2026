@@ -9,14 +9,14 @@ const Footer = () => {
             {/* Conference Info */}
             <div>
               <h3 className="text-2xl font-bold mb-4">Contact Us:</h3>
-              <div className="space-y-2 text-gray-400 flex gap-2">
+              {/* <div className="space-y-2 text-gray-400 flex gap-2">
                 <i class="fa-solid fa-location-dot pt-1 pl-1 mr-1"></i>
                 <p className="text-gray-400 mb-4">
                   Department of Electrical Engineering, National Institute of
                   Technology Jamshedpur, Adityapur, Jamshedpur, Jharkhand,
                   831014
                 </p>
-              </div>
+              </div> */}
 
               <div className="space-y-2 text-gray-400 flex gap-2">
                 <i className="fas fa-envelope pt-1"></i>
@@ -51,8 +51,8 @@ const Footer = () => {
               <div className="space-y-0 text-gray-400">
                 <p><a href='https://www.ieee.org/'>IEEE</a></p>
                 <p><a href='https://ieeesystemscouncil.org/'>IEEE Systems Council</a></p>
-                <p><a href='https://ewh.ieee.org/r10/calcutta/'>IEEE Kolkata Section</a></p>
-                <p><a href='https://nitjsr.ac.in'>IEEE NIT Jamshedpur</a></p>
+                {/* <p><a href='https://ewh.ieee.org/r10/calcutta/'>IEEE Kolkata Section</a></p> */}
+                <p><a href='https://www.ieee-tems.org/'>IEEE TEMS</a></p>
               </div>
             </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
           {/* Bottom section */}
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 space-y-4 text-sm sm:text-base">
             <p>
-              &copy; 2026 AIEI Conference. All rights reserved. | International Conference on AI Engineering and Innovation
+              &copy; 2027 AIEI Conference. All rights reserved. | International Conference on AI Engineering and Innovation
             </p>
           </div>
         </div>
