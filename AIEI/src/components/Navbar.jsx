@@ -115,7 +115,7 @@ const handleRegistrationLeave = () => {
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
             <h1 className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
-              <a href='/'>AIEI 2026</a>
+              <a href='/'>AIEI 2027</a>
             </h1>
           </div>
 

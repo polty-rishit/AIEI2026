@@ -77,7 +77,7 @@ const App = () => {
 
   useEffect(() => {
     const updateCountdown = () => {
-      const conferenceDate = new Date('March 26, 2026 09:00:00').getTime();
+      const conferenceDate = new Date('January  21, 2027 09:00:00').getTime();
       const now = new Date().getTime();
       const distance = conferenceDate - now;
 
@@ -211,7 +211,7 @@ const App = () => {
             </h2>
 
             <p className=" text-base sm:text-lg md:text-2xl font-bold mb-1 sm:mb-2">
-              26-28 MARCH 2026
+              21 - 23 JANUARY 2027
             </p>
             <p className="text-sm sm:text-md md:text-xl font-bold mb-6">
               NIT Jamshedpur, India

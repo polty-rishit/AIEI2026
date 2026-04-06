@@ -130,7 +130,7 @@ const handleRegistrationLeave = () => {
                 isScrolled ? "text-gray-900" : "text-white"
               }`}
             >
-              AIEI 2026
+              AIEI 2027
             </h1>
           </div>
 
