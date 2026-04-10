@@ -22,7 +22,7 @@ const Overview = () => {
         {/* Titles */}
         <div className="relative text-center text-white drop-shadow-lg">
           <h1 className="text-2xl md:text-6xl font-bold mb-1">
-            AIEI 2026 Overview
+            AIEI 2027 Overview
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
             International Conference on AI Engineering and Innovation
@@ -30,8 +30,26 @@ const Overview = () => {
         </div>
       </div>
 
+      <div className="flex-grow flex flex-col items-center justify-center text-center px-6 mt-10 py-10">
+        
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+          🚧 Coming Soon
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
+          We're working hard to bring you detailed information about the conference.
+          Stay tuned for updates on schedule, speakers, submissions, and more.
+        </p>
+
+        {/* Optional Button */}
+        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition">
+          Stay Updated
+        </button>
+
+      </div>
+
       {/* Content Section */}
-      <div
+      {/* <div
         className="flex-grow px-6 md:px-20 py-12 max-w-6xl mx-auto text-gray-800"
         style={{ textAlign: "justify", textJustify: "inter-word" }}
       >
@@ -166,7 +184,7 @@ const Overview = () => {
           AI solutions for society and industry.
         </p>
 
-      </div>
+      </div> */}
 
       <Footer />
     </div>

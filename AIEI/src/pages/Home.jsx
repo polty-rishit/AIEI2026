@@ -323,13 +323,13 @@ const App = () => {
       {/* TECHNICAL SPONSORS */}
       <div className="w-full bg-white py-8 mb-6 -mt-2">
         <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
-          <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img
               src="ieeeSystem.png"
               alt="IEEE Kolkata Section Logo"
               className="max-h-full max-w-full object-contain"
             />
-          </div>
+          </div> */}
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img
               src="https://media.licdn.com/dms/image/v2/C560BAQHU_-Y0Zpv5ow/company-logo_200_200/company-logo_200_200/0/1631363373978?e=1776902400&v=beta&t=fC7N788v0Pw3n3O_9RVQTeyiddVFX3CZrS8ProQzY28"
@@ -373,7 +373,7 @@ const App = () => {
         </div>
       </div>
 
-      <WelcomeMessage />
+      {/* <WelcomeMessage /> */}
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
       <section className="w-full bg-gray-50 py-20">

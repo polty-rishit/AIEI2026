@@ -50,7 +50,7 @@ const Footer = () => {
               <h4 className="text-2xl font-bold mb-4">Sponsors</h4>
               <div className="space-y-0 text-gray-400">
                 <p><a href='https://www.ieee.org/'>IEEE</a></p>
-                <p><a href='https://ieeesystemscouncil.org/'>IEEE Systems Council</a></p>
+                {/* <p><a href='https://ieeesystemscouncil.org/'>IEEE Systems Council</a></p> */}
                 {/* <p><a href='https://ewh.ieee.org/r10/calcutta/'>IEEE Kolkata Section</a></p> */}
                 <p><a href='https://www.ieee-tems.org/'>IEEE TEMS</a></p>
               </div>
