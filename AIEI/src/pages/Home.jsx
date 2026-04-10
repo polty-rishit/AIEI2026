@@ -352,16 +352,16 @@ const App = () => {
 
       {/* KNOWLEDGE PARTNER */}
       <div className="w-full bg-white py-8 mb-6 mt-6">
-        <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
+        {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
           KNOWLEDGE PARTNER
-        </p>
+        </p> */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
           {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <a href='https://www.manipal.edu/mit.html'>
               <img src="./MIT.png" alt="Technical Sponsor Logo" className="max-h-full max-w-full object-contain" />
             </a>
           </div> */}
-          <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <a href="https://aiacademi.org/">
               <img
                 src="./techSponsor.png"
@@ -369,7 +369,7 @@ const App = () => {
                 className="max-h-full max-w-full object-contain"
               />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
