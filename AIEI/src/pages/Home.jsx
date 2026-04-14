@@ -299,7 +299,7 @@ const App = () => {
           </div> */}
 
           {/* USD AI Research Lab */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
+          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
             <img
               src="./usd_lab.png"
               alt="USD AI Research Lab Logo"
@@ -316,7 +316,7 @@ const App = () => {
                 Fostering innovation in AI research and development
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -490,7 +490,7 @@ const App = () => {
                   <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
                     Key Dates
                   </h2>
-                  <p className="text-lg text-gray-700">AIEI 2026 Timeline</p>
+                  <p className="text-lg text-gray-700">AIEI 2027 Timeline</p>
                 </div>
                 <div className="flex flex-col gap-6">
                   {keyDates.map((item, index) => {

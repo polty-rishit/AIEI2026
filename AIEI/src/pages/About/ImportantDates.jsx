@@ -24,7 +24,7 @@ const ImportantDates = () => {
             Important Dates
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            AIEI 2026 - NIT JAMSHEDPUR
+            AIEI 2027 - Bangalore
           </h2>
         </div>
       </div>
