@@ -79,6 +79,8 @@ const Footer = () => {
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 space-y-4 text-sm sm:text-base">
             <p>
               &copy; 2027 AIEI Conference. All rights reserved. | International Conference on AI Engineering and Innovation
+              <br/>
+              &copy; Accepted and presented papers will be submitted for inclusion into IEEE Xplore, subject to meeting IEEE Xplore’s scope and quality requirements.
             </p>
           </div>
         </div>

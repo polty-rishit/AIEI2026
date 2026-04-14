@@ -105,14 +105,14 @@ const councilMembers = [
     image: "./meenaSir.png",
     link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en",
   },
-  {
-    role: "GENERAL CHAIRS",
-    name: "Prof. KC (Casey) Santosh",
-    title:
-      " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
-    image: "./santosh.png",
-    link: "https://www.linkedin.com/in/kcsantosh1/",
-  },
+  // {
+  //   role: "GENERAL CHAIRS",
+  //   name: "Prof. KC (Casey) Santosh",
+  //   title:
+  //     " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
+  //   image: "./santosh.png",
+  //   link: "https://www.linkedin.com/in/kcsantosh1/",
+  // },
   // {
   //   role: "GENERAL CO-CHAIRS",
   //   name: "Dr. Surajit Kundu",

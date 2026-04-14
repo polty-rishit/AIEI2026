@@ -4,7 +4,7 @@ const AnnouncementTicker = () => {
   // Original message broken into identifiable parts
   const formattedMessage = (
     <span>
-      <span className="text-red-500 font-extrabold">AIEI 2026</span> WILL BE ORGANIZED AT NIT JAMSHEDPUR, JHARKHAND, INDIA, DURING{" "}
+      <span className="text-red-500 font-extrabold">AIEI 2027</span> WILL BE ORGANIZED AT NIT JAMSHEDPUR, JHARKHAND, INDIA, DURING{" "}
       <span className="text-yellow-300 font-extrabold">JANUARY 21-23, 2027 </span>
     </span>
   );

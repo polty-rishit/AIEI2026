@@ -3,22 +3,52 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 const ImportantDates = () => {
+  const dates = [
+    {
+      title: "Opening Paper Submission",
+      date: "01 May 2026",
+      color: "text-red-500",
+    },
+    {
+      title: "Paper Submission Deadline",
+      date: "30 September 2026",
+      color: "text-yellow-500",
+    },
+    {
+      title: "Acceptance Notification",
+      date: "30 October 2026",
+      color: "text-red-500",
+    },
+    {
+      title: "Submission of Final Manuscript & Copyright",
+      date: "15 November 2026",
+      color: "text-yellow-500",
+    },
+    {
+      title: "Registration Deadline",
+      date: "30 November 2026",
+      color: "text-red-500",
+    },
+    {
+      title: "Conference Dates",
+      date: "21–23 January 2027",
+      color: "text-yellow-500",
+    },
+  ];
+
   return (
     <div className="bg-gray-50">
       <Navbar />
 
+      {/* Banner */}
       <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
-        {/* Background Image */}
         <img
           src="/photo1.jpg"
           alt="Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
-
-        {/* Glass overlay */}
         <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
 
-        {/* Titles */}
         <div className="relative text-center text-white drop-shadow-lg">
           <h1 className="text-2xl md:text-6xl font-bold mb-4">
             Important Dates
@@ -29,88 +59,29 @@ const ImportantDates = () => {
         </div>
       </div>
 
-      <section className="bg-gray-50 text-gray-800 py-20 px-6 sm:px-12 lg:px-32 shadow-inner">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-lg leading-relaxed space-y-6 text-gray-700">
-            <p className="text-3xl font-extrabold text-gray-800 text-center -mb-4 -mt-4">
-              Timeline
-            </p>
-            <img className="w-90 mx-auto" src="/resize.png" alt="" />
-          </div>
+      {/* Timeline Section */}
+      <section className="py-16 px-6 sm:px-12 lg:px-32 bg-gradient-to-b from-purple-100 to-blue-100">
+        <div className="max-w-3xl mx-auto text-center mb-10">
+          <h2 className="text-3xl font-bold text-gray-800">
+            AIEI 2027 Timeline
+          </h2>
+        </div>
 
-          {/* BEAUTIFUL TABLE STARTS HERE */}
-          <div className="max-w-4xl mx-auto mt-12">
-            <table className="w-full border-separate border-spacing-y-4">
-              <tbody>
-                {/* Row 1 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-days pr-3 text-green-500"></i>
-                    Opening Paper Submission
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-green-600 text-lg">
-                    September 01, 2025
-                  </td>
-                </tr>
-
-                {/* Row 2 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-xmark pr-3 text-red-400"></i>
-                    Paper Submission Deadline
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-red-400 text-lg">
-                    January 15, 2026
-                  </td>
-                </tr>
-
-                {/* Row 3 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-check pr-3 text-green-500"></i>
-                    Acceptance Notification
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-green-600 text-lg">
-                    February 5, 2026
-                  </td>
-                </tr>
-
-                {/* Row 4 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-days pr-3 text-green-500"></i>
-                    Final Manuscript & Copyright Submission
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-green-600 text-lg">
-                    February 20, 2026
-                  </td>
-                </tr>
-
-                {/* Row 5 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-xmark pr-3 text-red-400"></i>
-                    Registration Deadline
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-red-400 text-lg">
-                    March 01, 2026
-                  </td>
-                </tr>
-
-                {/* Row 6 */}
-                <tr className="bg-white shadow-md hover:shadow-xl transition-all duration-300 rounded-xl">
-                  <td className="py-5 px-6 font-semibold text-gray-700 text-lg">
-                    <i className="fa-solid fa-calendar-check pr-3 text-sky-500"></i>
-                    Conference Dates
-                  </td>
-                  <td className="py-5 px-6 text-right font-bold text-sky-600 text-lg">
-                    March 26–28, 2026
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          {/* BEAUTIFUL TABLE ENDS HERE */}
+        {/* Cards */}
+        <div className="space-y-6 max-w-xl mx-auto">
+          {dates.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-md px-6 py-5 hover:shadow-xl transition duration-300"
+            >
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                {item.title}
+              </h3>
+              <p className={`text-lg font-bold ${item.color}`}>
+                {item.date}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 

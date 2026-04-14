@@ -24,7 +24,26 @@ const Registration = () => {
         </div>
       </div>
 
-      {/* Registration Fee Section */}
+      <div className="flex-grow flex flex-col items-center justify-center text-center px-6 mt-10 py-10">
+        
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+          🚧 Coming Soon
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
+          We're working hard to bring you detailed information about the conference.
+          Stay tuned for updates on schedule, speakers, submissions, and more.
+        </p>
+
+        {/* Optional Button */}
+        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition">
+          Stay Updated
+        </button>
+
+      </div>
+
+      {/* Registration Fee Section - COMMENTED OUT */}
+      {/*
       <div className="w-full flex flex-col items-center mt-10 px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#1a1f4a]">
           Registration Fee
@@ -38,8 +57,10 @@ const Registration = () => {
           />
         </div>
       </div>
+      */}
 
-      {/* Notes Section */}
+      {/* Notes Section - COMMENTED OUT */}
+      {/*
       <div className="max-w-5xl mx-auto mt-12 px-4 text-base leading-7 text-[#1a1f4a]">
         <h3 className="text-2xl font-bold mb-4">Important Information</h3>
 
@@ -76,12 +97,15 @@ const Registration = () => {
           </li>
         </ul>
       </div>
-      
+      */}
 
-      {/* GAP BEFORE TABLE */}
+      {/* GAP BEFORE TABLE - COMMENTED OUT */}
+      {/*
       <div className="mt-16"></div>
+      */}
 
-      {/* Registration Process Table */}
+      {/* Registration Process Table - COMMENTED OUT */}
+      {/*
       <div className="w-full flex flex-col items-center px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-[#1a1f4a]">
           Registration Process
@@ -125,13 +149,11 @@ const Registration = () => {
             ))}
           </div>
 
-          {/* Note */}
           <div className="bg-[#edf3ff] mt-4 p-3 rounded border-l-4 border-blue-600 text-sm font-medium text-[#1a1f4a]">
             <strong>Note:</strong> If error, retry or contact your bank.
           </div>
         </div>
 
-        {/* Registration Link Button */}
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSd10SAFkbi2csVn0B_QXoB22T5LW9K0TAIISjx2kOPo50CMug/viewform?usp=publish-editor"
           target="_blank"
@@ -141,11 +163,11 @@ const Registration = () => {
           Click Here to Register
         </a>
 
-
         <div className="bg-[#edf3ff] mt-1 mb-10 p-3 rounded border-l-4 border-blue-600 text-sm font-medium text-[#1a1f4a]">
             For further details, please contact the Registration Committee at - aiengineeringconference@gmail.com
           </div>
       </div>
+      */}
 
       <Footer />
     </div>
