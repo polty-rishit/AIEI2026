@@ -30,7 +30,25 @@ const Venue = () => {
         </div>
       </div>
 
-      <main className="min-h-screen bg-gray-100 flex items-center justify-center py-16 px-4">
+       <div className="flex-grow flex flex-col items-center justify-center text-center px-6 mt-10 py-10">
+        
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+          🚧 Coming Soon
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
+          We're working hard to bring you detailed information about the conference.
+          Stay tuned for updates on schedule, speakers, submissions, and more.
+        </p>
+
+        {/* Optional Button */}
+        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition">
+          Stay Updated
+        </button>
+
+      </div>
+
+      {/* <main className="min-h-screen bg-gray-100 flex items-center justify-center py-16 px-4">
         <div className="bg-white shadow-2xl rounded-2xl max-w-4xl w-full p-10 text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6">Venue: NIT Jamshedpur</h2>
           <p className="text-gray-700 text-lg md:text-xl mb-6">
@@ -44,13 +62,13 @@ const Venue = () => {
           </p>
 
           {/* Venue Photos */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
             <img src="./nitjsr.jpg" alt="NIT Jamshedpur Main Building" className="rounded-xl shadow-md object-cover h-48 w-full" />
             <img src="./nitjsr_admin.jpg" alt="Administrative Block" className="rounded-xl shadow-md object-cover h-48 w-full" />
             <img src="./nitjsr_hostel.jpeg" alt="NIT Jamshedpur Library" className="rounded-xl shadow-md object-cover h-48 w-full" />
           </div>
         </div>
-      </main>
+      </main> */} 
 
       
       <Footer/>

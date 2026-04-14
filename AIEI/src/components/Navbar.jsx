@@ -278,7 +278,7 @@ const handleRegistrationLeave = () => {
       <a href="/stay" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
       <a href="/gallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Gallery</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
-      <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a>
+      {/* <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a> */}
     </div>
   )}
 </div>
@@ -465,7 +465,7 @@ const handleRegistrationLeave = () => {
       <a href="/stay" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Accommodation</a>
       <a href="/gallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Gallery</a>
       <a href="/Venue" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Venue</a>
-      <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a>
+      {/* <a href="https://jtdcl.jharkhand.gov.in/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 cursor-pointer">Explore Jamshedpur</a> */}
     </div>
   )}
 </div>

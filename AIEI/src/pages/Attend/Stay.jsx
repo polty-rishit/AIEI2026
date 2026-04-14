@@ -42,8 +42,26 @@ const Stay = () => {
         </div>
       </div>
 
+       <div className="flex-grow flex flex-col items-center justify-center text-center px-6 mt-10 py-10">
+        
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+          🚧 Coming Soon
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
+          We're working hard to bring you detailed information about the conference.
+          Stay tuned for updates on schedule, speakers, submissions, and more.
+        </p>
+
+        {/* Optional Button */}
+        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition">
+          Stay Updated
+        </button>
+
+      </div>
+
       {/* Hotels Section */}
-      <div className="px-6 md:px-16 py-12 bg-gray-50">
+      {/* <div className="px-6 md:px-16 py-12 bg-gray-50">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-10 text-[#1a1f4a]">
           Recommended Stays
         </h2>
@@ -74,7 +92,7 @@ const Stay = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <Footer/>
     </div>
   )
