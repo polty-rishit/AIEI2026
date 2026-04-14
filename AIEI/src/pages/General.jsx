@@ -34,7 +34,7 @@ const General = () => {
           <h1 className="text-2xl md:text-6xl font-bold mb-1">General Chair</h1>
           <h2 className="text-sm md:text-2xl font-medium">
             Meet our distinguished General Chair and Founding Director who are
-            leading the AIEI 2026 conference.
+            leading the AIEI 2027 conference.
           </h2>
         </div>
       </div>

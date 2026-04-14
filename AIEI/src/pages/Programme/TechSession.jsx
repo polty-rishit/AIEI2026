@@ -2020,12 +2020,12 @@ export default function TechSessionPage() {
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 py-12">
 
-        <h1 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-[#0f2a44] tracking-wide">
+        {/* <h1 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-[#0f2a44] tracking-wide">
           AIEI 2026 – Presentation Schedule
-        </h1>
+        </h1> */}
 
         {/* Search Bar */}
-        <div className="flex justify-center mb-12">
+        {/* <div className="flex justify-center mb-12">
           <div className="relative w-full max-w-xl">
             
             <span className="absolute inset-y-0 left-0 flex items-center pl-4 text-gray-400">
@@ -2056,69 +2056,89 @@ export default function TechSessionPage() {
               "
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Tracks */}
-        {filteredTracks.map((track, index) => (
-          <div
-            key={index}
-            className="mb-12 bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden"
-          >
-            {/* Track Header */}
-            <div className="bg-[#0f2a44] text-white px-6 py-4">
-              <h2 className="font-semibold text-lg tracking-wide">
-                {track.title}
-              </h2>
+        {/* Tracks */}
+{/*
+{filteredTracks.map((track, index) => (
+  <div
+    key={index}
+    className="mb-12 bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden"
+  >
+    <div className="bg-[#0f2a44] text-white px-6 py-4">
+      <h2 className="font-semibold text-lg tracking-wide">
+        {track.title}
+      </h2>
 
-              <p className="text-sm text-white-200 mt-1 font-medium">
-                📅 {track.date} &nbsp;&nbsp; ⏰ {track.time}
-              </p>
+      <p className="text-sm text-white-200 mt-1 font-medium">
+        📅 {track.date} &nbsp;&nbsp; ⏰ {track.time}
+      </p>
 
-              <p className="text-sm text-yellow-400 mt-1 font-medium">
-                {track.mode}
-              </p>
-            </div>
+      <p className="text-sm text-yellow-400 mt-1 font-medium">
+        {track.mode}
+      </p>
+    </div>
 
-            {/* Table */}
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm text-left">
-                <thead className="bg-gray-100 text-gray-700">
-                  <tr>
-                    <th className="px-4 py-3">S.No</th>
-                    <th className="px-4 py-3">Paper ID</th>
-                    <th className="px-4 py-3">Title</th>
-                    <th className="px-4 py-3">Authors</th>
-                  </tr>
-                </thead>
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm text-left">
+        <thead className="bg-gray-100 text-gray-700">
+          <tr>
+            <th className="px-4 py-3">S.No</th>
+            <th className="px-4 py-3">Paper ID</th>
+            <th className="px-4 py-3">Title</th>
+            <th className="px-4 py-3">Authors</th>
+          </tr>
+        </thead>
 
-                <tbody>
-                  {track.papers.map((paper) => (
-                    <tr
-                      key={paper.id}
-                      className="border-t hover:bg-gray-50 transition"
-                    >
-                      <td className="px-4 py-3 font-medium">
-                        {paper.sno}
-                      </td>
+        <tbody>
+          {track.papers.map((paper) => (
+            <tr
+              key={paper.id}
+              className="border-t hover:bg-gray-50 transition"
+            >
+              <td className="px-4 py-3 font-medium">
+                {paper.sno}
+              </td>
 
-                      <td className="px-4 py-3 font-semibold text-blue-700">
-                        {paper.id}
-                      </td>
+              <td className="px-4 py-3 font-semibold text-blue-700">
+                {paper.id}
+              </td>
 
-                      <td className="px-4 py-3">
-                        {paper.title}
-                      </td>
+              <td className="px-4 py-3">
+                {paper.title}
+              </td>
 
-                      <td className="px-4 py-3 text-gray-600">
-                        {paper.Authors}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        ))}
+              <td className="px-4 py-3 text-gray-600">
+                {paper.Authors}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+))}
+*/}
+
+{/* Coming Soon Message */}
+<div className="flex-grow flex flex-col items-center justify-center text-center px-6 mt-10 py-10">
+        
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+          🚧 Coming Soon
+        </h2>
+
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
+          We're working hard to bring you detailed information about the conference.
+          Stay tuned for updates on schedule, speakers, submissions, and more.
+        </p>
+
+        {/* Optional Button */}
+        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition">
+          Stay Updated
+        </button>
+
+      </div>
 
         {filteredTracks.length === 0 && (
           <div className="text-center text-gray-500 mt-10 text-lg">
