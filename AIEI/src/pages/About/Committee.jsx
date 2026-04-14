@@ -197,13 +197,13 @@ const councilMembers = [
   //   image: "https://www.manipal.edu/content/dam/manipal/mu/mit/images/electrical-dept-faculty-profile-photos/EEE_VJ_Feb20.png.transform/manipal-edu-transform-width-height-528px/image.jpg",
   //   link: "https://www.manipal.edu/mit/department-faculty/faculty-list/vinay-kumar-jadoun/_jcr_content.html"
   // },
-  // {
-  //   role: "Technical Program Chairs",
-  //   name: "Prof. Paolo Carbone",
-  //   title: "Vice President (Conferences), IEEE Systems Council",
-  //   image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
-  //   link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
-  // },
+  {
+    role: "Technical Program Chairs",
+    name: "Prof. Paolo Carbone",
+    title: "Vice President (Conferences), IEEE Systems Council",
+    image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
+    link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
+  },
   // {
   //   role: "Technical Program Chairs",
   //   name: "Dr. Tridibesh Nag",
@@ -302,13 +302,13 @@ const councilMembers = [
   //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=54HS0Y8AAAAJ&citpid=1",
   //   link: "https://scholar.google.com/citations?user=54HS0Y8AAAAJ&hl=en"
   // },
-  // {
-  //   role: "Web & Media Chairs",
-  //   name: "Rishit Raj",
-  //   title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
-  //   image:"./rishit.png",
-  //   link: "https://www.linkedin.com/in/rishitraj/"
-  // },
+  {
+    role: "Web & Media Chairs",
+    name: "Rishit Raj",
+    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    image:"./rishit.png",
+    link: "https://www.linkedin.com/in/rishitraj/"
+  },
   // {
   //   role: "Web & Media Chairs",
   //   name: "Devendra Gowda Patil",
