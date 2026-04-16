@@ -204,6 +204,13 @@ const councilMembers = [
     image: "https://ieeesystemscouncil.org/files/ieeesyscouncil/styles/responsive_4_5_760w/public/images/contacts/paolo-carbone.png?h=2459259f&itok=dBcUw5eq",
     link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
   },
+  {
+    role: "Treasurer",
+    name: "Arun Tanksali",
+    title: "CTO, Panamax Infotech",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEkmRybikH1hA/profile-displayphoto-crop_800_800/B56ZkzHzgOHQAQ-/0/1757499308681?e=1778112000&v=beta&t=EzPhMe_H_-p8eA8FUUI_Dsdk8ovKgWdqey2Ms6cfr7c",
+    link: "https://www.linkedin.com/in/aruntanksali/"
+  },
   // {
   //   role: "Technical Program Chairs",
   //   name: "Dr. Tridibesh Nag",
