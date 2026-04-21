@@ -205,6 +205,13 @@ const councilMembers = [
     link: "https://ieeesystemscouncil.org/contact/paolo-carbone"
   },
   {
+    role: "Technical Program Chairs",
+    name: "Zhao, Junbo",
+    title: "Assistant Professor, Electrical and Computer Engineering, UConn",
+    image: "https://engineering.media.uconn.edu/wp-content/uploads/sites/3738/2024/12/headshot-zhao-400x400-1.jpg",
+    link: "https://engineering.uconn.edu/faculty/ece/junbo-zhao/"
+  },
+  {
     role: "Treasurer",
     name: "Arun Tanksali",
     title: "CTO, Panamax Infotech",
