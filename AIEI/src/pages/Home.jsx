@@ -72,7 +72,7 @@ const App = () => {
   }, [currentSlide]);
 
   const keyDates = [
-    { title: "Opening Paper Submission", date: "01 May 2026" },
+    { title: "Opening Paper Submission", date: "15 May 2026" },
     { title: "Paper Submission Deadline", date: "30 September 2026" },
     { title: "Acceptance Notification", date: "30 October 2026" },
     {
@@ -325,7 +325,7 @@ const App = () => {
         <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img
-              src="ieeeSystem.png"
+              src="https://th.bing.com/th/id/OIP.WtVXmDaNP2JWUJLq9pgaUQHaFj?w=215&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
               alt="IEEE Kolkata Section Logo"
               className="max-h-full max-w-full object-contain"
             />

@@ -6,7 +6,7 @@ const ImportantDates = () => {
   const dates = [
     {
       title: "Opening Paper Submission",
-      date: "01 May 2026",
+      date: "15 May 2026",
       color: "text-red-500",
     },
     {
