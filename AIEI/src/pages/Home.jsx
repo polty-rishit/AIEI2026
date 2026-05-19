@@ -34,7 +34,7 @@ const App = () => {
   const videoRefs = useRef([]);
 
   const carouselItems = [
-    { type: "video", src: "./background-vid.mp4" }
+    { type: "video", src: "./background-vid1.mp4" }
     // { type: "video", src: "/campus.mp4" },
     // { type: "video", src: "/jhar1.mp4" },
     // { type: "video", src: "/vid2.mp4" },
