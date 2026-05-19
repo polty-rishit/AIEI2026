@@ -34,13 +34,13 @@ const App = () => {
   const videoRefs = useRef([]);
 
   const carouselItems = [
-    { type: "video", src: "/vid1.mp4" },
-    { type: "video", src: "/campus.mp4" },
-    { type: "video", src: "/jhar1.mp4" },
-    { type: "video", src: "/vid2.mp4" },
-    { type: "video", src: "/jhar2.mp4" },
-    { type: "video", src: "/vid3.mp4" },
-    { type: "video", src: "/jhar3.mp4" },
+    { type: "video", src: "./background-vid.mp4" }
+    // { type: "video", src: "/campus.mp4" },
+    // { type: "video", src: "/jhar1.mp4" },
+    // { type: "video", src: "/vid2.mp4" },
+    // { type: "video", src: "/jhar2.mp4" },
+    // { type: "video", src: "/vid3.mp4" },
+    // { type: "video", src: "/jhar3.mp4" },
   ];
 
   useEffect(() => {
