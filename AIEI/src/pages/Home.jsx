@@ -337,9 +337,9 @@ const App = () => {
               className="h-50 w-50 object-contain"
             />
           </div>
-          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <img src="./ieeeKolkatta.png" alt="IEEE Systems Council Logo" className="max-h-full max-w-full object-contain" />
-          </div> */}
+          <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+            <img src="./TEMS.jpeg" alt="IEEE Systems Council Logo" className="max-h-full max-w-full object-contain" />
+          </div>
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <img
               src="./ieee.png"
