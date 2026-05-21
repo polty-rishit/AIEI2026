@@ -34,8 +34,8 @@ const App = () => {
   const videoRefs = useRef([]);
 
   const carouselItems = [
-    { type: "video", src: "./background-vid1.mp4" }
-    // { type: "video", src: "/campus.mp4" },
+    { type: "video", src: "./background-vid1.mp4" },
+    { type: "video", src: "/background-vid2.mp4" }
     // { type: "video", src: "/jhar1.mp4" },
     // { type: "video", src: "/vid2.mp4" },
     // { type: "video", src: "/jhar2.mp4" },
@@ -43,33 +43,37 @@ const App = () => {
     // { type: "video", src: "/jhar3.mp4" },
   ];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
-    }, 8000);
+ useEffect(() => {
+  const handleScroll = () => {
+    setIsScrolled(window.scrollY > 50);
+  };
 
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+  window.addEventListener("scroll", handleScroll);
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      clearInterval(interval);
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
-  useEffect(() => {
-    videoRefs.current.forEach((video, index) => {
-      if (video) {
-        if (index === currentSlide && carouselItems[index].type === "video") {
-          video.play().catch((e) => console.log("Video play error:", e));
-        } else {
-          video.pause();
-        }
+useEffect(() => {
+  videoRefs.current.forEach((video, index) => {
+    if (video) {
+      if (index === currentSlide && carouselItems[index].type === "video") {
+        video.currentTime = 0;
+
+        video.play().catch((e) => console.log("Video play error:", e));
+
+        // When video ends → go to next slide
+        video.onended = () => {
+          setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
+        };
+      } else {
+        video.pause();
+        video.onended = null;
       }
-    });
-  }, [currentSlide]);
+    }
+  });
+}, [currentSlide]);
 
   const keyDates = [
     { title: "Opening Paper Submission", date: "15 May 2026" },
@@ -160,7 +164,6 @@ const App = () => {
                   ref={(el) => (videoRefs.current[index] = el)}
                   src={item.src}
                   muted
-                  loop
                   playsInline
                   className="w-full h-full object-cover object-top"
                 />
@@ -219,7 +222,7 @@ const App = () => {
 
           <div className="text-white lg:mt-10 w-full md:w-auto text-center md:text-left max-w-xl">
             <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-2 sm:mb-4">
-              International Conference on
+              IEEE International Conference on
             </h1>
             <h2
               className="text-4xl sm:text-2xl md:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 leading-snug"
