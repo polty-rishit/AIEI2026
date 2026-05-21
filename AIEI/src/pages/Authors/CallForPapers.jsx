@@ -76,25 +76,25 @@ const CallForPapers = () => {
 
       <ul className="list-none space-y-4 text-gray-800 text-left sm:text-left">
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering and Innovation</span>
+    <span className="font-semibold">AI in Innovation, Entrepreneurship and Intraprenurship</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Healthcare</span>
+    <span className="font-semibold">AI for Healthcare, Bioengineering and Agriculture</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Agriculture</span>
+    <span className="font-semibold">AI for Smart Energy, Smart Cities and Sustainable Infrastructure (Society 5.0)</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Business and Marketing</span>
+    <span className="font-semibold">AI for Industry 5.0, Robotics and Automation</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Education</span>
+    <span className="font-semibold">AI for Aerospace, Defense and Intelligent Security Systems</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Defense and Information Security</span>
+    <span className="font-semibold">AI for Finance, Economics, Business Intelligence and Digital Innovation</span>
   </li>
   <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-2 before:h-2 before:rounded-full before:bg-green-500">
-    <span className="font-semibold">AI Engineering for Energy</span>
+    <span className="font-semibold">AI for Education, Technology management and Engineering</span>
   </li>
 </ul>
 
