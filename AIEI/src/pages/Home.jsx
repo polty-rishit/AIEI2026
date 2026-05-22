@@ -443,7 +443,7 @@ const App = () => {
     </h2>
 
     <img
-      src="./aiei.png"
+      src="https://tse3.mm.bing.net/th/id/OIP.eP6dcH6XdEsUcBi3IZHlAgHaFP?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
       alt="AIEI 2027 Conference"
       className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
     />
