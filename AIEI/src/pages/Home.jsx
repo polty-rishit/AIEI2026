@@ -35,7 +35,7 @@ const App = () => {
 
   const carouselItems = [
     { type: "video", src: "./background-vid1.mp4" },
-    { type: "video", src: "/background-vid2.mp4" }
+    { type: "video", src: "/background-vid2.mp4" },
     // { type: "video", src: "/jhar1.mp4" },
     // { type: "video", src: "/vid2.mp4" },
     // { type: "video", src: "/jhar2.mp4" },
@@ -43,37 +43,37 @@ const App = () => {
     // { type: "video", src: "/jhar3.mp4" },
   ];
 
- useEffect(() => {
-  const handleScroll = () => {
-    setIsScrolled(window.scrollY > 50);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-  };
-}, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-useEffect(() => {
-  videoRefs.current.forEach((video, index) => {
-    if (video) {
-      if (index === currentSlide && carouselItems[index].type === "video") {
-        video.currentTime = 0;
+  useEffect(() => {
+    videoRefs.current.forEach((video, index) => {
+      if (video) {
+        if (index === currentSlide && carouselItems[index].type === "video") {
+          video.currentTime = 0;
 
-        video.play().catch((e) => console.log("Video play error:", e));
+          video.play().catch((e) => console.log("Video play error:", e));
 
-        // When video ends → go to next slide
-        video.onended = () => {
-          setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
-        };
-      } else {
-        video.pause();
-        video.onended = null;
+          // When video ends → go to next slide
+          video.onended = () => {
+            setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
+          };
+        } else {
+          video.pause();
+          video.onended = null;
+        }
       }
-    }
-  });
-}, [currentSlide]);
+    });
+  }, [currentSlide]);
 
   const keyDates = [
     { title: "Opening Paper Submission", date: "15 May 2026" },
@@ -341,7 +341,11 @@ useEffect(() => {
             />
           </div>
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <img src="./TEMS.jpeg" alt="IEEE Systems Council Logo" className="max-h-full max-w-full object-contain" />
+            <img
+              src="./TEMS.jpeg"
+              alt="IEEE Systems Council Logo"
+              className="max-h-full max-w-full object-contain"
+            />
           </div>
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
             <img
@@ -376,7 +380,7 @@ useEffect(() => {
         </div>
       </div>
 
-      {/* <WelcomeMessage /> */}
+      <WelcomeMessage />
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
       <section className="w-full bg-gray-50 py-20">
@@ -530,7 +534,10 @@ useEffect(() => {
         <div className="icon-wrapper">
           <FaCalendarAlt size={24} />
         </div>
-        <span className="btn-text">Technical Sessions</span>
+
+        <span className="btn-text">
+          Technical Sessions
+        </span>
       </button>
 
       {/* Footer */}

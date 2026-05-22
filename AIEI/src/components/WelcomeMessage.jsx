@@ -4,47 +4,41 @@ const WelcomeMessage = () => {
   return (
     <section className="bg-gray-50 py-12 px-6 lg:px-20">
       <div className="max-w-6xl mx-auto">
-        
         {/* Heading */}
-        <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
+        {/* <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
           Welcome Message from the General Chair
-        </h2>
+        </h2> */}
+
+        {/* Heading */}
+        <div className="mb-10 text-center lg:text-left">
+          <span className="inline-block px-4 py-1 text-sm font-semibold tracking-wide text-blue-700 bg-blue-100 rounded-full shadow-sm mb-4">
+            A Message from the Leadership
+          </span>
+
+          <h2 className="text-3xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+            Welcome Message from the{" "}
+            <span className="text-blue-600">General Chair</span>
+          </h2>
+
+          <div className="w-24 h-1 bg-blue-600 rounded-full mt-5 mx-auto lg:mx-0"></div>
+        </div>
 
         {/* Chair Profiles */}
         <div className="grid md:grid-cols-2 gap-12 mb-10">
-
-          {/* Dr. V.P. Meena */}
+          {/* Dr. Veerpratap Meena */}
           <div className="flex items-start space-x-4">
             <img
               src="./meenaSir.png"
-              alt="Dr. V.P. Meena"
+              alt="Dr. Veerpratap Meena"
               className="w-24 h-24 rounded-full object-cover border border-gray-300"
             />
             <div>
               <h3 className="text-lg font-semibold text-gray-800">
-                Dr. V. P. Meena
+                Dr. Veerpratap Meena
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                General Chair, AIEI 2026 <br />
-                National Institute of Technology Jamshedpur, India
-              </p>
-            </div>
-          </div>
-
-          {/* Dr. K.C. Santosh */}
-          <div className="flex items-start space-x-4">
-            <img
-              src="./santosh.png"
-              alt="Dr. K.C. Santosh"
-              className="w-24 h-24 rounded-full object-cover border border-gray-300"
-            />
-            <div>
-              <h3 className="text-lg font-semibold text-gray-800">
-                Prof. KC (Casey) Santosh
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                General Chair, AIEI 2026 <br />
-                USD Artificial Intelligence Research, USA
+                General Chair, AIEI 2027 <br />
+                Founder, AIEI Series
               </p>
             </div>
           </div>
@@ -56,112 +50,131 @@ const WelcomeMessage = () => {
           style={{ textAlign: "justify", textJustify: "inter-word" }}
         >
           <p className="text-gray-700 leading-relaxed mb-6">
-            It is my great pleasure to welcome you to the{" "}
-            <strong>International Conference on AI Engineering and Innovation (AIEI 2026)</strong>,{" "}
-            Conference Record Number: <strong>69164</strong> and ISBN: <strong>979-8-3315-6045-4</strong>, 
-            scheduled to be held on <strong>Januaury 21–23, 2027</strong> at the{" "}
-            <a 
-              href="https://www.nitjsr.ac.in" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            >
-              <strong>Department of Electrical Engineering, National Institute of Technology Jamshedpur, India</strong>
-            </a>
-            . This inaugural edition of AIEI marks a significant step toward advancing{" "}
-            <strong>Artificial Intelligence and Engineering Innovations</strong> for societal and industrial transformation.
+            Dear Distinguished Researchers, Academicians, Industry Experts, and
+            Participants,
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>AIEI 2026</strong> has been envisioned as a dynamic global platform for{" "}
-            <strong>researchers, academicians, industry professionals, and innovators</strong> to present original contributions 
-            and explore the latest in{" "}
-            <strong>AI-driven systems and applications</strong>, with a strong emphasis on{" "}
-            <strong>international collaboration</strong> and innovation.
+            It gives me immense pleasure to welcome you to the{" "}
+            <strong>
+              2027 IEEE International Conference on AI Engineering and
+              Innovations (AIEI 2027)
+            </strong>
+            , IEEE Conference Record #<strong>72387</strong>, scheduled to be
+            held during <strong>21–23 January 2027</strong> in Bengaluru, India.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            This event is jointly organized by the{" "}
-            <a 
-              href="https://www.nitjsr.ac.in" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            >
-              <strong>Department of Electrical Engineering, National Institute of Technology Jamshedpur, India</strong>
-            </a>
-            , and the{" "} 
-            <a 
-              href="https://www.ai-research-lab.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            >
-              <strong>USD Artificial Intelligence Research, University of South Dakota, USA</strong>
-            </a>
-            , in collaboration with{" "}
-            <strong>IEEE</strong>, the 
-            <a 
-              href="https://ieeesystemscouncil.org/" 
-              target="_blank" 
-              className="text-blue-500 font-semibold"
-            >
-              <strong> IEEE Systems Council </strong>
-            </a>
-            , the <strong>IEEE Kolkata Section</strong>, 
-            and the <strong>IEEE Student Branch, NIT Jamshedpur</strong>.
+            <strong>AIEI 2027</strong> aims to provide a dynamic international
+            platform for{" "}
+            <strong>
+              researchers, scientists, industry professionals, innovators, and
+              students
+            </strong>{" "}
+            to present and discuss the latest advancements, challenges, and
+            innovations in{" "}
+            <strong>
+              Artificial Intelligence, Intelligent Systems, Engineering
+              Technologies, and Emerging Applications
+            </strong>
+            .
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>AIEI 2026</strong> features keynote sessions, technical paper presentations, tutorials, industry sessions, 
-            and panel discussions across various AI domains—including{" "}
-            <strong>healthcare, agriculture, energy, business, automation, education, defense, intelligent control, and smart systems</strong>. 
-            <strong className="text-green-500"> All registered and presented papers will be submitted to{' '}
-              <a href="https://ieeexplore.ieee.org/Xplore/home.jsp"
+            With the conference theme,{" "}
+            <strong>
+              “AI for Technology Management, Intelligent Systems and
+              Innovation,”
+            </strong>{" "}
+            AIEI 2027 seeks to foster interdisciplinary collaboration and
+            encourage the exchange of ideas that contribute to sustainable
+            technological development and intelligent engineering solutions for
+            future society.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            The conference is financially sponsored by the{" "}
+            <strong>
+              IEEE Technology and Engineering Management Society (IEEE TEMS)
+            </strong>{" "}
+            and the <strong>IEEE Bangalore Section TEMS Chapter</strong>, with
+            technical co-sponsorship from the{" "}
+            <strong>IEEE Systems Council</strong>. These IEEE sponsors and
+            technical co-sponsors ensure high standards of technical quality,
+            rigorous peer-review processes, strong global visibility, and broad
+            international participation.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            The proceedings of the first edition of AIEI have been successfully
+            published in IEEE Xplore, demonstrating the high quality and global
+            impact of the conference within the international research
+            community. The proceedings are available through{" "}
+            <a
+              href="https://ieeexplore.ieee.org/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 font-semibold"
-               >
-                <strong>IEEE Xplore Digital Library</strong>
-                </a>  for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in 
-              <a
-              href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013"
-              target="_blank"
-              className="text-blue-500 font-semibold"
-              >
-                 <strong>{' '}IEEE Security & Privacy Magazine.</strong>
-              </a>
-              
-              </strong>
+            >
+              <strong>IEEE Xplore Digital Library</strong>
+            </a>
+            . This achievement further strengthens AIEI as a credible and
+            impactful platform for academic and industrial research
+            dissemination.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            We extend our sincere gratitude to all{" "}
-            <strong>speakers, authors, reviewers, session chairs, volunteers, sponsors, and partnering institutions</strong>. 
-            We hope that <strong>AIEI 2026</strong> will inspire collaborations and fuel innovations across the global AI ecosystem.
+            The official publication details of AIEI 2027 are as follows:
           </p>
 
-          <p className="text-gray-700 font-medium">
-            We look forward to your active participation and wish you a{" "}
-            <strong>rewarding and memorable experience at AIEI 2026</strong>.
+          <div className="bg-blue-50 border border-blue-100 rounded-lg p-5 mb-6">
+            <p className="text-gray-800 mb-2">
+              <strong>IEEE Conference Record Number:</strong> 72387
+            </p>
+            <p className="text-gray-800 mb-2">
+              <strong>Part Number:</strong> CFP271BC-ART
+            </p>
+            <p className="text-gray-800">
+              <strong>ISBN:</strong> 979-8-3195-3711-9
+            </p>
+          </div>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            <strong>AIEI 2027</strong> will feature keynote lectures, technical
+            paper presentations, tutorials, special sessions, industry
+            interactions, and networking opportunities that will facilitate
+            knowledge exchange and promote future collaborations among
+            researchers and practitioners worldwide.
           </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            I would like to express my sincere gratitude to the organizing
+            committee members, technical program committee, reviewers, sponsors,
+            keynote speakers, authors, and volunteers for their dedication and
+            valuable contributions toward the successful organization of this
+            conference.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            We warmly welcome you to Bengaluru, India, and hope that your
+            participation in <strong>AIEI 2027</strong> will be academically
+            enriching, professionally rewarding, and personally memorable.
+          </p>
+
+          <p className="text-gray-700 font-medium">With warm regards,</p>
         </div>
 
         {/* Footer Signatures */}
         <div className="grid md:grid-cols-2 gap-12 mt-10">
-
           <div>
-            <h4 className="font-semibold text-gray-800">Dr. V. P. Meena</h4>
+            <h4 className="font-semibold text-gray-800">
+              Dr. Veerpratap Meena
+            </h4>
             <p className="text-gray-600 text-sm">
-              General Chair, AIEI 2026 <br />
-              National Institute of Technology Jamshedpur, India
+              General Chair, AIEI 2027 <br />
+              Founder, AIEI Series
             </p>
           </div>
-
-          <div>
-            <h4 className="font-semibold text-gray-800">Prof. KC (Casey) Santosh</h4>
-            <p className="text-gray-600 text-sm">
-              General Chair, AIEI 2026 <br />
-              USD Artificial Intelligence Research, USA
-            </p>
-          </div>
-
         </div>
       </div>
     </section>
