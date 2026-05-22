@@ -436,56 +436,95 @@ const App = () => {
                 </div>
               </section>
 
-              {/* <section id="department" className="w-full">
-                <div className="max-w-7xl mx-auto">
-                  <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
-                    Department of Electrical Engineering
-                  </h2>
-                  <img
-                    src="./Department.jpg"
-                    alt="Electrical Engineering Department"
-                    className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
-                  />
-                  <p
-                    className="text-lg text-gray-600 mb-6 leading-relaxed"
-                    style={{ textAlign: "justify", textJustify: "inter-word" }}
-                  >
-                    The Department of Electrical Engineering was established in
-                    1960 and has consistently produced highly skilled and
-                    industry-ready engineers since its inception. Along with
-                    strong academic foundations, the department is actively
-                    involved in research and development across emerging areas
-                    of electrical engineering.
-                  </p>
-                  <p
-                    className="text-lg text-gray-600 mb-6 leading-relaxed"
-                    style={{ textAlign: "justify", textJustify: "inter-word" }}
-                  >
-                    The alumni of the department are well placed in both public
-                    and private sectors, contributing significantly to power
-                    systems, industries, research organizations, and higher
-                    education globally. In addition to the undergraduate
-                    (B.Tech) programme, the department offers postgraduate
-                    programmes in Power Systems and Power Electronics & Drives,
-                    along with a Ph.D. programme covering multiple specialized
-                    domains.
-                  </p>
-                  <p
-                    className="text-lg text-gray-600 mb-6 leading-relaxed"
-                    style={{ textAlign: "justify", textJustify: "inter-word" }}
-                  >
-                    The department aims to emerge as a front-runner in
-                    addressing the evolving needs of the power sector,
-                    electrical industries, and public services. With a
-                    commitment to high human values and societal impact, it
-                    strives to impart quality education, develop advanced
-                    skills, and establish state-of-the-art research facilities.
-                    These efforts contribute to socio-economic development and
-                    support the vision of sustainable growth for society.
-                  </p>
-                  <div className="clear-both"></div>
-                </div>
-              </section> */}
+              <section id="aiei-overview" className="w-full">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
+      About AIEI 2027
+    </h2>
+
+    <img
+      src="./aiei.png"
+      alt="AIEI 2027 Conference"
+      className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
+    />
+
+    <p
+      className="text-lg text-gray-600 mb-6 leading-relaxed"
+      style={{ textAlign: "justify", textJustify: "inter-word" }}
+    >
+      The{" "}
+      <strong>
+        2027 IEEE International Conference on AI Engineering and Innovation
+        (AIEI 2027)
+      </strong>{" "}
+      is a premier international conference dedicated to advancing research,
+      technological developments, and industrial innovations in Artificial
+      Intelligence (AI), intelligent systems, and emerging engineering
+      technologies. Scheduled to be held from{" "}
+      <strong>21–23 January 2027</strong> in{" "}
+      <strong>Bangalore, India</strong>, AIEI 2027 aims to provide a global
+      platform for researchers, academicians, scientists, industry
+      professionals, entrepreneurs, policymakers, and students to exchange
+      knowledge and foster interdisciplinary collaborations in rapidly evolving
+      AI-driven domains.
+    </p>
+
+    <p
+      className="text-lg text-gray-600 mb-6 leading-relaxed"
+      style={{ textAlign: "justify", textJustify: "inter-word" }}
+    >
+      With the theme{" "}
+      <strong>
+        “AI for Technology Management, Intelligent Systems and Innovation”
+      </strong>
+      , the conference focuses on the transformative role of AI in shaping the
+      future of engineering, healthcare, automation, robotics, aerospace,
+      finance, education, cybersecurity, and sustainable technologies. AIEI
+      2027 will feature keynote speeches, technical paper presentations,
+      tutorials, workshops, industry forums, and networking opportunities
+      designed to strengthen collaboration between academia, industry,
+      startups, and research communities worldwide.
+    </p>
+
+    <p
+      className="text-lg text-gray-600 mb-6 leading-relaxed"
+      style={{ textAlign: "justify", textJustify: "inter-word" }}
+    >
+      Financially sponsored by the{" "}
+      <strong>
+        IEEE Technology and Engineering Management Society (IEEE TEMS)
+      </strong>{" "}
+      and the <strong>IEEE Bangalore Section TEMS Chapter</strong>, with
+      technical co-sponsorship from the{" "}
+      <strong>IEEE Systems Council</strong>, the conference maintains
+      high-quality peer-review standards, strong technical content, global
+      visibility, and broad international participation.
+    </p>
+
+    <p
+      className="text-lg text-gray-600 mb-6 leading-relaxed"
+      style={{ textAlign: "justify", textJustify: "inter-word" }}
+    >
+      Building upon the success of the inaugural edition, AIEI 2027 continues
+      its mission of fostering innovation, interdisciplinary research, and
+      global collaboration in Artificial Intelligence and intelligent
+      engineering technologies. The conference proceedings of AIEI 2026 were
+      published in the <strong>IEEE Xplore Digital Library</strong>, reflecting
+      the conference’s strong technical quality and international recognition.
+    </p>
+
+    <p
+      className="text-lg text-green-600 font-semibold leading-relaxed"
+      style={{ textAlign: "justify", textJustify: "inter-word" }}
+    >
+      All accepted and presented papers of AIEI 2027 will be submitted for
+      inclusion in the IEEE Xplore Digital Library subject to compliance with
+      IEEE quality and publication requirements.
+    </p>
+
+    <div className="clear-both"></div>
+  </div>
+</section>
             </div>
 
             <div className="lg:col-span-1">
