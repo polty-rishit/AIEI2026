@@ -5,6 +5,7 @@ import {
   FaFileAlt,
   FaBell,
   FaCheckCircle,
+  FaPaperPlane,
 } from "react-icons/fa";
 import NavbarHome from "../components/NavbarHome";
 import Footer from "../components/Footer";
@@ -568,14 +569,14 @@ const App = () => {
       <button
         className="aiei-floating-btn"
         aria-label="Technical Sessions Schedule"
-        onClick={() => navigate("/techSession")}
+        onClick={() => navigate("/papers")}
       >
         <div className="icon-wrapper">
-          <FaCalendarAlt size={24} />
+          <FaPaperPlane size={24} />
         </div>
 
         <span className="btn-text">
-          Technical Sessions
+          Submit Your Paper
         </span>
       </button>
 
