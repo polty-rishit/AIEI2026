@@ -277,30 +277,6 @@ const App = () => {
       <div className="w-full bg-white pt-8 pb-8 px-4 sm:px-10 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Technical Sponsors */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
-            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
-            <strong> TECHNICAL SPONSORS</strong>
-            </h2>
-
-            <div className="flex justify-center flex-wrap gap-6">
-              <div className="flex items-center justify-center w-52 h-40">
-                <img
-                  src="https://th.bing.com/th/id/OIP.WtVXmDaNP2JWUJLq9pgaUQHaFj?w=215&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
-                  alt="IEEE Systems Council"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-52 h-40">
-                <img
-                  src="./ieee.png"
-                  alt="IEEE"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-            </div>
-          </div>
-
           {/* Financial Co-Sponsors */}
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
             <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
@@ -320,6 +296,29 @@ const App = () => {
                 <img
                   src="./TEMS.jpeg"
                   alt="TEMS Bangalore"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
+            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
+            <strong> TECHNICAL SPONSORS</strong>
+            </h2>
+
+            <div className="flex justify-center flex-wrap gap-6">
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="https://th.bing.com/th/id/OIP.WtVXmDaNP2JWUJLq9pgaUQHaFj?w=215&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                  alt="IEEE Systems Council"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="./ieee.png"
+                  alt="IEEE"
                   className="max-h-full max-w-full object-contain"
                 />
               </div>

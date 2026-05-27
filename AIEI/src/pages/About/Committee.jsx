@@ -47,19 +47,19 @@ const councilMembers = [
   // },
   {
     role: "Honorary Chairs",
-    name: "Dr. Andy Chen",
-    title: "IEEE Systems Council President, IEEE Systems Council",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwuFiThjyo80alXy7aO6Pf-i4r6qIJXZd7w&s",
-    link: "https://ieeesystemscouncil.org/contact/andy-chen",
-  },
-  {
-    role: "Honorary Chairs",
     name: "Dr. Sudeendra Koushik",
     title: "2026 President, IEEE TEMS",
     image:
       "https://i0.wp.com/www.ieee-tems.org/wp-content/uploads/2023/03/Sudeendra-Koushik.jpg?resize=300%2C300&ssl=1",
     link: "https://www.linkedin.com/in/sudeendrakoushik/",
+  },
+  {
+    role: "Honorary Chairs",
+    name: "Dr. Andy Chen",
+    title: "IEEE Systems Council President, IEEE Systems Council",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwuFiThjyo80alXy7aO6Pf-i4r6qIJXZd7w&s",
+    link: "https://ieeesystemscouncil.org/contact/andy-chen",
   },
   {
     role: "Honorary Chairs",
