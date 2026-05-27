@@ -215,7 +215,7 @@ const councilMembers = [
     role: "Treasurer",
     name: "Arun Tanksali",
     title: "CTO, Panamax Infotech",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEkmRybikH1hA/profile-displayphoto-crop_800_800/B56ZkzHzgOHQAQ-/0/1757499308681?e=1778112000&v=beta&t=EzPhMe_H_-p8eA8FUUI_Dsdk8ovKgWdqey2Ms6cfr7c",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEkmRybikH1hA/profile-displayphoto-crop_800_800/B56ZkzHzgOHQAQ-/0/1757499308681?e=1781740800&v=beta&t=qmdMYJfWGLp9MwKNx98OVHgl9hoAkX8LEXvCRLlSGYc",
     link: "https://www.linkedin.com/in/aruntanksali/"
   },
   // {
@@ -309,17 +309,17 @@ const councilMembers = [
   //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5JIt2LIAAAAJ&citpid=2",
   //   link: "https://scholar.google.com/citations?user=5JIt2LIAAAAJ&hl=en"
   // },
-  // {
-  //   role: "Publicity Chairs",
-  //   name: "Dr. Ratnesh Kumar Mishra",
-  //   title: "NIT Jamshedpur",
-  //   image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=54HS0Y8AAAAJ&citpid=1",
-  //   link: "https://scholar.google.com/citations?user=54HS0Y8AAAAJ&hl=en"
-  // },
+  {
+    role: "Publication Chair",
+    name: "Dr. Devanathan M",
+    title: "Chair - IEEE TEMS Bangalore Chapter",
+    image: "mrx.jpeg",
+    link: "https://www.linkedin.com/in/dr-m-devanathan-621a9637/"
+  },
   {
     role: "Web & Media Chairs",
     name: "Rishit Raj",
-    title: "B-Tech 3rd Year, National Institute of Technology, Jamshedpur",
+    title: "B-Tech 4th Year, National Institute of Technology, Jamshedpur",
     image:"./rishit.png",
     link: "https://www.linkedin.com/in/rishitraj/"
   },

@@ -273,59 +273,62 @@ const App = () => {
       <AnnouncementTicker />
 
       {/* ORGANIZERS */}
-      <div className="w-full bg-white py-8 px-4 sm:px-10 lg:px-20">
-        <p className="text-center text-blue-600 text-4xl md:text-5xl font-bold mb-12">
-          ORGANIZERS
-        </p>
-        <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-8 md:gap-12">
-          {/* NIT Jamshedpur */}
-          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-            <img
-              src="./nitjsr_logo.png"
-              alt="NIT Jamshedpur Logo"
-              className="w-28 md:w-32 lg:w-35 object-contain"
-            />
-            <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <a
-                href="https://nitjsr.ac.in/"
-                className="font-bold uppercase text-xs md:text-sm lg:text-base text-gray-700 tracking-wide"
-              >
-                National Institute of Technology<sup>™</sup>
-              </a>
-              <a className="font-extrabold text-xl md:text-3xl lg:text-4xl text-gray-900 mt-1">
-                NIT Jamshedpur
-              </a>
-              <p className="text-xs md:text-sm lg:text-base text-gray-600 mt-3 leading-relaxed max-w-md">
-                (An Institution of National Importance under Ministry of
-                Education, Govt. of India)
-              </p>
-            </div>
-          </div> */}
+      {/* SPONSORS */}
+      <div className="w-full bg-white pt-8 pb-8 px-4 sm:px-10 lg:px-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          {/* Technical Sponsors */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
+            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
+            <strong> TECHNICAL SPONSORS</strong>
+            </h2>
 
-          {/* USD AI Research Lab */}
-          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full md:w-1/2 hover:shadow-2xl transition duration-300">
-            <img
-              src="./usd_lab.png"
-              alt="USD AI Research Lab Logo"
-              className="w-32 md:w-40 lg:w-60 object-contain"
-            />
-            <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
-              <a
-                href="https://www.ai-research-lab.org/"
-                className="text-red-600 text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug"
-              >
-                USD AI Research Lab
-              </a>
-              <p className="text-xs md:text-sm text-gray-600 mt-2">
-                Fostering innovation in AI research and development
-              </p>
+            <div className="flex justify-center flex-wrap gap-6">
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="https://th.bing.com/th/id/OIP.WtVXmDaNP2JWUJLq9pgaUQHaFj?w=215&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                  alt="IEEE Systems Council"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="./ieee.png"
+                  alt="IEEE"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
             </div>
-          </div> */}
+          </div>
+
+          {/* Financial Co-Sponsors */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
+            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
+              <strong>FINANCIAL CO-SPONSORS</strong>
+            </h2>
+
+            <div className="flex justify-center flex-wrap gap-6">
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="/TEMS_FIN.jpeg"
+                  alt="TEMS"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="./TEMS.jpeg"
+                  alt="TEMS Bangalore"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* TECHNICAL SPONSORS */}
-      <div className="w-full bg-white py-8 mb-6 -mt-2">
+      {/* <div className="w-full bg-white py-8 mb-6 -mt-2">
         <div className="flex flex-wrap justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
           <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <img
@@ -356,20 +359,20 @@ const App = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* KNOWLEDGE PARTNER */}
-      <div className="w-full bg-white py-8 mb-6 mt-6">
-        {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
+      {/* <div className="w-full bg-white py-8 mb-6 mt-6"> */}
+      {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
           KNOWLEDGE PARTNER
         </p> */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20">
-          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      {/* <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20"> */}
+      {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <a href='https://www.manipal.edu/mit.html'>
               <img src="./MIT.png" alt="Technical Sponsor Logo" className="max-h-full max-w-full object-contain" />
             </a>
           </div> */}
-          {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
             <a href="https://aiacademi.org/">
               <img
                 src="./techSponsor.png"
@@ -378,8 +381,8 @@ const App = () => {
               />
             </a>
           </div> */}
-        </div>
-      </div>
+      {/* </div>
+      </div> */}
 
       <WelcomeMessage />
 
@@ -438,94 +441,102 @@ const App = () => {
               </section>
 
               <section id="aiei-overview" className="w-full">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
-      About AIEI 2027
-    </h2>
+                <div className="max-w-7xl mx-auto">
+                  <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight -mt-15">
+                    About AIEI 2027
+                  </h2>
 
-    <img
-      src="https://tse3.mm.bing.net/th/id/OIP.eP6dcH6XdEsUcBi3IZHlAgHaFP?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
-      alt="AIEI 2027 Conference"
-      className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
-    />
+                  <img
+                    src="https://tse3.mm.bing.net/th/id/OIP.eP6dcH6XdEsUcBi3IZHlAgHaFP?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="AIEI 2027 Conference"
+                    className="w-full sm:w-[60%] md:w-[55%] float-right ml-6 mb-4 rounded-2xl shadow-2xl object-cover"
+                  />
 
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      The{" "}
-      <strong>
-        2027 IEEE International Conference on AI Engineering and Innovation
-        (AIEI 2027)
-      </strong>{" "}
-      is a premier international conference dedicated to advancing research,
-      technological developments, and industrial innovations in Artificial
-      Intelligence (AI), intelligent systems, and emerging engineering
-      technologies. Scheduled to be held from{" "}
-      <strong>21–23 January 2027</strong> in{" "}
-      <strong>Bangalore, India</strong>, AIEI 2027 aims to provide a global
-      platform for researchers, academicians, scientists, industry
-      professionals, entrepreneurs, policymakers, and students to exchange
-      knowledge and foster interdisciplinary collaborations in rapidly evolving
-      AI-driven domains.
-    </p>
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    The{" "}
+                    <strong>
+                      2027 IEEE International Conference on AI Engineering and
+                      Innovation (AIEI 2027)
+                    </strong>{" "}
+                    is a premier international conference dedicated to advancing
+                    research, technological developments, and industrial
+                    innovations in Artificial Intelligence (AI), intelligent
+                    systems, and emerging engineering technologies. Scheduled to
+                    be held from <strong>21–23 January 2027</strong> in{" "}
+                    <strong>Bangalore, India</strong>, AIEI 2027 aims to provide
+                    a global platform for researchers, academicians, scientists,
+                    industry professionals, entrepreneurs, policymakers, and
+                    students to exchange knowledge and foster interdisciplinary
+                    collaborations in rapidly evolving AI-driven domains.
+                  </p>
 
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      With the theme{" "}
-      <strong>
-        “AI for Technology Management, Intelligent Systems and Innovation”
-      </strong>
-      , the conference focuses on the transformative role of AI in shaping the
-      future of engineering, healthcare, automation, robotics, aerospace,
-      finance, education, cybersecurity, and sustainable technologies. AIEI
-      2027 will feature keynote speeches, technical paper presentations,
-      tutorials, workshops, industry forums, and networking opportunities
-      designed to strengthen collaboration between academia, industry,
-      startups, and research communities worldwide.
-    </p>
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    With the theme{" "}
+                    <strong>
+                      “AI for Technology Management, Intelligent Systems and
+                      Innovation”
+                    </strong>
+                    , the conference focuses on the transformative role of AI in
+                    shaping the future of engineering, healthcare, automation,
+                    robotics, aerospace, finance, education, cybersecurity, and
+                    sustainable technologies. AIEI 2027 will feature keynote
+                    speeches, technical paper presentations, tutorials,
+                    workshops, industry forums, and networking opportunities
+                    designed to strengthen collaboration between academia,
+                    industry, startups, and research communities worldwide.
+                  </p>
 
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      Financially sponsored by the{" "}
-      <strong>
-        IEEE Technology and Engineering Management Society (IEEE TEMS)
-      </strong>{" "}
-      and the <strong>IEEE Bangalore Section TEMS Chapter</strong>, with
-      technical co-sponsorship from the{" "}
-      <strong>IEEE Systems Council</strong>, the conference maintains
-      high-quality peer-review standards, strong technical content, global
-      visibility, and broad international participation.
-    </p>
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    Financially sponsored by the{" "}
+                    <strong>
+                      IEEE Technology and Engineering Management Society (IEEE
+                      TEMS)
+                    </strong>{" "}
+                    and the <strong>IEEE Bangalore Section TEMS Chapter</strong>
+                    , with technical co-sponsorship from the{" "}
+                    <strong>IEEE Systems Council</strong>, the conference
+                    maintains high-quality peer-review standards, strong
+                    technical content, global visibility, and broad
+                    international participation.
+                  </p>
 
-    <p
-      className="text-lg text-gray-600 mb-6 leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      Building upon the success of the inaugural edition, AIEI 2027 continues
-      its mission of fostering innovation, interdisciplinary research, and
-      global collaboration in Artificial Intelligence and intelligent
-      engineering technologies. The conference proceedings of AIEI 2026 were
-      published in the <strong>IEEE Xplore Digital Library</strong>, reflecting
-      the conference’s strong technical quality and international recognition.
-    </p>
+                  <p
+                    className="text-lg text-gray-600 mb-6 leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    Building upon the success of the inaugural edition, AIEI
+                    2027 continues its mission of fostering innovation,
+                    interdisciplinary research, and global collaboration in
+                    Artificial Intelligence and intelligent engineering
+                    technologies. The conference proceedings of AIEI 2026 were
+                    published in the{" "}
+                    <strong>IEEE Xplore Digital Library</strong>, reflecting the
+                    conference’s strong technical quality and international
+                    recognition.
+                  </p>
 
-    <p
-      className="text-lg text-green-600 font-semibold leading-relaxed"
-      style={{ textAlign: "justify", textJustify: "inter-word" }}
-    >
-      All accepted and presented papers of AIEI 2027 will be submitted for
-      inclusion in the IEEE Xplore Digital Library subject to compliance with
-      IEEE quality and publication requirements.
-    </p>
+                  <p
+                    className="text-lg text-green-600 font-semibold leading-relaxed"
+                    style={{ textAlign: "justify", textJustify: "inter-word" }}
+                  >
+                    All accepted and presented papers of AIEI 2027 will be
+                    submitted for inclusion in the IEEE Xplore Digital Library
+                    subject to compliance with IEEE quality and publication
+                    requirements.
+                  </p>
 
-    <div className="clear-both"></div>
-  </div>
-</section>
+                  <div className="clear-both"></div>
+                </div>
+              </section>
             </div>
 
             <div className="lg:col-span-1">
@@ -575,9 +586,7 @@ const App = () => {
           <FaPaperPlane size={24} />
         </div>
 
-        <span className="btn-text">
-          Submit Your Paper
-        </span>
+        <span className="btn-text">Submit Your Paper</span>
       </button>
 
       {/* Footer */}

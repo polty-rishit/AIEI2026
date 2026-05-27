@@ -2,7 +2,7 @@ import React from "react";
 
 const WelcomeMessage = () => {
   return (
-    <section className="bg-gray-50 py-12 px-6 lg:px-20">
+    <section className="bg-gray-50 pt-5 pb-10 px-6 lg:px-20">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         {/* <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
@@ -28,7 +28,7 @@ const WelcomeMessage = () => {
           {/* Dr. Veerpratap Meena */}
           <div className="flex items-start space-x-4">
             <img
-              src="./meenaSir.png"
+              src="./VPMEENA.jpeg"
               alt="Dr. Veerpratap Meena"
               className="w-24 h-24 rounded-full object-cover border border-gray-300"
             />
@@ -127,15 +127,9 @@ const WelcomeMessage = () => {
             The official publication details of AIEI 2027 are as follows:
           </p>
 
-          <div className="bg-blue-50 border border-blue-100 rounded-lg p-5 mb-6">
+          <div className="mb-6">
             <p className="text-gray-800 mb-2">
-              <strong>IEEE Conference Record Number:</strong> 72387
-            </p>
-            <p className="text-gray-800 mb-2">
-              <strong>Part Number:</strong> CFP271BC-ART
-            </p>
-            <p className="text-gray-800">
-              <strong>ISBN:</strong> 979-8-3195-3711-9
+              <strong>IEEE Conference Record Number:</strong> 72387      <strong> || Part Number:</strong> CFP271BC-ART <strong>      ||  ISBN:</strong> 979-8-3195-3711-9
             </p>
           </div>
 
@@ -161,11 +155,11 @@ const WelcomeMessage = () => {
             enriching, professionally rewarding, and personally memorable.
           </p>
 
-          <p className="text-gray-700 font-medium">With warm regards,</p>
+          {/* <p className="text-gray-700 font-medium">With warm regards,</p> */}
         </div>
 
         {/* Footer Signatures */}
-        <div className="grid md:grid-cols-2 gap-12 mt-10">
+        {/* <div className="grid md:grid-cols-2 gap-12 mt-10">
           <div>
             <h4 className="font-semibold text-gray-800">
               Dr. Veerpratap Meena
@@ -175,7 +169,7 @@ const WelcomeMessage = () => {
               Founder, AIEI Series
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
