@@ -2,7 +2,7 @@ The 2027 IEEE International Conference on AI Engineering and Innovation (AIEI 20
 
 With the theme “AI for Technology Management, Intelligent Systems and Innovation”, the conference focuses on exploring the transformative role of Artificial Intelligence in shaping the future of engineering, sustainable technologies, smart infrastructure, healthcare, automation and robotics, aerospace, agriculture, finance, education, cybersecurity, and digital innovation.
 
-The conference will emphasize emerging advancements in machine learning, deep learning, generative AI, intelligent control systems, blockchain-enabled systems, Internet of Things (IoT), digital twins, smart manufacturing, Industry 5.0 , and AI-powered decision-making frameworks aimed at addressing real-world industrial and societal challenges.
+The conference will emphasize emerging advancements in machine learning, deep learning, generative AI, intelligent control systems , blockchain-enabled systems, Internet of Things (IoT), digital twins, smart manufacturing, Industry 5.0 , and AI-powered decision-making frameworks aimed at addressing real-world industrial and societal challenges.
 
 The conference is financially sponsored by the IEEE Technology and Engineering Management Society (IEEE TEMS) and the IEEE Bangalore Section TEMS Chapter combined, with technical co-sponsorship from the IEEE Systems Council. These IEEE sponsors and technical co-sponsors support the conference in maintaining high-quality peer-review standards, strong technical content, global visibility, and broad international participation.
 
