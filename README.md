@@ -24,7 +24,7 @@ AIEI 2026 successfully attracted researchers, academicians, industry professiona
 
 The conference proceedings of AIEI 2026 were published in the IEEE Xplore Digital Library, reflecting the conference’s strong technical quality and international recognition.
 
-The published proceedings are available through IEEE Xplore Proceedings .
+The published proceedings are available through IEEE Xplore Proceedings for further update.
 
 All accepted and presented papers of AIEI 2027 will be submitted for inclusion in the IEEE Xplore Digital Library subject to compliance with IEEE quality and publication requirements.
 
