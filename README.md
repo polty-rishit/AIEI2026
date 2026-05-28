@@ -4,7 +4,7 @@ With the theme “AI for Technology Management, Intelligent Systems and Innovati
 
 The conference will emphasize emerging advancements in machine learning, deep learning, generative AI, intelligent control systems, blockchain-enabled systems, Internet of Things (IoT), digital twins, smart manufacturing, Industry 5.0, and AI-powered decision-making frameworks aimed at addressing real-world industrial and societal challenges.
 
-The conference is financially sponsored by the IEEE Technology and Engineering Management Society (IEEE TEMS) and the IEEE Bangalore Section TEMS Chapter, with technical co-sponsorship from the IEEE Systems Council. These IEEE sponsors and technical co-sponsors support the conference in maintaining high-quality peer-review standards, strong technical content, global visibility, and broad international participation.
+The conference is financially sponsored by the IEEE Technology and Engineering Management Society (IEEE TEMS) and the IEEE Bangalore Section TEMS Chapter combined, with technical co-sponsorship from the IEEE Systems Council. These IEEE sponsors and technical co-sponsors support the conference in maintaining high-quality peer-review standards, strong technical content, global visibility, and broad international participation.
 
 AIEI 2027 will feature keynote speeches by internationally renowned experts, technical paper presentations, tutorials, workshops, special sessions, industry forums, panel discussions, and networking opportunities designed to strengthen collaboration between academia, industry, startups, research laboratories, and professional societies.
 
