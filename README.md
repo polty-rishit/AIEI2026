@@ -8,7 +8,7 @@ The conference is financially sponsored by the IEEE Technology and Engineering M
 
 AIEI 2027 will feature keynote speeches by internationally renowned experts, technical paper presentations, tutorials, workshops, special sessions, industry forums, panel discussions, and networking opportunities designed to strengthen collaboration between academia, industry, startups, research laboratories, and professional societies.
 
-The conference encourages original research contributions, interdisciplinary innovations, industrial case studies, and practical engineering solutions that contribute to the advancement of intelligent systems and AI-enabled technologies across multiple domains.
+The conference encourages original research contributions, interdisciplinary innovations, industrial case studies, and practical engineering solutions that contribute to the advancement of intelligent systems and AI-enabled technologies across multiple domains and new fields.
 
 Conference Tracks
 1. AI in Innovation, Entrepreneurship and Intrapreneurship
