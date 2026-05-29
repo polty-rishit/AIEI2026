@@ -22,7 +22,7 @@ Building upon the success of the inaugural conference, AIEI 2027 continues its m
 
 AIEI 2026 successfully attracted researchers, academicians , industry professionals, and students from various countries and featured high-quality technical sessions, keynote talks, tutorials, and industry interactions covering emerging AI applications and engineering innovations.
 
-The conference proceedings of AIEI 2026 were published in the IEEE Xplore Digital Library, reflecting the conference’s strong technical quality and international recognition and the conference was a great success.
+The conference proceedings of AIEI 2026 were published in the IEEE Xplore Digital Library , reflecting the conference’s strong technical quality and international recognition and the conference was a great success.
 
 The published proceedings are available through IEEE Xplore Proceedings for further update.
 
