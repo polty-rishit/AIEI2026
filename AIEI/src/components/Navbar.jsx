@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaPhone, FaEnvelope, FaUniversity, FaGlobe } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   // Dropdown states
   const [conferenceDropdown, setConferenceDropdown] = useState(false);
@@ -15,15 +14,6 @@ const Navbar = () => {
   const [aboutTimeout, setAboutTimeout] = useState(null);
   const [programmeTimeout, setProgrammeTimeout] = useState(null);
   const [studentsTimeout, setStudentsTimeout] = useState(null); // New timeout
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   // Conference dropdown hover handlers
   const handleConferenceEnter = () => {
@@ -107,10 +97,8 @@ const handleRegistrationLeave = () => {
 };
 
   
-  const navbarSurface = isScrolled
-    ? 'bg-white shadow-lg'
-    : 'bg-slate-950/70 shadow-lg shadow-slate-950/20 backdrop-blur-md border-b border-white/10';
-  const navText = isScrolled ? 'text-gray-900' : 'text-white drop-shadow';
+  const navbarSurface = 'bg-white shadow-lg';
+  const navText = 'text-gray-900';
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navbarSurface}`}>

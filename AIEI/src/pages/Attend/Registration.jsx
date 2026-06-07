@@ -102,7 +102,7 @@ const Registration = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen flex flex-col bg-slate-950 text-slate-100">
+    <div className="w-full min-h-screen flex flex-col bg-white-950 text-white-100">
       <Navbar />
 
       <main className="flex-1 overflow-hidden">
