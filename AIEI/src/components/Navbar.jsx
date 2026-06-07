@@ -107,14 +107,18 @@ const handleRegistrationLeave = () => {
 };
 
   
+  const navbarSurface = isScrolled
+    ? 'bg-white shadow-lg'
+    : 'bg-slate-950/70 shadow-lg shadow-slate-950/20 backdrop-blur-md border-b border-white/10';
+  const navText = isScrolled ? 'text-gray-900' : 'text-white drop-shadow';
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navbarSurface}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
-            <h1 className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
+            <h1 className={`text-xl font-bold ${navText}`}>
               <a href='/'>AIEI 2027</a>
             </h1>
           </div>
@@ -122,13 +126,13 @@ const handleRegistrationLeave = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="/" className={`hover:text-blue-400 transition-colors cursor-pointer ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
+              <a href="/" className={`hover:text-blue-400 transition-colors cursor-pointer ${navText}`}>
                 HOME
               </a>
 
               {/* About Dropdown */}
               <div className="relative" onMouseEnter={handleAboutEnter} onMouseLeave={handleAboutLeave}>
-                <button onClick={() => setAboutDropdown(!aboutDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
+                <button onClick={() => setAboutDropdown(!aboutDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${navText}`}>
                   ABOUT
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -153,7 +157,7 @@ const handleRegistrationLeave = () => {
 
               {/* Authors Dropdown */}
               <div className="relative" onMouseEnter={handleConferenceEnter} onMouseLeave={handleConferenceLeave}>
-                <button onClick={() => setConferenceDropdown(!conferenceDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
+                <button onClick={() => setConferenceDropdown(!conferenceDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${navText}`}>
                   AUTHORS
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -176,7 +180,7 @@ const handleRegistrationLeave = () => {
 
               {/* Programme Dropdown */}
               <div className="relative" onMouseEnter={handleProgrammeEnter} onMouseLeave={handleProgrammeLeave}>
-                <button onClick={() => setProgrammeDropdown(!programmeDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${isScrolled ? 'text-gray-900' : 'text-black'}`}>
+                <button onClick={() => setProgrammeDropdown(!programmeDropdown)} className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${navText}`}>
                   PROGRAMME
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -229,7 +233,7 @@ const handleRegistrationLeave = () => {
   <button
     onClick={() => setRegistrationDropdown(!registrationDropdown)}
     className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-      isScrolled ? 'text-gray-900' : 'text-black'
+      navText
     }`}
   >
     REGISTRATION
@@ -258,7 +262,7 @@ const handleRegistrationLeave = () => {
   <button
     onClick={() => setAttendDropdown(!attendDropdown)}
     className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-      isScrolled ? 'text-white-900' : 'text-black'
+      navText
     }`}
   >
     ATTEND
@@ -292,7 +296,7 @@ const handleRegistrationLeave = () => {
   <button
     onClick={() => setSponsorshipDropdown(!sponsorshipDropdown)}
     className={`hover:text-blue-400 transition-colors cursor-pointer flex items-center ${
-      isScrolled ? 'text-white-900' : 'text-black'
+      navText
     }`}
   >
     SPONSORSHIP
@@ -318,7 +322,7 @@ const handleRegistrationLeave = () => {
 
           {/* Mobile Burger Icon */}
           <div className="md:hidden">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className={`${isScrolled ? 'text-gray-900' : 'text-black'} cursor-pointer`}>
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className={`${navText} cursor-pointer`}>
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
