@@ -113,13 +113,13 @@ const councilMembers = [
   //   image: "./santosh.png",
   //   link: "https://www.linkedin.com/in/kcsantosh1/",
   // },
-  // {
-  //   role: "GENERAL CO-CHAIRS",
-  //   name: "Dr. Surajit Kundu",
-  //   title:"ECE, NIT Jamshedpur",
-  //   image: "https://ice2cpt.org/images/surajit.jpg",
-  //   link: "https://www.linkedin.com/in/dr-surajit-kundu-9ba194143/"
-  // },
+  {
+    role: "GENERAL CO-CHAIRS",
+    name: "Prof. Yeliz Karaca",
+    title:"University of Massachusetts (UMass), USA",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQE6k2uyyBIZkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668694864302?e=1782950400&v=beta&t=M2O74JPH30o3fjSlZo9fathLcFNx-jRGo9esWMLpz40",
+    link: "https://www.linkedin.com/in/yeliz-karaca-66526b36/"
+  },
   // {
   //   role: "GENERAL CO-CHAIRS",
   //   name: "Prof. Prabha Chand",
