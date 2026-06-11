@@ -120,13 +120,13 @@ const councilMembers = [
     image: "https://media.licdn.com/dms/image/v2/D4D03AQE6k2uyyBIZkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668694864302?e=1782950400&v=beta&t=M2O74JPH30o3fjSlZo9fathLcFNx-jRGo9esWMLpz40",
     link: "https://www.linkedin.com/in/yeliz-karaca-66526b36/"
   },
-  // {
-  //   role: "GENERAL CO-CHAIRS",
-  //   name: "Prof. Prabha Chand",
-  //   title:"ME, NIT Jamshedpur",
-  //   image: "https://ice2cpt.org/images/PC.png",
-  //   link: "https://scholar.google.com/citations?user=yAIgnmcAAAAJ&hl=en"
-  // },
+  {
+    role: "GENERAL CO-CHAIRS",
+    name: "Prof. Brij B. Gupta",
+    title:"Director, CCRI, Asia university, Taiwan",
+    image: "https://aicybersecuritycenter.com/wp-content/uploads/2022/12/Brij-Photo_final.jpg",
+    link: "https://aicybersecuritycenter.com/index.php/director/"
+  },
   // {
   //   role: "GENERAL CO-CHAIRS",
   //   name: "Atanu Kundu",
