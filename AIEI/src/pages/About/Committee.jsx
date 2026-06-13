@@ -323,20 +323,20 @@ const councilMembers = [
     image:"./rishit.png",
     link: "https://www.linkedin.com/in/rishitraj/"
   },
-  // {
-  //   role: "Web & Media Chairs",
-  //   name: "Devendra Gowda Patil",
-  //   title: "Acharya Institute of Technology",
-  //   image: "https://ieeespace.org/wp-content/uploads/2025/12/Dr._Devendra_Gowda_Patil.webp",
-  //   link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
-  // },
-  // {
-  //   role: "Web & Media Chairs",
-  //   name: "Aniruddh Koundinya",
-  //   title: "IEEE Bangalore Section",
-  //   image: "https://ieeespace.org/wp-content/uploads/2025/12/Aniruddha_Koudinya.jpeg",
-  //   link: "https://www.linkedin.com/in/aniruddhkoundinya/?originalSubdomain=in"
-  // },
+  {
+    role: "Web & Media Chairs",
+    name: "Devendra Gowda Patil",
+    title: "Acharya Institute of Technology",
+    image: "/deva.jpeg",
+    link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
+  },
+  {
+    role: "Web & Media Chairs",
+    name: "Abrar Ahmed Syed ",
+    title: "Gainwell Technologies LLC, USA",
+    image: "/amar.jpeg",
+    link: "https://www.linkedin.com/in/abrar-ahmed-syed/"
+  },
   // {
   //   role: "Web & Media Chairs",
   //   name: "Aditya Prem",
