@@ -20,7 +20,7 @@ const Sponsors = () => {
         <div className="relative text-center text-white drop-shadow-lg">
           <h1 className="text-2xl md:text-6xl font-bold mb-4">Sponsorship</h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            AIEI 2026 - NIT JAMSHEDPUR
+            AIEI 2027
           </h2>
         </div>
       </div>

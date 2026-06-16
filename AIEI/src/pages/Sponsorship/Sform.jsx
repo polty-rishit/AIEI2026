@@ -20,7 +20,7 @@ const Form = () => {
             Sponsorship Form
           </h1>
           <h2 className="text-xs sm:text-sm md:text-xl font-medium tracking-wide">
-            AIEI 2026 — NIT JAMSHEDPUR
+            AIEI 2027
           </h2>
         </div>
       </div>
