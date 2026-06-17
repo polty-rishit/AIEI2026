@@ -69,6 +69,14 @@ const councilMembers = [
       "https://i1.rgstatic.net/ii/profile.image/11431281286419629-1730048404664_Q512/Sanjeevikumar-Padmanaban.jpg",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban",
   },
+   {
+    role: "Honorary Chairs",
+    name: "Prof. KC (Casey) Santosh",
+    title:
+      "Director, Oregon Tech,USA",
+    image: "./santosh.png",
+    link: "https://www.linkedin.com/in/kcsantosh1/",
+  },
   // {
   //   role: "STEERING COMMITTEE",
   //   name: "Dr. Suparna Kar Chowdhury",
@@ -102,17 +110,9 @@ const councilMembers = [
     name: "Dr. V. P. Meena",
     title:
       "NIT Jamshedpur and Chair, IEEE Systems Council Systems Education Technical Committee,USA",
-    image: "./meenaSir.png",
+    image: "./VPMEENA.jpeg",
     link: "https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en",
   },
-  // {
-  //   role: "GENERAL CHAIRS",
-  //   name: "Prof. KC (Casey) Santosh",
-  //   title:
-  //     " Founding Director, USD Artificial Intelligence Research, University of South Dakota, USA",
-  //   image: "./santosh.png",
-  //   link: "https://www.linkedin.com/in/kcsantosh1/",
-  // },
   {
     role: "GENERAL CO-CHAIRS",
     name: "Prof. Yeliz Karaca",
