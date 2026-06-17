@@ -196,7 +196,7 @@ const Sponsors = () => {
                   <span className="text-3xl font-black text-gray-900">
                     ₹3,00,000
                   </span>
-                  <div className="text-sm text-gray-600 font-bold">+ GST</div>
+                  <div className="text-sm text-gray-600 font-bold">+ 18 % GST</div>
                 </td>
                 <td className="py-6 border border-pink-200 font-bold">
                   Prime Booth
@@ -308,7 +308,7 @@ const Sponsors = () => {
       {/* DOWNLOAD BROCHURE BUTTON */}
       <div className="w-full flex justify-center -mt-10 mb-20">
         <a
-          href="https://drive.google.com/file/d/15lNLxSsds6LQQ9yjjJjZrXZg8iszKmBB/view?usp=sharing" // <-- replace with your actual PDF link
+          href="https://drive.google.com/file/d/12R0U-EyK2xcj5GA6VDQlPjijtNc-nEi-/view?usp=sharing" // <-- replace with your actual PDF link
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-600 hover:bg-green-700 text-white font-extrabold text-lg px-10 py-4 rounded-full shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl"
