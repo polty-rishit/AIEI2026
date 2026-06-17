@@ -218,6 +218,13 @@ const councilMembers = [
     image: "https://media.licdn.com/dms/image/v2/D5603AQEkmRybikH1hA/profile-displayphoto-crop_800_800/B56ZkzHzgOHQAQ-/0/1757499308681?e=1781740800&v=beta&t=qmdMYJfWGLp9MwKNx98OVHgl9hoAkX8LEXvCRLlSGYc",
     link: "https://www.linkedin.com/in/aruntanksali/"
   },
+  {
+    role: "Sponsorship Chairs",
+    name: "Vinod Veeramachaneni",
+    title: "Co-founder, Think Mediator Inc., USA",
+    image: "/vinod.jpeg",
+    link: "https://thinkmediator.com/"
+  },
   // {
   //   role: "Technical Program Chairs",
   //   name: "Dr. Tridibesh Nag",
