@@ -71,11 +71,11 @@ const councilMembers = [
   },
    {
     role: "Honorary Chairs",
-    name: "Prof. KC (Casey) Santosh",
+    name: "Prof. Casey Santosh",
     title:
       "Director, Oregon Tech,USA",
-    image: "./santosh.png",
-    link: "https://www.linkedin.com/in/kcsantosh1/",
+    image: "https://kc-santosh.org/images/casey-g1.png",
+    link: "https://kc-santosh.org//",
   },
   // {
   //   role: "STEERING COMMITTEE",
