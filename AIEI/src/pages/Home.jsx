@@ -303,7 +303,7 @@ const App = () => {
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300">
             <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
-            <strong> TECHNICAL SPONSORS</strong>
+              <strong> TECHNICAL SPONSORS</strong>
             </h2>
 
             <div className="flex justify-center flex-wrap gap-6">
@@ -360,28 +360,36 @@ const App = () => {
         </div>
       </div> */}
 
-      {/* KNOWLEDGE PARTNER */}
-      {/* <div className="w-full bg-white py-8 mb-6 mt-6"> */}
-      {/* <p className="text-center text-blue-600 text-3xl sm:text-4xl md:text-5xl mb-10 font-bold">
-          KNOWLEDGE PARTNER
-        </p> */}
-      {/* <div className="flex flex-col sm:flex-row justify-center items-center gap-6 px-4 sm:px-10 md:px-20"> */}
-      {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <a href='https://www.manipal.edu/mit.html'>
-              <img src="./MIT.png" alt="Technical Sponsor Logo" className="max-h-full max-w-full object-contain" />
-            </a>
-          </div> */}
-      {/* <div className="flex items-center justify-center w-60 h-50 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
-            <a href="https://aiacademi.org/">
-              <img
-                src="./techSponsor.png"
-                alt="Technical Sponsor Logo"
-                className="max-h-full max-w-full object-contain"
-              />
-            </a>
-          </div> */}
-      {/* </div>
-      </div> */}
+      {/* KNOWLEDGE PARTNER  */}
+      <div className="flex justify-center mb-6 mt-6 px-4">
+        <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300 w-full max-w-2xl">
+          <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
+            <strong>KNOWLEDGE PARTNER</strong>
+          </h2>
+
+          <div className="flex justify-center flex-wrap gap-6">
+            <div className="flex items-center justify-center w-42 h-40">
+              <a href="https://aicybersecuritycenter.com/">
+                <img
+                  src="https://aicybersecuritycenter.com/wp-content/uploads/2022/05/asia_lcon.png"
+                  alt="Manipal Institute of Technology"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </a>
+            </div>
+
+            <div className="flex items-center justify-center w-52 h-40">
+              <a href="https://aicybersecuritycenter.com/">
+                <img
+                  src="https://aicybersecuritycenter.com/wp-content/uploads/2022/12/new_logo-Copy-2_2.png"
+                  alt="AI Academi"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <WelcomeMessage />
 
