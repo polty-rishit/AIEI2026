@@ -367,6 +367,36 @@ const councilMembers = [
     image: "https://www.mnit.ac.in/PortalProfile/images/faculty/mnitjas150.png",
     link: "https://www.mnit.ac.in/dept_ee/profile?fid=RKiJ",
   },
+    {
+    name: "Dr. Vinesh Sukumar",
+    title: "VP of AI Qualcomm",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGisckoqXuPPQ/profile-displayphoto-crop_800_800/B4DZoH4DaVJMAI-/0/1761068727193?e=1784160000&v=beta&t=y7OJ8oKErOOArVmJVL9TgjS4iC2JHq_fqEtAy3sChew",
+    link: "https://www.linkedin.com/in/vineshsukumar/",
+  },
+    {
+    name: "Dr. Mousiki Kar",
+    title: "Secretary, IEEE TEMS",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQHZvfkM4xsDDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634705623035?e=1784160000&v=beta&t=FwWB94n3wVkNbxFA4V1WgGFW2JW4C9FX27xHeAUQ1Es",
+    link: "https://www.linkedin.com/in/mousiki/",
+  },
+    {
+    name: "Mr. Ganesh Bhorkade",
+    title: "Registrar, IIT Bombay",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQEd8mg2YndE7w/profile-displayphoto-crop_800_800/B4DZsilt48JYAI-/0/1765811872760?e=1784160000&v=beta&t=OzpfWd605Ze5tV7XvPinhBF4bBLNR7HWEMgqMna4uN4",
+    link: "https://www.linkedin.com/in/ganesh-bhorkade-619283115/",
+  },
+    {
+    name: "Prof. Imre J. Rudas",
+    title: "University in Budapest, Hungary",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=_-E6N9sAAAAJ&citpid=2",
+    link: "https://scholar.google.com/citations?user=_-E6N9sAAAAJ&hl=en",
+  },
+    {
+    name: "Prof. Valentina Emilia Balas",
+    title: "Aurel Vlaicu University of Arad, Romania",
+    image: "https://www.drbalas.ro/wp-content/uploads/2012/11/s200_valentina_emilia.balas_.jpg",
+    link: "https://www.drbalas.ro/valentina-emilia",
+  },
 ];
 
 const IeeeAc = () => {
