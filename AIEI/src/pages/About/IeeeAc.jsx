@@ -261,87 +261,6 @@ const councilMembers = [
     link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/",
   },
   {
-    name: "Prof. Mrityunjay Kumar Sinha",
-    title: "Dean Academics, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/backend/uploads/Faculty/ME108/profile/19cbb633-ebd5-4fc9-ad52-688350940df1.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/ME108",
-  },
-  {
-    name: "Prof. DK Yadav",
-    title: "Dean Faculty Welfare, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/backend/uploads/Faculty/CA105/profile/5294d20f-8269-480c-85b3-ec7ba71c53f6.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CA105",
-  },
-  {
-    name: "Prof. Arvind Kumar Lal Srivastava",
-    title: "Dean Planning and Development, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/backend/uploads/Faculty/CE102/profile/f05e40ba-dc2d-4687-954f-bcaa910e529c.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CE102",
-  },
-  {
-    name: "Dr Rakesh Pratap Singh",
-    title: "Dean Student Welfare, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/backend/uploads/Faculty/CE113/profile/66f9f0b0-5caf-4b49-ba5f-112956f96bc4.jpg",
-    link: "https://www.nitjsr.ac.in/people/profile/CE113",
-  },
-  {
-    name: "Prof. Virendra Kumar",
-    title: "CVO, NIT Jamshedpur",
-    image:
-      "https://www.nitjsr.ac.in/backend/uploads/Faculty/CE121/profile/37c9170c-cdf4-4650-a2ab-ae61514ee9e6.jpg",
-    link: "https://www.nitjsr.ac.in/Administration/Chief_Vigilance_Officer2 new",
-  },
-  {
-    name: "Dr Sushil Kumar Gupta",
-    title: "EED, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/backend/uploads/Faculty/EE113/profile/b167a8a1-dc9b-498a-93bf-54dfb460e2fb.jpg",
-    link: "https://nitjsr.ac.in/people/profile/EE113",
-  },
-  {
-    name: "Dr. Dilip Kumar Shaw",
-    title: "HOD-Computer Science Engineering, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/static/media/ccfaculty.8ce64231b8a8d684de79.jpeg",
-    link: "https://nitjsr.ac.in/departments/cs",
-  },
-  {
-    name: "Dr. Dilip Kumar",
-    title: "HOD-ECE Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/hod_ece.adf78a9942915c273216.jpg",
-    link: "https://nitjsr.ac.in/departments/ece",
-  },
-  {
-    name: "Dr. Parmanand Kumar",
-    title: "HOD-Mechanical Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/hod_mec.3804536147c6acebdd4d.jpg",
-    link: "https://nitjsr.ac.in/departments/mech",
-  },
-  {
-    name: "Dr. Prahalad Prasad",
-    title: "HOD-Civil Engineering, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/static/media/hod_civil.5a7efdf580ad90e68c73.jpeg",
-    link: "https://nitjsr.ac.in/departments/civil",
-  },
-  {
-    name: "Dr. Raj BALLAV",
-    title: "HOD-Production and Industrial Engineering, NIT Jamshedpur",
-    image:
-      "https://nitjsr.ac.in/static/media/hod_prod.ce4207e1a4a0ef31db34.jpg",
-    link: "https://nitjsr.ac.in/departments/prod",
-  },
-  {
-    name: "Dr. Ashok Kumar",
-    title: "HOD-Metallurgical and Materials Engineering, NIT Jamshedpur",
-    image: "https://nitjsr.ac.in/static/media/hod_met.618c10cc98704dd5514f.jpg",
-    link: "https://nitjsr.ac.in/departments/meta",
-  },
-  {
     name: "Prof. Radhakant Padhi",
     title: "Indian Institute of Science, Bengaluru",
     image: "https://aero.iisc.ac.in/wp-content/uploads/elementor/thumbs/RP-qvrxmw7gtcux1nxdqhsnfrpv6kry2f9vo9q992okgw.jpg",
@@ -448,6 +367,18 @@ const councilMembers = [
     title: "Co-PI, I-STEM (Govt. of India)",
     image: "https://media.licdn.com/dms/image/v2/D4D03AQGV_hyq4BDtAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690404482090?e=1784160000&v=beta&t=paKe4uBqVngZhXGH516A90jB5Iig8jAtynS0-T-BVGQ",
     link: "https://www.linkedin.com/in/prof-sanjeev-shrivastava-999a0220/",
+  },
+  {
+    name: "Mr. Deepak Mathur",
+    title: "2024 IEEE Vice President, MGA",
+    image: "https://media.licdn.com/dms/image/v2/C5103AQFABrNPo-Kkdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1527782370234?e=1784160000&v=beta&t=su2BE6DvhOcLEvlA5ZYyQIRO_pYo51AEmbAZ62Tq5jU",
+    link: "https://www.linkedin.com/in/deepakmathur25/",
+  },
+  {
+    name: "Prof. Rajesh Kumar",
+    title: "MNIT Jaipur",
+    image: "https://www.mnit.ac.in/PortalProfile/images/faculty/mnitjas150.png",
+    link: "https://www.mnit.ac.in/dept_ee/profile?fid=RKiJ",
   },
 ];
 
