@@ -40,13 +40,6 @@ const councilMembers = [
     link: "https://www.nist.gov/people/jeff-voas",
   },
   {
-    name: "Mr. Deepak Mathur",
-    title: "IEEE Vice President, MGA",
-    image:
-      "https://th.bing.com/th/id/OIP.fI1K3Sq5U_NxaREZSZO6kQHaFj?w=226&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    link: "https://www.linkedin.com/in/deepakmathur25/?originalSubdomain=in",
-  },
-  {
     name: "Mr. David Koehler",
     title: "Executive Advisor, Quanta Technology, LLC, Senior IEEE Volunteer",
     image:
@@ -253,12 +246,6 @@ const councilMembers = [
     image:
       "https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/sheldon.williamson.jpg",
     link: "https://ontariotechu.ca/experts/feas/sheldon-williamson.php",
-  },
-  {
-    name: "Tarun Kumar Chatterjee",
-    title: "Presidio, USA",
-    image: "/tarun.jpeg",
-    link: "https://www.linkedin.com/in/tarun-kumar-chatterjee-605963176/",
   },
   {
     name: "Prof. Radhakant Padhi",
