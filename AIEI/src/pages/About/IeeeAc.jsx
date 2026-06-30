@@ -236,8 +236,7 @@ const councilMembers = [
   {
     name: "Dr. Lorenzo Lo Monte",
     title: "2026 President-Elect, IEEE AESS",
-    image:
-      "https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517729733734?e=1769644800&v=beta&t=yxRFwU4T0BPVD9v-64KuLHkDYQdXsvyrR_FO31jZpEw",
+    image:"https://media.licdn.com/dms/image/v2/C4E03AQGrMU43ggtCqA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517729733789?e=1784160000&v=beta&t=GrJS_QhE6losO7w-S2aCQWamaamD83XCFjm1r6ViSjU",
     link: "https://www.linkedin.com/in/lorenzolomonte/",
   },
   {
@@ -274,7 +273,7 @@ const councilMembers = [
   {
     name: "Dr. Rahul Kumar Dubey",
     title: "Bosch Global Software Technologies, Bengaluru, India",
-    image: "/images/default-profile.png",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=lEuaKmEAAAAJ&citpid=13",
     link: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=lEuaKmEAAAAJ&citpid=13",
   },
   {
