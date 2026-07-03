@@ -24,7 +24,7 @@ const CallForPapers = () => {
             Call for Papers
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            AIEI 2027 - NIT JAMSHEDPUR
+            AIEI 2027
           </h2>
         </div>
       </div>
