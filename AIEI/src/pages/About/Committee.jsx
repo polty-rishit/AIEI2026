@@ -3,20 +3,20 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 const councilMembers = [
-  // {
-  //   role: "Chief Patron",
-  //   name: "Prof. Goutam Sutradhar",
-  //   title: "Director, NIT Jamshedpur",
-  //   image: "/director.png",
-  //   link: "https://www.nitjsr.ac.in/Administration/Director"
-  // },
-  // {
-  //   role: "Patron",
-  //   name: "Prof. N. P. Padhy",
-  //   title: "Director, MNIT Jaipur",
-  //   image: "https://th.bing.com/th/id/OIP.OWAAXgxHp2tLGbrmD6r7kQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-  //   link: "https://mnit.ac.in/admin/director"
-  // },
+  {
+    role: "Patron",
+    name: "Prof. Goutam Sutradhar",
+    title: "Director, NIT Jamshedpur",
+    image: "/director.png",
+    link: "https://www.nitjsr.ac.in/Administration/Director"
+  },
+  {
+    role: "Patron",
+    name: "Prof. N. P. Padhy",
+    title: "Director, MNIT Jaipur",
+    image: "https://th.bing.com/th/id/OIP.OWAAXgxHp2tLGbrmD6r7kQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    link: "https://mnit.ac.in/admin/director"
+  },
   // {
   //   role: "Patron",
   //   name: "Prof. R.V. Sharma",
