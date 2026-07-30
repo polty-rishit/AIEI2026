@@ -337,13 +337,13 @@ const councilMembers = [
     image: "/deva.jpeg",
     link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
   },
-  {
-    role: "Web & Media Chairs",
-    name: "Abrar Ahmed Syed ",
-    title: "Gainwell Technologies LLC, USA",
-    image: "/amar.jpeg",
-    link: "https://www.linkedin.com/in/abrar-ahmed-syed/"
-  },
+  // {
+  //   role: "Web & Media Chairs",
+  //   name: "Abrar Ahmed Syed ",
+  //   title: "Gainwell Technologies LLC, USA",
+  //   image: "/amar.jpeg",
+  //   link: "https://www.linkedin.com/in/abrar-ahmed-syed/"
+  // },
   // {
   //   role: "Web & Media Chairs",
   //   name: "Aditya Prem",
