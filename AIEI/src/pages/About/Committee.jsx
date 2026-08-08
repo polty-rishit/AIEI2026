@@ -218,6 +218,13 @@ const councilMembers = [
     image: "https://tse1.mm.bing.net/th/id/OIP.xGREeZ0hRKeoZhvA7q1uBAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     link: "https://www.linkedin.com/in/aruntanksali/"
   },
+    {
+    role: "Treasurer",
+    name: "Dr. Abhishek Appaji",
+    title: "Associate Prof. Medical Electronics Engineering, BMS College",
+    image: "https://lh3.googleusercontent.com/sitesv/AG8ngQVywvBqMh-Q4JUTQtQqeOIWcXPxG4xsfS4FjUC7wyGLDjL-zLMrE3XNGAKKP-5OWT-3J8J1fkfIoZL_arKicHOZoR4eApk7zuOEwzRxIG9vyOEgsT6wTg0nQFQaP0iTRKW0sTFUz3GFOhrNudLpUnLP9mg2obdUWqDDahz8AJEoQO0nInWKyDiHsSZ4-dUd7lsJi6p5xh2b9Nj9S2XMc4R9lv-o3KyJrho3DwZx=w1280",
+    link: "https://www.abhishekappaji.com/"
+  },
   {
     role: "Sponsorship Chairs",
     name: "Vinod Veeramachaneni",

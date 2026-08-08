@@ -91,7 +91,8 @@ const AuthInfo = () => {
           <div>
             <h3 className="text-xl font-semibold mb-2">Important Dates</h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li><strong>Paper Submissions Open:</strong> September 01, 2025</li>
+              <li><strong>Paper Submissions Open:</strong> September 01, 2026</li>
+              <li><strong>Camera-Ready Submission:</strong> October 15, 2026</li>
               <li><strong>Submission Deadline:</strong> January 15, 2026</li>
               <li><strong>Notification of Acceptance:</strong> February 5, 2026</li>
               <li><strong>Registration Deadline:</strong> March 01, 2026</li>
