@@ -21,7 +21,7 @@ const CameraReady = () => {
             Camera Ready Submission
           </h1>
           <h2 className="text-xs sm:text-sm md:text-xl font-medium tracking-wide">
-            AIEI 2026 — NIT JAMSHEDPUR
+            AIEI 2027 — BNAGALORE
           </h2>
         </div>
       </div>

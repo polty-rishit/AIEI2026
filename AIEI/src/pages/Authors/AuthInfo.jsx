@@ -22,7 +22,7 @@ const AuthInfo = () => {
             Authors Information
           </h1>
           <h2 className="text-sm md:text-2xl font-medium">
-            AIEI 2026 - NIT JAMSHEDPUR
+            AIEI 2027 - BANGALORE
           </h2>
         </div>
       </div>
