@@ -117,14 +117,14 @@ const councilMembers = [
     role: "GENERAL CO-CHAIRS",
     name: "Prof. Yeliz Karaca",
     title:"University of Massachusetts (UMass), USA",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQE6k2uyyBIZkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668694864302?e=1782950400&v=beta&t=M2O74JPH30o3fjSlZo9fathLcFNx-jRGo9esWMLpz40",
+    image: "https://i1.rgstatic.net/ii/profile.image/745359529750535-1554718968283_Q512/Yeliz-Karaca.jpg",
     link: "https://www.linkedin.com/in/yeliz-karaca-66526b36/"
   },
   {
     role: "GENERAL CO-CHAIRS",
     name: "Prof. Brij B. Gupta",
     title:"Director, CCRI, Asia university, Taiwan",
-    image: "https://aicybersecuritycenter.com/wp-content/uploads/2022/12/Brij-Photo_final.jpg",
+    image: "https://www.krmangalam.edu.in/wp-content/uploads/2024/09/brij-gupta.jpg",
     link: "https://aicybersecuritycenter.com/index.php/director/"
   },
   // {
@@ -215,7 +215,7 @@ const councilMembers = [
     role: "Treasurer",
     name: "Arun Tanksali",
     title: "CTO, Panamax Infotech",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEkmRybikH1hA/profile-displayphoto-crop_800_800/B56ZkzHzgOHQAQ-/0/1757499308681?e=1781740800&v=beta&t=qmdMYJfWGLp9MwKNx98OVHgl9hoAkX8LEXvCRLlSGYc",
+    image: "https://tse1.mm.bing.net/th/id/OIP.xGREeZ0hRKeoZhvA7q1uBAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     link: "https://www.linkedin.com/in/aruntanksali/"
   },
   {

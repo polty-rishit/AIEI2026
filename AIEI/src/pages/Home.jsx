@@ -371,7 +371,7 @@ const App = () => {
             <div className="flex items-center justify-center w-42 h-40">
               <a href="https://aicybersecuritycenter.com/">
                 <img
-                  src="https://aicybersecuritycenter.com/wp-content/uploads/2022/05/asia_lcon.png"
+                  src="https://aicybersecuritycenter.com/images/au_logo.png"
                   alt="Manipal Institute of Technology"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -381,7 +381,7 @@ const App = () => {
             <div className="flex items-center justify-center w-52 h-40">
               <a href="https://aicybersecuritycenter.com/">
                 <img
-                  src="https://aicybersecuritycenter.com/wp-content/uploads/2022/12/new_logo-Copy-2_2.png"
+                  src="https://aicybersecuritycenter.com/images/ccri-logo.png"
                   alt="AI Academi"
                   className="max-h-full max-w-full object-contain"
                 />
