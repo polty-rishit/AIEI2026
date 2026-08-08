@@ -3,7 +3,6 @@ import {
   FaPhone,
   FaEnvelope,
   FaUniversity,
-  FaGlobe,
   FaFacebook,
   FaLinkedin,
   FaUser,
@@ -14,237 +13,249 @@ import Footer from "../components/Footer";
 
 const General = () => {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Navigation */}
+    <div className="min-h-screen bg-slate-50 text-slate-900">
       <Navbar />
 
-      <div className="relative w-full h-[180px] md:h-[250px] flex flex-col items-center justify-center mt-18">
-        {/* Background Image */}
+      {/* ================= HERO ================= */}
+      <section className="relative mt-18 h-[220px] md:h-[300px] overflow-hidden">
         <img
           src="/photo1.jpg"
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
+          alt="AIEI 2027 Conference"
+          className="absolute inset-0 h-full w-full object-cover"
         />
 
-        {/* Glass overlay */}
-        <div className="absolute inset-0 bg-white/10 backdrop-blur-md"></div>
+        {/* Dark gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-blue-950/60" />
 
-        {/* Titles */}
-        <div className="relative text-center text-white drop-shadow-lg">
-          <h1 className="text-2xl md:text-6xl font-bold mb-1">General Chair</h1>
-          <h2 className="text-sm md:text-2xl font-medium">
-            Meet our distinguished General Chair and Founding Director who are
-            leading the AIEI 2027 conference.
-          </h2>
-        </div>
-      </div>
+        {/* Decorative blur */}
+        <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-blue-500/20 blur-3xl" />
+        <div className="absolute -bottom-24 -left-10 h-64 w-64 rounded-full bg-purple-500/20 blur-3xl" />
 
-      {/* Main Content */}
-      <main className="pt-15 pb-16">
-        {/* Page Header */}
-        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">General Chair</h1>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet our distinguished General Chair and Founding Director who are leading the AIEI 2026 conference.
+        <div className="relative z-10 flex h-full items-center justify-center px-5 text-center">
+          <div className="max-w-3xl">
+            <div className="mb-4 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-blue-100 backdrop-blur-md">
+              AIEI 2027
+            </div>
+
+            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+              General Chair
+            </h1>
+
+            <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-slate-200 md:text-base">
+              Meet our distinguished General Chair leading the AIEI 2027
+              conference.
             </p>
           </div>
-        </div> */}
+        </div>
+      </section>
 
-        {/* Cards Section */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Dr. Veerpratap Meena Card */}
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white">
-                <h2 className="text-2xl font-bold">General Chair</h2>
+      {/* ================= MAIN CONTENT ================= */}
+      <main className="px-4 py-12 sm:px-6 md:py-16">
+        <div className="mx-auto max-w-5xl">
+
+          {/* Section heading */}
+          <div className="mb-8 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">
+              Conference Leadership
+            </p>
+
+            <h2 className="mt-2 text-2xl font-bold text-slate-900 md:text-3xl">
+              Meet the General Chair
+            </h2>
+
+            <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-blue-600 to-purple-600" />
+          </div>
+
+          {/* ================= PROFILE CARD ================= */}
+          <div className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-[0_20px_60px_-20px_rgba(15,23,42,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_30px_70px_-20px_rgba(15,23,42,0.3)]">
+
+            {/* Top gradient strip */}
+            <div className="h-2 w-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600" />
+
+            <div className="grid md:grid-cols-[280px_1fr]">
+
+              {/* ================= IMAGE SECTION ================= */}
+              <div className="relative flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 p-8 md:p-10">
+
+                {/* Background decoration */}
+                <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-blue-500/20 blur-2xl" />
+                <div className="absolute -bottom-16 -left-16 h-40 w-40 rounded-full bg-purple-500/20 blur-2xl" />
+
+                {/* Image */}
+                <div className="relative z-10">
+                  <div className="rounded-full bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-500 p-[4px] shadow-2xl">
+                    <div className="rounded-full bg-slate-900 p-[5px]">
+                      <img
+                        src="./VPMEENA.jpeg"
+                        alt="Dr. Veerpratap Meena"
+                        className="h-44 w-44 rounded-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-48 sm:w-48"
+                      />
+                    </div>
+                  </div>
+
+                  {/* IEEE Badge */}
+                  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold text-white shadow-lg backdrop-blur-md">
+                    IEEE Member
+                  </div>
+                </div>
+
+                <div className="relative z-10 mt-7 text-center">
+                  <p className="text-xs font-medium uppercase tracking-[0.18em] text-blue-300">
+                    General Chair
+                  </p>
+
+                  <h3 className="mt-1 text-lg font-bold text-white">
+                    AIEI 2027
+                  </h3>
+                </div>
               </div>
-              <div className="p-6">
-                <div className="flex flex-col md:flex-row items-center mb-6">
-                  <div className="w-32 h-32 rounded-full bg-gray-200 overflow-hidden mb-4 md:mb-0 md:mr-6">
-                    <img
-                      src="./VPMEENA.jpeg"
-                      alt="Dr. Veerpratap Meena"
-                      className="w-full h-full object-cover"
-                    />
+
+              {/* ================= INFORMATION SECTION ================= */}
+              <div className="p-7 sm:p-9 md:p-10">
+
+                {/* Name */}
+                <div className="border-b border-slate-100 pb-6">
+                  <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
+                    General Chair
+                  </p>
+
+                  <h3 className="mt-1 text-3xl font-bold tracking-tight text-slate-900">
+                    Dr. V. P. Meena
+                  </h3>
+
+                  <p className="mt-2 max-w-xl text-sm leading-6 text-slate-600">
+                    Assistant Professor, Department of Electrical Engineering
+                  </p>
+                </div>
+
+                {/* Information */}
+                <div className="mt-7 grid gap-3 sm:grid-cols-2">
+
+                  {/* University */}
+                  <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-blue-600">
+                      <FaUniversity size={16} />
+                    </div>
+
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        Institution
+                      </p>
+                      <p className="mt-1 text-sm font-medium leading-5 text-slate-700">
+                        National Institute of Technology Jamshedpur
+                      </p>
+                    </div>
                   </div>
+
+                  {/* Phone */}
+                  <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
+                      <FaPhone size={15} />
+                    </div>
+
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        Phone
+                      </p>
+                      <p className="mt-1 text-sm font-medium text-slate-700">
+                        +91 9982124347
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Email */}
+                  <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50 sm:col-span-2">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-purple-100 text-purple-600">
+                      <FaEnvelope size={15} />
+                    </div>
+
+                    <div className="min-w-0">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        Email
+                      </p>
+
+                      <a
+                        href="mailto:aiengineeringconference@gmail.com"
+                        className="mt-1 block break-all text-sm font-medium text-slate-700 transition-colors hover:text-blue-600"
+                      >
+                        aiengineeringconference@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Social Links */}
+                <div className="mt-8 flex items-center justify-between border-t border-slate-100 pt-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      {" "}
-                      Dr. V. P. Meena
-                    </h3>
-                    <p className="text-blue-600 font-medium">IEEE Member</p>
-                    <p className="text-gray-600">
-                      Assistant Professor, Department of Electrical Engineering
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                      Connect
+                    </p>
+                    <p className="mt-1 text-sm text-slate-500">
+                      Explore academic & professional profiles
                     </p>
                   </div>
-                </div>
 
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <FaUniversity className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-700">
-                      National Institute of Technology Jamshedpur
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <FaPhone className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-700">+91 9982124347</p>
-                  </div>
-                  <div className="flex items-start">
-                    <FaEnvelope className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                  <div className="flex gap-2">
+
+                    {/* Facebook */}
                     <a
-                      href="mailto:vmeena1@ee.litr.ac.in"
-                      className="text-gray-700 hover:text-blue-600 break-all"
+                      href="https://www.facebook.com/erveerpratap.meena"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook"
+                      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-600"
                     >
-                      aiengineeringconference@gmail.com
+                      <FaFacebook size={17} />
                     </a>
-                  </div>
-                </div>
 
-                {/* Social Media Links */}
-                <div className="mt-6 flex flex-wrap items-center">
-                  <a
-                    href="https://www.facebook.com/erveerpratap.meena"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-blue-500 hover:text-blue-700"
-                  >
-                    <FaFacebook size={24} />
-                  </a>
-                  <a
-                    href="https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en&oi=ao"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-[#2375b3] hover:text-blue-700"
-                  >
-                    <SiGooglescholar size={24} />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/dr-veerpratap-meena-7910b81a1/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-[#0e76a8] hover:text-blue-800"
-                  >
-                    <FaLinkedin size={24} />
-                  </a>
-                  <a
-                    href="https://vpmeena.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-[#3a70c8] hover:text-blue-800"
-                  >
-                    <FaUser size={24} />
-                  </a>
+                    {/* Google Scholar */}
+                    <a
+                      href="https://scholar.google.com/citations?user=lLKzGwQAAAAJ&hl=en&oi=ao"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Google Scholar"
+                      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50 hover:text-[#2375b3]"
+                    >
+                      <SiGooglescholar size={17} />
+                    </a>
+
+                    {/* LinkedIn */}
+                    <a
+                      href="https://www.linkedin.com/in/dr-veerpratap-meena-7910b81a1/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="LinkedIn"
+                      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50 hover:text-[#0e76a8]"
+                    >
+                      <FaLinkedin size={17} />
+                    </a>
+
+                    {/* Personal Website */}
+                    <a
+                      href="https://vpmeena.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Personal Website"
+                      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-600"
+                    >
+                      <FaUser size={17} />
+                    </a>
+
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Prof. KC Santosh Card */}
-            {/* <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
-              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white">
-                <h2 className="text-2xl font-bold">General Chair</h2>
-              </div>
-              <div className="p-6">
-                <div className="flex flex-col md:flex-row items-center mb-6">
-                  <div className="w-32 h-32 rounded-full bg-gray-200 overflow-hidden mb-4 md:mb-0 md:mr-6">
-                    <img
-                      src="./santosh.png"
-                      alt="Prof. KC Santosh"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      Prof. KC (Casey) Santosh
-                    </h3>
-                    <p className="text-blue-600 font-medium">
-                      Professor (AI) and Chair, Department of Computer Science
-                    </p>
-                    <p className="text-gray-600">
-                      Founding Director, Artificial Intelligence Research
-                    </p>
-                  </div>
-                </div>
-
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <FaUniversity className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-700">
-                      <a
-                        href="https://www.usd.edu/"
-                        className="text-blue-600 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        The University of South Dakota
-                      </a>
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <FaGlobe className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-700">
-                      <a
-                        href="https://www.youtube.com/watch?v=J9dZV2EAuUU"
-                        className="text-blue-600 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        TEDxUSD – Building sustainable AI Solutions!
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                {/* Social Media Links */}
-                {/* <div className="mt-6 flex flex-wrap items-center">
-                  <a
-                    href="https://www.linkedin.com/in/kcsantosh1/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-[#0e76a8] hover:text-blue-800"
-                  >
-                    <FaLinkedin size={24} />
-                  </a>
-                  <a
-                    href="https://www.ai-research-lab.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="m-2 text-blue-500 hover:text-blue-700"
-                  >
-                    <FaGlobe size={24} />
-                  </a>
-                </div>
-
-                <div className="mt-6 pt-4 border-t border-gray-200">
-                  <p className="text-gray-700 italic mb-4">
-                    "Welcome to the USD AI Research Lab! Aligned with USD's AI
-                    programs, this is a place where everyone—regardless of
-                    background—can thrive."
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                      #AI
-                    </span>
-                    <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                      #DataScience
-                    </span>
-                    <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                      #Research
-                    </span>
-                    <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                      #Opportunities
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div> */} 
+          {/* Small bottom accent */}
+          <div className="mx-auto mt-8 flex items-center justify-center gap-2">
+            <div className="h-1 w-8 rounded-full bg-blue-600" />
+            <div className="h-1 w-2 rounded-full bg-indigo-400" />
+            <div className="h-1 w-2 rounded-full bg-purple-400" />
           </div>
         </div>
       </main>
 
-      {/* Footer */}
       <Footer />
     </div>
   );
