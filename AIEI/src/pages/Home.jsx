@@ -11,6 +11,7 @@ import NavbarHome from "../components/NavbarHome";
 import Footer from "../components/Footer";
 import WelcomeMessage from "../components/WelcomeMessage";
 import AnnouncementTicker from "../components/AnnouncementTicker";
+import Journals from "../components/Journals";
 
 const getIconForTitle = (title) => {
   switch (title.toLowerCase()) {
@@ -390,7 +391,7 @@ const App = () => {
           </div>
         </div>
       </div>
-
+        <Journals/>
       <WelcomeMessage />
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
