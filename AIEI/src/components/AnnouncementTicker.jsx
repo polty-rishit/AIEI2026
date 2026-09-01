@@ -4,7 +4,7 @@ const AnnouncementTicker = () => {
   // Original message broken into identifiable parts
   const formattedMessage = (
     <span>
-      <span className="text-red-500 font-extrabold">AIEI 2027</span> WILL BE ORGANIZED AT NIT JAMSHEDPUR, JHARKHAND, INDIA, DURING{" "}
+      <span className="text-red-500 font-extrabold">AIEI 2027</span> WILL BE ORGANIZED AT BANGLORE, INDIA, DURING{" "}
       <span className="text-yellow-300 font-extrabold">JANUARY 21-23, 2027 </span>
     </span>
   );
@@ -18,7 +18,7 @@ const AnnouncementTicker = () => {
     "|",
     // "ACCEPTED PAPERS WILL BE SUBMITTED TO IEEE XPLORE FOR INCLUSION IN THE DIGITAL LIBRARY",
     // "|" ,
-    "All registered and presented papers will be submitted to IEEE Xplore for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in IEEE Security & Privacy Magazine.",
+    "All registered and presented papers will be submitted to IEEE Xplore for possible publication subject to fulfilling the IEEE eligibility criteria. Extended versions of ALL (100%) presented papers will be eligible for further review and possible publication in IEEE Systems Journal.",
   ];
 
   return (
