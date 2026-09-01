@@ -17,7 +17,7 @@ const Journals = () => {
       button: "bg-blue-600 hover:bg-blue-700",
     },
     {
-      organization: "IEEE SYSTEMS COUNCIL",
+      organization: "IEEE SYSTEMS COUNCIL" ,
       name: "IEEE Systems Journal",
       impactFactor: "4.8",
       metricLabel: "Impact Factor",
