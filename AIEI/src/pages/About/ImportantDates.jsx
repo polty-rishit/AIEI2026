@@ -16,17 +16,17 @@ const ImportantDates = () => {
     },
     {
       title: "Acceptance Notification",
-      date: "30 October 2026",
+      date: "15 November 2026",
       color: "text-red-500",
     },
     {
       title: "Submission of Final Manuscript & Copyright",
-      date: "15 November 2026",
+      date: "30 November 2026",
       color: "text-yellow-500",
     },
     {
       title: "Registration Deadline",
-      date: "30 November 2026",
+      date: "15 December 2026",
       color: "text-red-500",
     },
     {
