@@ -68,7 +68,7 @@ const AuthInfo = () => {
           <div>
             <h3 className="text-xl font-semibold mb-2">Camera-Ready Submission</h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Deadline: <strong>October 15, 2025</strong></li>
+              <li>Deadline: <strong>30 November 2026</strong></li>
               <li>PDF must pass IEEE PDF eXpress compliance.</li>
               <li>Copyright form is mandatory for inclusion in IEEE Xplore.</li>
               <li>At least one author must present the paper at the conference.</li>
@@ -91,12 +91,12 @@ const AuthInfo = () => {
           <div>
             <h3 className="text-xl font-semibold mb-2">Important Dates</h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li><strong>Paper Submissions Open:</strong> September 01, 2026</li>
-              <li><strong>Camera-Ready Submission:</strong> October 15, 2026</li>
-              <li><strong>Submission Deadline:</strong> January 15, 2026</li>
-              <li><strong>Notification of Acceptance:</strong> February 5, 2026</li>
-              <li><strong>Registration Deadline:</strong> March 01, 2026</li>
-              <li><strong>Conference Dates:</strong> March 26–28, 2026</li>
+              <li><strong>Paper Submissions Open:</strong> 15 May 2026</li>
+              <li><strong>Camera-Ready Submission:</strong> 30 November 2026</li>
+              <li><strong>Submission Deadline:</strong> 30 September 2026</li>
+              <li><strong>Notification of Acceptance:</strong> 15 November 2026</li>
+              <li><strong>Registration Deadline:</strong> 15 December 2026</li>
+              <li><strong>Conference Dates:</strong> 21–23 January 2027</li>
             </ul>
           </div>
 

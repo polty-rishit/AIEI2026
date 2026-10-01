@@ -135,7 +135,7 @@ const Registration = () => {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSd10SAFkbi2csVn0B_QXoB22T5LW9K0TAIISjx2kOPo50CMug/viewform"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 rounded-xl bg-cyan-400 px-7 py-4 font-bold text-slate-950 shadow-xl shadow-cyan-950/30 transition hover:-translate-y-0.5 hover:bg-cyan-300"
