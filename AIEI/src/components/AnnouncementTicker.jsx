@@ -34,7 +34,7 @@ const AnnouncementTicker = () => {
             return (
               <a
                 key={index}
-                href="https://drive.google.com/file/d/1f3EhNg9aUTACSY-zWg5gwRr6XjdSITkY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BXk4ab7TV4y29IOXVs1KZzsELci-lfK8/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-red-500 font-extrabold px-12 no-underline"
