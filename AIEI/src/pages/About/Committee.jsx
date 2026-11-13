@@ -65,8 +65,7 @@ const councilMembers = [
     role: "Honorary Chairs",
     name: "Prof. Sanjeevikumar Padmanaban",
     title: "University of South-Eastern Norway, VP Education",
-    image:
-      "https://i1.rgstatic.net/ii/profile.image/11431281286419629-1730048404664_Q512/Sanjeevikumar-Padmanaban.jpg",
+    image:"https://www.usn.no/getfile.php/13961750-1787167995/usn.no/ansatte%20%28opplastet%29/psanj.jpg%20%28article_small%29.webp",
     link: "https://www.usn.no/english/about/contact-us/employees/sanjeevikumar-padmanaban",
   },
    {
@@ -211,6 +210,13 @@ const councilMembers = [
     image: "https://engineering.media.uconn.edu/wp-content/uploads/sites/3738/2024/12/headshot-zhao-400x400-1.jpg",
     link: "https://engineering.uconn.edu/faculty/ece/junbo-zhao/"
   },
+    {
+    role: "Technical Program Chairs",
+    name: "Sai Prashanth Mallellu",
+    title: "Assistant Professor, Symbiosis Institute of Technology - Hyderabad",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFr5yWjqnjqCw/profile-displayphoto-crop_800_800/B56Zqr1MpfJwAI-/0/1763819443220?e=1796256000&v=beta&t=8sVaUF-m482b9TD9a0uy0Y6UzHJmuqh_Ynk9ya9eGr0",
+    link: "https://www.linkedin.com/in/sai-prashanth-mallellu-bab491196/"
+  },
   {
     role: "Treasurer",
     name: "Arun Tanksali",
@@ -221,16 +227,37 @@ const councilMembers = [
     {
     role: "Treasurer",
     name: "Dr. Abhishek Appaji",
-    title: "Associate Prof. Medical Electronics Engineering, BMS College",
-    image: "https://lh3.googleusercontent.com/sitesv/AG8ngQVywvBqMh-Q4JUTQtQqeOIWcXPxG4xsfS4FjUC7wyGLDjL-zLMrE3XNGAKKP-5OWT-3J8J1fkfIoZL_arKicHOZoR4eApk7zuOEwzRxIG9vyOEgsT6wTg0nQFQaP0iTRKW0sTFUz3GFOhrNudLpUnLP9mg2obdUWqDDahz8AJEoQO0nInWKyDiHsSZ4-dUd7lsJi6p5xh2b9Nj9S2XMc4R9lv-o3KyJrho3DwZx=w1280",
+    title: "VP & COO, A-Collective",
+    image: "/apppa2.jpeg",
     link: "https://www.abhishekappaji.com/"
   },
+    {
+    role: "Treasurer",
+    name: "Dr. Ashwini Appaji",
+    title: "IEEE Bangalore section",
+    image: "/appa.jpeg",
+    link: "https://ieeebangalore.org/dr-ashwini-appaji/"
+  },
+  //   {
+  //   role: "Treasurer",
+  //   name: "Arun Tanksali",
+  //   title: "CEO, Ariviti",
+  //   image: "/arun.jpeg",
+  //   link: "https://www.linkedin.com/in/aruntanksali/"
+  // },
   {
     role: "Sponsorship Chairs",
     name: "Vinod Veeramachaneni",
     title: "Co-founder, Think Mediator Inc., USA",
     image: "/vinod.jpeg",
     link: "https://thinkmediator.com/"
+  },
+  {
+    role: "Sponsorship Chairs",
+    name: "Yatheendranath T. J.",
+    title: "Founder & CEO, Dhiihii Labs ExeCom Member, IEEE Bangalore Section",
+    image: "/ya.jpeg",
+    link: "https://www.linkedin.com/in/yathee/"
   },
   // {
   //   role: "Technical Program Chairs",
@@ -344,6 +371,27 @@ const councilMembers = [
     image: "/deva.jpeg",
     link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
   },
+  {
+    role: "LOCAL ORGANIZING COMMITTEE",
+    name: "Dr. Pushpa Mala S.",
+    title: "Execom Member,IEEE Bangalore section",
+    image: "/pushpa.jpeg",
+    link: "https://www.dsu.edu.in/pushpa-mala-s"
+  },
+  {
+    role: "LOCAL ORGANIZING COMMITTEE",
+    name: "Dr Samiksha Shukla",
+    title: "Professor and Dean(Engineering), Global Academy of Technology, Bangalore",
+    image: "/polty.jpeg",
+    link: "https://gat.ac.in/faculty/cs/dr_samiksha_shukla.html"
+  },
+  // {
+  //   role: "PAPA",
+  //   name: "Abhishek Mahesh Appaji",
+  //   title: "VP & COO, A-Collective",
+  //   image: "/apppa2.jpeg",
+  //   link: "https://gat.ac.in/faculty/cs/dr_samiksha_shukla.html"
+  // },
   // {
   //   role: "Web & Media Chairs",
   //   name: "Abrar Ahmed Syed ",
