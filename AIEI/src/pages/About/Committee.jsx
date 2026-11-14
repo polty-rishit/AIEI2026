@@ -259,6 +259,13 @@ const councilMembers = [
     image: "/ya.jpeg",
     link: "https://www.linkedin.com/in/yathee/"
   },
+    {
+    role: "Industry Chair",
+    name: "Dr. Chengappa M. R.",
+    title: "Chair-Elect, IEEE Bangalore Section (2026)",
+    image: "https://ieeebangalore.org/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-09-at-14.41.10_619efaa0.jpg",
+    link: "https://ieeebangalore.org/dr-chengappa-m-r/"
+  },
   // {
   //   role: "Technical Program Chairs",
   //   name: "Dr. Tridibesh Nag",

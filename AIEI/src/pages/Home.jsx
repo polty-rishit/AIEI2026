@@ -323,6 +323,14 @@ const App = () => {
                   className="max-h-full max-w-full object-contain"
                 />
               </div>
+
+              <div className="flex items-center justify-center w-52 h-40">
+                <img
+                  src="https://entrepreneurship.ieee.org/wp-content/uploads/2021/03/IEEE-TEMS-Bangalore-Section-Logo.png"
+                  alt="New Sponsor"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -391,7 +399,7 @@ const App = () => {
           </div>
         </div>
       </div>
-        <Journals/>
+      <Journals />
       <WelcomeMessage />
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
