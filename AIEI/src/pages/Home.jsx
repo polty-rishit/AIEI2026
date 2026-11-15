@@ -273,6 +273,91 @@ const App = () => {
 
       <AnnouncementTicker />
 
+      {/* Paper Template Guidelines */}
+      <section className="w-full bg-gray-50 px-4 sm:px-8 lg:px-16 py-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sm:p-6">
+            {/* Heading */}
+            <div className="text-center mb-5">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                Paper Submission Templates
+              </h2>
+
+              <p className="text-sm sm:text-base text-gray-600">
+                Authors must prepare their manuscripts using one of the
+                following official formats.
+              </p>
+            </div>
+
+            {/* Important Notice */}
+            <div className="bg-blue-50 border border-blue-100 rounded-lg px-4 py-3 mb-5">
+              <p className="text-blue-800 text-sm font-medium text-center">
+                ⚠️ All submitted papers must strictly follow the prescribed Word
+                or LaTeX format.
+              </p>
+            </div>
+
+            {/* Template Links */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {/* Word Template */}
+              <a
+                href="https://docs.google.com/document/d/1AADvRCt5gktedsjtM3hBQ8dEBY8_cF2v/edit?usp=sharing&ouid=116742708030694007353&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 p-3.5 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50/50 transition-all duration-300"
+              >
+                <div className="w-10 h-10 shrink-0 rounded-lg bg-blue-50 flex items-center justify-center text-xl">
+                  📄
+                </div>
+
+                <div className="flex-grow">
+                  <h3 className="text-sm sm:text-base font-semibold text-gray-800 group-hover:text-blue-700">
+                    Word Template
+                  </h3>
+                  <p className="text-xs text-gray-500 mt-0.5">
+                    Official IEEE Word Format
+                  </p>
+                </div>
+
+                <span className="text-blue-600 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                  View ↗
+                </span>
+              </a>
+
+              {/* LaTeX Template */}
+              <a
+                href="https://drive.google.com/file/d/1Vqwuh9D93RP4tDdm5azx62eCKty7WMpu/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 p-3.5 rounded-lg border border-gray-200 hover:border-purple-400 hover:bg-purple-50/50 transition-all duration-300"
+              >
+                <div className="w-10 h-10 shrink-0 rounded-lg bg-purple-50 flex items-center justify-center text-xl">
+                  📝
+                </div>
+
+                <div className="flex-grow">
+                  <h3 className="text-sm sm:text-base font-semibold text-gray-800 group-hover:text-purple-700">
+                    LaTeX Template
+                  </h3>
+                  <p className="text-xs text-gray-500 mt-0.5">
+                    Official IEEE LaTeX Format
+                  </p>
+                </div>
+
+                <span className="text-purple-600 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                  View ↗
+                </span>
+              </a>
+            </div>
+
+            <p className="text-center text-xs text-gray-400 mt-4">
+              Please ensure your manuscript complies with the prescribed
+              formatting guidelines.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ORGANIZERS */}
       {/* SPONSORS */}
       <div className="w-full bg-white pt-8 pb-8 px-4 sm:px-10 lg:px-20">

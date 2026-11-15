@@ -210,13 +210,6 @@ const councilMembers = [
     image: "https://engineering.media.uconn.edu/wp-content/uploads/sites/3738/2024/12/headshot-zhao-400x400-1.jpg",
     link: "https://engineering.uconn.edu/faculty/ece/junbo-zhao/"
   },
-    {
-    role: "Technical Program Chairs",
-    name: "Sai Prashanth Mallellu",
-    title: "Assistant Professor, Symbiosis Institute of Technology - Hyderabad",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQFr5yWjqnjqCw/profile-displayphoto-crop_800_800/B56Zqr1MpfJwAI-/0/1763819443220?e=1796256000&v=beta&t=8sVaUF-m482b9TD9a0uy0Y6UzHJmuqh_Ynk9ya9eGr0",
-    link: "https://www.linkedin.com/in/sai-prashanth-mallellu-bab491196/"
-  },
   {
     role: "Treasurer",
     name: "Arun Tanksali",
@@ -245,6 +238,13 @@ const councilMembers = [
   //   image: "/arun.jpeg",
   //   link: "https://www.linkedin.com/in/aruntanksali/"
   // },
+  {
+    role: "Publicity Chair",
+    name: "Sai Prashanth Mallellu",
+    title: "Assistant Professor, Symbiosis Institute of Technology - Hyderabad",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFr5yWjqnjqCw/profile-displayphoto-crop_800_800/B56Zqr1MpfJwAI-/0/1763819443220?e=1796256000&v=beta&t=8sVaUF-m482b9TD9a0uy0Y6UzHJmuqh_Ynk9ya9eGr0",
+    link: "https://www.linkedin.com/in/sai-prashanth-mallellu-bab491196/"
+  },
   {
     role: "Sponsorship Chairs",
     name: "Vinod Veeramachaneni",
@@ -372,14 +372,14 @@ const councilMembers = [
     link: "https://www.linkedin.com/in/rishitraj/"
   },
   {
-    role: "Web & Media Chairs",
+    role: "LOCAL ORGANIZING COMMITTEE",
     name: "Devendra Gowda Patil",
     title: "Acharya Institute of Technology",
     image: "/deva.jpeg",
     link: "https://www.linkedin.com/in/devendragowda/?originalSubdomain=in"
   },
   {
-    role: "LOCAL ORGANIZING COMMITTEE",
+    role: "Technical Program Chairs",
     name: "Dr. Pushpa Mala S.",
     title: "Execom Member,IEEE Bangalore section",
     image: "/pushpa.jpeg",
@@ -388,7 +388,7 @@ const councilMembers = [
   {
     role: "LOCAL ORGANIZING COMMITTEE",
     name: "Dr Samiksha Shukla",
-    title: "Professor and Dean(Engineering), Global Academy of Technology, Bangalore",
+    title: "Global Academy of Technology, Bangalore",
     image: "/polty.jpeg",
     link: "https://gat.ac.in/faculty/cs/dr_samiksha_shukla.html"
   },

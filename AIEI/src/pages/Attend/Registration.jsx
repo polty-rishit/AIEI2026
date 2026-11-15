@@ -94,7 +94,7 @@ const Registration = () => {
   ];
 
   const notes = [
-    "All registration fees are exclusive of 18% GST.",
+    "All registration fees are exclusive of 18% GST. Thus the total Registration will be Fee + 18% GST.",
     "IEEE TEMS Members and IEEE Systems Council Members are eligible for a one-time 5% discount on the applicable registration fee, with a maximum discount of 5% only.",
     "Additional page charges are INR 3,000 per page for Indian authors and USD 25 per page for foreign authors beyond the prescribed paper limit.",
     "At least one author registration is mandatory for each accepted paper.",
@@ -135,14 +135,13 @@ const Registration = () => {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#registration-links"
                   className="inline-flex items-center justify-center gap-3 rounded-xl bg-cyan-400 px-7 py-4 font-bold text-slate-950 shadow-xl shadow-cyan-950/30 transition hover:-translate-y-0.5 hover:bg-cyan-300"
                 >
                   Register Now
                   <FaArrowRight />
                 </a>
+
                 <a
                   href="#fee-details"
                   className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/10 px-7 py-4 font-bold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15"
@@ -329,7 +328,10 @@ const Registration = () => {
               </h2>
               <div className="mt-7 space-y-4">
                 {notes.map((note) => (
-                  <div key={note} className="flex gap-3 rounded-xl bg-white/[0.05] p-4">
+                  <div
+                    key={note}
+                    className="flex gap-3 rounded-xl bg-white/[0.05] p-4"
+                  >
                     <FaCheckCircle className="mt-1 shrink-0 text-emerald-300" />
                     <p className="text-sm leading-6 text-slate-200 sm:text-base">
                       {note}
@@ -342,26 +344,66 @@ const Registration = () => {
             <div className="flex flex-col justify-between rounded-2xl border border-cyan-300/25 bg-cyan-300/10 p-6 shadow-2xl shadow-cyan-950/30 backdrop-blur sm:p-8">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-cyan-200">
-                  Ready to join AIEI?
+                  Ready to join AIEI 2027?
                 </p>
+
                 <h2 className="mt-4 text-3xl font-black text-white sm:text-4xl">
                   Secure your conference seat in minutes.
                 </h2>
+
                 <p className="mt-4 text-base leading-7 text-slate-200">
-                  Complete the registration form after selecting the participant
-                  category that applies to you.
+                  Complete your registration by selecting the appropriate
+                  category based on your country of affiliation.
                 </p>
+
+                {/* Mandatory Form Notice */}
+                <div className="mt-6 rounded-xl border border-amber-400/40 bg-amber-400/10 p-4">
+                  <p className="text-sm font-extrabold leading-6 text-amber-200">
+                    IMPORTANT: Filling out the Google Form below along with the
+                    forms of your registration India/Foreign is MANDATORY for
+                    ALL participants. Every author and participant must complete
+                    and submit this form to finalize their registration.
+                  </p>
+                </div>
+
+                {/* Mandatory Google Form */}
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeE8rKDXMenmvVUTfK3ZiYlLNQu0M46DviqnwuvC-2o3YluuA/viewform?usp=publish-editor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex w-full items-center justify-center gap-3 rounded-xl bg-cyan-300 px-7 py-4 font-black text-slate-950 shadow-xl transition hover:-translate-y-0.5 hover:bg-cyan-200"
+                >
+                  Fill Mandatory Registration Form
+                  <FaArrowRight />
+                </a>
               </div>
 
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSd10SAFkbi2csVn0B_QXoB22T5LW9K0TAIISjx2kOPo50CMug/viewform"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center justify-center gap-3 rounded-xl bg-emerald-400 px-7 py-4 font-black text-slate-950 shadow-xl shadow-emerald-950/30 transition hover:-translate-y-0.5 hover:bg-emerald-300"
+              <div
+                id="registration-links"
+                className="mt-8 flex flex-col gap-4 scroll-mt-120"
               >
-                Register Now
-                <FaArrowRight />
-              </a>
+                {/* Indian Authors Registration */}
+                <a
+                  href="https://www.evynte.com/event/checkout/aiei-2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 rounded-xl bg-emerald-400 px-7 py-4 font-black text-slate-950 shadow-xl shadow-emerald-950/30 transition hover:-translate-y-0.5 hover:bg-emerald-300"
+                >
+                  Indian Authors – Register in INR
+                  <FaArrowRight />
+                </a>
+
+                {/* Foreign Authors Registration */}
+                <a
+                  href="https://www.evynte.com/event/checkout/aiei-2027?currency=USD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 rounded-xl border border-cyan-300/40 bg-cyan-300/15 px-7 py-4 font-black text-cyan-100 shadow-xl transition hover:-translate-y-0.5 hover:bg-cyan-300/25"
+                >
+                  Foreign Authors – Register in USD
+                  <FaArrowRight />
+                </a>
+              </div>
             </div>
           </div>
         </section>
