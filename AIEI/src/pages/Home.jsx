@@ -408,14 +408,6 @@ const App = () => {
                   className="max-h-full max-w-full object-contain"
                 />
               </div>
-
-              <div className="flex items-center justify-center w-52 h-40">
-                <img
-                  src="https://entrepreneurship.ieee.org/wp-content/uploads/2021/03/IEEE-TEMS-Bangalore-Section-Logo.png"
-                  alt="New Sponsor"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -466,7 +458,7 @@ const App = () => {
             <div className="flex justify-center flex-wrap gap-6">
               <div className="flex items-center justify-center w-60 h-40">
                 <img 
-                  src="./ieeeBangalore.png" 
+                  src="https://entrepreneurship.ieee.org/wp-content/uploads/2021/03/IEEE-TEMS-Bangalore-Section-Logo.png" 
                   alt="IEEE Bangalore Section Logo" 
                   className="max-h-full max-w-full object-contain" 
                 />
