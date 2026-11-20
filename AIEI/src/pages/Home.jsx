@@ -408,14 +408,6 @@ const App = () => {
                   className="max-h-full max-w-full object-contain"
                 />
               </div>
-
-              <div className="flex items-center justify-center w-52 h-40">
-                <img
-                  src="https://entrepreneurship.ieee.org/wp-content/uploads/2021/03/IEEE-TEMS-Bangalore-Section-Logo.png"
-                  alt="New Sponsor"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -454,38 +446,57 @@ const App = () => {
         </div>
       </div> */}
 
-      {/* KNOWLEDGE PARTNER  */}
-      <div className="flex justify-center mb-6 mt-6 px-4">
-        <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300 w-full max-w-2xl">
-          <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8">
-            <strong>KNOWLEDGE PARTNER</strong>
-          </h2>
+      <div className="w-full bg-white pb-8 px-4 sm:px-10 lg:px-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          
+          {/* PARTNER */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300 w-full">
+            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8 uppercase">
+              <strong>Supporting Partner</strong>
+            </h2>
 
-          <div className="flex justify-center flex-wrap gap-6">
-            <div className="flex items-center justify-center w-42 h-40">
-              <a href="https://aicybersecuritycenter.com/">
-                <img
-                  src="https://aicybersecuritycenter.com/images/au_logo.png"
-                  alt="Manipal Institute of Technology"
-                  className="max-h-full max-w-full object-contain"
+            <div className="flex justify-center flex-wrap gap-6">
+              <div className="flex items-center justify-center w-60 h-40">
+                <img 
+                  src="https://entrepreneurship.ieee.org/wp-content/uploads/2021/03/IEEE-TEMS-Bangalore-Section-Logo.png" 
+                  alt="IEEE Bangalore Section Logo" 
+                  className="max-h-full max-w-full object-contain" 
                 />
-              </a>
-            </div>
-
-            <div className="flex items-center justify-center w-52 h-40">
-              <a href="https://aicybersecuritycenter.com/">
-                <img
-                  src="https://aicybersecuritycenter.com/images/ccri-logo.png"
-                  alt="AI Academi"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </a>
+              </div>
             </div>
           </div>
+
+          {/* KNOWLEDGE PARTNER */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300 w-full">
+            <h2 className="text-center text-blue-600 text-3xl md:text-4xl font-bold mb-8 uppercase">
+              <strong>Knowledge Partner</strong>
+            </h2>
+
+            <div className="flex justify-center flex-wrap gap-6">
+              <div className="flex items-center justify-center w-42 h-40">
+                <a href="https://aicybersecuritycenter.com/">
+                  <img
+                    src="https://aicybersecuritycenter.com/images/au_logo.png"
+                    alt="Manipal Institute of Technology"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </a>
+              </div>
+
+              <div className="flex items-center justify-center w-52 h-40">
+                <a href="https://aicybersecuritycenter.com/">
+                  <img
+                    src="https://aicybersecuritycenter.com/images/ccri-logo.png"
+                    alt="AI Academi"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      <Journals />
-      <WelcomeMessage />
 
       {/* ================= MAIN TWO-COLUMN LAYOUT ================= */}
       <section className="w-full bg-gray-50 py-20">
