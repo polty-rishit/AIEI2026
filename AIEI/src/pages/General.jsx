@@ -244,7 +244,7 @@ const General = () => {
                   </div>
 
                   {/* Phone */}
-                  <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50">
+                  {/* <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
                       <FaPhone size={15} />
                     </div>
@@ -258,7 +258,7 @@ const General = () => {
                         +91 9982124347
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Email */}
                   <div className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 transition-colors duration-300 hover:border-blue-100 hover:bg-blue-50/50 sm:col-span-2">
